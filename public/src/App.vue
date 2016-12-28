@@ -1,21 +1,18 @@
 <template>
   <div id="app">
-    <h1>{{ msg }}</h1>
-    <div id="app2">
-  <h1>Hello App moin moin!</h1>
-  <p>
-    <router-link to="/foo">Go to Foo</router-link>
-    <router-link to="/bar">Go to Bar</router-link>
-  </p>
-  <ul id="navPBT">
-    <li><router-link to="/">Home</router-link></li>
-    <li><router-link to="/learn">Learn</router-link></li>
-    <li><router-link to="/dapps">Dapps</router-link></li>
-    <li><router-link to="/explorer">Network Explorer</router-link></li>
-    <li><a href="https://blog.ethereum.network">Blog</a></li>
-  </ul>
-  <router-view></router-view>
-</div>
+    <ul id="navPBT">
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/learn">Learn</router-link></li>
+      <li><router-link to="/dapps">Dapps</router-link></li>
+      <li><router-link to="/explorer">Network Explorer</router-link></li>
+      <li><a href="https://blog.ethereum.network">Blog</a></li>
+    </ul>
+    <input type="text" v-model="searchField" placeholder="filter dapps, txIDs, adresses" />
+    <router-view v-bind:search-field="searchField"> </router-view>
+    <div class="footer">
+      <p>I'm in the progress of building out the website, that's why everything is still ugly and empty</p>
+      <p>Hit me up on <a href="https://twitter.com/EthereumPress">Twitter</a> or <a href="https://github.com/EthereumNetwork/websiteBuilding">Github</a> if you want to be part of it</p>
+    </div>
   </div>
 </template>
 
@@ -24,7 +21,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      searchField: ""
     }
   }
 }
