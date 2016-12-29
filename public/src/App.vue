@@ -11,7 +11,8 @@
     <br><br><br>
     <router-view v-bind:search-field="searchField"> </router-view>
     <div class="footer">
-      <p>I'm in the progress of building out the website, that's why everything is still ugly and empty</p>
+      <p>My main goal is to offer both normal users ands developers the resources they need to interact successfully with the Ethereum network.</p>
+      <p>I'm in the progress of building out the website, that's why everything is still ugly and empty :(</p>
       <p>Hit me up on <a href="https://twitter.com/EthereumPress">Twitter</a> or <a href="https://github.com/EthereumNetwork">Github</a> if you want to help me building this guide</p>
     </div>
   </div>
