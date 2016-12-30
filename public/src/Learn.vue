@@ -12,6 +12,7 @@
   <a href="https://solidity.readthedocs.io/en/latest/" target="_blank" class="learnLink">Solidity Docs</a><br>
   <a href="http://ethereum.stackexchange.com" target="_blank" class="learnLink">Ethereum StackExchange</a> get answers for all your Ethereum questions<br>
   <a href="http://truffleframework.com/" target="_blank" class="learnLink">Truffe</a> development framework for Ethereum<br>
+  <a href="https://github.com/blockapps/bloc" target="_blank" class="learnLink">BlockApps</a> REST API and Javascript and Mobile SDK to Ethereum blockchains.<br>
   <a href="https://infura.io/" target="_blank" class="learnLink">Infura</a> APIs to Ethereum and IPFS nodes<br>
   <a href="https://ethereum.github.io/browser-solidity/" target="_blank" class="learnLink">Browser Solidity</a> Solidity Realtime compiler and runtime<br>
   <a href="https://metamask.io/" target="_blank" class="learnLink">MetaMask</a> Chrome plugin to access Ethereum dApps<br>
@@ -22,10 +23,10 @@
   <a href="https://geth.ethereum.org/" target="_blank" class="learnLink">Geth Ethereum Client</a> Ethereum client developed in Go<br>
   <a href="https://ethcore.io/parity.html" target="_blank" class="learnLink">Parity Ethereum Client</a> Ethereum client developed in Rust<br>
   <a href="http://ethereumjs.github.io/" target="_blank" class="learnLink">ethereumJS</a> Javascript gateway to Ethereum<br>
+  <a href="https://github.com/ethereum/wiki/wiki/JavaScript-API" target="_blank" class="learnLink"> Javascript API to interact with Ethereum</a><br>
   <a href="https://github.com/Nethereum/Nethereum" target="_blank" class="learnLink">Nethereum</a> .Net integration library for Ethereum<br>
   <a href="https://github.com/web3j/web3j" target="_blank" class="learnLink">web3j</a> Java and Android Ethereum library<br>
   <a href="https://github.com/ethereum/pyethereum" target="_blank" class="learnLink">pyethereum</a> Python core library of the Ethereum project<br>
-  <a href="https://github.com/ethereum/wiki/wiki/JavaScript-API" target="_blank" class="learnLink">Web3 JavaScript Ðapp API</a><br>
   <br>
   <h2>Guides and Tips:</h2>
   <a href="https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4#.tcmcvxugj" target="_blank" class="learnLink">101 Noob Intro</a> to Programming Smart Contracts<br>
