@@ -15,50 +15,43 @@
       <p>I'm in the progress of building out the website, that's why everything is still ugly and empty :(</p>
       <p>Hit me up on <a href="https://twitter.com/EthereumPress">Twitter</a> or <a href="https://github.com/EthereumNetwork">Github</a> if you want to help me building this guide</p>
     </div>
+
+    <v-app top-navbar footer>
+  <header>
+    <v-navbar>
+      <h1>Portfolio</h1>
+    </v-navbar>
+  </header>
+  <main>
+    <v-content>
+      <v-container>
+        <v-btn success>...</v-btn>
+        <router-view></router-view>
+      </v-container>
+    </v-content>
+  </main>
+  <v-footer>2016</v-footer>
+</v-app>
   </div>
 </template>
 
 <script>
+
+
 export default {
   name: 'app',
   data () {
     return {
       searchField: ""
     }
+  },
+  mounted () {
+    this.$vuetify.init()
   }
 }
 </script>
 
 <style>
-body {
-  background-color: #333;
-}
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  color: #ccc;
-}
-
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.NavBarLink {
-  float:left;
-  margin: 0 5px;
-}
-
-a {
-  color: #030144;
-  font-size: 3vmin;
-}
-a:hover {
-  color: black;
-  }
 
 input {
   float:right;
