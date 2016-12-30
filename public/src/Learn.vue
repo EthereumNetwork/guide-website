@@ -23,7 +23,7 @@
   <a href="https://geth.ethereum.org/" target="_blank" class="learnLink">Geth Ethereum Client</a> Ethereum client developed in Go<br>
   <a href="https://ethcore.io/parity.html" target="_blank" class="learnLink">Parity Ethereum Client</a> Ethereum client developed in Rust<br>
   <a href="http://ethereumjs.github.io/" target="_blank" class="learnLink">ethereumJS</a> Javascript gateway to Ethereum<br>
-  <a href="https://github.com/ethereum/wiki/wiki/JavaScript-API" target="_blank" class="learnLink"> Javascript API to interact with Ethereum</a><br>
+  <a href="https://github.com/ethereum/wiki/wiki/JavaScript-API" target="_blank" class="learnLink">Web3</a> Javascript API to interact with Ethereum<br>
   <a href="https://github.com/Nethereum/Nethereum" target="_blank" class="learnLink">Nethereum</a> .Net integration library for Ethereum<br>
   <a href="https://github.com/web3j/web3j" target="_blank" class="learnLink">web3j</a> Java and Android Ethereum library<br>
   <a href="https://github.com/ethereum/pyethereum" target="_blank" class="learnLink">pyethereum</a> Python core library of the Ethereum project<br>
