@@ -1,6 +1,6 @@
 <template>
   <li>
-    <h3>{{dapp.title}}</h3>
+    <h5>{{dapp.title}}</h5>
     <p>{{dapp.description}}</p>
   </li>
 </template>
