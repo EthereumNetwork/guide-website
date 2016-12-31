@@ -3,7 +3,6 @@
   "description": "A guide for the ethereum network",
   "version": "1.0.0",
   "author": "Michael Ilg <michael@ilg.ac>",
-  "private": true,
   "scripts": {
     "start": "nodemon server/server.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --content-base public --open --inline --hot",
