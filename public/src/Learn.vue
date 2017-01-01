@@ -15,7 +15,9 @@
   <a href="https://github.com/blockapps/bloc" target="_blank" class="learnLink">BlockApps</a> REST API and Javascript and Mobile SDK to Ethereum blockchains.<br>
   <a href="https://infura.io/" target="_blank" class="learnLink">Infura</a> APIs to Ethereum and IPFS nodes<br>
   <a href="https://ethereum.github.io/browser-solidity/" target="_blank" class="learnLink">Browser Solidity</a> Solidity Realtime compiler and runtime<br>
+  <h2>Wallets and Browsers</h2>
   <a href="https://metamask.io/" target="_blank" class="learnLink">MetaMask</a> Chrome plugin to access Ethereum dApps<br>
+  <a href="https://github.com/ethereum/mist/releases" target="_blank" class="learnLink">Mist</a> Official Ethereum browser and wallet<br>
   <a href="https://status.im/" target="_blank" class="learnLink">Status</a> Ethereum browser/messenger/wallet for mobile phones<br>
   <a href="https://www.myetherwallet.com/" target="_blank" class="learnLink">MyEtherWallet</a> client-side Ethereum online wallet<br>
   <br>
