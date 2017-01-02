@@ -10,6 +10,7 @@ import App from './App.vue'
 import Learn from './Learn.vue';
 import DappList from './DappList.vue';
 import Explorer from './Explorer.vue';
+import DappsForm from './Form.vue';
 
 const Foo = { template: '<div>foo</div>' }
 const Bar = { template: '<div>bar</div>' }
@@ -19,7 +20,8 @@ const routes = [
   { path: '/bar', component: Bar },
   { path: '/learn', component: Learn },
   { path: '/explorer', component: Explorer },
-  { path: '/dapps', component: DappList }
+  { path: '/dapps', component: DappList },
+  { path: '/form', component: DappsForm }
 ]
 
 const router = new VueRouter({
