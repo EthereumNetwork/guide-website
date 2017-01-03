@@ -123,7 +123,7 @@ export default {
     };
 
       $.ajax({
-              url: 'http://localhost:3000/api/savedapps',
+              url: '/api/savedapps',
               type: 'Post',
               data:JSON.stringify(datato),
               contentType: "application/json",
