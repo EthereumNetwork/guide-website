@@ -123,7 +123,7 @@ export default {
     };
 
       $.ajax({
-              url: '/api/savedapps',
+              url: serverUrl+'/api/savedapps',
               type: 'Post',
               data:JSON.stringify(datato),
               contentType: "application/json",
@@ -135,21 +135,13 @@ export default {
 
               if(data.result==1)
               {
-              this.Title='';
-              this.Owner='';
-              this.LatestNews='';
-              this.Github='';
-              this.Website='';
-              this.Twitter='';
-              this.Slack='';
-              this.UserName='';
-              this.Like=false;
-              this.Reddit='';
+              $('input[type="text"]').val('');
+              $('input[type="checkbox"]').prop('checked',false);
               var notification = alertify.notify('Dapp Information Saved Successfully', 'success', 5, function(){  console.log('dismissed'); });
               }
               else{
 
-              var notification = alertify.notify(data.message, 'success', 5, function(){  });
+              var notification = alertify.notify(data.message, 'success', 10, function(){  });
               }
               this.IsProgress=false;
               }
