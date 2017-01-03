@@ -10,7 +10,7 @@
       <v-card-text>
 
         <v-col lg12 >
-        <v-text-input label="Title" id="Title" name="Title" v-model.lazy="Title"  ></v-text-input>
+        <v-text-input label="Title" id="Title" name="Title" v-model="Title"  ></v-text-input>
         </v-col>
 
         <v-col lg12 >
