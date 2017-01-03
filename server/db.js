@@ -21,8 +21,8 @@ var dappSchema = new Schema({
     github: String,
     website: String,
     slack: String,
-    reddit: String,
     twitter: String,
+    reddit: String,
   }
 });
 var Dapp = mongoose.model('Dapp', dappSchema);
