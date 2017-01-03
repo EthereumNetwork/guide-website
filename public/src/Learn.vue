@@ -11,7 +11,9 @@
   <a href="https://github.com/ethereum/yellowpaper" target="_blank" class="learnLink">Yellow Paper</a> The formal specification of the Ethereum protocol<br>
   <a href="https://solidity.readthedocs.io/en/latest/" target="_blank" class="learnLink">Solidity Docs</a><br>
   <a href="http://ethereum.stackexchange.com" target="_blank" class="learnLink">Ethereum StackExchange</a> get answers for all your Ethereum questions<br>
-  <a href="http://truffleframework.com/" target="_blank" class="learnLink">Truffe</a> development framework for Ethereum<br>
+  <a href="http://truffleframework.com/" target="_blank" class="learnLink">Truffe</a> Development framework for Ethereum<br>
+  <a href="https://github.com/nexusdev/dapple" target="_blank" class="learnLink">Dapple</a> EVM contract system developer multitool<br>
+  <a href="https://github.com/iurimatias/embark-framework" target="_blank" class="learnLink">Embarke</a> Framework to develop and deploy DApps.<br>
   <a href="https://github.com/blockapps/bloc" target="_blank" class="learnLink">BlockApps</a> REST API and Javascript and Mobile SDK to Ethereum blockchains.<br>
   <a href="https://infura.io/" target="_blank" class="learnLink">Infura</a> APIs to Ethereum and IPFS nodes<br>
   <a href="https://ethereum.github.io/browser-solidity/" target="_blank" class="learnLink">Browser Solidity</a> Solidity Realtime compiler and runtime<br>
@@ -43,6 +45,7 @@
   <h2>Security</h2>
   <a href="https://medium.com/@pipermerriam/my-guide-to-solid-digital-security-fb76cb19c536#.cliexcgpg" target="_blank" class="learnLink">Guide to securing your digital life</a>absolutely necessary when dealing with cryptocurrencies<br>
   <a href="https://download.slock.it/public/DAO/WhitePaper.pdf" target="_blank" class="learnLink">The infamous DAO</a> How a good idea went wrong<br>
+  <a href="https://github.com/raineorshine/solgraph" target="_blank" class="learnLink">Solgraph</a> Visualize Solidity control flow for smart contract security analysis.<br>
   <a href="https://medium.com/zeppelin-blog/zeppelin-v1-0-0-4e593c505345#.bv6yubf7v" target="_blank" class="learnLink">Zeppelin</a> framework to build secure smart contracts in the Solidity language<br>
   <a href="https://monax.io/docs/tutorials/solidity/solidity_1_the_five_types_model/" target="_blank" class="learnLink">Solidity series on Eris</a> different blockchain, same language<br>
   <a href="http://doublenegative.com/ethereum-security-and-wallets/" target="_blank" class="learnLink">Wallet Security</a> and how to secure them<br>
