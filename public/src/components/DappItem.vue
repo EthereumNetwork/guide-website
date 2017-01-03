@@ -26,9 +26,3 @@ export default {
   }
 }
 </script>
-<style>
-.dapp-item-color
-{
-color:red;
-}
-</style>
