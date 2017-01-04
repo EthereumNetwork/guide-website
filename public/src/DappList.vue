@@ -35,7 +35,13 @@ $.ajax({
         for(i=0;i<data.length;i++)
         {
           var d=data[i];
-          dappList.push({title:d.title,description:'description part not implemented yet, description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet'});
+          console.log(d);
+          var IsShowContact=true;
+          if(d.contact.github=='' && d.contact.slack=='' && d.contact.website=='' && d.contact.twitter=='' && d.contact.reddit=='')
+          {
+              IsShowContact=false;
+          }
+          dappList.push({title:d.title,description:d.description,owner:d.owner,github:d.contact.github,website:d.contact.website,slack:d.contact.slack,twitter:d.contact.twitter,reddit:d.contact.reddit,IsShowContact:IsShowContact});
         }
         if(i==0)
         {
@@ -92,4 +98,10 @@ export default {
     background-color: #b59f9f!important;
     border-color: #b59f9f!important;
 }
+.dapp-listbox-color
+{
+background-color: white!important;
+border-color: white!important;
+}
+
 </style>

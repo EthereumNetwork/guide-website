@@ -20,6 +20,9 @@
         <v-col lg12 >
           <v-text-input label="Latest News" id="LatestNews" name="LatestNews" v-model="LatestNews"></v-text-input>
         </v-col>
+        <v-col lg12 >
+          <v-text-input label="Description" id="description" name="description" v-model="description"></v-text-input>
+        </v-col>
 
         <v-col lg12 >
         <v-row>
@@ -102,6 +105,7 @@ export default {
     Twitter:'',
     Slack:'',
     UserName:'',
+    description:'',
     Like:false,
     Reddit:'',
     IsProgress:false,
@@ -111,7 +115,6 @@ export default {
   },
   methods: {
     filterClick: function () {
-
     var datato={Title:this.Title,Owner:this.Owner,LatestNews:this.LatestNews,
     Github:this.Github,
     Website:this.Website,
@@ -120,6 +123,7 @@ export default {
     UserName:this.UserName,
     Like:this.Like,
     Reddit:this.Reddit,
+    Description:this.description
     };
 
       $.ajax({
