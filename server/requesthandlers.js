@@ -20,6 +20,7 @@ var responsebody=req.body;
 var dapp1 = new db.Dapp({
   title: responsebody.Title,
   owner: responsebody.Owner,
+  description:responsebody.Description,
   latestNews:responsebody.LatestNews,
   likes: [{ like: responsebody.Like, user: responsebody.UserName}],
   contact: {
