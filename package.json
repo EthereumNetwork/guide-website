@@ -5,8 +5,8 @@
   "author": "Michael Ilg <michael@ilg.ac>",
   "scripts": {
     "start": "nodemon server/server.js",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --content-base public --open --inline --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules && nodemon server/server.js"
+    "dev": "nodemon server/server.js & cross-env NODE_ENV=development webpack-dev-server --content-base public --open --inline --hot",
+    "build": "nodemon server/server.js & cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
     "babel-core": "^6.0.0",

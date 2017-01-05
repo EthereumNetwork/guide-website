@@ -45,7 +45,13 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: false
+    noInfo: false,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3000',
+        secure: false
+      }
+    }
   },
   performance: {
     hints: false
