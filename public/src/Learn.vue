@@ -37,6 +37,7 @@
   <a href="http://blockgeeks.com/guides/smart-contracts-the-blockchain-technology-that-will-replace-lawyers/" target="_blank" class="learnLink">Smart Contracts</a> Beginner’s Guide<br>
   <a href="https://medium.com/metamask/developing-ethereum-dapps-with-truffle-and-metamask-aa8ad7e363ba#.5yyusxbic" target="_blank" class="learnLink">Developing Ethereum Dapps</a> with Truffle and MetaMask<br>
   <a href="https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos" target="_blank" class="learnLink">Devcon2 videos</a> and <a href="https://ethereumfoundation.org/devcon/?page_id=14" target="_blank" class="learnLink">slides</a><br>
+  <a href="https://medium.com/@mvmurthy/ethereum-for-web-developers-890be23d1d0c" target="_blank" class="learnLink">Ethereum for web developers</a><br>
   <a href="https://medium.com/@ConsenSys/very-deep-dive-on-ethereum-reading-list-f5b1122e5990#.d9mtt32ic" target="_blank" class="learnLink">Ethereum Reading List</a> for more in depth learning<br>
   <a href="http://decypher.tv/series/ethereum-development" target="_blank" class="learnLink">Video Series</a> for Ethereum Ðapp Development (paid)<br>
   <a href="https://academy.b9lab.com/" target="_blank" class="learnLink">Certified Online Course</a> for Ethereum Developer (paid)<br>
