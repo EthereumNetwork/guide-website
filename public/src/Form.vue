@@ -20,6 +20,9 @@
         <v-col lg12 >
           <v-text-input label="Latest News" id="LatestNews" name="LatestNews" v-model="LatestNews"></v-text-input>
         </v-col>
+        <v-col lg12 >
+          <v-text-input label="Description" id="description" name="description" v-model="description"></v-text-input>
+        </v-col>
 
         <v-col lg12 >
         <v-row>
@@ -102,6 +105,7 @@ export default {
     Twitter:'',
     Slack:'',
     UserName:'',
+    description:'',
     Like:false,
     Reddit:'',
     IsProgress:false,
@@ -111,7 +115,6 @@ export default {
   },
   methods: {
     filterClick: function () {
-
     var datato={Title:this.Title,Owner:this.Owner,LatestNews:this.LatestNews,
     Github:this.Github,
     Website:this.Website,
@@ -120,10 +123,11 @@ export default {
     UserName:this.UserName,
     Like:this.Like,
     Reddit:this.Reddit,
+    Description:this.description
     };
 
       $.ajax({
-              url: '/api/savedapps',
+              url: serverUrl+'/api/savedapps',
               type: 'Post',
               data:JSON.stringify(datato),
               contentType: "application/json",
@@ -135,21 +139,13 @@ export default {
 
               if(data.result==1)
               {
-              this.Title='';
-              this.Owner='';
-              this.LatestNews='';
-              this.Github='';
-              this.Website='';
-              this.Twitter='';
-              this.Slack='';
-              this.UserName='';
-              this.Like=false;
-              this.Reddit='';
+              $('input[type="text"]').val('');
+              $('input[type="checkbox"]').prop('checked',false);
               var notification = alertify.notify('Dapp Information Saved Successfully', 'success', 5, function(){  console.log('dismissed'); });
               }
               else{
 
-              var notification = alertify.notify(data.message, 'success', 5, function(){  });
+              var notification = alertify.notify(data.message, 'success', 10, function(){  });
               }
               this.IsProgress=false;
               }

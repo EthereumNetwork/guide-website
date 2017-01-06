@@ -19,6 +19,7 @@
             <v-navbar-item router :item="{ href: '/dapps', text: 'Dapps'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/Form', text: 'Dapps Form'}" class="hidden-sm-and-down"/>
+            <v-navbar-item router :item="{ href: '/Twitter', text: 'Twitter'}" class="hidden-sm-and-down"/>
             <v-navbar-item :item="{ href: 'https://blog.ethereum.network', text: 'Blog'}" class="hidden-sm-and-down"/>
          </v-navbar-items>
          <v-spacer></v-spacer>
@@ -64,6 +65,7 @@ export default {
         { text: 'Dapps', href: '/dapps' },
         { text: 'Explorer', href: '/explorer' },
         { text: 'Dapp Form', href: '/Form' },
+        { text: 'Twitter', href: '/Twitter' },
         { text: 'Blog', href: 'https://blog.ethereum.network' },
       ]
     }
