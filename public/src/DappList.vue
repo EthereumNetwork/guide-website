@@ -35,7 +35,15 @@ $.ajax({
         for(i=0;i<data.length;i++)
         {
           var d=data[i];
-          dappList.push({title:d.title,description:'description part not implemented yet, description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet,description part not implemented yet'});
+          var isShowContact=true;
+          if(d.contact.github=='' && d.contact.website=='' && d.contact.slack==''&& d.contact.reddit=='' && d.contact.twitter=='')
+          {
+          isShowContact=false;
+
+          }else{
+            isShowContact=true;
+          }
+          dappList.push({title:d.title,description:d.description,github:d.contact.github,website:d.contact.website,slack:d.contact.slack,reddit:d.contact.reddit,twitter:d.contact.twitter,IsShowContact:isShowContact});
         }
         if(i==0)
         {
