@@ -5,7 +5,7 @@
   "author": "Michael Ilg <michael@ilg.ac>",
   "scripts": {
     "start": "nodemon server/server.js",
-    "dev": "nodemon server/server.js & cross-env NODE_ENV=development webpack-dev-server --content-base public --open --inline --hot",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --content-base public --open --inline --hot & nodemon server/server.js ",
     "build": "nodemon server/server.js & cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
