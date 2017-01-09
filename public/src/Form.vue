@@ -21,7 +21,15 @@
         <v-btn success v-on:click.native="filterClick()" v-if="!IsProgress">Save Dapp</v-btn>
         <v-btn v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
 
-        <!--<router-link to="/DappList">Back To Dapp List</router-link>-->
+&nbsp;&nbsp;&nbsp;
+        <v-btn>
+        <router-link to="/Dapps">      
+        Back to dapp list
+        </router-link>
+        </v-btn>
+
+
+
       </v-row>
     </v-container>
   </div>
