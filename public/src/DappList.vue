@@ -11,6 +11,7 @@
           <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
         </v-list>
     </v-col>
+    <router-link to="/Form">Add new Dapp</router-link>
 </v-row>
 </v-container>
 </template>

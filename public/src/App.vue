@@ -18,7 +18,6 @@
             <v-navbar-item router :item="{ href: '/learn', text: 'Learn'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/dapps', text: 'Dapps'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" class="hidden-sm-and-down"/>
-            <v-navbar-item router :item="{ href: '/Form', text: 'Dapps Form'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/Twitter', text: 'Twitter'}" class="hidden-sm-and-down"/>
             <v-navbar-item :item="{ href: 'https://blog.ethereum.network', text: 'Blog'}" class="hidden-sm-and-down"/>
          </v-navbar-items>
@@ -35,9 +34,9 @@
             <router-view v-bind:search-field="searchField"> </router-view>
           </v-container>
           <v-container>
-            <p>My main goal is to offer both normal users ands developers the resources they need to interact successfully with the Ethereum network.</p>
+            <p>My main goal is to offer resources for both normal users and developers to interact successfully with the Ethereum network.</p>
             <p>I'm in the progress of building out the website, that's why everything is still ugly and empty :(</p>
-            <p>Hit me up onif you want to help me building this guide</p>
+            <p>Let me know if you have any sugestions or want to help building this guide</p>
          </v-container>
         </v-content>
       </main>
