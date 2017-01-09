@@ -20,6 +20,8 @@
         <v-text-input label="Reddit" id="Reddit" name="Reddit" v-model="Reddit"></v-text-input>
         <v-btn success v-on:click.native="filterClick()" v-if="!IsProgress">Save Dapp</v-btn>
         <v-btn v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
+
+        <!--<router-link to="/DappList">Back To Dapp List</router-link>-->
       </v-row>
     </v-container>
   </div>

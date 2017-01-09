@@ -13,7 +13,6 @@
 
 <script>
   import DappItem from './components/DappItem.vue'
-
   export default {
     name: 'app',
     props: ['searchField'],

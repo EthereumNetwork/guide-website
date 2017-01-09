@@ -4,7 +4,7 @@
     <v-list-item-title>
       <span>{{dapp.title}}</span>
       <v-list-item-sub-title>{{dapp.description}}</v-list-item-sub-title>
-      <v-card v-if="dapp.IsShowContact">
+      <v-card >
         <v-card-text>
          <a v-bind:href="dapp.website" v-if="dapp.website!=''"><img src="../components/website.png" /></a>
          <a v-bind:href="dapp.github" v-if="dapp.github!=''"><img src="../components/github.png" /></a>
@@ -13,13 +13,7 @@
          <a v-bind:href="dapp.twitter" v-if="dapp.twitter!=''"><img src="../components/twitter.png" /></a>
         </v-card-text>
       </v-card>
-
-
     </v-list-item-title>
-
-
-
-
 </v-list-item>
 
 
