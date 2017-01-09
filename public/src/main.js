@@ -14,8 +14,6 @@ import DappsForm from './Form.vue';
 import Twitter from './Twitter.vue';
 
 const routes = [
-  { path: '/foo', component: Foo },
-  { path: '/bar', component: Bar },
   { path: '/learn', component: Learn },
   { path: '/explorer', component: Explorer },
   { path: '/dapps', component: DappList },
