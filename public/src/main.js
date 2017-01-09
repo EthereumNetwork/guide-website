@@ -13,11 +13,6 @@ import Explorer from './Explorer.vue';
 import DappsForm from './Form.vue';
 import Twitter from './Twitter.vue';
 
-
-
-const Foo = { template: '<div>foo</div>' }
-const Bar = { template: '<div>bar</div>' }
-
 const routes = [
   { path: '/foo', component: Foo },
   { path: '/bar', component: Bar },

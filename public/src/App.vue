@@ -18,7 +18,6 @@
             <v-navbar-item router :item="{ href: '/learn', text: 'Learn'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/dapps', text: 'Dapps'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" class="hidden-sm-and-down"/>
-            <v-navbar-item router :item="{ href: '/Form', text: 'Dapps Form'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/Twitter', text: 'Twitter'}" class="hidden-sm-and-down"/>
             <v-navbar-item :item="{ href: 'https://blog.ethereum.network', text: 'Blog'}" class="hidden-sm-and-down"/>
          </v-navbar-items>
