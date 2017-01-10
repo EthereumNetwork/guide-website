@@ -22,8 +22,8 @@
             <v-navbar-item :item="{ href: 'https://blog.ethereum.network', text: 'Blog'}" class="hidden-sm-and-down"/>
          </v-navbar-items>
          <v-spacer></v-spacer>
-         <div class="right">
-           <v-text-input placeholder="filter dapps, txIDs, adresses" id="terms" name="terms" v-model="searchField" class="right">dsadsa</v-text-input>
+         <div class="searchbar">
+           <v-text-input placeholder="filter dapps, txIDs, adresses" v-model="searchField"></v-text-input>
          </div>
          <v-dropdown router v-bind:items="items" id="dropdown" left></v-dropdown>
         </v-navbar>
@@ -77,8 +77,9 @@ export default {
 
 <style>
 
-.right {
+.searchbar {
   float:right;
-  padding-right: 1%
+  padding-right: 1%;
+  color: white;
 }
 </style>

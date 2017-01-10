@@ -7,19 +7,29 @@
           </v-list>
       </v-col>
     </v-row>
-    <router-link to="/Form">Add new Dapp</router-link>
+
+    <v-btn>
+    <router-link to="/Form">
+    Add new Dapp
+    </router-link>
+    </v-btn>
+
+
   </v-container>
 </template>
 
 <script>
   import DappItem from './components/DappItem.vue'
-
   export default {
     name: 'app',
     props: ['searchField'],
     data () {
       return {
-        dappList: [{title:'No dapp data found',description:'please refresh the page to get the newest dapp data'}]
+        dappList: [{
+          title:'No dapp data found',
+          description:'please refresh the page to get the newest dapp data',
+          contact: {}
+        }]
       }
     },
     beforeCreate () {
