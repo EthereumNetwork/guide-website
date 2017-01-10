@@ -25,7 +25,11 @@
     props: ['searchField'],
     data () {
       return {
-        dappList: [{title:'No dapp data found',description:'please refresh the page to get the newest dapp data'}]
+        dappList: [{
+          title:'No dapp data found',
+          description:'please refresh the page to get the newest dapp data',
+          contact: {}
+        }]
       }
     },
     beforeCreate () {

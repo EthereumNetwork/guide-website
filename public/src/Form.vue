@@ -18,19 +18,19 @@
         <v-text-input label="Slack" id="Slack" name="Slack" v-model="Slack"></v-text-input>
         <v-text-input label="Twitter" id="Twitter" name="Twitter" v-model="Twitter"></v-text-input>
         <v-text-input label="Reddit" id="Reddit" name="Reddit" v-model="Reddit"></v-text-input>
+      </v-row>
+        <p>For now everyone can add projects, but authentication is in the works</p>
         <v-btn success v-on:click.native="filterClick()" v-if="!IsProgress">Save Dapp</v-btn>
         <v-btn v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
 
-&nbsp;&nbsp;&nbsp;
         <v-btn>
-        <router-link to="/Dapps">      
+        <router-link to="/Dapps">
         Back to dapp list
         </router-link>
         </v-btn>
 
 
 
-      </v-row>
     </v-container>
   </div>
 </template>
