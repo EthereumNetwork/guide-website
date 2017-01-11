@@ -7,14 +7,6 @@
           </v-list>
       </v-col>
     </v-row>
-
-    <v-btn>
-    <router-link to="/Form">
-    Add new Dapp
-    </router-link>
-    </v-btn>
-
-
   </v-container>
 </template>
 
