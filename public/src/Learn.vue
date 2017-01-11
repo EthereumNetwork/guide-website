@@ -66,9 +66,10 @@
   <a href="https://www.ethnews.com/" target="_blank" class="learnLink">ETHNews</a> News Website<br>
   <a href="https://cointelegraph.com/" target="_blank" class="learnLink">Cointelegraph</a> News Website<br>
   <a href="http://www.coindesk.com/?s=ethereum#" target="_blank" class="learnLink">Coindesk</a> News Website<br>
-  <a href="http://www.weekinethereum.com/" target="_blank" class="learnLink">The week in Ethereum</a> newsletter by Evan Van Ness<br>
-  <a href="https://www.reddit.com/r/ethereum/" target="_blank" class="learnLink">Ethereum subreddit</a> daily news, development Most news about Ethereum can be found here daily<br>
-  <a href="https://www.reddit.com/r/ethtrader/" target="_blank" class="learnLink">Ethtrader subreddit</a> ether price and trading discussions<br>
+  <a href="http://www.weekinethereum.com/" target="_blank" class="learnLink">The week in Ethereum</a> Newsletter by Evan Van Ness<br>
+  <a href="https://www.reddit.com/r/ethereum/" target="_blank" class="learnLink">Ethereum subreddit</a> Daily news, development Most news about Ethereum can be found here daily<br>
+  <a href="https://www.reddit.com/r/ethtrader/" target="_blank" class="learnLink">Ethtrader subreddit</a> Ether price and trading discussions<br>
+  <a href="https://www.reddit.com/r/ethdev/" target="_blank" class="learnLink">EthDev subreddit</a> Discussions about Ethereum development<br>
   <br>
   <h4>Exchanges</h4>
   <a href="https://www.ethnews.com/" target="_blank" class="learnLink">ETHNews</a> News Website<br>
