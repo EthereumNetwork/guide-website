@@ -13,19 +13,26 @@
             <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" class="hidden-sm-and-down"/>
           </v-navbar-side-icon> -->
           <v-navbar-items>
+            <!-- the dropbar caused troubles and is deactivated for now
             <v-navbar-item router v-bind:item="{ href: '', text: 'more_vert', icon: true }" v-dropdown:dropdown class="hidden-sm-and-up"></v-navbar-item>
             <v-navbar-item router :item="{ href: '/', text: 'Home'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/learn', text: 'Learn'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/dapps', text: 'Dapps'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" class="hidden-sm-and-down"/>
             <v-navbar-item router :item="{ href: '/Twitter', text: 'Twitter'}" class="hidden-sm-and-down"/>
-            <v-navbar-item :item="{ href: 'https://blog.ethereum.network', text: 'Blog'}" class="hidden-sm-and-down"/>
+            <v-navbar-item :item="{ href: 'https://blog.ethereum.network', text: 'Blog'}" class="hidden-sm-and-down"/> -->
+            <v-navbar-item router :item="{ href: '/', text: 'Home'}" />
+            <v-navbar-item router :item="{ href: '/learn', text: 'Learn'}" />
+            <v-navbar-item router :item="{ href: '/dapps', text: 'Dapps'}" />
+            <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" />
+            <v-navbar-item router :item="{ href: '/Twitter', text: 'Twitter'}" />
+            <v-navbar-item :item="{ href: 'https://blog.ethereum.network', text: 'Blog'}" />
          </v-navbar-items>
          <v-spacer></v-spacer>
          <div class="searchbar">
            <v-text-input placeholder="filter dapps, txIDs, adresses" v-model="searchField"></v-text-input>
          </div>
-         <v-dropdown router v-bind:items="items" id="dropdown" left></v-dropdown>
+         <!-- <v-dropdown router v-bind:items="items" id="dropdown" left></v-dropdown> -->
         </v-navbar>
       </header>
       <main>
@@ -63,7 +70,6 @@ export default {
         { text: 'Learn', href: '/learn' },
         { text: 'Dapps', href: '/dapps' },
         { text: 'Explorer', href: '/explorer' },
-        { text: 'Dapp Form', href: '/Form' },
         { text: 'Twitter', href: '/Twitter' },
         { text: 'Blog', href: 'https://blog.ethereum.network' },
       ]
