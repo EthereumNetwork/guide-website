@@ -1,5 +1,5 @@
 <template>
-    <v-app top-navbar footer class="content">
+    <v-app top-navbar footer class="app">
       <v-navbar class="grey darken-3">
         <v-btn icon="house" v-dropdown:menu>
           <v-icon class="white--text hidden-md-and-up">more_vert</v-icon>
@@ -13,10 +13,8 @@
       </v-navbar>
       <main>
         <v-content>
-          <v-container fluid>
-            <v-row>
+          <v-container fluid class="content">
               <router-view v-bind:search-field="searchField"> </router-view>
-            </v-row>
           </v-container>
         </v-content>
       </main>
@@ -41,7 +39,6 @@ export default {
       { text: 'Learn', href: '/learn', router: true},
       { text: 'Dapps', href: '/dapps', router: true},
       { text: 'Explorer', href: '/explorer', router: true},
-      { text: 'Twitter', href: '/Twitter', router: true},
       { text: 'Blog', href: 'https://blog.ethereum.network' },
     ]
   }
@@ -66,9 +63,11 @@ h2 {
   padding-right: 1%;
   color: white;
 }
-.content  {
+.app  {
   font-size: 2vh;
-  margin: 2vw;
+}
+.content {
+  margin: 0.7vmin;
 }
 .dropdown__item {
   font-size: 2vh

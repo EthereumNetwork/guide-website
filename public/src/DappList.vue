@@ -1,13 +1,11 @@
 <template>
-  <v-container fluid>
-    <v-row>
-      <v-col lg12>
-          <v-list>
-            <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
-          </v-list>
-      </v-col>
-    </v-row>
-  </v-container>
+  <v-row>
+    <v-col lg12>
+        <v-list>
+          <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
+        </v-list>
+    </v-col>
+  </v-row>
 </template>
 
 <script>

@@ -1,9 +1,14 @@
 <template>
-    <v-col xs12="xs12" md6="md6">
+  <v-row>
+    <v-col xs12 sm12 md12 lg6>
       <p>My main goal is to offer resources for both normal users and developers to interact successfully with the Ethereum network.</p>
-      <p>Let me know if you have any sugestions or want to help building this guide</p>
-      <p>I'm in the progress of building out the website, that's why everything is still ugly and empty :(</p>
+      <p>I'm in the progress of building out the website, that's why everything is still ugly and empty. In the meantime, you can read about the important news in our twitter feed and let me know which other heloful things you would like to see here.</p>
     </v-col>
+    <v-col xs12 sm8 md8 lg4>
+    <a href="https://twitter.com/EthereumPress" class="twitter-follow-button" data-show-count="false">Follow @EthereumPress</a>
+    <a class="twitter-timeline" href="https://twitter.com/EthereumPress">Tweets by EthereumPress</a>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
@@ -14,6 +19,10 @@ export default {
     return {
       msg: 'the network explorer will come later...'
     }
+  },
+  beforeCreate () {
+  //Load twitter script
+    $.getScript('//platform.twitter.com/widgets.js');
   }
 }
 </script>
