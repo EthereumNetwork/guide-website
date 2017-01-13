@@ -1,50 +1,44 @@
 <template>
-  <div id="app">
     <v-app top-navbar footer>
-      <header>
-        <v-navbar class="grey darken-3">
-          <!-- <v-btn v-dropdown:dropdown class="hidden-sm-and-up grey darken-2">X</v-btn>
-          <v-dropdown id="dropdown" router v-bind:items="items"></v-dropdown> -->
-          <!-- <v-navbar-items v-bind:items="items" class="hidden-sm-and-down"></v-navbar-items> -->
-          <!-- <v-navbar-side-icon>
-            <v-navbar-item router :item="{ href: '/', text: 'Home'}" class="hidden-sm-and-down"/>
-            <v-navbar-item router :item="{ href: '/learn', text: 'Learn'}" class="hidden-sm-and-down"/>
-            <v-navbar-item router :item="{ href: '/dapps', text: 'Dapps'}" class="hidden-sm-and-down"/>
-            <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" class="hidden-sm-and-down"/>
-          </v-navbar-side-icon> -->
-          <v-navbar-items>
-            <!-- the dropbar caused troubles and is deactivated for now
-            <v-navbar-item router v-bind:item="{ href: '', text: 'more_vert', icon: true }" v-dropdown:dropdown class="hidden-sm-and-up"></v-navbar-item>
-            <v-navbar-item router :item="{ href: '/', text: 'Home'}" class="hidden-sm-and-down"/>
-            <v-navbar-item router :item="{ href: '/learn', text: 'Learn'}" class="hidden-sm-and-down"/>
-            <v-navbar-item router :item="{ href: '/dapps', text: 'Dapps'}" class="hidden-sm-and-down"/>
-            <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" class="hidden-sm-and-down"/>
-            <v-navbar-item router :item="{ href: '/Twitter', text: 'Twitter'}" class="hidden-sm-and-down"/>
-            <v-navbar-item :item="{ href: 'https://blog.ethereum.network', text: 'Blog'}" class="hidden-sm-and-down"/> -->
-            <v-navbar-item router :item="{ href: '/', text: 'Home'}" />
-            <v-navbar-item router :item="{ href: '/learn', text: 'Learn'}" />
-            <v-navbar-item router :item="{ href: '/dapps', text: 'Dapps'}" />
-            <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" />
-            <v-navbar-item router :item="{ href: '/Twitter', text: 'Twitter'}" />
-            <v-navbar-item :item="{ href: 'https://blog.ethereum.network', text: 'Blog'}" />
-         </v-navbar-items>
-         <v-spacer></v-spacer>
-         <div class="searchbar">
-           <v-text-input placeholder="filter dapps, txIDs, adresses" v-model="searchField"></v-text-input>
-         </div>
-         <!-- <v-dropdown router v-bind:items="items" id="dropdown" left></v-dropdown> -->
-        </v-navbar>
-      </header>
+      <v-navbar class="grey darken-3">
+        <!-- <v-btn v-dropdown:dropdown class="hidden-sm-and-up grey darken-2">X</v-btn>
+        <v-dropdown id="dropdown" router v-bind:items="items"></v-dropdown> -->
+        <!-- <v-navbar-items v-bind:items="items" class="hidden-sm-and-down"></v-navbar-items> -->
+        <!-- <v-navbar-side-icon>
+          <v-navbar-item router :item="{ href: '/', text: 'Home'}" class="hidden-sm-and-down"/>
+          <v-navbar-item router :item="{ href: '/learn', text: 'Learn'}" class="hidden-sm-and-down"/>
+          <v-navbar-item router :item="{ href: '/dapps', text: 'Dapps'}" class="hidden-sm-and-down"/>
+          <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" class="hidden-sm-and-down"/>
+        </v-navbar-side-icon> -->
+        <v-navbar-items>
+          <!-- the dropbar caused troubles and is deactivated for now
+          <v-navbar-item router v-bind:item="{ href: '', text: 'more_vert', icon: true }" v-dropdown:dropdown class="hidden-sm-and-up"></v-navbar-item>
+          <v-navbar-item router :item="{ href: '/', text: 'Home'}" class="hidden-sm-and-down"/>
+          <v-navbar-item router :item="{ href: '/learn', text: 'Learn'}" class="hidden-sm-and-down"/>
+          <v-navbar-item router :item="{ href: '/dapps', text: 'Dapps'}" class="hidden-sm-and-down"/>
+          <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" class="hidden-sm-and-down"/>
+          <v-navbar-item router :item="{ href: '/Twitter', text: 'Twitter'}" class="hidden-sm-and-down"/>
+          <v-navbar-item :item="{ href: 'https://blog.ethereum.network', text: 'Blog'}" class="hidden-sm-and-down"/> -->
+          <v-navbar-item router :item="{ href: '/', text: 'Home'}" />
+          <v-navbar-item router :item="{ href: '/learn', text: 'Learn'}" />
+          <v-navbar-item router :item="{ href: '/dapps', text: 'Dapps'}" />
+          <v-navbar-item router :item="{ href: '/explorer', text: 'Explorer'}" />
+          <v-navbar-item router :item="{ href: '/Twitter', text: 'Twitter'}" />
+          <v-navbar-item :item="{ href: 'https://blog.ethereum.network', text: 'Blog'}" />
+       </v-navbar-items>
+       <v-spacer></v-spacer>
+       <div class="searchbar">
+         <v-text-input placeholder="filter dapps, txIDs, adresses" v-model="searchField"></v-text-input>
+       </div>
+       <!-- <v-dropdown router v-bind:items="items" id="dropdown" left></v-dropdown> -->
+      </v-navbar>
       <main>
-        <v-content>
-          <v-container>
-            <router-view v-bind:search-field="searchField"> </router-view>
+        <v-content class="content">
+          <v-container fluid>
+            <v-row>
+              <router-view v-bind:search-field="searchField"> </router-view>
+            </v-row>
           </v-container>
-          <v-container>
-            <p>My main goal is to offer resources for both normal users and developers to interact successfully with the Ethereum network.</p>
-            <p>I'm in the progress of building out the website, that's why everything is still ugly and empty :(</p>
-            <p>Let me know if you have any sugestions or want to help building this guide</p>
-         </v-container>
         </v-content>
       </main>
       <v-footer  class="grey darken-4">
@@ -53,7 +47,6 @@
        </div>
       </v-footer>
     </v-app>
-  </div>
 </template>
 
 <script>
@@ -88,4 +81,17 @@ export default {
   padding-right: 1%;
   color: white;
 }
+
+.content {
+  font-size: 2vh;
+  margin: 2vw;
+}
+h1 {
+  font-size: 6vh;
+}
+h2 {
+  font-size: 4vh;
+}
+
+
 </style>
