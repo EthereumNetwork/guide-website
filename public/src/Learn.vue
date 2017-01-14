@@ -1,8 +1,6 @@
 <template>
 <div>
-  <h1>Ethereum</h1>
-  <p>some general text</p>
-  <v-collapsible>
+  <v-collapsible class="content">
     <h2>What is Ethereum?</h2>
     <p>Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.</p>
     <p>These apps run on a custom built blockchain, an enormously powerful shared global infrastructure that can move value around and represent the ownership of property. This enables developers to create markets, store registries of debts or promises, move funds in accordance with instructions given long in the past (like a will or a futures contract) and many other things that have not been invented yet, all without a middle man or counterparty risk.</p>
@@ -128,3 +126,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.content {
+  padding-left: 0.7vmin;
+}
+</style>

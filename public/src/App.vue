@@ -69,9 +69,6 @@ h2 {
 .app  {
   font-size: 2vh;
 }
-.content {
-  margin: 0.7vmin;
-}
 .dropdown__item {
   font-size: 2vh
 }
