@@ -1,10 +1,13 @@
 <template>
     <v-app top-navbar footer class="app">
       <v-navbar class="grey darken-3">
-        <v-btn icon="house" v-dropdown:menu>
-          <v-icon class="white--text hidden-md-and-up">more_vert</v-icon>
+        <v-btn class="hidden-md-and-up" flat v-sidebar:sidebar>
+          <v-icon class="grey--text text--darken-2">menu</v-icon>
         </v-btn>
         <v-dropdown id="menu" v-bind:items="menuItems" router></v-dropdown>
+        <v-sidebar id="sidebar" class="grey darken-3" height="100vh" drawer>
+          <v-sidebar-items v-bind:items="menuItems"></v-sidebar-items>
+        </v-sidebar>
         <v-navbar-items class="hidden-md-and-down" v-bind:items="menuItems"></v-navbar-items>
        <v-spacer></v-spacer>
        <div class="searchbar">
