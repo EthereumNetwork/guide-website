@@ -10,11 +10,13 @@ var dappSchema = new Schema({
   updatedAt: { type: Date, default: Date.now },
   latestNews: String,
   likes: [{ like: Boolean, user: String}],
+  logoUrl: String,
   contact: {
     github: String,
     website: String,
-    slack: String,
     twitter: String,
+    facebook: String,
+    slack: String,
     reddit: String,
   }
 });

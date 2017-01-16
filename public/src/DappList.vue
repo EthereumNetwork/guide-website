@@ -22,19 +22,13 @@
         }]
       }
     },
+
     beforeCreate () {
-      var that = this;
-      $.ajax({
-        url: serverUrl+'/api/dapps',
-        type: 'Get',
-        success: function(data) {
-          if (data) {
-            console.log('data received: ', data);
-            that.dappList = data;
-          }
-        }
-      });
+      fetch(serverUrl+'/api/dapps')
+      .then((response) => { return response.json(); })
+      .then((data) => { this.dappList = data; });
     },
+
     computed: {
       filteredDapps: function () {
           var dappList_array = this.dappList,
@@ -56,6 +50,7 @@
           return dappList_array;;
       }
     },
+
     components: {
       DappItem
     }

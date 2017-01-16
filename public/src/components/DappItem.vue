@@ -7,11 +7,12 @@
           {{dapp.title}}
         </v-list-item-title>
         <p>{{dapp.description}}</p>
-        <a v-bind:href="dapp.contact.website" v-if="dapp.contact.website"><img src="../components/website.png" /></a>
-        <a v-bind:href="dapp.contact.github" v-if="dapp.contact.github"><img src="../components/github.png" /></a>
-        <a v-bind:href="dapp.contact.slack" v-if="dapp.contact.slack"><img src="../components/slack.png" /></a>
-        <a v-bind:href="dapp.contact.reddit" v-if="dapp.contact.reddit"><img src="../components/reddit.png" /></a>
-        <a v-bind:href="dapp.contact.twitter" v-if="dapp.contact.twitter"><img src="../components/twitter.png" /></a>
+        <a v-bind:href="dapp.contact.website" v-if="dapp.contact.website"><i class="fa fa-link fa-2x dapp-link"></a>
+        <a v-bind:href="dapp.contact.github" v-if="dapp.contact.github"><i class="fa fa-github fa-2x dapp-link"></i></a>
+        <a v-bind:href="dapp.contact.twitter" v-if="dapp.contact.twitter"><i class="fa fa-twitter fa-2x dapp-link"></a>
+        <a v-bind:href="dapp.contact.facebook" v-if="dapp.contact.facebook"><i class="fa fa-facebook fa-2x dapp-link"></a>
+        <a v-bind:href="dapp.contact.slack" v-if="dapp.contact.slack"><i class="fa fa-slack fa-2x dapp-link"></a>
+        <a v-bind:href="dapp.contact.reddit" v-if="dapp.contact.reddit"><i class="fa fa-reddit fa-2x dapp-link"></a>
       </v-card-text>
     </v-card-row>
   </v-card>

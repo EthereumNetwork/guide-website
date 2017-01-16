@@ -19,10 +19,6 @@ export default {
     return {
       msg: 'the network explorer will come later...'
     }
-  },
-  beforeCreate () {
-  //Load twitter script
-    $.getScript('//platform.twitter.com/widgets.js');
   }
 }
 </script>
