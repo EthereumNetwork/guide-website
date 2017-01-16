@@ -68,6 +68,7 @@ h2 {
 }
 .app  {
   font-size: 2vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .dropdown__item {
   font-size: 2vh
