@@ -23,12 +23,14 @@ var dapp1 = new db.Dapp({
   description:responsebody.Description,
   latestNews:responsebody.LatestNews,
   likes: [{ like: responsebody.Like, user: responsebody.UserName}],
+  logoUrl: responsebody.logoUrl,
   contact: {
     github: responsebody.Github,
     website: responsebody.Website,
     slack: responsebody.Slack,
     reddit: responsebody.Reddit,
-    twitter:responsebody.Twitter,
+    twitter: responsebody.Twitter,
+    facebook: responsebody.Facebook,
   }
 });
 

@@ -1,20 +1,41 @@
 <template>
-  <v-card >
+<v-card>
+  <div class="dappcard-title">
+  <v-card-row class="indigo dappcard-title">
+    <v-card-title>
+      <span>{{dapp.title}}</span>
+
+      <v-spacer></v-spacer>
+      <!-- <div>
+        <v-btn icon="icon" v-bind:v-dropdown="dapp.title" class="white--text">
+          <i class="fa fa-ellipsis-v"></i>
+        </v-btn>
+        <v-dropdown v-bind:id="dapp.title" top right origin="top right">
+          <v-dropdown-item v-bind:item="{ href: 'javascript:;', text: 'Never show rewards' }"></v-dropdown-item>
+          <v-dropdown-item v-bind:item="{ href: 'javascript:;', text: 'Remove Card' }"></v-dropdown-item>
+          <v-dropdown-item v-bind:item="{ href: 'javascript:;', text: 'Send Feedback' }"></v-dropdown-item>
+        </v-dropdown>
+      </div> -->
+    </v-card-title>
+  </v-card-row>
+  <v-card-text>
     <v-card-row>
-      <v-list-item-avatar class="dapp-listitem-color" large>description</v-list-item-avatar>
-      <v-card-text>
-        <v-list-item-title>
-          {{dapp.title}}
-        </v-list-item-title>
+      <img v-bind:src="dapp.logoUrl || './src/assets/NA.png'" class="dapp-image">
+      <div>
         <p>{{dapp.description}}</p>
-        <a v-bind:href="dapp.contact.website" v-if="dapp.contact.website"><img src="../components/website.png" /></a>
-        <a v-bind:href="dapp.contact.github" v-if="dapp.contact.github"><img src="../components/github.png" /></a>
-        <a v-bind:href="dapp.contact.slack" v-if="dapp.contact.slack"><img src="../components/slack.png" /></a>
-        <a v-bind:href="dapp.contact.reddit" v-if="dapp.contact.reddit"><img src="../components/reddit.png" /></a>
-        <a v-bind:href="dapp.contact.twitter" v-if="dapp.contact.twitter"><img src="../components/twitter.png" /></a>
-      </v-card-text>
+      </div>
     </v-card-row>
-  </v-card>
+  </v-card-text>
+  <v-card-row actions>
+    <a v-bind:href="dapp.contact.website" v-if="dapp.contact.website"><i class="fa fa-link fa-2x dapp-link"></a>
+    <a v-bind:href="dapp.contact.github" v-if="dapp.contact.github"><i class="fa fa-github fa-2x dapp-link"></i></a>
+    <a v-bind:href="dapp.contact.twitter" v-if="dapp.contact.twitter"><i class="fa fa-twitter fa-2x dapp-link"></a>
+    <a v-bind:href="dapp.contact.facebook" v-if="dapp.contact.facebook"><i class="fa fa-facebook fa-2x dapp-link"></a>
+    <a v-bind:href="dapp.contact.slack" v-if="dapp.contact.slack"><i class="fa fa-slack fa-2x dapp-link"></a>
+    <a v-bind:href="dapp.contact.reddit" v-if="dapp.contact.reddit"><i class="fa fa-reddit fa-2x dapp-link"></a>
+  </v-card-row>
+</div>
+</v-card>
 </template>
 
 <script>
@@ -29,3 +50,12 @@ export default {
   }
 }
 </script>
+
+<style>
+.dappcard-title {
+}
+.dapp-image {
+  height: 60px;
+  margin-right: 10px;
+}
+</style>

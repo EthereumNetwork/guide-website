@@ -1,14 +1,14 @@
 <template>
-    <v-app top-navbar footer class="app">
+    <v-app top-navbar footer class="app size">
       <v-navbar class="grey darken-3">
-        <v-btn class="hidden-md-and-up" flat v-sidebar:sidebar>
-          <v-icon class="grey--text text--darken-2">menu</v-icon>
+        <v-btn class="hidden-md-and-up menu" flat v-sidebar:sidebar>
+          <i class="fa fa-align-justify fa-2x">
         </v-btn>
         <v-dropdown id="menu" v-bind:items="menuItems" router></v-dropdown>
         <v-sidebar id="sidebar" class="grey darken-3" height="100vh" drawer>
           <v-sidebar-items v-bind:items="menuItems"></v-sidebar-items>
         </v-sidebar>
-        <v-navbar-items class="hidden-md-and-down" v-bind:items="menuItems"></v-navbar-items>
+        <v-navbar-items class="hidden-sm-and-down" v-bind:items="menuItems"></v-navbar-items>
        <v-spacer></v-spacer>
        <div class="searchbar">
          <v-text-input placeholder="filter dapps, txIDs, adresses" v-model="searchField"></v-text-input>
@@ -67,10 +67,12 @@ h2 {
   color: white;
 }
 .app  {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2vh;
 }
-.dropdown__item {
-  font-size: 2vh
+.menu {
+  color: grey;
+  font-size: 2vh;
 }
 
 

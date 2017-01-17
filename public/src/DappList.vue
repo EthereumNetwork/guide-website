@@ -1,9 +1,7 @@
 <template>
   <v-row>
     <v-col lg12>
-        <v-list>
-          <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
-        </v-list>
+          <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp" class="dapp-listitem"></dapp-item>
     </v-col>
   </v-row>
 </template>
@@ -22,19 +20,13 @@
         }]
       }
     },
+
     beforeCreate () {
-      var that = this;
-      $.ajax({
-        url: serverUrl+'/api/dapps',
-        type: 'Get',
-        success: function(data) {
-          if (data) {
-            console.log('data received: ', data);
-            that.dappList = data;
-          }
-        }
-      });
+      fetch(serverUrl+'/api/dapps')
+      .then((response) => { return response.json(); })
+      .then((data) => { this.dappList = data; });
     },
+
     computed: {
       filteredDapps: function () {
           var dappList_array = this.dappList,
@@ -56,6 +48,7 @@
           return dappList_array;;
       }
     },
+
     components: {
       DappItem
     }
@@ -63,8 +56,8 @@
 </script>
 
 <style>
-  .dapp-listitem-color {
-    background-color: #b59f9f!important;
-    border-color: #b59f9f!important;
-  }
+.dapp-listitem {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
 </style>

@@ -129,6 +129,6 @@ export default {
 
 <style>
 .content {
-  padding-left: 0.7vmin;
+  margin-left: 0.7vmin;
 }
 </style>
