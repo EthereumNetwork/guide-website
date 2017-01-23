@@ -24,6 +24,6 @@ app.use(history())
 // serving index.html and build.js, client-side routes handled by Vue router
 app.use(express.static('public'))
 
-app.listen(3000, function () {
+app.listen(3001, function () {
   console.log('Server started at ', (new Date()).toString())
 })
