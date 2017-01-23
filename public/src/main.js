@@ -8,10 +8,10 @@ Vue.use(Vuetify)
 
 import App from './App.vue'
 import Home from './Home.vue'
-import Learn from './Learn.vue';
-import DappList from './DappList.vue';
-import Explorer from './Explorer.vue';
-import DappsForm from './Form.vue';
+import Learn from './Learn.vue'
+import DappList from './DappList.vue'
+import Explorer from './Explorer.vue'
+import DappsForm from './Form.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -23,9 +23,8 @@ const routes = [
 
 const router = new VueRouter({
   routes: routes,
-   mode: 'history'
+  mode: 'history'
 })
-
 
 new Vue({
   el: '#app',
