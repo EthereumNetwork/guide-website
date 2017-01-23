@@ -6,7 +6,7 @@
     </v-col>
     <v-col xs12 sm8 md6 lg4>
     <a href="https://twitter.com/EthereumPress" class="twitter-follow-button" data-show-count="false">Follow @EthereumPress</a>
-    <a class="twitter-timeline" href="https://twitter.com/EthereumPress">Tweets by EthereumPress</a>
+    <a class="twitter-timeline" data-show-count="true" data-show-screen-name="true" href="https://twitter.com/EthereumPress">Tweets by EthereumPress</a>
     </v-col>
   </v-row>
 </template>
