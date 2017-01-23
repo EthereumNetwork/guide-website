@@ -79,7 +79,7 @@
           reddit: this.reddit
         }
 
-        fetch((serverUrl + '/api/savedapps'), {
+        fetch(('/api/savedapps'), {
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify(datato)

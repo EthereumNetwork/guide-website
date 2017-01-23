@@ -24,4 +24,8 @@ var dappSchema = new Schema({
 var Dapp = mongoose.model('Dapp', dappSchema)
 Dapp.find().then(dapps => console.log('following dapps found:', dapps))
 
+// Dapp.remove({}, function (err) {
+//   console.log('collection removed')
+// })
+
 module.exports.Dapp = Dapp

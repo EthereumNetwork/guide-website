@@ -1,9 +1,9 @@
 <template>
-  <v-row>
-    <v-col lg12>
-          <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp" class="dapp-listitem"></dapp-item>
-    </v-col>
-  </v-row>
+  <v-container fluid="fluid">
+    <v-row>
+      <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -22,7 +22,7 @@
     },
 
     beforeCreate () {
-      fetch(serverUrl + '/api/dapps')
+      fetch('/api/dapps')
       .then((response) => { return response.json() })
       .then((data) => { this.dappList = data })
     },
