@@ -54,8 +54,4 @@
 </script>
 
 <style>
-.dapp-listitem {
-  margin-bottom: 10px;
-  margin-right: 10px;
-}
 </style>

@@ -74,7 +74,4 @@ h2 {
   color: grey;
   font-size: 2vh;
 }
-
-
-
 </style>
