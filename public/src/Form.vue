@@ -11,7 +11,8 @@
         <v-text-input label="Title" id="title" name="title" v-model="title"  ></v-text-input>
         <v-text-input label="Owner" id="owner" name="owner" v-model="owner" ></v-text-input>
         <v-text-input label="Latest News" id="latestNews" name="latestNews" v-model="latestNews"></v-text-input>
-        <v-text-input label="Description" id="description" name="description" v-model="description"></v-text-input>
+        <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="shortDescription"></v-text-input>
+        <v-text-input label="Long description" id="longDescription" name="longDescription" v-model="longDescription"></v-text-input>
         <v-text-input label="Logo Url" id="logoUrl" name="logoUrl" v-model="logoUrl"></v-text-input>
         <v-text-input label="Github" id="github" name="github" v-model="github"></v-text-input>
         <v-text-input label="Website" id="website" name="website" v-model="website"></v-text-input>
@@ -43,7 +44,8 @@
       return {
         title: '',
         owner: '',
-        description: '',
+        shortDescription: '',
+        longDescription: '',
         latestNews: '',
         logoUrl: '',
         github: '',
@@ -63,10 +65,11 @@
     },
     methods: {
       filterClick: function () {
-        var datato = {
+        var dataToSend = {
           title: this.title,
           owner: this.owner,
-          description: this.description,
+          shortDescription: this.shortDescription,
+          longDescription: this.longDescription,
           latestNews: this.latestNews,
           logoUrl: this.logoUrl,
           github: this.github,
@@ -82,7 +85,7 @@
         fetch(('/api/savedapps'), {
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify(datato)
+          body: JSON.stringify(dataToSend)
         })
         .then((response) => { return response.json() })
         .then((data) => {

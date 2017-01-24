@@ -13,7 +13,8 @@ let saveDapp = (req, res) => {
   var dapp1 = new db.Dapp({
     title: req.body.title,
     owner: req.body.owner,
-    description: req.body.description,
+    shortDescription: req.body.shortDescription,
+    longDescription: req.body.longDescription,
     latestNews: req.body.latestNews,
     likes: [{like: req.body.Like, user: req.body.userName}],
     logoUrl: req.body.logoUrl,

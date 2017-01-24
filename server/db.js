@@ -6,7 +6,8 @@ var Schema = mongoose.Schema
 var dappSchema = new Schema({
   title: String,
   owner: String,
-  description: String,
+  shortDescription: String,
+  longDescription: String,
   updatedAt: { type: Date, default: Date.now },
   latestNews: String,
   likes: [{like: Boolean, user: String}],

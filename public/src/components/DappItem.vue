@@ -1,5 +1,5 @@
 <template>
-  <v-col xs12, sm12, md6, lg4, xl4 ma-1>
+  <v-col xs12="xs12" sm6="sm6" md6="md6" lg4 xs4>
     <v-card>
       <v-card-row class="indigo dappcard-title">
         <v-card-title>
@@ -22,7 +22,7 @@
         <v-card-row>
           <img v-bind:src="dapp.logoUrl || './src/assets/NA.png'" class="dapp-image">
           <div>
-            <p>{{dapp.description}}</p>
+            <p>{{dapp.shortDescription}}</p>
           </div>
         </v-card-row>
       </v-card-text>
@@ -52,8 +52,6 @@ export default {
 </script>
 
 <style>
-.dappcard-title {
-}
 .dapp-image {
   height: 60px;
   margin-right: 10px;
