@@ -1,9 +1,7 @@
 <template>
-  <v-container fluid="fluid">
-    <v-row>
-      <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
-    </v-row>
-  </v-container>
+  <v-row>
+    <dapp-item v-for="dapp in filteredDapps" v-bind:dapp="dapp"></dapp-item>
+  </v-row>
 </template>
 
 <script>

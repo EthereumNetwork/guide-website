@@ -1,6 +1,7 @@
 <template>
-<div>
-  <v-collapsible class="content">
+<v-container fluid>
+  <p>With Ethereum still is the first years, most resources here are for developers. Step-by-step instructions for all users will come later.</p>
+  <v-collapsible>
     <h2>What is Ethereum?</h2>
     <p>Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.</p>
     <p>These apps run on a custom built blockchain, an enormously powerful shared global infrastructure that can move value around and represent the ownership of property. This enables developers to create markets, store registries of debts or promises, move funds in accordance with instructions given long in the past (like a will or a futures contract) and many other things that have not been invented yet, all without a middle man or counterparty risk.</p>
@@ -15,8 +16,25 @@
       <a href="https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos" target="_blank" class="learnLink">Videos from Ethereum DevCon 2</a> Sep. 2016 in Shanghai<br>
     </v-collapsible-body>
     <br>
+    <h2>Wallets and Browsers</h2>
+    <p>A good way to start is to try out the different ways to interact with the Ethereum Network. Wallets let you receive and send ether and other tokens running on top of it. Follow the first link in the security section before using any real money.</p>
+    <p>some more text about browsers</p>
+    <v-collapsible-header class="grey darken-2 white--text">Links</v-collapsible-header>
+    <v-collapsible-body>
+      <a href="https://github.com/ethereum/mist/releases" target="_blank" class="learnLink">Mist</a> Official Ethereum browser and wallet<br>
+      <a href="https://metamask.io/" target="_blank" class="learnLink">MetaMask</a> Chrome plugin to access Ethereum dApps<br>
+      <a href="https://www.myetherwallet.com/" target="_blank" class="learnLink">MyEtherWallet</a> client-side Ethereum online wallet and contract execution<br>
+      <a href="https://github.com/ethcore/parity/wiki/Parity-Wallet" target="_blank" class="learnLink">Parity Wallet</a> Parity also includes a bundled wallet application<br>
+      <a href="https://jaxx.io/" target="_blank" class="learnLink">Jaxx</a> Wallet for multipe plattform and multiple currencies<br>
+      <a href="https://status.im/" target="_blank" class="learnLink">Status</a> Ethereum browser/messenger/wallet for mobile phones<br>
+      <a href="https://www.inzhoop.com/" target="_blank" class="learnLink">LETH</a> A mobile Ethereum wallet with chat function<br>
+      <a href="https://token.im/" target="_blank" class="learnLink">imToken</a> A smart digital wallet for mobile phones<br>
+    </v-collapsible-body>
+    <br>
+    <v-container fluid pa-5>
     <h2>Developer Resources and Tools</h2>
-    <p>some text about Developer Resources and Tools</p>
+    <p>Get your feet wet with many different frameworks and documentation on how to use Ethereum and program decentralized applications. Check out the guides and tips section for more tutorials.</p>
+    <p>some more text about Developer Resources and Tools</p>
     <v-collapsible-header class="grey darken-2 white--text">Links</v-collapsible-header>
     <v-collapsible-body>
       <a href="https://ethereum.org/" target="_blank" class="learnLink">Ethereum Website</a> Browser and first tutorials from the Ethereum Foundation<br>
@@ -31,16 +49,7 @@
       <a href="https://infura.io/" target="_blank" class="learnLink">Infura</a> APIs to Ethereum and IPFS nodes<br>
       <a href="https://ethereum.github.io/browser-solidity/" target="_blank" class="learnLink">Browser Solidity</a> Solidity Realtime compiler and runtime<br>
     </v-collapsible-body>
-    <br>
-    <h2>Wallets and Browsers</h2>
-    <p>some text about Clients and Implementations</p>
-    <v-collapsible-header class="grey darken-2 white--text">Links</v-collapsible-header>
-    <v-collapsible-body>
-      <a href="https://metamask.io/" target="_blank" class="learnLink">MetaMask</a> Chrome plugin to access Ethereum dApps<br>
-      <a href="https://github.com/ethereum/mist/releases" target="_blank" class="learnLink">Mist</a> Official Ethereum browser and wallet<br>
-      <a href="https://status.im/" target="_blank" class="learnLink">Status</a> Ethereum browser/messenger/wallet for mobile phones<br>
-      <a href="https://www.myetherwallet.com/" target="_blank" class="learnLink">MyEtherWallet</a> client-side Ethereum online wallet<br>
-    </v-collapsible-body>
+      </v-container>
     <br>
     <h2>Clients and Implementations</h2>
     <p>some text about Clients and Implementations</p>
@@ -75,8 +84,10 @@
       <a href="https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4#.tcmcvxugj" target="_blank" class="learnLink">101 Noob Intro</a> to Programming Smart Contracts<br>
       <a href="http://blockgeeks.com/guides/smart-contracts-the-blockchain-technology-that-will-replace-lawyers/" target="_blank" class="learnLink">Smart Contracts</a> Beginner’s Guide<br>
       <a href="https://medium.com/metamask/developing-ethereum-dapps-with-truffle-and-metamask-aa8ad7e363ba#.5yyusxbic" target="_blank" class="learnLink">Developing Ethereum Dapps</a> with Truffle and MetaMask<br>
+      <a href="https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/private-chain.html" target="_blank" class="learnLink">Set up a private chain</a> for testing purposes<br>
       <a href="https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos" target="_blank" class="learnLink">Devcon2 videos</a> and <a href="https://ethereumfoundation.org/devcon/?page_id=14" target="_blank" class="learnLink">slides</a><br>
       <a href="https://medium.com/@mvmurthy/ethereum-for-web-developers-890be23d1d0c" target="_blank" class="learnLink">Ethereum for web developers</a><br>
+      <a href="https://blog.ethereum.org/2016/07/12/build-server-less-applications-mist/" target="_blank" class="learnLink">How to build severless applications</a> for Mist<br>
       <a href="http://blockchainers.org/index.php/2016/11/27/ethereum-usecase-claim-and-endorse" target="_blank" class="learnLink"> A generic “Claim and Endorse” Contract</a><br>
       <a href="https://medium.com/@ConsenSys/very-deep-dive-on-ethereum-reading-list-f5b1122e5990#.d9mtt32ic" target="_blank" class="learnLink">Ethereum Reading List</a> for more in depth learning<br>
       <a href="http://decypher.tv/series/ethereum-development" target="_blank" class="learnLink">Video Series</a> for Ethereum Ðapp Development (paid)<br>
@@ -112,8 +123,8 @@
       <a href="https://www.bittrex.com/" target="_blank" class="learnLink">Bittrex</a> Cryptocurrency only Exchange<br>
       <a href="https://www.ethnews.com/" target="_blank" class="learnLink">ETHNews</a> News Website<br>
     </v-collapsible-body>
-</v-collapsible>
-</div>
+  </v-collapsible>
+</v-container>
 </template>
 
 <script>
@@ -129,6 +140,6 @@ export default {
 
 <style>
 .content {
-  margin-left: 0.7vmin;
+  margin-left: 0.4vmin;
 }
 </style>

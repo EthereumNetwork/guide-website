@@ -1,5 +1,5 @@
 <template>
-  <v-col xs12="xs12" sm6="sm6" md6="md6" lg4 xs4>
+  <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
     <v-card>
       <v-card-row class="indigo dappcard-title">
         <v-card-title>
@@ -27,12 +27,12 @@
         </v-card-row>
       </v-card-text>
       <v-card-row actions>
-        <a v-bind:href="dapp.contact.website" v-if="dapp.contact.website"><i class="fa fa-link fa-2x dapp-link"></a>
-        <a v-bind:href="dapp.contact.github" v-if="dapp.contact.github"><i class="fa fa-github fa-2x dapp-link"></i></a>
-        <a v-bind:href="dapp.contact.twitter" v-if="dapp.contact.twitter"><i class="fa fa-twitter fa-2x dapp-link"></a>
-        <a v-bind:href="dapp.contact.facebook" v-if="dapp.contact.facebook"><i class="fa fa-facebook fa-2x dapp-link"></a>
-        <a v-bind:href="dapp.contact.slack" v-if="dapp.contact.slack"><i class="fa fa-slack fa-2x dapp-link"></a>
-        <a v-bind:href="dapp.contact.reddit" v-if="dapp.contact.reddit"><i class="fa fa-reddit fa-2x dapp-link"></a>
+        <a v-bind:href="dapp.contact.website" v-if="dapp.contact.website" class="contact-link"> <i class="fa fa-link fa-2x dapp-link"> </a>
+        <a v-bind:href="dapp.contact.github" v-if="dapp.contact.github" class="contact-link"> <i class="fa fa-github fa-2x dapp-link"> </i></a>
+        <a v-bind:href="dapp.contact.twitter" v-if="dapp.contact.twitter" class="contact-link"> <i class="fa fa-twitter fa-2x dapp-link"> </a>
+        <a v-bind:href="dapp.contact.facebook" v-if="dapp.contact.facebook" class="contact-link"> <i class="fa fa-facebook fa-2x dapp-link"> </a>
+        <a v-bind:href="dapp.contact.slack" v-if="dapp.contact.slack" class="contact-link"> <i class="fa fa-slack fa-2x dapp-link"> </a>
+        <a v-bind:href="dapp.contact.reddit" v-if="dapp.contact.reddit" class="contact-link"> <i class="fa fa-reddit fa-2x dapp-link"></a>
       </v-card-row>
     </v-card>
   </v-col>
@@ -55,5 +55,11 @@ export default {
 .dapp-image {
   height: 60px;
   margin-right: 10px;
+}
+.contact-link {
+    color: black;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1em;
+    margin-right: 0.2em;
 }
 </style>
