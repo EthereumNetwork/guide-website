@@ -5,14 +5,12 @@ var moment = require('moment')
 var db = require('./db.js')
 
 let sendAllDapps = (req, res) => {
-  console.log('sendingAllDapps')
   db.Dapp.find().then(dapps => res.send(dapps))
 }
 
 let saveDapp = (req, res) => {
   var dapp1 = new db.Dapp({
     title: req.body.title,
-    owner: req.body.owner,
     shortDescription: req.body.shortDescription,
     longDescription: req.body.longDescription,
     latestNews: req.body.latestNews,
@@ -28,7 +26,6 @@ let saveDapp = (req, res) => {
     }
   })
   dapp1.save(function (err, userObj) {
-    console.log(userObj)
     if (err) {
       res.send({result: 0, message: err})
     } else {
