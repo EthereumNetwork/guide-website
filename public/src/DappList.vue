@@ -7,7 +7,7 @@
 <script>
   import DappItem from './components/DappItem.vue'
   export default {
-    name: 'app',
+    name: 'dappList',
     props: ['searchField'],
     data () {
       return {

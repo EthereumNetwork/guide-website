@@ -14,9 +14,9 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(auth.initialize())
 
-app.use('/login', requestHandlers.login)
+app.use('/api/login', requestHandlers.login)
 app.get('/api/dapps', requestHandlers.sendAllDapps)
-app.post('/api/savedapps', requestHandlers.saveDapp)
+app.post('/api/savedapps', auth.authenticate(), requestHandlers.saveDapp)
 
 // history between routes and static files to catch client-side route paths
 app.use(history())
