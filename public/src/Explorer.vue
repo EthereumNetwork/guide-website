@@ -7,6 +7,9 @@
 </template>
 
 <script>
+import web3 from './web3.js'
+console.log(web3.eth)
+
 export default {
   name: 'explorer',
   props: ['searchField'],
