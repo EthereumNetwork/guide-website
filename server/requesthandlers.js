@@ -3,6 +3,7 @@ var jwt = require('jwt-simple')
 // var bcrypt = require('bcryptjs')
 var moment = require('moment')
 var db = require('./db.js')
+var web3 = require('./web3.js')
 
 let sendAllDapps = (req, res) => {
   db.Dapp.find().then(dapps => res.send(dapps))
@@ -44,8 +45,14 @@ let login = (req, res) => {
   }
 }
 
+let getBlockNumber = (req, res) => {
+  console.log(web3.eth.blockNumber)
+  res.json(web3.eth.blockNumber)
+}
+
 module.exports = {
   sendAllDapps,
   saveDapp,
-  login
+  login,
+  getBlockNumber
 }

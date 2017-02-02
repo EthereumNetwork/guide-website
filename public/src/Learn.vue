@@ -62,6 +62,7 @@
       <a href="https://github.com/Nethereum/Nethereum" target="_blank" class="learnLink">Nethereum</a> .Net integration library for Ethereum<br>
       <a href="https://github.com/web3j/web3j" target="_blank" class="learnLink">web3j</a> Java and Android Ethereum library<br>
       <a href="https://github.com/ethereum/pyethereum" target="_blank" class="learnLink">pyethereum</a> Python core library of the Ethereum project<br>
+      <a href="http://machinomy.com/" target="_blank" class="learnLink">Machinomy</a> JS library for micropayments in Ether over HTTP<br>
     </v-collapsible-body>
     <br>
     <h2>Security</h2>

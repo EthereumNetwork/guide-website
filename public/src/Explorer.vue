@@ -2,7 +2,7 @@
   <div>
     <p>{{ msg }}</p>
     <p>then you can use the search bar to look up addresses, txIDs and other smart contract properties</p>
-    <p>{{ searchField }}</p><br>
+    <p>the current block number is {{blockNumber}}</p>
   </div>
 </template>
 
@@ -12,8 +12,15 @@ export default {
   props: ['searchField'],
   data () {
     return {
-      msg: 'the network explorer will come later...'
+      msg: 'the network explorer is in the works...',
+      blockNumber: 0
     }
-  }
+  },
+
+  beforeCreate () {
+    fetch('/api/blocknumber')
+    .then((response) => { return response.json() })
+    .then((data) => { this.blockNumber = data })
+  },
 }
 </script>

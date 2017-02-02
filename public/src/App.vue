@@ -1,14 +1,12 @@
 <template>
-    <v-app top-navbar footer class="app size">
+    <v-app top-navbar footer class="app">
       <v-navbar class="grey darken-3">
         <v-btn class="hidden-md-and-up menu" flat v-sidebar:sidebar>
           <i class="fa fa-align-justify fa-2x">
         </v-btn>
-        <v-dropdown id="menu" v-bind:items="menuItems" router></v-dropdown>
-        <v-sidebar id="sidebar" class="grey darken-3" height="100vh" drawer>
-          <v-sidebar-items v-bind:items="menuItems"></v-sidebar-items>
+        <v-sidebar id="sidebar" class="grey darken-3" drawer v-bind:items="items">
         </v-sidebar>
-        <v-navbar-items class="hidden-sm-and-down" v-bind:items="menuItems"></v-navbar-items>
+        <v-navbar-items class="hidden-sm-and-down" v-bind:items="items"></v-navbar-items>
        <v-spacer></v-spacer>
        <div class="searchbar">
          <v-text-input placeholder="filter dapps, txIDs, adresses" v-model="searchField"></v-text-input>
@@ -30,27 +28,25 @@
 </template>
 
 <script>
+  export default {
+    name: 'app',
+    data () {
+      return {
+        searchField: '',
+        items: [
+          {text: 'Home', title: 'Home', href: '/', router: true},
+          {text: 'Learn', title: 'Learn', href: '/learn', router: true},
+          {text: 'Dapps', title: 'Dapps', href: '/dapps', router: true},
+          {text: 'Explorer', title: 'Explorer', href: '/explorer', router: true},
+          {text: 'Blog', title: 'Blog', href: 'https://blog.ethereum.network'}
+        ]
+      }
+    },
 
-
-export default {
-  name: 'app',
-  data () {
-  return {
-    searchField: "",
-    menuItems: [
-      { text: 'Home', href: '/', router: true},
-      { text: 'Learn', href: '/learn', router: true},
-      { text: 'Dapps', href: '/dapps', router: true},
-      { text: 'Explorer', href: '/explorer', router: true},
-      { text: 'Blog', href: 'https://blog.ethereum.network' },
-    ]
+    mounted () {
+      this.$vuetify.init()
+    }
   }
-},
-
-  mounted () {
-    this.$vuetify.init()
-  }
-}
 </script>
 
 <style>
