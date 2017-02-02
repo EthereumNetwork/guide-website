@@ -4,7 +4,8 @@ var Web3 = require('web3')
 if (typeof web3 !== 'undefined') {
   var web3 = new Web3(web3.currentProvider)
 } else {
-  var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
+  var web3 = new Web3(new Web3.providers.HttpProvider(process.env.ethNode))
 }
+console.log('current block number is: ', web3.eth.blockNumber)
 
-export default web3
+module.exports = web3
