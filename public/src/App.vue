@@ -1,7 +1,7 @@
 <template>
     <v-app top-navbar footer class="app">
       <v-navbar class="grey darken-3">
-        <v-btn class="hidden-md-and-up menu" flat v-sidebar:sidebar>
+        <v-btn class="hidden-sm-and-up menu" flat v-sidebar:sidebar>
           <i class="fa fa-align-justify fa-2x">
         </v-btn>
         <v-sidebar id="sidebar" class="grey darken-3" drawer v-bind:items="items">
