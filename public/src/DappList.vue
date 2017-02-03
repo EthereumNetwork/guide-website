@@ -36,7 +36,7 @@
 
         searchField = searchField.trim().toLowerCase()
         dappListArray = dappListArray.filter(function (item) {
-          if (item.description.toLowerCase().indexOf(searchField) !== -1) {
+          if (item.longDescription.toLowerCase().indexOf(searchField) !== -1) {
             return item
           }
         })
