@@ -6,9 +6,9 @@ import store from './store'
 import App from './App.vue'
 import Home from './Home.vue'
 import Learn from './Learn.vue'
-import DappList from './DappList.vue'
+import ProjectList from './ProjectList.vue'
 import Explorer from './Explorer.vue'
-import DappsForm from './Form.vue'
+import ProjectsForm from './Form.vue'
 import LoginForm from './Login.vue'
 
 Vue.use(VueRouter)
@@ -18,8 +18,8 @@ const routes = [
   { path: '/', component: Home },
   { path: '/learn', component: Learn },
   { path: '/explorer', component: Explorer },
-  { path: '/dapps', component: DappList },
-  { path: '/form', component: DappsForm },
+  { path: '/projects', component: ProjectList },
+  { path: '/form', component: ProjectsForm },
   { path: '/login', component: LoginForm }
 ]
 

@@ -43,7 +43,7 @@
       <a href="https://solidity.readthedocs.io/en/latest/" target="_blank" class="learnLink">Solidity Docs</a> learn the contract-oriented, high-level language for the Ethereum Virtual Machine<br>
       <a href="http://ethereum.stackexchange.com" target="_blank" class="learnLink">Ethereum StackExchange</a> get answers for all your Ethereum questions<br>
       <a href="http://truffleframework.com/" target="_blank" class="learnLink">Truffe</a> Development framework for Ethereum<br>
-      <a href="https://github.com/nexusdev/dapple" target="_blank" class="learnLink">Dapple</a> EVM contract system developer multitool<br>
+      <a href="https://github.com/nexusdev/projectle" target="_blank" class="learnLink">Projectle</a> EVM contract system developer multitool<br>
       <a href="https://github.com/iurimatias/embark-framework" target="_blank" class="learnLink">Embarke</a> Framework to develop and deploy DApps.<br>
       <a href="https://github.com/blockapps/bloc" target="_blank" class="learnLink">BlockApps</a> REST API and Javascript and Mobile SDK to Ethereum blockchains.<br>
       <a href="https://infura.io/" target="_blank" class="learnLink">Infura</a> APIs to Ethereum and IPFS nodes<br>
@@ -84,7 +84,7 @@
     <v-collapsible-body>
       <a href="https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4#.tcmcvxugj" target="_blank" class="learnLink">101 Noob Intro</a> to Programming Smart Contracts<br>
       <a href="http://blockgeeks.com/guides/smart-contracts-the-blockchain-technology-that-will-replace-lawyers/" target="_blank" class="learnLink">Smart Contracts</a> Beginner’s Guide<br>
-      <a href="https://medium.com/metamask/developing-ethereum-dapps-with-truffle-and-metamask-aa8ad7e363ba#.5yyusxbic" target="_blank" class="learnLink">Developing Ethereum Dapps</a> with Truffle and MetaMask<br>
+      <a href="https://medium.com/metamask/developing-ethereum-projects-with-truffle-and-metamask-aa8ad7e363ba#.5yyusxbic" target="_blank" class="learnLink">Developing Ethereum Projects</a> with Truffle and MetaMask<br>
       <a href="https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/private-chain.html" target="_blank" class="learnLink">Set up a private chain</a> for testing purposes<br>
       <a href="https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos" target="_blank" class="learnLink">Devcon2 videos</a> and <a href="https://ethereumfoundation.org/devcon/?page_id=14" target="_blank" class="learnLink">slides</a><br>
       <a href="https://medium.com/@mvmurthy/ethereum-for-web-developers-890be23d1d0c" target="_blank" class="learnLink">Ethereum for web developers</a><br>

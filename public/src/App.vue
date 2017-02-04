@@ -9,7 +9,7 @@
         <v-navbar-items class="hidden-sm-and-down" v-bind:items="items"></v-navbar-items>
        <v-spacer></v-spacer>
        <div class="searchbar">
-         <v-text-input placeholder="filter dapps, txIDs, adresses" v-model="searchField"></v-text-input>
+         <v-text-input placeholder="filter projects, txIDs, adresses" v-model="searchField"></v-text-input>
        </div>
       </v-navbar>
       <main>
@@ -36,7 +36,7 @@
         items: [
           {text: 'Home', title: 'Home', href: '/', router: true},
           {text: 'Learn', title: 'Learn', href: '/learn', router: true},
-          {text: 'Dapps', title: 'Dapps', href: '/dapps', router: true},
+          {text: 'Projects', title: 'Projects', href: '/projects', router: true},
           {text: 'Explorer', title: 'Explorer', href: '/explorer', router: true},
           {text: 'Blog', title: 'Blog', href: 'https://blog.ethereum.network'}
         ]
