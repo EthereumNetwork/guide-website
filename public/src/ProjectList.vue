@@ -13,7 +13,7 @@
       return {
         projectList: [{
           title: 'No project data found',
-          description: 'please refresh the page to get the newest project data',
+          shortDescription: 'please refresh the page to get the newest project data',
           contact: {}
         }]
       }
@@ -22,7 +22,10 @@
     beforeCreate () {
       fetch('/api/projects')
       .then((response) => { return response.json() })
-      .then((data) => { this.projectList = data })
+      .then((data) => {
+        this.projectList = data
+        console.log(data)
+      })
     },
 
     computed: {
