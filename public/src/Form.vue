@@ -71,6 +71,9 @@
         error: false
       }
     },
+    beforeCreate () {
+      this.$store.state.token = this.$cookie.get('token')
+    },
     computed: {
       token () {
         return this.$store.state.token

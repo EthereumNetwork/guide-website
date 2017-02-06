@@ -22,10 +22,8 @@
     beforeCreate () {
       fetch('/api/projects')
       .then((response) => { return response.json() })
-      .then((data) => {
-        this.projectList = data
-        console.log(data)
-      })
+      .then((data) => { this.projectList = data })
+      this.$store.state.token = this.$cookie.get('token')
     },
 
     computed: {

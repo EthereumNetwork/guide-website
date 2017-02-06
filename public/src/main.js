@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Vuetify from 'vuetify'
 import store from './store'
+import VueCookie from 'vue-cookie'
 
 import App from './App.vue'
 import Home from './Home.vue'
@@ -13,6 +14,7 @@ import LoginForm from './Login.vue'
 
 Vue.use(VueRouter)
 Vue.use(Vuetify)
+Vue.use(VueCookie)
 
 const routes = [
   { path: '/', component: Home },
