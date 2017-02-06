@@ -3,7 +3,7 @@ mongoose.connect('mongodb://localhost/EthNW')
 mongoose.Promise = Promise
 
 var Schema = mongoose.Schema
-var dappSchema = new Schema({
+var projectSchema = new Schema({
   title: String,
   shortDescription: String,
   longDescription: String,
@@ -21,11 +21,11 @@ var dappSchema = new Schema({
   }
 })
 
-var Dapp = mongoose.model('Dapp', dappSchema)
-// Dapp.find().then(dapps => console.log('following dapps found:', dapps))
+var Project = mongoose.model('Project', projectSchema)
+// Project.find().then(projects => console.log('following projects found:', projects))
 
-// Dapp.remove({}, function (err) {
+// Project.remove({}, function (err) {
 //   console.log('collection removed')
 // })
 
-module.exports.Dapp = Dapp
+module.exports.Project = Project

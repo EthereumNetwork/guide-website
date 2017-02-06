@@ -15,8 +15,8 @@ app.use(bodyParser.json())
 app.use(auth.initialize())
 
 app.post('/api/login', requestHandlers.login)
-app.get('/api/dapps', requestHandlers.sendAllDapps)
-app.post('/api/savedapps', auth.authenticate(), requestHandlers.saveDapp)
+app.get('/api/projects', requestHandlers.sendAllProjects)
+app.post('/api/saveprojects', auth.authenticate(), requestHandlers.saveProject)
 app.get('/api/blocknumber', requestHandlers.getBlockNumber)
 
 // history between routes and static files to catch client-side route paths

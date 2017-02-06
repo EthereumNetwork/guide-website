@@ -1,10 +1,10 @@
 <template>
   <div>
     <v-alert hide-icon success dismissible v-model="alert">
-      Dapp saved successfully!
+      Project saved successfully!
     </v-alert>
     <v-alert hide-icon error dismissible v-model="error">
-      Error saving dapp! Are you logged in?
+      Error saving project! Are you logged in?
     </v-alert>
     <v-container fluid>
       <v-row>
@@ -37,7 +37,7 @@
         </v-col>
       </v-row>
         <p>You need to be logged in to submit projects. You are <v-chip v-if="!token">not</v-chip> logged in.</p>
-        <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save Dapp</v-btn>
+        <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save Project</v-btn>
         <v-btn v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
 
 
@@ -48,7 +48,7 @@
 
 <script>
   export default {
-    name: 'dappForm',
+    name: 'projectForm',
     data () {
       return {
         title: '',
@@ -66,7 +66,7 @@
         reddit: '',
         IsProgress: false,
         activeColor: 'Red',
-        msg: 'Dapps Form',
+        msg: 'Projects Form',
         alert: false,
         error: false
       }
@@ -94,7 +94,7 @@
           facebook: this.facebook,
           reddit: this.reddit
         }
-        fetch(('/api/savedapps'), {
+        fetch(('/api/saveprojects'), {
           method: 'POST',
           headers: {
             'Accept': 'application/json',

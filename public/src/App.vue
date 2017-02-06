@@ -1,7 +1,7 @@
 <template>
     <v-app top-navbar footer class="app">
       <v-navbar class="grey darken-3">
-        <v-btn class="hidden-md-and-up menu" flat v-sidebar:sidebar>
+        <v-btn class="hidden-sm-and-up menu" flat v-sidebar:sidebar>
           <i class="fa fa-align-justify fa-2x">
         </v-btn>
         <v-sidebar id="sidebar" class="grey darken-3" drawer v-bind:items="items">
@@ -9,7 +9,7 @@
         <v-navbar-items class="hidden-sm-and-down" v-bind:items="items"></v-navbar-items>
        <v-spacer></v-spacer>
        <div class="searchbar">
-         <v-text-input placeholder="filter dapps, txIDs, adresses" v-model="searchField"></v-text-input>
+         <v-text-input placeholder="filter projects, txIDs, adresses" v-model="searchField"></v-text-input>
        </div>
       </v-navbar>
       <main>
@@ -36,7 +36,7 @@
         items: [
           {text: 'Home', title: 'Home', href: '/', router: true},
           {text: 'Learn', title: 'Learn', href: '/learn', router: true},
-          {text: 'Dapps', title: 'Dapps', href: '/dapps', router: true},
+          {text: 'Projects', title: 'Projects', href: '/projects', router: true},
           {text: 'Explorer', title: 'Explorer', href: '/explorer', router: true},
           {text: 'Blog', title: 'Blog', href: 'https://blog.ethereum.network'}
         ]

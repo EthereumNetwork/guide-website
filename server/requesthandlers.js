@@ -5,12 +5,12 @@ var moment = require('moment')
 var db = require('./db.js')
 var web3 = require('./web3.js')
 
-let sendAllDapps = (req, res) => {
-  db.Dapp.find().then(dapps => res.send(dapps))
+let sendAllProjects = (req, res) => {
+  db.Project.find().then(projects => res.send(projects))
 }
 
-let saveDapp = (req, res) => {
-  var dapp1 = new db.Dapp({
+let saveProject = (req, res) => {
+  var project1 = new db.Project({
     title: req.body.title,
     shortDescription: req.body.shortDescription,
     longDescription: req.body.longDescription,
@@ -26,7 +26,7 @@ let saveDapp = (req, res) => {
       facebook: req.body.facebook
     }
   })
-  dapp1.save(function (err, userObj) {
+  project1.save(function (err, userObj) {
     if (err) {
       res.send({result: 0, message: err})
     } else {
@@ -51,8 +51,8 @@ let getBlockNumber = (req, res) => {
 }
 
 module.exports = {
-  sendAllDapps,
-  saveDapp,
+  sendAllProjects,
+  saveProject,
   login,
   getBlockNumber
 }
