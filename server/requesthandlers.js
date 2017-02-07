@@ -6,6 +6,7 @@ var db = require('./db.js')
 var web3 = require('./web3.js')
 
 let sendAllProjects = (req, res) => {
+  console.log('sendingAllProjects')
   db.Project.find().then(projects => res.send(projects))
 }
 

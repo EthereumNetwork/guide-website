@@ -11,6 +11,7 @@ import ProjectList from './ProjectList.vue'
 import Explorer from './Explorer.vue'
 import ProjectsForm from './Form.vue'
 import LoginForm from './Login.vue'
+import About from './About.vue'
 
 Vue.use(VueRouter)
 Vue.use(Vuetify)
@@ -22,7 +23,8 @@ const routes = [
   { path: '/explorer', component: Explorer },
   { path: '/projects', component: ProjectList },
   { path: '/form', component: ProjectsForm },
-  { path: '/login', component: LoginForm }
+  { path: '/login', component: LoginForm },
+  { path: '/about', component: About }
 ]
 
 const router = new VueRouter({

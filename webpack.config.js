@@ -1,4 +1,5 @@
 var path = require('path')
+var PrerenderSpaPlugin = require('prerender-spa-plugin')
 var webpack = require('webpack')
 
 module.exports = {
@@ -38,6 +39,20 @@ module.exports = {
       }
     ]
   },
+  // plugins: [
+  //   new PrerenderSpaPlugin(
+  //     // (REQUIRED) Absolute path to static root
+  //     path.join(__dirname, './public/dist'),
+  //     // (REQUIRED) List of routes to prerender
+  //     [ '/learn', '/projects', '/about' ],
+  //     // (OPTIONAL) Options
+  //     {
+  //       captureAfterDocumentEvent: 'projects-loaded',
+  //       captureAfterTime: 10000,
+  //       navigationLocked: true
+  //     }
+  //  )
+  // ],
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.common.js'
