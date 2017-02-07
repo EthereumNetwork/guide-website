@@ -1,9 +1,11 @@
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
-# ethnw-website
 
-> A guide for the ethereum network
+# Ethereum Network
 
-## Build Setup
+> A guide for the Ethereum network
+
+## Setup to run / test it yourself
+
+Prerequisites: NodeJS, MongoDB and a .env file
 
 ``` bash
 # install dependencies
