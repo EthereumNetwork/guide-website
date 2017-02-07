@@ -9,6 +9,7 @@ var requestHandlers = require('./requesthandlers.js')
 
 var app = express()
 
+app.use(require('prerender-node').set('prerenderToken', process.env.prerenderToken))
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
