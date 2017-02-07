@@ -49,6 +49,7 @@
         .then((data) => {
           data.token ? this.alert = true : this.error = true
           this.$store.commit('setToken', {token: data.token})
+          this.$cookie.set('token', data.token, { expires: '1M' })
         })
       }
     }

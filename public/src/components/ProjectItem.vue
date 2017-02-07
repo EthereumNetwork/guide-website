@@ -5,7 +5,7 @@
         <v-card>
           <v-card-text>
             <p class="text-xs-center">{{project.title}}, project id: {{project._id}}</p>
-            <p class="text-xs-center">not working yet!</p>
+            <p class="text-xs-center">Editing not working yet! waiting for vuetify 0.8.8</p>
             <v-row>
               <v-text-input label="Title" id="title" name="title" :v-model="project.title"  ></v-text-input>
               <v-text-input label="Short description" id="shortDescription" name="shortDescription" :v-model="project.shortDescription"></v-text-input>

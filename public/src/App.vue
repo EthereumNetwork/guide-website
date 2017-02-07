@@ -21,7 +21,7 @@
       </main>
       <v-footer  class="grey darken-4">
         <div class="text-xs-right">
-          <a href="https://twitter.com/EthereumPress">Twitter</a> | <a href="https://github.com/EthereumNetwork">Github</a>
+          <a href="https://twitter.com/EthereumPress">Twitter</a> | <a href="https://github.com/EthereumNetwork/guide-website">Github</a>
        </div>
       </v-footer>
     </v-app>
@@ -38,7 +38,8 @@
           {text: 'Learn', title: 'Learn', href: '/learn', router: true},
           {text: 'Projects', title: 'Projects', href: '/projects', router: true},
           {text: 'Explorer', title: 'Explorer', href: '/explorer', router: true},
-          {text: 'Blog', title: 'Blog', href: 'https://blog.ethereum.network'}
+          {text: 'Blog', title: 'Blog', href: 'https://blog.ethereum.network'},
+          {text: 'About', title: 'About', href: '/about', router: true}
         ]
       }
     },
