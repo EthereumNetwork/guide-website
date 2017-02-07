@@ -5,10 +5,7 @@ var moment = require('moment')
 var db = require('./db.js')
 var web3 = require('./web3.js')
 
-let sendAllProjects = (req, res) => {
-  console.log('sendingAllProjects')
-  db.Project.find().then(projects => res.send(projects))
-}
+let sendAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
 
 let saveProject = (req, res) => {
   var project1 = new db.Project({
