@@ -1,7 +1,7 @@
 <template>
 
-    <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-      <v-modal :id="project._id">
+    <v-col xs12="xs12" sm6="sm6" md6="md6" lg4 mt-3>
+      <!-- <v-modal :id="project._id">
         <v-card>
           <v-card-text>
             <p class="text-xs-center">{{project.title}}, project id: {{project._id}}</p>
@@ -42,6 +42,19 @@
             <v-btn v-on:click.native.stop="$vuetify.bus.pub('modal:toggle:modal')" class="green white--text">Submit</v-btn>
           </v-card-row>
         </v-card>
+      </v-modal> -->
+
+
+      <v-modal :id="project._id">
+        <v-card>
+          <v-card-text>
+            <h1 class="text-xs-center">{{project.title}}</h1>
+            <v-row>
+              <v-col md12>
+                {{project.longDescription}}
+              </v-col>
+            </v-row>
+          </v-card-text>
       </v-modal>
       <v-card>
         <v-card-row class="indigo projectcard-title">
@@ -49,7 +62,8 @@
             <span>{{project.title}}</span>
 
             <v-spacer></v-spacer>
-              <v-btn icon="icon" v-modal="{ value: project._id }" v-if="this.$store.state.token" class="white--text"><i class="fa fa-pencil project-link"></v-btn>
+              <!-- <v-btn icon="icon" v-modal="{ value: project._id }" v-if="this.$store.state.token" class="white--text"><i class="fa fa-pencil project-link"></v-btn> -->
+              <v-btn flat small v-modal="{ value: project._id }" class="white--text"><i class="fa fa-info contact-link"></v-btn>
           </v-card-title>
         </v-card-row>
         <v-card-text>
@@ -61,12 +75,12 @@
           </v-card-row>
         </v-card-text>
         <v-card-row actions>
-          <a v-bind:href="project.contact.website" v-if="project.contact.website" class="contact-link"> <i class="fa fa-link fa-2x project-link"> </a>
-          <a v-bind:href="project.contact.github" v-if="project.contact.github" class="contact-link"> <i class="fa fa-github fa-2x project-link"> </i></a>
-          <a v-bind:href="project.contact.twitter" v-if="project.contact.twitter" class="contact-link"> <i class="fa fa-twitter fa-2x project-link"> </a>
-          <a v-bind:href="project.contact.facebook" v-if="project.contact.facebook" class="contact-link"> <i class="fa fa-facebook fa-2x project-link"> </a>
-          <a v-bind:href="project.contact.slack" v-if="project.contact.slack" class="contact-link"> <i class="fa fa-slack fa-2x project-link"> </a>
-          <a v-bind:href="project.contact.reddit" v-if="project.contact.reddit" class="contact-link"> <i class="fa fa-reddit fa-2x project-link"></a>
+          <a v-bind:href="project.contact.website" v-if="project.contact.website" class="contact-link"> <i class="fa fa-link project-link"> </a>
+          <a v-bind:href="project.contact.github" v-if="project.contact.github" class="contact-link"> <i class="fa fa-github project-link"> </i></a>
+          <a v-bind:href="project.contact.twitter" v-if="project.contact.twitter" class="contact-link"> <i class="fa fa-twitter project-link"> </a>
+          <a v-bind:href="project.contact.facebook" v-if="project.contact.facebook" class="contact-link"> <i class="fa fa-facebook project-link"> </a>
+          <a v-bind:href="project.contact.slack" v-if="project.contact.slack" class="contact-link"> <i class="fa fa-slack project-link"> </a>
+          <a v-bind:href="project.contact.reddit" v-if="project.contact.reddit" class="contact-link"> <i class="fa fa-reddit project-link"></a>
         </v-card-row>
       </v-card>
     </v-col>
@@ -93,7 +107,7 @@ export default {
 .contact-link {
     color: black;
     text-shadow: 1px 1px 1px #ccc;
-    font-size: 1em;
-    margin-right: 0.2em;
+    font-size: 1.4em;
+    margin-left: 0.3em;
 }
 </style>

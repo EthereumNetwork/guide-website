@@ -115,14 +115,12 @@
     <p>some text about exchanges</p>
     <v-collapsible-header class="grey darken-2 white--text">Links</v-collapsible-header>
     <v-collapsible-body>
-      <a href="https://www.ethnews.com/" target="_blank" class="learnLink">ETHNews</a> News Website<br>
       <a href="https://www.coinbase.com/" target="_blank" class="learnLink">Coinbase</a> Exchange based in the US<br>
       <a href="https://www.kraken.com/" target="_blank" class="learnLink">Kraken</a> Exchange base in the US<br>
       <a href="https://www.bitfinex.com/" target="_blank" class="learnLink">Bitfinex</a> Exchange based in China<br>
       <a href="https://yunbi.com/" target="_blank" class="learnLink">Yunbi</a> Exchange based in China<br>
       <a href="http://www.poloniex.com/" target="_blank" class="learnLink">Poloniex</a> Cryptocurrency only Exchange<br>
       <a href="https://www.bittrex.com/" target="_blank" class="learnLink">Bittrex</a> Cryptocurrency only Exchange<br>
-      <a href="https://www.ethnews.com/" target="_blank" class="learnLink">ETHNews</a> News Website<br>
     </v-collapsible-body>
   </v-collapsible>
 </v-container>
