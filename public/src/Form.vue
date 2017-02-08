@@ -6,7 +6,7 @@
         <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="shortDescription"></v-text-input>
         <v-col sm12>
           <textarea :value="longDescriptionText" @input="update"></textarea>
-          <vue-markdown :source="longDescriptionText" :html="false"></vue-markdown>
+          <div v-html="compiledMarkdown"></div>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-input label="Logo Url" id="logoUrl" name="logoUrl" v-model="logoUrl"></v-text-input>
@@ -56,7 +56,7 @@
 </template>
 
 <script>
-  import VueMarkdown from 'vue-markdown'
+  var marked = require('marked')
   export default {
     name: 'projectForm',
     data () {
@@ -86,12 +86,12 @@
     beforeCreate () {
       this.$store.state.token = this.$cookie.get('token')
     },
-    components: {
-      VueMarkdown
-    },
     computed: {
       token () {
         return this.$store.state.token
+      },
+      compiledMarkdown: function () {
+        return marked(this.longDescriptionText, { sanitize: true })
       }
     },
     methods: {

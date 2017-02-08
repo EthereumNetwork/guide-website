@@ -50,7 +50,7 @@
             <h1 class="text-xs-center">{{project.title}}</h1>
             <v-row>
               <v-col lg12>
-                <vue-markdown :html="false" >{{this.project.longDescription}}</vue-markdown>
+                <div v-html="compiledMarkdown"></div>
               </v-col>
             </v-row>
           </v-card-text>
@@ -89,7 +89,7 @@
 </template>
 
 <script>
-import VueMarkdown from 'vue-markdown'
+var marked = require('marked')
 export default {
   name: 'project-item',
   props: ['project'],
@@ -98,8 +98,10 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },
-  components: {
-    VueMarkdown
+  computed: {
+    compiledMarkdown: function () {
+      return marked(this.project.longDescription || '', { sanitize: true })
+    }
   }
 }
 </script>
