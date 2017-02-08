@@ -8,11 +8,13 @@ var web3 = require('./web3.js')
 let sendAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
 
 let saveProject = (req, res) => {
+  console.log(req.user)
   var project1 = new db.Project({
     title: req.body.title,
     shortDescription: req.body.shortDescription,
     longDescription: req.body.longDescription,
     latestNews: req.body.latestNews,
+    creator: req.user.username,
     likes: [{like: req.body.Like, user: req.body.userName}],
     logoUrl: req.body.logoUrl,
     contact: {
@@ -34,9 +36,9 @@ let saveProject = (req, res) => {
 }
 
 let login = (req, res) => {
-  let payload = { id: 1, exp: moment().add(30, 'days').unix() }
+  let payload = { username: req.body.username, exp: moment().add(30, 'days').unix() }
   let token = jwt.encode(payload, process.env.jwtSecret)
-  if (req.body.username === process.env.username && req.body.password === process.env.password) {
+  if (process.env[req.body.username] && process.env[req.body.username] === process.env[req.body.password]) {
     res.json({ token: token })
   } else {
     res.status(401).send('auth error')

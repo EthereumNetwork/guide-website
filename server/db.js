@@ -9,6 +9,7 @@ var projectSchema = new Schema({
   longDescription: String,
   updatedAt: { type: Date, default: Date.now },
   latestNews: String,
+  creator: String,
   likes: [{like: Boolean, user: String}],
   logoUrl: String,
   contact: {
