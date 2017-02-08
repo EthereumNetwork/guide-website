@@ -44,18 +44,18 @@
         </v-card>
       </v-modal> -->
 
-
       <v-modal :id="project._id">
         <v-card>
           <v-card-text>
             <h1 class="text-xs-center">{{project.title}}</h1>
             <v-row>
-              <v-col md12>
-                {{project.longDescription}}
+              <v-col lg12>
+                <vue-markdown :html="false" >{{this.project.longDescription}}</vue-markdown>
               </v-col>
             </v-row>
           </v-card-text>
-      </v-modal>
+        </v-modal>
+
       <v-card>
         <v-card-row class="indigo projectcard-title">
           <v-card-title>
@@ -89,7 +89,7 @@
 </template>
 
 <script>
-
+import VueMarkdown from 'vue-markdown'
 export default {
   name: 'project-item',
   props: ['project'],
@@ -97,6 +97,9 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components: {
+    VueMarkdown
   }
 }
 </script>

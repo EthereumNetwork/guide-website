@@ -4,7 +4,10 @@
       <v-row>
         <v-text-input label="Title" id="title" name="title" v-model="title"  ></v-text-input>
         <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="shortDescription"></v-text-input>
-        <v-text-input label="Long description" id="longDescription" name="longDescription" v-model="longDescription"></v-text-input>
+        <v-col sm12>
+          <textarea :value="longDescriptionText" @input="update"></textarea>
+          <vue-markdown :source="longDescriptionText" :html="false"></vue-markdown>
+        </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-input label="Logo Url" id="logoUrl" name="logoUrl" v-model="logoUrl"></v-text-input>
         </v-col>
@@ -53,13 +56,14 @@
 </template>
 
 <script>
+  import VueMarkdown from 'vue-markdown'
   export default {
     name: 'projectForm',
     data () {
       return {
         title: '',
         shortDescription: '',
-        longDescription: '',
+        longDescriptionText: 'long description with **markdown**',
         latestNews: '',
         logoUrl: '',
         github: '',
@@ -82,6 +86,9 @@
     beforeCreate () {
       this.$store.state.token = this.$cookie.get('token')
     },
+    components: {
+      VueMarkdown
+    },
     computed: {
       token () {
         return this.$store.state.token
@@ -93,7 +100,7 @@
         let dataToSend = {
           title: this.title,
           shortDescription: this.shortDescription,
-          longDescription: this.longDescription,
+          longDescription: this.longDescriptionText,
           latestNews: this.latestNews,
           logoUrl: this.logoUrl,
           github: this.github,
@@ -124,10 +131,19 @@
         .catch((error) => {
           this.error = true
         })
+      },
+      update: function (e) {
+        this.longDescriptionText = e.target.value
       }
     }
   }
 
 </script>
 <style>
+  textarea {
+      display:inline-block;
+      border: solid 1px #000;
+      min-height:10px;
+      width: 99%;
+  }
 </style>
