@@ -4,7 +4,7 @@
       <v-row>
         <v-text-input label="Title" id="title" name="title" v-model="title"  ></v-text-input>
         <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="shortDescription"></v-text-input>
-        <v-col xs12="xs12" sm12>
+        <v-col sm12>
           <textarea :value="longDescriptionText" @input="update"></textarea>
           <vue-markdown :source="longDescriptionText" :html="false"></vue-markdown>
         </v-col>
@@ -140,4 +140,10 @@
 
 </script>
 <style>
+  textarea {
+      display:inline-block;
+      border: solid 1px #000;
+      min-height:10px;
+      width: 99%;
+  }
 </style>
