@@ -81,6 +81,8 @@
           <a v-bind:href="project.contact.facebook" v-if="project.contact.facebook" class="contact-link"> <i class="fa fa-facebook project-link"> </a>
           <a v-bind:href="project.contact.slack" v-if="project.contact.slack" class="contact-link"> <i class="fa fa-slack project-link"> </a>
           <a v-bind:href="project.contact.reddit" v-if="project.contact.reddit" class="contact-link"> <i class="fa fa-reddit project-link"></a>
+          <a v-bind:href="project.contact.email" v-if="project.contact.email" class="contact-link"> <i class="fa fa-at project-link"></a>
+          <a v-bind:href="project.contact.blog" v-if="project.contact.email" class="contact-link"> <i class="fa fa-newspaper-o project-link"></a>
         </v-card-row>
       </v-card>
     </v-col>

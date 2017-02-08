@@ -15,7 +15,7 @@ var params = {
 }
 
 var strategy = new Strategy(params, function (payload, done) {
-  done(null, {user: payload.username})
+  done(null, {username: payload.username})
 })
 
 passport.use(strategy)

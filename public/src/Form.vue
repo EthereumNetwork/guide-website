@@ -1,11 +1,5 @@
 <template>
   <div>
-    <v-alert hide-icon success dismissible v-model="alert">
-      Project saved successfully!
-    </v-alert>
-    <v-alert hide-icon error dismissible v-model="error">
-      Error saving project! Are you logged in?
-    </v-alert>
     <v-container fluid>
       <v-row>
         <v-text-input label="Title" id="title" name="title" v-model="title"  ></v-text-input>
@@ -35,10 +29,22 @@
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-input label="Slack" id="slack" name="slack" v-model="slack"></v-text-input>
         </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-input label="Email" id="email" name="email" v-model="email"></v-text-input>
+        </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-input label="Blog" id="blog" name="blog" v-model="blog"></v-text-input>
+        </v-col>
       </v-row>
         <p>You need to be logged in to submit projects. You are <v-chip v-if="!token">not</v-chip> logged in.</p>
         <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save Project</v-btn>
         <v-btn v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
+        <v-alert hide-icon success dismissible v-model="alert">
+          Project saved successfully!
+        </v-alert>
+        <v-alert hide-icon error dismissible v-model="error">
+          Error saving project! Are you logged in?
+        </v-alert>
 
 
 
@@ -61,6 +67,8 @@
         twitter: '',
         facebook: '',
         slack: '',
+        email: '',
+        blog: '',
         UserName: '',
         Like: false,
         reddit: '',
@@ -92,6 +100,8 @@
           website: this.website,
           twitter: this.twitter,
           slack: this.slack,
+          blog: this.blog,
+          email: this.email,
           UserName: this.UserName,
           Like: this.Like,
           facebook: this.facebook,

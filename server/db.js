@@ -18,7 +18,9 @@ var projectSchema = new Schema({
     twitter: String,
     facebook: String,
     slack: String,
-    reddit: String
+    reddit: String,
+    email: String,
+    blog: String
   }
 })
 

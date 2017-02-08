@@ -8,7 +8,6 @@ var web3 = require('./web3.js')
 let sendAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
 
 let saveProject = (req, res) => {
-  console.log(req.user)
   var project1 = new db.Project({
     title: req.body.title,
     shortDescription: req.body.shortDescription,
@@ -23,13 +22,16 @@ let saveProject = (req, res) => {
       slack: req.body.slack,
       reddit: req.body.reddit,
       twitter: req.body.twitter,
-      facebook: req.body.facebook
+      facebook: req.body.facebook,
+      email: req.body.email,
+      blog: req.body.blog
     }
   })
   project1.save(function (err, userObj) {
     if (err) {
       res.send({result: 0, message: err})
     } else {
+      console.log('project created: ', req.user.username, project1)
       res.send({result: 1, message: ''})
     }
   })
