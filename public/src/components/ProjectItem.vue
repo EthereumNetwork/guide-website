@@ -34,14 +34,14 @@
           </v-card-row>
         </v-card-text>
         <v-card-row actions>
-          <a v-bind:href="project.contact.website" v-if="project.contact.website" class="contact-link"> <i class="fa fa-link project-link"> </a>
-          <a v-bind:href="project.contact.github" v-if="project.contact.github" class="contact-link"> <i class="fa fa-github project-link"> </i></a>
-          <a v-bind:href="project.contact.twitter" v-if="project.contact.twitter" class="contact-link"> <i class="fa fa-twitter project-link"> </a>
-          <a v-bind:href="project.contact.facebook" v-if="project.contact.facebook" class="contact-link"> <i class="fa fa-facebook project-link"> </a>
-          <a v-bind:href="project.contact.slack" v-if="project.contact.slack" class="contact-link"> <i class="fa fa-slack project-link"> </a>
-          <a v-bind:href="project.contact.reddit" v-if="project.contact.reddit" class="contact-link"> <i class="fa fa-reddit project-link"></a>
-          <a v-bind:href="project.contact.email" v-if="project.contact.email" class="contact-link"> <i class="fa fa-at project-link"></a>
-          <a v-bind:href="project.contact.blog" v-if="project.contact.email" class="contact-link"> <i class="fa fa-newspaper-o project-link"></a>
+          <a v-bind:href="project.contact.website" v-if="project.contact.website" target="_blank" class="contact-link"> <i class="fa fa-link project-link"> </a>
+          <a v-bind:href="project.contact.github" v-if="project.contact.github" target="_blank" class="contact-link"> <i class="fa fa-github project-link"> </i></a>
+          <a v-bind:href="project.contact.twitter" v-if="project.contact.twitter" target="_blank" class="contact-link"> <i class="fa fa-twitter project-link"> </a>
+          <a v-bind:href="project.contact.facebook" v-if="project.contact.facebook" target="_blank" class="contact-link"> <i class="fa fa-facebook project-link"> </a>
+          <a v-bind:href="project.contact.slack" v-if="project.contact.slack" target="_blank" class="contact-link"> <i class="fa fa-slack project-link"> </a>
+          <a v-bind:href="project.contact.reddit" v-if="project.contact.reddit" target="_blank" class="contact-link"> <i class="fa fa-reddit project-link"></a>
+          <a v-bind:href="'mailto:' + project.contact.email" v-if="project.contact.email" class="contact-link"> <i class="fa fa-at project-link"></a>
+          <a v-bind:href="project.contact.blog" v-if="project.contact.email" target="_blank" class="contact-link"> <i class="fa fa-newspaper-o project-link"></a>
         </v-card-row>
       </v-card>
     </v-col>
