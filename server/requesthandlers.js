@@ -9,21 +9,26 @@ let sendAllProjects = (req, res) => { db.Project.find().then(projects => res.sen
 
 let saveProject = (req, res) => {
   req.body.creator = req.user.username
-  ;('__v' in req.body) && delete req.body.__v
   if (req.body._id) {
-    console.log(req.body)
+    delete req.body.__v
+    delete req.body.updatedAt
+    var query = { _id: req.body._id }
+    db.Project.findOneAndUpdate(query, req.body, { upsert: true, new: true }, function (err, doc) {
+      if (err) return res.send(500, { error: err })
+      console.log(doc)
+      return res.send({result: 1, message: ''})
+    })
   } else {
     var project1 = new db.Project(req.body)
+    project1.save(function (err, userObj) {
+      if (err) {
+        res.send({result: 0, message: err})
+      } else {
+        console.log(req.user.username, ' created: ', project1)
+        res.send({result: 1, message: ''})
+      }
+    })
   }
-
-  project1.save(function (err, userObj) {
-    if (err) {
-      res.send({result: 0, message: err})
-    } else {
-      console.log(req.user.username, ' created: ', project1)
-      res.send({result: 1, message: ''})
-    }
-  })
 }
 
 let login = (req, res) => {

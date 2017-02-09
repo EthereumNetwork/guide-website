@@ -4,7 +4,7 @@
       <v-row>
         <v-text-input label="Title" id="title" name="title" v-model="project.title"  ></v-text-input>
         <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-input>
-        <v-col sm12>
+        <v-col xs12>
           <textarea :value="project.longDescription" @input="update"></textarea>
           <div v-html="compiledMarkdown"></div>
         </v-col>
@@ -39,18 +39,22 @@
           <v-text-input label="Blog" id="blog" name="blog" v-model="project.contact.blog"></v-text-input>
         </v-col>
       </v-row>
-        <p>You need to be logged in to submit projects. You are <v-chip v-if="!token">not</v-chip> logged in.</p>
-        <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save Project</v-btn>
-        <v-btn v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
-        <v-alert hide-icon success dismissible v-model="alert">
-          Project saved successfully!
-        </v-alert>
-        <v-alert hide-icon error dismissible v-model="error">
-          Error saving project! Are you logged in?
-        </v-alert>
-
-
-
+      <v-row>
+        <v-col xs2>
+          <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save</v-btn>
+        </v-col>
+        <v-col xs9>
+          <div>You need to be logged in to submit projects. You are <v-chip v-if="!token">not</v-chip> logged in.</div>
+          <div v-if="project._id">project: {{project.title}} {{project._id}}</div>
+          <v-btn small v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
+          <v-alert hide-icon success dismissible v-model="alert">
+            Project saved successfully!
+          </v-alert>
+          <v-alert hide-icon error dismissible v-model="error">
+            Error saving project! Are you logged in?
+          </v-alert>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
