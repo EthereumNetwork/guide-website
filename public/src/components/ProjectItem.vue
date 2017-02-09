@@ -52,11 +52,6 @@ var marked = require('marked')
 export default {
   name: 'project-item',
   props: ['project'],
-  data () {
-    return {
-      project2: { shortDescription: this.project.shortDescription + 'now' }
-    }
-  },
   computed: {
     compiledMarkdown: function () {
       return marked(this.project.longDescription || '', { sanitize: true })
@@ -64,7 +59,9 @@ export default {
   },
   methods: {
     editProject: function () {
+      this.$store.commit('setProjectToEdit', { projectToEdit: this.project })
       console.log(this.$store.state)
+      this.$router.push('form')
     }
   }
 }

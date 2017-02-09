@@ -10,24 +10,29 @@ export default new Vuex.Store({
     projectToEdit: {
       title: '',
       shortDescription: '',
-      longDescriptionText: 'long description with **markdown**',
+      longDescription: '# project name\nlong description with **markdown**',
       latestNews: '',
+      creator: '',
+      likes: [],
       logoUrl: '',
-      github: '',
-      website: '',
-      twitter: '',
-      facebook: '',
-      slack: '',
-      email: '',
-      blog: '',
-      UserName: '',
-      Like: false,
-      reddit: ''
+      contact: {
+        github: '',
+        website: '',
+        twitter: '',
+        facebook: '',
+        slack: '',
+        reddit: '',
+        email: '',
+        blog: ''
+      }
     }
   },
   mutations: {
     setToken (state, payload) {
       state.token = payload.token
+    },
+    setProjectToEdit (state, payload) {
+      state.projectToEdit = payload.projectToEdit
     }
   }
 })

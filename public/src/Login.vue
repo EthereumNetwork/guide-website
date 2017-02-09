@@ -19,10 +19,6 @@
 </template>
 
 <script>
-  // this.$store.commit('increment')
-
-  // console.log(this.$store)
-
   export default {
     name: 'LoginForm',
     data () {

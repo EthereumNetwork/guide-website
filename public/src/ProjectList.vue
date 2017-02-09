@@ -12,8 +12,10 @@
     data () {
       return {
         projectList: [{
+          _id: 'xxxxxxxxxx5',
           title: 'No project data found',
           shortDescription: 'please refresh the page to get the newest project data',
+          longDescription: 'please refresh the page to get the newest project data',
           contact: {}
         }]
       }

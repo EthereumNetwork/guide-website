@@ -5,7 +5,7 @@
         <v-text-input label="Title" id="title" name="title" v-model="project.title"  ></v-text-input>
         <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-input>
         <v-col sm12>
-          <textarea :value="project.longDescriptionText" @input="update"></textarea>
+          <textarea :value="project.longDescription" @input="update"></textarea>
           <div v-html="compiledMarkdown"></div>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
@@ -15,28 +15,28 @@
           <v-text-input label="Latest News" id="latestNews" name="latestNews" v-model="project.latestNews"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Github" id="github" name="github" v-model="project.github"></v-text-input>
+          <v-text-input label="Github" id="github" name="github" v-model="project.contact.github"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Website" id="website" name="website" v-model="project.website"></v-text-input>
+          <v-text-input label="Website" id="website" name="website" v-model="project.contact.website"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Twitter" id="twitter" name="twitter" v-model="project.twitter"></v-text-input>
+          <v-text-input label="Twitter" id="twitter" name="twitter" v-model="project.contact.twitter"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Facebook" id="facebook" name="facebook" v-model="project.facebook"></v-text-input>
+          <v-text-input label="Facebook" id="facebook" name="facebook" v-model="project.contact.facebook"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Reddit" id="reddit" name="reddit" v-model="project.reddit"></v-text-input>
+          <v-text-input label="Reddit" id="reddit" name="reddit" v-model="project.contact.reddit"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Slack" id="slack" name="slack" v-model="project.slack"></v-text-input>
+          <v-text-input label="Slack" id="slack" name="slack" v-model="project.contact.slack"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Email" id="email" name="email" v-model="project.email"></v-text-input>
+          <v-text-input label="Email" id="email" name="email" v-model="project.contact.email"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Blog" id="blog" name="blog" v-model="project.blog"></v-text-input>
+          <v-text-input label="Blog" id="blog" name="blog" v-model="project.contact.blog"></v-text-input>
         </v-col>
       </v-row>
         <p>You need to be logged in to submit projects. You are <v-chip v-if="!token">not</v-chip> logged in.</p>
@@ -77,29 +77,13 @@
         return this.$store.state.token
       },
       compiledMarkdown: function () {
-        return marked(this.project.longDescriptionText, { sanitize: true })
+        return marked(this.project.longDescription || '', { sanitize: true })
       }
     },
     methods: {
+
       submit: function () {
         let token = this.$store.state.token
-        let dataToSend = {
-          title: this.project.title,
-          shortDescription: this.project.shortDescription,
-          longDescription: this.project.longDescriptionText,
-          latestNews: this.project.latestNews,
-          logoUrl: this.project.logoUrl,
-          github: this.project.github,
-          website: this.project.website,
-          twitter: this.project.twitter,
-          slack: this.project.slack,
-          blog: this.project.blog,
-          email: this.project.email,
-          UserName: this.project.UserName,
-          Like: this.project.Like,
-          facebook: this.project.facebook,
-          reddit: this.project.reddit
-        }
         fetch(('/api/saveprojects'), {
           method: 'POST',
           headers: {
@@ -107,7 +91,7 @@
             'Content-Type': 'application/json',
             'Authorization': ('JWT ' + token)
           },
-          body: JSON.stringify(dataToSend)
+          body: JSON.stringify(this.project)
         })
         .then((response) => { return response.json() })
         .then((data) => {
@@ -118,9 +102,11 @@
           this.error = true
         })
       },
+
       update: function (e) {
-        this.project.longDescriptionText = e.target.value
+        this.project.longDescription = e.target.value
       }
+
     }
   }
 
