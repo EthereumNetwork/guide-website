@@ -2,55 +2,59 @@
   <div>
     <v-container fluid>
       <v-row>
-        <v-text-input label="Title" id="title" name="title" v-model="title"  ></v-text-input>
-        <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="shortDescription"></v-text-input>
-        <v-col sm12>
-          <textarea :value="longDescriptionText" @input="update"></textarea>
+        <v-text-input label="Title" id="title" name="title" v-model="project.title"  ></v-text-input>
+        <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-input>
+        <v-col xs12>
+          <textarea :value="project.longDescription" @input="update"></textarea>
           <div v-html="compiledMarkdown"></div>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Logo Url" id="logoUrl" name="logoUrl" v-model="logoUrl"></v-text-input>
+          <v-text-input label="Logo Url" id="logoUrl" name="logoUrl" v-model="project.logoUrl"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Latest News" id="latestNews" name="latestNews" v-model="latestNews"></v-text-input>
+          <v-text-input label="Latest News" id="latestNews" name="latestNews" v-model="project.latestNews"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Github" id="github" name="github" v-model="github"></v-text-input>
+          <v-text-input label="Github" id="github" name="github" v-model="project.contact.github"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Website" id="website" name="website" v-model="website"></v-text-input>
+          <v-text-input label="Website" id="website" name="website" v-model="project.contact.website"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Twitter" id="twitter" name="twitter" v-model="twitter"></v-text-input>
+          <v-text-input label="Twitter" id="twitter" name="twitter" v-model="project.contact.twitter"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Facebook" id="facebook" name="facebook" v-model="facebook"></v-text-input>
+          <v-text-input label="Facebook" id="facebook" name="facebook" v-model="project.contact.facebook"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Reddit" id="reddit" name="reddit" v-model="reddit"></v-text-input>
+          <v-text-input label="Reddit" id="reddit" name="reddit" v-model="project.contact.reddit"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Slack" id="slack" name="slack" v-model="slack"></v-text-input>
+          <v-text-input label="Slack" id="slack" name="slack" v-model="project.contact.slack"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Email" id="email" name="email" v-model="email"></v-text-input>
+          <v-text-input label="Email" id="email" name="email" v-model="project.contact.email"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Blog" id="blog" name="blog" v-model="blog"></v-text-input>
+          <v-text-input label="Blog" id="blog" name="blog" v-model="project.contact.blog"></v-text-input>
         </v-col>
       </v-row>
-        <p>You need to be logged in to submit projects. You are <v-chip v-if="!token">not</v-chip> logged in.</p>
-        <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save Project</v-btn>
-        <v-btn v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
-        <v-alert hide-icon success dismissible v-model="alert">
-          Project saved successfully!
-        </v-alert>
-        <v-alert hide-icon error dismissible v-model="error">
-          Error saving project! Are you logged in?
-        </v-alert>
-
-
-
+      <v-row>
+        <v-col xs2>
+          <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save</v-btn>
+        </v-col>
+        <v-col xs9>
+          <div>You need to be logged in to submit projects. You are <v-chip v-if="!token">not</v-chip> logged in.</div>
+          <div v-if="project._id">project: {{project.title}} {{project._id}}</div>
+          <v-btn small v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
+          <v-alert hide-icon success dismissible v-model="alert">
+            Project saved successfully!
+          </v-alert>
+          <v-alert hide-icon error dismissible v-model="error">
+            Error saving project! Are you logged in?
+          </v-alert>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
@@ -61,21 +65,7 @@
     name: 'projectForm',
     data () {
       return {
-        title: '',
-        shortDescription: '',
-        longDescriptionText: 'long description with **markdown**',
-        latestNews: '',
-        logoUrl: '',
-        github: '',
-        website: '',
-        twitter: '',
-        facebook: '',
-        slack: '',
-        email: '',
-        blog: '',
-        UserName: '',
-        Like: false,
-        reddit: '',
+        project: this.$store.state.projectToEdit,
         IsProgress: false,
         activeColor: 'Red',
         msg: 'Projects Form',
@@ -91,29 +81,13 @@
         return this.$store.state.token
       },
       compiledMarkdown: function () {
-        return marked(this.longDescriptionText, { sanitize: true })
+        return marked(this.project.longDescription || '', { sanitize: true })
       }
     },
     methods: {
+
       submit: function () {
         let token = this.$store.state.token
-        let dataToSend = {
-          title: this.title,
-          shortDescription: this.shortDescription,
-          longDescription: this.longDescriptionText,
-          latestNews: this.latestNews,
-          logoUrl: this.logoUrl,
-          github: this.github,
-          website: this.website,
-          twitter: this.twitter,
-          slack: this.slack,
-          blog: this.blog,
-          email: this.email,
-          UserName: this.UserName,
-          Like: this.Like,
-          facebook: this.facebook,
-          reddit: this.reddit
-        }
         fetch(('/api/saveprojects'), {
           method: 'POST',
           headers: {
@@ -121,7 +95,7 @@
             'Content-Type': 'application/json',
             'Authorization': ('JWT ' + token)
           },
-          body: JSON.stringify(dataToSend)
+          body: JSON.stringify(this.project)
         })
         .then((response) => { return response.json() })
         .then((data) => {
@@ -132,9 +106,11 @@
           this.error = true
         })
       },
+
       update: function (e) {
-        this.longDescriptionText = e.target.value
+        this.project.longDescription = e.target.value
       }
+
     }
   }
 

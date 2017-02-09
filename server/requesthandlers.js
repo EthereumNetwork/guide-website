@@ -8,33 +8,27 @@ var web3 = require('./web3.js')
 let sendAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
 
 let saveProject = (req, res) => {
-  var project1 = new db.Project({
-    title: req.body.title,
-    shortDescription: req.body.shortDescription,
-    longDescription: req.body.longDescription,
-    latestNews: req.body.latestNews,
-    creator: req.user.username,
-    likes: [{like: req.body.Like, user: req.body.userName}],
-    logoUrl: req.body.logoUrl,
-    contact: {
-      github: req.body.github,
-      website: req.body.website,
-      slack: req.body.slack,
-      reddit: req.body.reddit,
-      twitter: req.body.twitter,
-      facebook: req.body.facebook,
-      email: req.body.email,
-      blog: req.body.blog
-    }
-  })
-  project1.save(function (err, userObj) {
-    if (err) {
-      res.send({result: 0, message: err})
-    } else {
-      console.log('project created: ', req.user.username, project1)
-      res.send({result: 1, message: ''})
-    }
-  })
+  req.body.creator = req.user.username
+  if (req.body._id) {
+    delete req.body.__v
+    delete req.body.updatedAt
+    var query = { _id: req.body._id }
+    db.Project.findOneAndUpdate(query, req.body, { upsert: true, new: true }, function (err, doc) {
+      if (err) return res.send(500, { error: err })
+      console.log(doc)
+      return res.send({result: 1, message: ''})
+    })
+  } else {
+    var project1 = new db.Project(req.body)
+    project1.save(function (err, userObj) {
+      if (err) {
+        res.send({result: 0, message: err})
+      } else {
+        console.log(req.user.username, ' created: ', project1)
+        res.send({result: 1, message: ''})
+      }
+    })
+  }
 }
 
 let login = (req, res) => {
