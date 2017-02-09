@@ -65,10 +65,9 @@ h2 {
 }
 .app  {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2vh;
 }
 .menu {
   color: grey;
-  font-size: 2vh;
+  font-size: 1em;
 }
 </style>

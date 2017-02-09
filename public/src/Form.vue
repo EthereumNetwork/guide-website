@@ -2,41 +2,41 @@
   <div>
     <v-container fluid>
       <v-row>
-        <v-text-input label="Title" id="title" name="title" v-model="title"  ></v-text-input>
-        <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="shortDescription"></v-text-input>
+        <v-text-input label="Title" id="title" name="title" v-model="project.title"  ></v-text-input>
+        <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-input>
         <v-col sm12>
-          <textarea :value="longDescriptionText" @input="update"></textarea>
+          <textarea :value="project.longDescriptionText" @input="update"></textarea>
           <div v-html="compiledMarkdown"></div>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Logo Url" id="logoUrl" name="logoUrl" v-model="logoUrl"></v-text-input>
+          <v-text-input label="Logo Url" id="logoUrl" name="logoUrl" v-model="project.logoUrl"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Latest News" id="latestNews" name="latestNews" v-model="latestNews"></v-text-input>
+          <v-text-input label="Latest News" id="latestNews" name="latestNews" v-model="project.latestNews"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Github" id="github" name="github" v-model="github"></v-text-input>
+          <v-text-input label="Github" id="github" name="github" v-model="project.github"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Website" id="website" name="website" v-model="website"></v-text-input>
+          <v-text-input label="Website" id="website" name="website" v-model="project.website"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Twitter" id="twitter" name="twitter" v-model="twitter"></v-text-input>
+          <v-text-input label="Twitter" id="twitter" name="twitter" v-model="project.twitter"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Facebook" id="facebook" name="facebook" v-model="facebook"></v-text-input>
+          <v-text-input label="Facebook" id="facebook" name="facebook" v-model="project.facebook"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Reddit" id="reddit" name="reddit" v-model="reddit"></v-text-input>
+          <v-text-input label="Reddit" id="reddit" name="reddit" v-model="project.reddit"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Slack" id="slack" name="slack" v-model="slack"></v-text-input>
+          <v-text-input label="Slack" id="slack" name="slack" v-model="project.slack"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Email" id="email" name="email" v-model="email"></v-text-input>
+          <v-text-input label="Email" id="email" name="email" v-model="project.email"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Blog" id="blog" name="blog" v-model="blog"></v-text-input>
+          <v-text-input label="Blog" id="blog" name="blog" v-model="project.blog"></v-text-input>
         </v-col>
       </v-row>
         <p>You need to be logged in to submit projects. You are <v-chip v-if="!token">not</v-chip> logged in.</p>
@@ -61,21 +61,7 @@
     name: 'projectForm',
     data () {
       return {
-        title: '',
-        shortDescription: '',
-        longDescriptionText: 'long description with **markdown**',
-        latestNews: '',
-        logoUrl: '',
-        github: '',
-        website: '',
-        twitter: '',
-        facebook: '',
-        slack: '',
-        email: '',
-        blog: '',
-        UserName: '',
-        Like: false,
-        reddit: '',
+        project: this.$store.state.projectToEdit,
         IsProgress: false,
         activeColor: 'Red',
         msg: 'Projects Form',
@@ -91,28 +77,28 @@
         return this.$store.state.token
       },
       compiledMarkdown: function () {
-        return marked(this.longDescriptionText, { sanitize: true })
+        return marked(this.project.longDescriptionText, { sanitize: true })
       }
     },
     methods: {
       submit: function () {
         let token = this.$store.state.token
         let dataToSend = {
-          title: this.title,
-          shortDescription: this.shortDescription,
-          longDescription: this.longDescriptionText,
-          latestNews: this.latestNews,
-          logoUrl: this.logoUrl,
-          github: this.github,
-          website: this.website,
-          twitter: this.twitter,
-          slack: this.slack,
-          blog: this.blog,
-          email: this.email,
-          UserName: this.UserName,
-          Like: this.Like,
-          facebook: this.facebook,
-          reddit: this.reddit
+          title: this.project.title,
+          shortDescription: this.project.shortDescription,
+          longDescription: this.project.longDescriptionText,
+          latestNews: this.project.latestNews,
+          logoUrl: this.project.logoUrl,
+          github: this.project.github,
+          website: this.project.website,
+          twitter: this.project.twitter,
+          slack: this.project.slack,
+          blog: this.project.blog,
+          email: this.project.email,
+          UserName: this.project.UserName,
+          Like: this.project.Like,
+          facebook: this.project.facebook,
+          reddit: this.project.reddit
         }
         fetch(('/api/saveprojects'), {
           method: 'POST',
@@ -133,7 +119,7 @@
         })
       },
       update: function (e) {
-        this.longDescriptionText = e.target.value
+        this.project.longDescriptionText = e.target.value
       }
     }
   }
