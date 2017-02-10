@@ -122,4 +122,5 @@
       min-height:10px;
       width: 99%;
   }
+  img[alt=projectImage] { width: 250px; }
 </style>

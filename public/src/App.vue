@@ -53,10 +53,10 @@
 <style>
 
 h1 {
-  font-size: 6vh;
+  font-size: 5vmin;
 }
 h2 {
-  font-size: 4vh;
+  font-size: 4vmin;
 }
 .searchbar {
   float:right;
