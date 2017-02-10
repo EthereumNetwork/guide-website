@@ -81,4 +81,5 @@ export default {
 .projectTitle {
   font-size: 1.2em;
 }
+img[alt=projectImage] { width: 250px; }
 </style>
