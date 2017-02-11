@@ -44,15 +44,16 @@
           <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save</v-btn>
         </v-col>
         <v-col xs9>
-          <div>You need to be logged in to submit projects. You are <v-chip v-if="!token">not</v-chip> logged in.</div>
-          <div v-if="project._id">project: {{project.title}} {{project._id}}</div>
-          <v-btn small v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
           <v-alert hide-icon success dismissible v-model="alert">
             Project saved successfully!
           </v-alert>
           <v-alert hide-icon error dismissible v-model="error">
             Error saving project! Are you logged in?
           </v-alert>
+          <div v-if="token">You are logged in and can update projects.</div>
+          <div v-else>You need to be logged in to submit projects.</div>
+          <div v-if="project._id">editing: {{project.title}}, {{project._id}}, last edited by {{project.creator}}</div>
+          <v-btn small v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
         </v-col>
       </v-row>
     </v-container>
