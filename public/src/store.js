@@ -10,7 +10,7 @@ export default new Vuex.Store({
     projectToEdit: {
       title: '',
       shortDescription: '',
-      longDescription: '# project name\nlong description with **markdown**\nadd images with ![projectImage](https://source.com/image.png ) to allow scaling ',
+      longDescription: 'long description with **markdown**\nadd images with [![projectImage](https://www.ethereum.org/images/logos/ETHEREUM-ICON_Black.png)](https://www.ethereum.org/images/logos/ETHEREUM-ICON_Black.png) to allow scaling ',
       latestNews: '',
       creator: '',
       likes: [],

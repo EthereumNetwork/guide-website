@@ -69,7 +69,9 @@ export default {
 
 <style>
 .project-image {
-  height: 60px;
+  max-height: 60px;
+  max-width: 60px;
+  background: #c3c5c9;
   margin-right: 10px;
 }
 .contact-link {

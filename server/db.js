@@ -4,11 +4,11 @@ mongoose.Promise = Promise
 
 var Schema = mongoose.Schema
 var projectSchema = new Schema({
-  title: String,
+  title: { type: String, unique: true, required: true },
   shortDescription: String,
   longDescription: String,
   updatedAt: { type: Date, default: Date.now },
-  latestNews: String,
+  latestNews: [String],
   creator: String,
   likes: [{like: Boolean, user: String}],
   logoUrl: String,
