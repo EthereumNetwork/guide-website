@@ -9,7 +9,7 @@
     <p>Below you'll find some links to get you started. So far it's just a collection of links, I'm in the process of curating and organizing them in a step-by-step manner</p>
     <v-collapsible-header class="grey darken-2 white--text">Links</v-collapsible-header>
     <v-collapsible-body>
-      <a href="http://blockgeeks.com/guides/what-is-ethereum-a-step-by-step-beginners-guide/" target="_blank" class="learnLink">What is Ethereum?</a> A Step-by-Step Beginners Guide<br>
+      <a href="http://blockgeeks.com/guides/what-is-ethereum/" target="_blank" class="learnLink">What is Ethereum?</a> A Step-by-Step Beginners Guide<br>
       <a href="https://youtu.be/A1Vbrxkqjwc" target="_blank" class="learnLink">New Kids on the Blockchain</a> What can you use it for?<br>
       <a href="https://youtu.be/eRDKP8nCVtU" target="_blank" class="learnLink">Ethereum in 100 seconds</a> by Vitalik Buterin and Dr. Gavin Wood<br>
       <a href="https://youtu.be/66SaEDzlmP4" target="_blank" class="learnLink">Ethereum in 25 minutes</a> by Vitalik Buterin<br>
@@ -47,7 +47,9 @@
       <a href="https://github.com/iurimatias/embark-framework" target="_blank" class="learnLink">Embarke</a> Framework to develop and deploy DApps.<br>
       <a href="https://github.com/blockapps/bloc" target="_blank" class="learnLink">BlockApps</a> REST API and Javascript and Mobile SDK to Ethereum blockchains.<br>
       <a href="https://infura.io/" target="_blank" class="learnLink">Infura</a> APIs to Ethereum and IPFS nodes<br>
-      <a href="https://ethereum.github.io/browser-solidity/" target="_blank" class="learnLink">Browser Solidity</a> Solidity Realtime compiler and runtime<br>
+      <a href="https://ethereum.github.io/browser-solidity/" target="_blank" class="learnLink">Browser Solidity</a> Solidity Realtime compiler and IDE<br>
+      <a href="https://github.com/ethereum/viper" target="_blank" class="learnLink">Viper</a> Experimental EVM programming language with several security features<br>
+      <a href="https://github.com/SilentCicero/wafr" target="_blank" class="learnLink">Wafr</a> A super simple Solidity test harness for Ethereum smart-contracts.<br>
     </v-collapsible-body>
       </v-container>
     <br>
@@ -112,7 +114,7 @@
     </v-collapsible-body>
     <br>
     <h2>Exchanges</h2>
-    <p>some text about exchanges</p>
+    <p>Exchanges provide a means to move in or out of ether by trading it for fiat money ($, €, ¥, £) or other crypto-currencies. Even though there are no borders in the Ethereum world, if you want to use the services and decentralized apps in it, you would need some ether. Similar to exchanging money for the local currency in a foreign country you're visitng.<br>Some of the exchanges directly offer fiat money trades via bank transfers, while others only handle trades between crypto-currencies. And then there are the decentralized exchanges, which never hold costumer funds and generally have lower fees than the normal ones.<br>Before getting in crypto-currencies, be sure to read the wallet and online security realted parts in the security section.</p>
     <v-collapsible-header class="grey darken-2 white--text">Links</v-collapsible-header>
     <v-collapsible-body>
       <a href="https://www.coinbase.com/" target="_blank" class="learnLink">Coinbase</a> Exchange based in the US<br>

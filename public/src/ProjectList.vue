@@ -33,7 +33,7 @@
         let projectListArray = this.projectList
         let searchField = this.searchField
 
-        if (!searchField) {
+        if (!searchField || searchField.length <= 2) {
           return projectListArray
         }
 

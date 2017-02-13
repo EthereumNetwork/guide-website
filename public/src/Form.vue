@@ -2,8 +2,12 @@
   <div>
     <v-container fluid>
       <v-row>
-        <v-text-input label="Title" id="title" name="title" v-model="project.title"  ></v-text-input>
-        <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-input>
+        <v-col xs12>
+          <v-text-input label="Title" id="title" name="title" v-model="project.title"  ></v-text-input>
+        </v-col>
+        <v-col xs12>
+          <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-input>
+        </v-col>
         <v-col xs12>
           <textarea :value="project.longDescription" @input="update"></textarea>
           <div v-html="compiledMarkdown"></div>
@@ -120,7 +124,7 @@
   textarea {
       display:inline-block;
       border: solid 1px #000;
-      min-height:10px;
+      min-height:100px;
       width: 99%;
   }
   img[alt=projectImage] { width: 250px; }
