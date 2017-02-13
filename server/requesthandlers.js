@@ -34,7 +34,7 @@ let saveProject = (req, res) => {
 let login = (req, res) => {
   let payload = { username: req.body.username, exp: moment().add(30, 'days').unix() }
   let token = jwt.encode(payload, process.env.jwtSecret)
-  if (process.env[req.body.username] && process.env[req.body.username] === process.env[req.body.password]) {
+  if (process.env[req.body.username] && process.env[req.body.username] === req.body.password) {
     res.json({ token: token })
   } else {
     res.status(401).send('auth error')
