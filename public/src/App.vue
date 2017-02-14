@@ -21,7 +21,7 @@
       </main>
       <v-footer  class="grey darken-4">
         <div class="text-xs-right">
-          <a href="https://twitter.com/EthereumPress">Twitter</a> | <a href="https://github.com/EthereumNetwork/guide-website">Github</a>
+          <a href="https://www.linkedin.com/company/ethereum-network" target="_blank">LinkedIn</a> | <a href="https://twitter.com/EthereumPress" target="_blank">Twitter</a> | <a href="https://github.com/EthereumNetwork/guide-website" target="_blank">Github</a>
        </div>
       </v-footer>
     </v-app>
