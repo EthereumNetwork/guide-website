@@ -39,9 +39,11 @@
     "webpack-dev-server": "^2.1.0-beta.9"
   },
   "scripts": {
-    "start": "nodemon server/server.js",
+    "start": "nohup nodemon server/server.js > server.log &",
+    "stop": "pkill -9 node",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --content-base public --open --inline --hot & nodemon server/server.js ",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "refresh": "git pull && npm install && npm run build"
   },
   "repository": {
     "type": "git",
@@ -51,7 +53,7 @@
     "Ethereum"
   ],
   "bugs": {
-    "url": "https://github.com/EthereumNetwork/guide-website.git"
+    "url": "https://github.com/EthereumNetwork/guide-website/issues"
   },
-  "homepage": "http://ethereum.network"
+  "homepage": "https://ethereum.network"
 }

@@ -4,14 +4,14 @@ import Vuetify from 'vuetify'
 import store from './store'
 import VueCookie from 'vue-cookie'
 
-import App from './App.vue'
-import Home from './Home.vue'
-import Learn from './Learn.vue'
-import ProjectList from './ProjectList.vue'
-import Explorer from './Explorer.vue'
-import ProjectsForm from './Form.vue'
-import LoginForm from './Login.vue'
-import About from './About.vue'
+import App from './components/App.vue'
+import Home from './components/Home.vue'
+import Learn from './components/Learn.vue'
+import ProjectList from './components/ProjectList.vue'
+import Explorer from './components/Explorer.vue'
+import ProjectsForm from './components/Form.vue'
+import LoginForm from './components/Login.vue'
+import About from './components/About.vue'
 
 Vue.use(VueRouter)
 Vue.use(Vuetify)
