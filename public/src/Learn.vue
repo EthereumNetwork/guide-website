@@ -3,15 +3,13 @@
   <p>With Ethereum still is the first years, most resources here are for developers. Step-by-step instructions for all users will come later.</p>
   <v-collapsible>
     <h2>What is Ethereum?</h2>
-    <p>Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.</p>
-    <p>These apps run on a custom built blockchain, an enormously powerful shared global infrastructure that can move value around and represent the ownership of property. This enables developers to create markets, store registries of debts or promises, move funds in accordance with instructions given long in the past (like a will or a futures contract) and many other things that have not been invented yet, all without a middle man or counterparty risk.</p>
-    <p>The project was bootstrapped via an ether pre-sale during August 2014 by fans all around the world. It is spearheaded by the Ethereum Foundation, a Swiss nonprofit, with contributions from great minds across the globe.</p>
-    <p>Below you'll find some links to get you started. So far it's just a collection of links, I'm in the process of curating and organizing them in a step-by-step manner</p>
+    <p>Ethereum is a world computer where everyone can publish content, write code, use applications, send transactions and more, all of that without any possibility of downtime, censorship, fraud or third party interference. People also call it the trust machine, as it allows multiple parties to collaborate without the need to trust each other.<br>This is done through so called smart contracts, open, tamper proof, opt-in, self executing applications that run exactly as programmed. This environment allows us to soon have trustworthy social networks, online markets, sharing economies, registries of all kind, and so much more, all without a company in the middle controlling everything and taking fees.</p>
+    <p>Below you'll find some links to get you started with some introduction guides and videos. Once you're a bit more familiar with it, dive in deeper through the various other sections</p>
     <v-collapsible-header class="grey darken-2 white--text">Links</v-collapsible-header>
     <v-collapsible-body>
       <a href="http://blockgeeks.com/guides/what-is-ethereum/" target="_blank" class="learnLink">What is Ethereum?</a> A Step-by-Step Beginners Guide<br>
       <a href="https://youtu.be/A1Vbrxkqjwc" target="_blank" class="learnLink">New Kids on the Blockchain</a> What can you use it for?<br>
-      <a href="https://youtu.be/eRDKP8nCVtU" target="_blank" class="learnLink">Ethereum in 100 seconds</a> by Vitalik Buterin and Dr. Gavin Wood<br>
+      <a href="https://youtu.be/j23HnORQXvs" target="_blank" class="learnLink">Ethereum, the world computer</a> How the internet will work in the future<br>
       <a href="https://youtu.be/66SaEDzlmP4" target="_blank" class="learnLink">Ethereum in 25 minutes</a> by Vitalik Buterin<br>
       <a href="https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos" target="_blank" class="learnLink">Videos from Ethereum DevCon 2</a> Sep. 2016 in Shanghai<br>
     </v-collapsible-body>
@@ -31,7 +29,6 @@
       <a href="https://token.im/" target="_blank" class="learnLink">imToken</a> A smart digital wallet for mobile phones<br>
     </v-collapsible-body>
     <br>
-    <v-container fluid pa-5>
     <h2>Developer Resources and Tools</h2>
     <p>Get your feet wet with many different frameworks and documentation on how to use Ethereum and program decentralized applications. Check out the guides and tips section for more tutorials.</p>
     <p>some more text about Developer Resources and Tools</p>
@@ -51,7 +48,6 @@
       <a href="https://github.com/ethereum/viper" target="_blank" class="learnLink">Viper</a> Experimental EVM programming language with several security features<br>
       <a href="https://github.com/SilentCicero/wafr" target="_blank" class="learnLink">Wafr</a> A super simple Solidity test harness for Ethereum smart-contracts.<br>
     </v-collapsible-body>
-      </v-container>
     <br>
     <h2>Clients and Implementations</h2>
     <p>some text about Clients and Implementations</p>
@@ -69,15 +65,18 @@
     <br>
     <h2>Security</h2>
     <p>some text about Security</p>
-    <v-collapsible-header class="grey darken-2 white--text">Links</v-collapsible-header>
+    <v-collapsible-header class="grey darken-2 white--text">Links for online and wallet security</v-collapsible-header>
     <v-collapsible-body>
       <a href="https://medium.com/@pipermerriam/my-guide-to-solid-digital-security-fb76cb19c536#.cliexcgpg" target="_blank" class="learnLink">Guide to securing your digital life</a>absolutely necessary when dealing with cryptocurrencies<br>
       <a href="https://www.ledgerwallet.com/products/12-ledger-nano-s" target="_blank" class="learnLink">Ledger Nano</a> Hardware wallet to store your ether and <a href="https://ledger.groovehq.com/knowledge_base/topics/how-to-secure-your-eth-tokens-augur-rep-dot-dot-dot-with-your-nano-s" target="_blank" class="learnLink">Tokens</a><br>
+      <a href="http://doublenegative.com/ethereum-security-and-wallets/" target="_blank" class="learnLink">Wallet Security</a> and how to secure them<br>
+    </v-collapsible-body>
+    <v-collapsible-header class="grey darken-2 white--text">Links for smart contract security</v-collapsible-header>
+    <v-collapsible-body>
       <a href="https://download.slock.it/public/DAO/WhitePaper.pdf" target="_blank" class="learnLink">The infamous DAO</a> How a good idea went wrong<br>
       <a href="https://github.com/raineorshine/solgraph" target="_blank" class="learnLink">Solgraph</a> Visualize Solidity control flow for smart contract security analysis.<br>
       <a href="https://medium.com/zeppelin-blog/zeppelin-v1-0-0-4e593c505345#.bv6yubf7v" target="_blank" class="learnLink">Zeppelin</a> framework to build secure smart contracts in the Solidity language<br>
       <a href="https://monax.io/docs/tutorials/solidity/solidity_1_the_five_types_model/" target="_blank" class="learnLink">Solidity series on Eris</a> different blockchain, same language<br>
-      <a href="http://doublenegative.com/ethereum-security-and-wallets/" target="_blank" class="learnLink">Wallet Security</a> and how to secure them<br>
     </v-collapsible-body>
     <br>
     <h2>Guides and Tips:</h2>
@@ -114,7 +113,7 @@
     </v-collapsible-body>
     <br>
     <h2>Exchanges</h2>
-    <p>Exchanges provide a means to move in or out of ether by trading it for fiat money ($, €, ¥, £) or other crypto-currencies. Even though there are no borders in the Ethereum world, if you want to use the services and decentralized apps in it, you would need some ether. Similar to exchanging money for the local currency in a foreign country you're visitng.<br>Some of the exchanges directly offer fiat money trades via bank transfers, while others only handle trades between crypto-currencies. And then there are the decentralized exchanges, which never hold costumer funds and generally have lower fees than the normal ones.<br>Before getting in crypto-currencies, be sure to read the wallet and online security realted parts in the security section.</p>
+    <p>Even though there are no borders in the Ethereum world, you would need some ether to use the services and decentralized apps there. Like exchanging into the local currency in a foreign country you're visiting. Exchanges provide a means to move in or out of ether by trading it for fiat money ($, €, ¥, £) or other crypto-currencies.<br>Some of the exchanges directly offer fiat money trades via bank transfers, while others only handle trades between crypto-currencies. And then there are the decentralized ones. You'll need to run an Ethereum client, such as Mist or MetaMask, but they never hold costumer funds and generally have lower fees than the normal ones.<br>Before getting in crypto-currencies, be sure to read the wallet and online security related parts in the section above.</p>
     <v-collapsible-header class="grey darken-2 white--text">Links</v-collapsible-header>
     <v-collapsible-body>
       <a href="https://www.coinbase.com/" target="_blank" class="learnLink">Coinbase</a> Exchange based in the US<br>
@@ -123,6 +122,26 @@
       <a href="https://yunbi.com/" target="_blank" class="learnLink">Yunbi</a> Exchange based in China<br>
       <a href="http://www.poloniex.com/" target="_blank" class="learnLink">Poloniex</a> Cryptocurrency only Exchange<br>
       <a href="https://www.bittrex.com/" target="_blank" class="learnLink">Bittrex</a> Cryptocurrency only Exchange<br>
+      <a href="https://mkr.market/" target="_blank" class="learnLink">Maker Market</a> Decentralized Cryptocurrency Exchange<br>
+    </v-collapsible-body>
+    <br>
+    <h2>FAQs</h2>
+    <p>Answers to some of the questions you might enconter while getting to know Ethereum. Another good place is the <a href="http://ethereum.stackexchange.com/" target="_blank" class="learnLink">Ethereum StackExchange</a>.</p>
+    <v-collapsible-header class="grey darken-2 white--text">Where do I start?</v-collapsible-header>
+    <v-collapsible-body>
+      <p>The Ethereum network can be very overwhelming, so that is a good question and completely depends what you're looking for. If you are a developer looking into blockchain programming and the creation of decentralized apps, both the section about Developer Resources and Tools and the Clients and Implementations one are a great start.<br> As a curious user, the <router-link to="/projects">projects page</router-link> might be your best bet to get some hands-on experience with decentralized apps.<br> As an investor you might want to have a look at the exchange section or initial coin offerings (ICOs) of promising projects.</p>
+    </v-collapsible-body>
+    <v-collapsible-header class="grey darken-2 white--text">Question?</v-collapsible-header>
+    <v-collapsible-body>
+      <p>Answer</p>
+    </v-collapsible-body>
+    <v-collapsible-header class="grey darken-2 white--text">Question?</v-collapsible-header>
+    <v-collapsible-body>
+      <p>Answer</p>
+    </v-collapsible-body>
+    <v-collapsible-header class="grey darken-2 white--text">Question?</v-collapsible-header>
+    <v-collapsible-body>
+      <p>Answer</p>
     </v-collapsible-body>
   </v-collapsible>
 </v-container>
