@@ -1,6 +1,6 @@
 <template>
 
-    <v-col xs12="xs12" sm6="sm6" md6="md6" lg4 mt-3>
+    <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
 
       <v-modal :id="project._id">
         <v-card>
@@ -82,6 +82,7 @@ export default {
 }
 .projectTitle {
   font-size: 1.2em;
+  text-align: left;
 }
 img[alt=projectImage] { width: 250px; }
 </style>

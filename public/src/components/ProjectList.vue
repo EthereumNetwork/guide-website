@@ -21,7 +21,7 @@
       }
     },
 
-    beforeCreate () {
+    mounted () {
       fetch('/api/projects')
       .then((response) => { return response.json() })
       .then((data) => { this.projectList = data })
