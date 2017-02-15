@@ -64,7 +64,6 @@
       .then((response) => { return response.json() })
       .then((data) => { this.$store.commit('setProjectList', { projectList: data }) })
       this.$store.commit('setToken', { token: this.$cookie.get('token') })
-      console.log('done', this.$store.state)
     }
   }
 </script>
