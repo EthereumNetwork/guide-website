@@ -1,9 +1,7 @@
 <template>
     <v-app top-toolbar footer class="app">
       <header>
-        <v-toolbar class="secondary">
-          <!-- <v-sidebar id="sidebar" class="grey darken-3" drawer v-bind:items="items">
-          </v-sidebar> -->
+        <v-toolbar class="grey darken-3">
           <v-toolbar-items class="hidden-sm-and-down" v-for="item in items">
             <v-toolbar-item :href="item.href" router>{{item.title}}</v-toolbar-item>
           </v-toolbar-items>
@@ -37,7 +35,7 @@
           </v-container>
         </v-content>
       </main>
-      <v-footer  class="grey darken-4">
+      <v-footer class="grey darken-4">
         <div class="text-xs-right">
           <a href="https://www.linkedin.com/company/ethereum-network" target="_blank">LinkedIn</a> | <a href="https://twitter.com/EthereumPress" target="_blank">Twitter</a> | <a href="https://github.com/EthereumNetwork/guide-website" target="_blank">Github</a>
        </div>

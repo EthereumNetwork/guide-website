@@ -3,6 +3,7 @@
     <p>{{ msg }}</p>
     <p>then you will be able to use the search bar to look up addresses, txIDs and other smart contract properties</p>
     <p>the current block number is {{blockNumber}}</p>
+    <router-link to="/project/tester">Form</router-link>
   </div>
 </template>
 
