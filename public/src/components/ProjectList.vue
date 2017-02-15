@@ -8,7 +8,7 @@
   import ProjectItem from './ProjectItem.vue'
   export default {
     name: 'projectList',
-    props: ['searchField'],
+    props: ['searchField', 'query'],
     components: {
       ProjectItem
     },
@@ -16,6 +16,9 @@
       filteredProjects: function () {
         let projectListArray = this.$store.state.projectList
         let searchField = this.searchField
+        if (this.$route.query.q) {
+          searchField = this.$route.query.q
+        }
         if (!searchField || searchField.length <= 2) {
           return projectListArray
         }

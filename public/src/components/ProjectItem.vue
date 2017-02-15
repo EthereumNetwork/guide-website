@@ -17,7 +17,7 @@
 
       <v-card>
         <v-card-row class="indigo projectcard-title">
-          <v-card-title class="projectTitle">
+          <v-card-title @click="showProject" class="projectTitle">
             <span>{{project.title}}</span>
 
             <v-spacer></v-spacer>
@@ -60,8 +60,10 @@ export default {
   methods: {
     editProject: function () {
       this.$store.commit('setProjectToEdit', { projectToEdit: this.project })
-      console.log(this.$store.state)
-      this.$router.push('form')
+      this.$router.push('/form')
+    },
+    showProject: function () {
+      this.$router.push('/project/' + this.project.title.replace(/\s+/g, ''))
     }
   }
 }
@@ -82,6 +84,8 @@ export default {
 }
 .projectTitle {
   font-size: 1.2em;
+  cursor: pointer;
+  cursor: hand;
 }
 img[alt=projectImage] { width: 250px; }
 </style>
