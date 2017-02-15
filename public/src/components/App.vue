@@ -17,7 +17,7 @@
        </v-toolbar>
       </header>
       <main>
-        <v-sidebar id="sidebar" drawer v-model="sidebar">
+        <v-sidebar drawer v-model="sidebar">
           <v-list>
             <v-list-item v-for="item in items">
               <v-list-tile :href="item.href" router>
@@ -60,6 +60,13 @@
           {title: 'About', href: '/about'}
         ]
       }
+    },
+    mounted () {
+      fetch('/api/projects')
+      .then((response) => { return response.json() })
+      .then((data) => { this.$store.commit('setProjectList', { projectList: data }) })
+      this.$store.commit('setToken', { token: this.$cookie.get('token') })
+      console.log('done', this.$store.state)
     }
   }
 </script>

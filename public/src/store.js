@@ -25,11 +25,15 @@ export default new Vuex.Store({
         email: '',
         blog: ''
       }
-    }
+    },
+    projectList: []
   },
   mutations: {
     setToken (state, payload) {
       state.token = payload.token
+    },
+    setProjectList (state, payload) {
+      state.projectList = payload.projectList
     },
     setProjectToEdit (state, payload) {
       state.projectToEdit = payload.projectToEdit

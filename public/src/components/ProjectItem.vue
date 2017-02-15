@@ -2,7 +2,7 @@
 
     <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
 
-      <v-modal :id="project._id">
+      <!-- <v-modal :id="project._id">
         <v-card>
           <v-card-text>
             <h1 class="text-xs-center">{{project.title}}</h1>
@@ -13,7 +13,7 @@
             </v-row>
           </v-card-text>
         </v-card>
-      </v-modal>
+      </v-modal> -->
 
       <v-card>
         <v-card-row class="indigo projectcard-title">
@@ -22,7 +22,7 @@
 
             <v-spacer></v-spacer>
               <div @click="editProject" v-if="this.$store.state.token" ><i class="fa fa-pencil project-link"></div>
-              <v-btn flat small v-modal="{ value: project._id }"><i class="fa fa-info contact-link"></v-btn>
+              <!-- <v-btn flat small v-modal="{ value: project._id }"><i class="fa fa-info contact-link"></v-btn> -->
           </v-card-title>
         </v-card-row>
         <v-card-text>
@@ -82,7 +82,6 @@ export default {
 }
 .projectTitle {
   font-size: 1.2em;
-  text-align: left;
 }
 img[alt=projectImage] { width: 250px; }
 </style>
