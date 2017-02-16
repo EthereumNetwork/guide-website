@@ -44,14 +44,14 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col xs2>
+        <v-col xs3>
           <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save</v-btn>
         </v-col>
         <v-col xs9>
-          <v-alert hide-icon success dismissible v-model="alert">
+          <v-alert v-if="alert" hide-icon success dismissible v-model="alert">
             Project saved successfully!
           </v-alert>
-          <v-alert hide-icon error dismissible v-model="error">
+          <v-alert v-if="error" hide-icon error dismissible v-model="error">
             Error saving project! Are you logged in?
           </v-alert>
           <div v-if="token">You are logged in and can update projects.</div>
@@ -108,7 +108,7 @@
           this.IsProgress = false
         })
         .catch((error) => {
-          this.error = true
+          if (error) { this.error = true }
         })
       },
 

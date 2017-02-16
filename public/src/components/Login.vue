@@ -8,10 +8,10 @@
       <p>For adding new projects, you have to be logged in.</p>
       <v-btn success v-on:click.native="submit()">Login</v-btn>
       <router-link to="/form">Form</router-link>
-      <v-alert hide-icon success dismissible v-model="alert">
+      <v-alert v-if="alert" success dismissible v-model="alert">
         Login successful!
       </v-alert>
-      <v-alert hide-icon error dismissible v-model="error">
+      <v-alert v-if="error" error dismissible v-model="error">
         Error logging in!
       </v-alert>
     </v-container>
@@ -46,6 +46,9 @@
           data.token ? this.alert = true : this.error = true
           this.$store.commit('setToken', {token: data.token})
           this.$cookie.set('token', data.token, { expires: '1M' })
+        })
+        .catch((error) => {
+          if (error) { this.error = true }
         })
       }
     }
