@@ -5,7 +5,7 @@
           <v-toolbar-items class="hidden-sm-and-down" v-for="item in items">
             <v-toolbar-item :href="item.href" router>{{item.title}}</v-toolbar-item>
           </v-toolbar-items>
-          <v-toolbar-item class="hidden-sm-and-down" href="https://blog.ethereum.network">Blog</v-toolbar-item>
+          <v-toolbar-item class="hidden-sm-and-down" href="https://blog.ethereum.network/latest">Blog</v-toolbar-item>
          <v-spacer class="hidden-sm-and-down"></v-spacer>
          <div class="searchbar">
            <v-text-input placeholder="filter projects, txIDs, adresses" v-model="searchField"></v-text-input>
@@ -23,7 +23,7 @@
               </v-list-tile>
             </v-list-item>
             <v-list-item>
-              <v-list-tile href="https://blog.ethereum.network">
+              <v-list-tile href="https://blog.ethereum.network/latest">
                 <v-list-tile-title>Blog</v-list-tile-title>
               </v-list-tile>
             </v-list-item>
@@ -71,10 +71,10 @@
 <style>
 
 h1 {
-  font-size: 5vmin;
+  font-size: 1.8em;
 }
 h2 {
-  font-size: 4vmin;
+  font-size: 1.6em;
 }
 .searchbar {
   float:right;
