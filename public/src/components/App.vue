@@ -2,16 +2,17 @@
     <v-app top-toolbar footer class="app">
       <header>
         <v-toolbar class="grey darken-3">
+          <v-toolbar-side-icon class="hidden-sm-and-up" @click.native.stop="sidebar = !sidebar" />
           <v-toolbar-items class="hidden-sm-and-down" v-for="item in items">
             <v-toolbar-item :href="item.href" router>{{item.title}}</v-toolbar-item>
           </v-toolbar-items>
+          <v-toolbar-items>
           <v-toolbar-item class="hidden-sm-and-down" href="https://blog.ethereum.network/latest">Blog</v-toolbar-item>
-         <v-spacer class="hidden-sm-and-down"></v-spacer>
+        </v-toolbar-items>
+         <v-spacer></v-spacer>
          <div class="searchbar">
            <v-text-input placeholder="filter projects, txIDs, adresses" v-model="searchField"></v-text-input>
          </div>
-         <v-spacer class="hidden-sm-and-up"></v-spacer>
-         <v-toolbar-side-icon class="hidden-sm-and-up" @click.native.stop="sidebar = !sidebar" />
        </v-toolbar>
       </header>
       <main>
