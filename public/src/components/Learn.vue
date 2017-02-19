@@ -34,10 +34,10 @@
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
           <a href="https://github.com/ethereum/mist/releases" target="_blank" class="learnLink">Mist</a> Official Ethereum browser and wallet<br>
-          <a href="https://metamask.io/" target="_blank" class="learnLink">MetaMask</a> Chrome plugin to access Ethereum dApps<br>
+          <a href="https://metamask.io/" target="_blank" class="learnLink">MetaMask</a> Chrome plugin to access Ethereum dapps<br>
           <a href="https://www.myetherwallet.com/" target="_blank" class="learnLink">MyEtherWallet</a> client-side Ethereum online wallet and contract execution<br>
           <a href="https://github.com/ethcore/parity/wiki/Parity-Wallet" target="_blank" class="learnLink">Parity Wallet</a> Parity also includes a bundled wallet application<br>
-          <a href="https://jaxx.io/" target="_blank" class="learnLink">Jaxx</a> Wallet for multipe plattform and multiple currencies<br>
+          <a href="https://jaxx.io/" target="_blank" class="learnLink">Jaxx</a> Wallet for multiple currencieson on multiple platforms<br>
           <a href="https://status.im/" target="_blank" class="learnLink">Status</a> Ethereum browser/messenger/wallet for mobile phones<br>
           <a href="https://www.inzhoop.com/" target="_blank" class="learnLink">LETH</a> A mobile Ethereum wallet with chat function<br>
           <a href="https://token.im/" target="_blank" class="learnLink">imToken</a> A smart digital wallet for mobile phones<br>
@@ -60,7 +60,7 @@
           <a href="http://ethereum.stackexchange.com" target="_blank" class="learnLink">Ethereum StackExchange</a> get answers for all your Ethereum questions<br>
           <a href="https://github.com/ethereum/web3.js" target="_blank" class="learnLink">Ethereum JavaScript API</a><br>
           <a href="http://truffleframework.com/" target="_blank" class="learnLink">Truffe</a> Development framework for Ethereum<br>
-          <a href="https://github.com/nexusdev/projectle" target="_blank" class="learnLink">Projectle</a> EVM contract system developer multitool<br>
+          <a href="https://github.com/nexusdev/projectle" target="_blank" class="learnLink">Projectle</a> EVM contract system developer multi-tool<br>
           <a href="https://github.com/iurimatias/embark-framework" target="_blank" class="learnLink">Embarke</a> Framework to develop and deploy DApps.<br>
           <a href="https://github.com/blockapps/bloc" target="_blank" class="learnLink">BlockApps</a> REST API and Javascript and Mobile SDK to Ethereum blockchains.<br>
           <a href="https://infura.io/" target="_blank" class="learnLink">Infura</a> APIs to Ethereum and IPFS nodes<br>
@@ -196,7 +196,7 @@
       <div slot="header">Where do I start?</div>
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
-          <p>The Ethereum network can be very overwhelming, so that is a good question and completely depends what you're looking for. If you are a developer looking into blockchain programming and the creation of decentralized apps, most of the sections here are directed towards you. Let me know if you run into any trouble or out-dated info.<br> As a curious user, on <router-link to="/projects">the projects page</router-link> use any decentralized app that you find interesting. Then complain to the devs about any user experience difficulties that you encounter, and otherwise give helpful feedback.<br> Generally be curious and engage in the community, either through <a href="https://www.meetup.com/topics/ethereum/" target="_blank" class="learnLink">meetups</a> or the ones mentioned in the section above</p>
+          <p>The Ethereum network can be very overwhelming, so that is a good question and completely depends what you're looking for. If you are a developer looking into blockchain programming and the creation of decentralized apps, most of the sections here are directed towards you. Let me know if you run into any trouble or out-dated info.<br> As a curious user, on <router-link to="/projects">the projects page</router-link> use any decentralized app that you find interesting. Then complain to the developers about any user experience difficulties that you encounter, and otherwise give helpful feedback.<br> Generally be curious and engage in the community, either through <a href="https://www.meetup.com/topics/ethereum/" target="_blank" class="learnLink">meetups</a> or the ones mentioned in the section above</p>
         </v-card-text>
       </v-card>
     </v-expansion-panel-content>
@@ -225,7 +225,7 @@
       </v-card>
     </v-expansion-panel-content>
     <v-expansion-panel-content class="grey darken-2 white--text">
-      <div slot="header">Does Ethereum have an "infinite attack surface"?</div>
+      <div slot="header">Question?</div>
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
           <p>Answer</p>
