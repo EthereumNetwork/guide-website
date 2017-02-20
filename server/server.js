@@ -19,6 +19,8 @@ app.post('/api/login', requestHandlers.login)
 app.get('/api/projects', requestHandlers.sendAllProjects)
 app.post('/api/saveprojects', auth.authenticate(), requestHandlers.saveProject)
 app.get('/api/blocknumber', requestHandlers.getBlockNumber)
+app.get('/api/block/:blockId', requestHandlers.getBlock)
+app.get('/api/tx/:txId', requestHandlers.getTransaction)
 
 // history between routes and static files to catch client-side route paths
 app.use(history())

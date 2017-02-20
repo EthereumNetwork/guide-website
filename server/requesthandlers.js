@@ -1,13 +1,15 @@
-var authRouter = require('express').Router()
+// var authRouter = require('express').Router()
 var jwt = require('jwt-simple')
 // var bcrypt = require('bcryptjs')
 var moment = require('moment')
 var db = require('./db.js')
 var web3 = require('./web3.js')
 
-let sendAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
+// Project methods
 
-let saveProject = (req, res) => {
+module.exports.sendAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
+
+module.exports.saveProject = (req, res) => {
   req.body.creator = req.user.username
   if (req.body._id) {
     delete req.body.__v
@@ -31,7 +33,9 @@ let saveProject = (req, res) => {
   }
 }
 
-let login = (req, res) => {
+// Authentificatoin methods
+
+module.exports.login = (req, res) => {
   let payload = { username: req.body.username, exp: moment().add(30, 'days').unix() }
   let token = jwt.encode(payload, process.env.jwtSecret)
   if (process.env[req.body.username] && process.env[req.body.username] === req.body.password) {
@@ -41,14 +45,21 @@ let login = (req, res) => {
   }
 }
 
-let getBlockNumber = (req, res) => {
-  console.log(web3.eth.blockNumber)
+// Explorer methods
+
+module.exports.getBlockNumber = (req, res) => {
   res.json(web3.eth.blockNumber)
 }
 
-module.exports = {
-  sendAllProjects,
-  saveProject,
-  login,
-  getBlockNumber
+module.exports.getBlock = (req, res) => {
+  web3.eth.getBlock(req.params.blockId, false, (error, blockData) => {
+    console.log(blockData)
+    error ? console.error(error) : res.json(blockData)
+  })
+}
+
+module.exports.getTransaction = (req, res) => {
+  web3.eth.getTransaction(req.params.txId, (error, txData) => {
+    error ? console.error(error) : res.json(txData)
+  })
 }
