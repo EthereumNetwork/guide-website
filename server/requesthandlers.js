@@ -1,9 +1,9 @@
-// var authRouter = require('express').Router()
-var jwt = require('jwt-simple')
-// var bcrypt = require('bcryptjs')
-var moment = require('moment')
-var db = require('./db.js')
-var web3 = require('./web3.js')
+// const authRouter = require('express').Router()
+const jwt = require('jwt-simple')
+// const bcrypt = require('bcryptjs')
+const moment = require('moment')
+const db = require('./db.js')
+const web3 = require('./web3.js')
 
 // Project methods
 

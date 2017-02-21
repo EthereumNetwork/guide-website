@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Vuetify from 'vuetify'
 import store from './store'
 import VueCookie from 'vue-cookie'
+import VueWebsocket from 'vue-websocket'
 
 import App from './components/App.vue'
 import Home from './components/Home.vue'
@@ -20,6 +21,7 @@ import TransactionList from './components/TransactionList.vue'
 Vue.use(VueRouter)
 Vue.use(Vuetify)
 Vue.use(VueCookie)
+Vue.use(VueWebsocket)
 
 const routes = [
   { path: '/', component: Home },

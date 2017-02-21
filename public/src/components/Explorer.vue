@@ -28,6 +28,14 @@ export default {
     .then((blockData) => {
       this.blockData = blockData
     })
+  },
+
+  socket: {
+    events: {
+      latestTransactions (msg) {
+        console.log('Something changed: ' + msg.data)
+      }
+    }
   }
 }
 </script>

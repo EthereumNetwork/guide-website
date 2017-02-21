@@ -1,20 +1,20 @@
-var passport = require('passport')
-var passportJWT = require('passport-jwt')
-var ExtractJwt = passportJWT.ExtractJwt
-var Strategy = passportJWT.Strategy
+const passport = require('passport')
+const passportJWT = require('passport-jwt')
+const ExtractJwt = passportJWT.ExtractJwt
+const Strategy = passportJWT.Strategy
 
 // passport-jwt config
-var cfg = {
+const cfg = {
   jwtSecret: process.env.jwtSecret,
   jwtSession: { session: false }
 }
 
-var params = {
+const params = {
   secretOrKey: process.env.jwtSecret,
   jwtFromRequest: ExtractJwt.fromAuthHeader()
 }
 
-var strategy = new Strategy(params, function (payload, done) {
+const strategy = new Strategy(params, function (payload, done) {
   done(null, {username: payload.username})
 })
 

@@ -1,12 +1,14 @@
 require('dotenv').config()
-var express = require('express')
-var bodyParser = require('body-parser')
-var history = require('connect-history-api-fallback')
+const express = require('express')
+const app = express()
+const server = require('http').createServer(app)
+const io = require('socket.io')(server)
+const bodyParser = require('body-parser')
+const history = require('connect-history-api-fallback')
 
-var auth = require('./auth.js')
-var requestHandlers = require('./requesthandlers.js')
-
-var app = express()
+const auth = require('./auth.js')
+const requestHandlers = require('./requesthandlers.js')
+require('./workers.js')(io)
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
@@ -27,6 +29,6 @@ app.use(history())
 // serving index.html and build.js, client-side routes handled by Vue router
 app.use(express.static('public'))
 
-app.listen(3001, function () {
-  console.log('Server started at ', (new Date()).toString())
+server.listen(3001, function listening () {
+  console.log('Server started at', (new Date()).toString(), 'on port', server.address().port)
 })
