@@ -53,7 +53,6 @@ module.exports.getBlockNumber = (req, res) => {
 
 module.exports.getBlock = (req, res) => {
   web3.eth.getBlock(req.params.blockId, false, (error, blockData) => {
-    console.log(blockData)
     error ? console.error(error) : res.json(blockData)
   })
 }
