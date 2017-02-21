@@ -15,6 +15,7 @@ import About from './components/About.vue'
 import Project from './components/Project.vue'
 import Block from './components/Block.vue'
 import Transaction from './components/Transaction.vue'
+import TransactionList from './components/TransactionList.vue'
 
 Vue.use(VueRouter)
 Vue.use(Vuetify)
@@ -31,6 +32,7 @@ const routes = [
   { path: '/project/:title', component: Project },
   { path: '/block/:id', component: Block },
   { path: '/tx/:id', component: Transaction },
+  { path: '/txs', component: TransactionList },
   { path: '/project', redirect: '/projects' }
 ]
 

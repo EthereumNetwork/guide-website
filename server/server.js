@@ -10,7 +10,6 @@ var requestHandlers = require('./requesthandlers.js')
 var app = express()
 
 app.use(require('prerender-node').set('prerenderToken', process.env.prerenderToken))
-app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(auth.initialize())
@@ -21,6 +20,8 @@ app.post('/api/saveprojects', auth.authenticate(), requestHandlers.saveProject)
 app.get('/api/blocknumber', requestHandlers.getBlockNumber)
 app.get('/api/block/:blockId', requestHandlers.getBlock)
 app.get('/api/tx/:txId', requestHandlers.getTransaction)
+app.get('/api/txs/:address', requestHandlers.getTransactionsByAddress)
+app.get('/api/txs', requestHandlers.getLatestTransactions)
 
 // history between routes and static files to catch client-side route paths
 app.use(history())

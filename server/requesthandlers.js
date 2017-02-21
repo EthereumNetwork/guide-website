@@ -52,7 +52,7 @@ module.exports.getBlockNumber = (req, res) => {
 }
 
 module.exports.getBlock = (req, res) => {
-  web3.eth.getBlock(req.params.blockId, false, (error, blockData) => {
+  web3.eth.getBlock(req.params.blockId, true, (error, blockData) => {
     error ? console.error(error) : res.json(blockData)
   })
 }
@@ -61,4 +61,16 @@ module.exports.getTransaction = (req, res) => {
   web3.eth.getTransaction(req.params.txId, (error, txData) => {
     error ? console.error(error) : res.json(txData)
   })
+}
+
+module.exports.getLatestTransactions = (req, res) => {
+  web3.eth.getBlock('pending', (error, txData) => {
+    error ? console.error(error) : res.json(txData)
+  })
+}
+
+module.exports.getTransactionsByAddress = (req, res) => {
+  // not impplemented yet
+  // see https://ethereum.stackexchange.com/questions/8900/how-to-get-transactions-by-account-using-web3-js
+  res.json(['not', 'impplemented', 'yet'])
 }
