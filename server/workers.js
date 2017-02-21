@@ -7,8 +7,7 @@ module.exports = function (io) {
   })
 
   setInterval(() => {
-    console.log('broadcasting')
-    web3.eth.getBlock('latest', (error, txData) => {
+    web3.eth.getBlock('latest', true, (error, txData) => {
       error ? console.error(error) : io.emit('latestTransactions', txData)
     })
   }, 3000)
