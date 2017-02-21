@@ -1,7 +1,6 @@
 require('dotenv').config()
 var express = require('express')
 var bodyParser = require('body-parser')
-var cors = require('cors')
 var history = require('connect-history-api-fallback')
 
 var auth = require('./auth.js')
@@ -9,7 +8,6 @@ var requestHandlers = require('./requesthandlers.js')
 
 var app = express()
 
-app.use(require('prerender-node').set('prerenderToken', process.env.prerenderToken))
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(auth.initialize())
