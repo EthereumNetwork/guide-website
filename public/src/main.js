@@ -21,7 +21,7 @@ import TransactionList from './components/TransactionList.vue'
 Vue.use(VueRouter)
 Vue.use(Vuetify)
 Vue.use(VueCookie)
-Vue.use(VueWebsocket)
+Vue.use(VueWebsocket, '/', {'path': '/socket/socket.io'})
 
 const routes = [
   { path: '/', component: Home },

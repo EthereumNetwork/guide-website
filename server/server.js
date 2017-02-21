@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const server = require('http').createServer(app)
-const io = require('socket.io')(server)
+const io = require('socket.io')(server, { path: '/socket/socket.io' })
 const bodyParser = require('body-parser')
 const history = require('connect-history-api-fallback')
 

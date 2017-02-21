@@ -1,4 +1,5 @@
 const web3 = require('./web3.js')
+let latestTransactions = []
 
 module.exports = function (io) {
   io.on('connection', function (socket) {
@@ -7,6 +8,8 @@ module.exports = function (io) {
 
   setInterval(() => {
     console.log('broadcasting')
-    io.emit('latestTransactions', { data: (new Date()) / 1 })
+    web3.eth.getBlock('latest', (error, txData) => {
+      error ? console.error(error) : io.emit('latestTransactions', txData)
+    })
   }, 3000)
 }

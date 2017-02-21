@@ -5,9 +5,10 @@
     <p>the current block number is <router-link :to="'/block/' + blockData.number">{{blockData.number}}</router-link> and the latest transactions are: </p>
     <ul>
       <li v-for="tx in blockData.transactions">
-        <router-link :to="'/tx/' + tx.hash">{{tx.hash}}</router-link>
+        txHash: <router-link :to="'/tx/' + tx">{{tx}}</router-link>
       </li>
     </ul>
+    {{blockData}}
   </div>
 </template>
 
@@ -21,19 +22,24 @@ export default {
       blockData: {}
     }
   },
-
-  beforeCreate () {
-    fetch('/api/block/pending')
-    .then((response) => { return response.json() })
-    .then((blockData) => {
-      this.blockData = blockData
-    })
+  //
+  // beforeCreate () {
+  //   fetch('/api/block/pending')
+  //   .then((response) => { return response.json() })
+  //   .then((blockData) => {
+  //     this.blockData = blockData
+  //   })
+  // },
+  computed: {
+    transactions: function () {
+      return this.transactions.concat(this.blockData.transactions) || []
+    }
   },
-
   socket: {
     events: {
-      latestTransactions (msg) {
-        console.log('Something changed: ' + msg.data)
+      latestTransactions (blockData) {
+        console.log('socket triggered')
+        this.blockData = blockData
       }
     }
   }
