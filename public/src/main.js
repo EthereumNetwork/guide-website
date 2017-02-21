@@ -13,6 +13,9 @@ import ProjectsForm from './components/Form.vue'
 import LoginForm from './components/Login.vue'
 import About from './components/About.vue'
 import Project from './components/Project.vue'
+import Block from './components/Block.vue'
+import Transaction from './components/Transaction.vue'
+import TransactionList from './components/TransactionList.vue'
 
 Vue.use(VueRouter)
 Vue.use(Vuetify)
@@ -27,6 +30,9 @@ const routes = [
   { path: '/login', component: LoginForm },
   { path: '/about', component: About },
   { path: '/project/:title', component: Project },
+  { path: '/block/:id', component: Block },
+  { path: '/tx/:id', component: Transaction },
+  { path: '/txs', component: TransactionList },
   { path: '/project', redirect: '/projects' }
 ]
 

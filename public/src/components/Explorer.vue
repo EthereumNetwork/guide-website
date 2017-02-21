@@ -2,7 +2,12 @@
   <div>
     <p>{{ msg }}</p>
     <p>then you will be able to use the search bar to look up addresses, txIDs and other smart contract properties</p>
-    <p>the current block number is {{blockNumber}}</p>
+    <p>the current block number is <router-link :to="'/block/' + blockData.number">{{blockData.number}}</router-link> and the latest transactions are: </p>
+    <ul>
+      <li v-for="tx in blockData.transactions">
+        <router-link :to="'/tx/' + tx.hash">{{tx.hash}}</router-link>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -13,14 +18,16 @@ export default {
   data () {
     return {
       msg: 'the network explorer is in the works...',
-      blockNumber: 0
+      blockData: {}
     }
   },
 
   beforeCreate () {
-    fetch('/api/blocknumber')
+    fetch('/api/block/pending')
     .then((response) => { return response.json() })
-    .then((data) => { this.blockNumber = data })
-  },
+    .then((blockData) => {
+      this.blockData = blockData
+    })
+  }
 }
 </script>
