@@ -22,6 +22,7 @@ app.get('/api/block/:blockId', requestHandlers.getBlock)
 app.get('/api/tx/:txId', requestHandlers.getTransaction)
 app.get('/api/txs/:address', requestHandlers.getTransactionsByAddress)
 app.get('/api/txs', requestHandlers.getLatestTransactions)
+app.get('/api/balance/:address', requestHandlers.getBalanceByAddress)
 
 // history between routes and static files to catch client-side route paths
 app.use(history())

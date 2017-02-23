@@ -1,4 +1,5 @@
 const web3 = require('./web3.js')
+const ethUtil = require('ethereumjs-util')
 let lastBlockNumber = 0
 
 module.exports = function (io) {
@@ -7,18 +8,20 @@ module.exports = function (io) {
   })
 
   setInterval(() => {
-    web3.eth.getBlock('latest', true, (error, txData) => {
+    web3.eth.getBlock('latest', true, (error, blockData) => {
       if (error) {
         console.error(error)
-      } else if (txData.number === lastBlockNumber) {
+      } else if (blockData.number === lastBlockNumber) {
       } else {
-        lastBlockNumber = txData.number
-        io.emit('latestTransactions', txData)
-        for (var i = 0; i < txData.transactions.length; i++) {
-          io.emit(txData.transactions[i].from, txData.transactions[i])
-          io.emit(txData.transactions[i].to, txData.transactions[i])
+        lastBlockNumber = blockData.number
+        for (let i = 0; i < blockData.transactions.length; i++) {
+          blockData.transactions[i].from = ethUtil.toChecksumAddress(blockData.transactions[i].from)
+          blockData.transactions[i].to = ethUtil.toChecksumAddress(blockData.transactions[i].to)
+          io.emit(blockData.transactions[i].from, blockData.transactions[i])
+          io.emit(blockData.transactions[i].to, blockData.transactions[i])
         }
+        io.emit('latestTransactions', blockData)
       }
     })
-  }, 2000)
+  }, 1000)
 }

@@ -69,6 +69,12 @@ module.exports.getLatestTransactions = (req, res) => {
   })
 }
 
+module.exports.getBalanceByAddress = (req, res) => {
+  web3.eth.getBalance(req.params.address, (error, balance) => {
+    error ? console.error(error) : res.json(balance)
+  })
+}
+
 module.exports.getTransactionsByAddress = (req, res) => {
   // not impplemented yet
   // see https://ethereum.stackexchange.com/questions/8900/how-to-get-transactions-by-account-using-web3-js

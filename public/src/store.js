@@ -26,7 +26,8 @@ export default new Vuex.Store({
         blog: ''
       }
     },
-    projectList: []
+    projectList: [],
+    price: {}
   },
   mutations: {
     setToken (state, payload) {
@@ -37,6 +38,9 @@ export default new Vuex.Store({
     },
     setProjectToEdit (state, payload) {
       state.projectToEdit = payload.projectToEdit
+    },
+    setPrice (state, payload) {
+      state.price = payload.price
     }
   }
 })

@@ -5,7 +5,7 @@
 
 ## Setup to run / test it yourself
 
-Prerequisites: NodeJS, MongoDB and a .env file
+Prerequisites: NodeJS, MongoDB, Ethereum node and a .env file
 
 ``` bash
 # install dependencies
