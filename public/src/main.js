@@ -15,6 +15,7 @@ import LoginForm from './components/Login.vue'
 import About from './components/About.vue'
 import Project from './components/Project.vue'
 import Block from './components/Block.vue'
+import Address from './components/Address.vue'
 import Transaction from './components/Transaction.vue'
 import TransactionList from './components/TransactionList.vue'
 
@@ -33,6 +34,7 @@ const routes = [
   { path: '/about', component: About },
   { path: '/project/:title', component: Project },
   { path: '/block/:id', component: Block },
+  { path: '/address/:id', component: Address },
   { path: '/tx/:id', component: Transaction },
   { path: '/txs', component: TransactionList },
   { path: '/project', redirect: '/projects' }

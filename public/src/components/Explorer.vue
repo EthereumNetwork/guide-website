@@ -1,8 +1,8 @@
 <template>
   <div>
-    <p>{{ msg }}</p>
-    <p>then you will be able to use the search bar to look up addresses, txIDs and other smart contract properties</p>
-    <p>the current block number is <router-link :to="'/block/' + blockData.number">{{blockData.number}}</router-link> and the latest transactions are: </p>
+    <p>{{ msg }} as I'm building out the core functionalities.</p>
+    <p>Once it's finished, you will be able to use the search bar to look up addresses, txIDs and other smart contract properties. In the meantime, watch transactions showing up as they come in.</p>
+    <p>The current block number is <router-link :to="'/block/' + blockNumber">{{blockNumber}}</router-link> and the latest transactions are: </p>
     <table>
       <thead>
         <tr>
@@ -10,10 +10,10 @@
         </tr>
       </thead>
       <tbody>
-        <template v-for="tx in blockData.transactions">
-          <tr @click="goToTransaction(tx.hash)" class="tableItem">
-            <td>{{tx.from}}</td>
-            <td>{{tx.to}}</td>
+        <template v-for="tx in transactionList">
+          <tr class="tableItem">
+            <td><router-link :to="'/address/' + tx.from">{{tx.from}}</router-link></td>
+            <td><router-link :to="'/address/' + tx.to">{{tx.to}}</router-link></td>
             <td>{{tx.value}}</td>
           </tr>
         </template>
@@ -23,35 +23,39 @@
 </template>
 
 <script>
-// <!-- <router-link :to="'/tx/' + tx.hash">{{tx}}</router-link> -->
+import * as ethUtil from 'ethereumjs-util'
 export default {
   name: 'explorer',
   props: ['searchField'],
   data () {
     return {
-      msg: 'the network explorer is in the works...',
+      msg: 'The network explorer is still not fully impplemented,',
       headers: ['from', 'to', 'value'],
-      blockData: {}
+      blockNumber: 0,
+      transactionList: []
     }
   },
-  //
-  // beforeCreate () {
-  //   fetch('/api/block/pending')
-  //   .then((response) => { return response.json() })
-  //   .then((blockData) => {
-  //     this.blockData = blockData
-  //   })
-  // },
-  computed: {
-    transactions: function () {
-      return this.transactions.concat(this.blockData.transactions) || []
-    }
+  beforeCreate () {
+    fetch('/api/block/pending')
+    .then((response) => { return response.json() })
+    .then((blockData) => {
+      this.blockNumber = blockData.number
+      for (var i = 0; i < blockData.transactions.length; i++) {
+        blockData.transactions[i].from = ethUtil.toChecksumAddress(blockData.transactions[i].from)
+        blockData.transactions[i].to = ethUtil.toChecksumAddress(blockData.transactions[i].to)
+      }
+      this.transactionList = blockData.transactions
+    })
   },
   socket: {
     events: {
       latestTransactions (blockData) {
-        console.log('socket triggered')
-        this.blockData = blockData
+        this.blockNumber = blockData.number
+        for (var i = 0; i < blockData.transactions.length; i++) {
+          blockData.transactions[i].from = ethUtil.toChecksumAddress(blockData.transactions[i].from)
+          blockData.transactions[i].to = ethUtil.toChecksumAddress(blockData.transactions[i].to)
+        }
+        this.transactionList = blockData.transactions.concat(this.transactionList).slice(0, 200)
       }
     }
   },

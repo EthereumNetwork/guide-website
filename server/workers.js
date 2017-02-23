@@ -1,5 +1,5 @@
 const web3 = require('./web3.js')
-let latestTransactions = []
+let lastBlockNumber = 0
 
 module.exports = function (io) {
   io.on('connection', function (socket) {
@@ -8,7 +8,17 @@ module.exports = function (io) {
 
   setInterval(() => {
     web3.eth.getBlock('latest', true, (error, txData) => {
-      error ? console.error(error) : io.emit('latestTransactions', txData)
+      if (error) {
+        console.error(error)
+      } else if (txData.number === lastBlockNumber) {
+      } else {
+        lastBlockNumber = txData.number
+        io.emit('latestTransactions', txData)
+        for (var i = 0; i < txData.transactions.length; i++) {
+          io.emit(txData.transactions[i].from, txData.transactions[i])
+          io.emit(txData.transactions[i].to, txData.transactions[i])
+        }
+      }
     })
-  }, 3000)
+  }, 2000)
 }
