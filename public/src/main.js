@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Vuetify from 'vuetify'
 import store from './store'
 import VueCookie from 'vue-cookie'
+import VueWebsocket from 'vue-websocket'
 
 import App from './components/App.vue'
 import Home from './components/Home.vue'
@@ -14,12 +15,14 @@ import LoginForm from './components/Login.vue'
 import About from './components/About.vue'
 import Project from './components/Project.vue'
 import Block from './components/Block.vue'
+import Address from './components/Address.vue'
 import Transaction from './components/Transaction.vue'
 import TransactionList from './components/TransactionList.vue'
 
 Vue.use(VueRouter)
 Vue.use(Vuetify)
 Vue.use(VueCookie)
+Vue.use(VueWebsocket, '/', {'path': '/socket/socket.io'})
 
 const routes = [
   { path: '/', component: Home },
@@ -31,6 +34,7 @@ const routes = [
   { path: '/about', component: About },
   { path: '/project/:title', component: Project },
   { path: '/block/:id', component: Block },
+  { path: '/address/:id', component: Address },
   { path: '/tx/:id', component: Transaction },
   { path: '/txs', component: TransactionList },
   { path: '/project', redirect: '/projects' }

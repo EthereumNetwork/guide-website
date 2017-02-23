@@ -1,9 +1,9 @@
-var mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/EthNW')
+const mongoose = require('mongoose')
+mongoose.connect('mongodb://' + process.env.mongoDB)
 mongoose.Promise = Promise
 
-var Schema = mongoose.Schema
-var projectSchema = new Schema({
+const Schema = mongoose.Schema
+const projectSchema = new Schema({
   title: { type: String, unique: true, required: true },
   shortDescription: String,
   longDescription: String,
@@ -24,7 +24,18 @@ var projectSchema = new Schema({
   }
 })
 
-var Project = mongoose.model('Project', projectSchema)
+const Project = mongoose.model('Project', projectSchema)
+// Project.find().then(projects => console.log('following projects found:', projects))
+
+// Project.remove({}, function (err) {
+//   console.log('collection removed')
+// })
+const addressSchema = new Schema({
+  address: { type: String, unique: true, required: true },
+  transactions: [{ hash: String, to: String, from: String, blockNumber: Number, value: Number }]
+})
+
+const Address = mongoose.model('Address', addressSchema)
 // Project.find().then(projects => console.log('following projects found:', projects))
 
 // Project.remove({}, function (err) {
@@ -32,3 +43,4 @@ var Project = mongoose.model('Project', projectSchema)
 // })
 
 module.exports.Project = Project
+module.exports.Address = Address

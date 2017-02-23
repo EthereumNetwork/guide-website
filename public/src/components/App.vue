@@ -64,29 +64,33 @@
       fetch('/api/projects')
       .then((response) => { return response.json() })
       .then((data) => { this.$store.commit('setProjectList', { projectList: data }) })
+
+      fetch('https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR')
+      .then((response) => { return response.json() })
+      .then((price) => { this.$store.commit('setPrice', { price: price }) })
+
       this.$store.commit('setToken', { token: this.$cookie.get('token') })
     }
   }
 </script>
 
 <style>
-
-h1 {
-  font-size: 1.8em;
-}
-h2 {
-  font-size: 1.6em;
-}
-.searchbar {
-  float:right;
-  padding-right: 1%;
-  color: white;
-}
-.app  {
-  font-family: Arial, Helvetica, sans-serif;
-}
-.menu {
-  color: grey;
-  font-size: 1em;
-}
+  h1 {
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  .searchbar {
+    float:right;
+    padding-right: 1%;
+    color: white;
+  }
+  .app  {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .menu {
+    color: grey;
+    font-size: 1em;
+  }
 </style>
