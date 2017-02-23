@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import * as ethUtil from 'ethereumjs-util'
+// import * as ethUtil from 'ethereumjs-util'
 export default {
   name: 'explorer',
   props: ['searchField'],

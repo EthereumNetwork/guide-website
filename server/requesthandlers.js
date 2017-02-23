@@ -4,6 +4,7 @@ const jwt = require('jwt-simple')
 const moment = require('moment')
 const db = require('./db.js')
 const web3 = require('./web3.js')
+const ethUtil = require('ethereumjs-util')
 
 // Project methods
 
@@ -53,7 +54,15 @@ module.exports.getBlockNumber = (req, res) => {
 
 module.exports.getBlock = (req, res) => {
   web3.eth.getBlock(req.params.blockId, true, (error, blockData) => {
-    error ? console.error(error) : res.json(blockData)
+    if (error) {
+      console.error(error)
+    } else {
+      for (let i = 0; i < blockData.transactions.length; i++) {
+        blockData.transactions[i].from = ethUtil.toChecksumAddress(blockData.transactions[i].from || '')
+        blockData.transactions[i].to = ethUtil.toChecksumAddress(blockData.transactions[i].to || '')
+      }
+      res.json(blockData)
+    }
   })
 }
 
