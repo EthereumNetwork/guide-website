@@ -15,8 +15,8 @@ module.exports = function (io) {
       } else {
         lastBlockNumber = blockData.number
         for (let i = 0; i < blockData.transactions.length; i++) {
-          blockData.transactions[i].from = ethUtil.toChecksumAddress(blockData.transactions[i].from)
-          blockData.transactions[i].to = ethUtil.toChecksumAddress(blockData.transactions[i].to)
+          blockData.transactions[i].from = ethUtil.toChecksumAddress(blockData.transactions[i].from || '')
+          blockData.transactions[i].to = ethUtil.toChecksumAddress(blockData.transactions[i].to || '')
           io.emit(blockData.transactions[i].from, blockData.transactions[i])
           io.emit(blockData.transactions[i].to, blockData.transactions[i])
         }
