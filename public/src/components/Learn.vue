@@ -1,18 +1,21 @@
 <template>
 <v-container fluid>
-  <p>With Ethereum still is the first years, most resources here are for developers. Step-by-step instructions for all users will come later.</p>
+  <p>
+Ethereum is still a young project. When you consult the resources on our site, please keep in mind that most of it is designed to help developers. In the future, we plan to add more information and step-by-step guides to help less technical users to understand Ethereum.</p>
   <v-expansion-panel>
     <h2>What is Ethereum?</h2>
-    <p>Ethereum is part of a world computer, resilient and without any single point of failure, where everyone can publish and access content, write and use applications, send value and make agreements. Done through so called smart contracts, open, tamper proof, opt-in, self executing applications that run exactly as programmed and which all share one common, append-only "truth", the Ethereum blockchain, this decentralized environment allows all people, applications, IoT devices, markets, registries and other things to natively interact without the need of trusting each other. That's why people also call it the trust machine, it is not just an upgrade to our database and Internet, but rather a tool to re-architect social, financial and political systems.</p>
-    <p>While that just sounds like a long list of awesome buzzwords, it is very actively developed by tens of thousand of developers around the world and happening right now. Below you'll find some links to get you started with some introduction guides and videos. Once you're a bit more familiar with it, dive in deeper through the various other sections</p>
+    <p>The Ethereum project aims to do for human collaboration what the internet did for information. It is part of a world computer, where everyone can publish and access content, write and use applications, send value and make agreements.</p>
+    <p>This is done through so called smart contracts and decentralized applications (dapps), open, tamper proof, opt-in, self executing applications that run exactly as programmed and all share one common, append-only "truth", the Ethereum blockchain, while ensuring that there is no downtime, censorship, fraud or third party interference.<br>This decentralized environment allows all people, programs, IoT devices, markets, registries and other things to collaborate without the need for explicit trust. That's why people also call it the trust machine, it is not just an upgrade to our databases and Internet, but rather a tool to re-architect social, financial and political systems.</p>
+    <p>While that all just sounds a lot like a long list of awesome buzzwords, it is very actively developed by tens of thousand of developers around the world and happening right now. Below you'll find some links to instruction guides and videos that will help you get started. Once you're a bit more familiar with Ethereum, dive in deeper and read the other sections</p>
     <v-expansion-panel-content class="grey darken-2 white--text">
       <div slot="header">Links</div>
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
+          <a href="http://blockgeeks.com/guides/what-is-ethereum/" target="_blank" class="learnLink">A beginner's guide</a> to Ethereum<br>
           <a href="http://blockgeeks.com/guides/what-is-ethereum/" target="_blank" class="learnLink">What is Ethereum?</a> A Step-by-Step Beginners Guide<br>
-          <a href="https://youtu.be/A1Vbrxkqjwc" target="_blank" class="learnLink">New Kids on the Blockchain</a> What can you use it for?<br>
-          <a href="https://youtu.be/j23HnORQXvs" target="_blank" class="learnLink">Ethereum, the world computer</a> How the internet will work in the future<br>
-          <a href="https://youtu.be/66SaEDzlmP4" target="_blank" class="learnLink">Ethereum in 25 minutes</a> by Vitalik Buterin<br>
+          <a href="https://youtu.be/A1Vbrxkqjwc" target="_blank" class="learnLink">Video "New Kids on the Blockchain"</a> What can you use it for?<br>
+          <a href="https://youtu.be/j23HnORQXvs" target="_blank" class="learnLink">Video "Ethereum, the world computer"</a> How the internet will work in the future<br>
+          <a href="https://youtu.be/66SaEDzlmP4" target="_blank" class="learnLink">Video "Ethereum in 25 minutes"</a> by Vitalik Buterin<br>
           <a href="https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos" target="_blank" class="learnLink">Videos from Ethereum DevCon 2</a> Sep. 2016 in Shanghai<br>
           <a href="https://medium.com/ethlance/using-the-decentralized-web-3936dc5daac1" target="_blank" class="learnLink">Using the Decentralized Web</a> Interact with decentralized applications without understanding Ethereum<br>
           <a href="https://steemit.com/ethereum/@cryptomancer/ethereum-for-dummies-introducing-the-next-great-technological-leap-forward" target="_blank" class="learnLink">Ethereum for Dummies</a> introducing the next great technological leap forward<br>
@@ -27,15 +30,15 @@
     </v-expansion-panel-content>
     <br>
     <h2>Wallets and Browsers</h2>
-    <p>A good way to start is to try out the different ways to interact with the Ethereum Network. Wallets let you receive and send ether and other tokens running on top of it. Follow the first link in the security section before using any real money.</p>
-    <p>some more text about browsers</p>
+    <p>Wallets and browsers are your windows to the Ethereum world. The former works just like your normal wallet, i.e. it allows you to store, add and spend money via different currencies and payment systems. It contains one or more Ethereum addresses (long hexadecimal strings that uniquely identifies them) and can receive and send ether (the underlying Ethereum currency) or other tokens running on top of Ethereum. Before taking the plunge and spending any money on ether, please read the information provided by the first link in the security section.</p>
+    <p>As we said already, Ethereum is much more than just a crypto-currency blockchain. The main porpuse is hosting and running smart contracts, storing distributed data (swarm), decentralized communication (whisper) and much more. This begs the question: “How can I access all these cool features?”. This is where browser plugins such as Metamask and Ethereum browsers like Mist come in.</p>
     <v-expansion-panel-content class="grey darken-2 white--text">
       <div slot="header">Links</div>
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
           <a href="https://github.com/ethereum/mist/releases" target="_blank" class="learnLink">Mist</a> Official Ethereum browser and wallet<br>
           <a href="https://metamask.io/" target="_blank" class="learnLink">MetaMask</a> Chrome plugin to access Ethereum dapps<br>
-          <a href="https://www.myetherwallet.com/" target="_blank" class="learnLink">MyEtherWallet</a> client-side Ethereum online wallet and contract execution<br>
+          <a href="https://www.myetherwallet.com/" target="_blank" class="learnLink">MyEtherWallet</a> client-side Ethereum online wallet and smart contract execution<br>
           <a href="https://github.com/ethcore/parity/wiki/Parity-Wallet" target="_blank" class="learnLink">Parity Wallet</a> Parity also includes a bundled wallet application<br>
           <a href="https://jaxx.io/" target="_blank" class="learnLink">Jaxx</a> Wallet for multiple currencieson on multiple platforms<br>
           <a href="https://status.im/" target="_blank" class="learnLink">Status</a> Ethereum browser/messenger/wallet for mobile phones<br>
@@ -46,8 +49,10 @@
     </v-expansion-panel-content>
     <br>
     <h2>Developer Resources and Tools</h2>
-    <p>Get your feet wet with many different frameworks and documentation on how to use Ethereum and program decentralized applications. Check out the guides and tips section for more tutorials.</p>
-    <p>some more text about Developer Resources and Tools</p>
+    <p>Now that you have a wallet and have probably installed Mist and/or Metamask, it’s time roll up your sleeves and get your hands dirty. There are tons of frameworks, tools and resources that you will help you create your very own first Ðapp.</p>
+    <p>Ethereum nodes each run an EVM (Ethereum Virtual Machine). This is where the smart contracts run. To run code on the EVM, you will want to pick a language to write them in. As Solidity can be considered the reference implementation in terms of smart-contract programming languages, it is a good place to start. However, don’t stop there: other smart contract languages exist such as Serpent (a smart contract programming language for pythonistas).</p>
+    <p>Once you have gotten familiar with a language and maybe even compiled your first smart contract using Solc, you will want to look at Ðapp development frameworks such as Truffle, Embark or Dapple.</p>
+    <p>Below you'll find some links to instruction guides and videos that will help you on your path to becoming a Ðapp developer.</p>
     <v-expansion-panel-content class="grey darken-2 white--text">
       <div slot="header">Links</div>
       <v-card>
@@ -60,8 +65,9 @@
           <a href="http://ethereum.stackexchange.com" target="_blank" class="learnLink">Ethereum StackExchange</a> get answers for all your Ethereum questions<br>
           <a href="https://github.com/ethereum/web3.js" target="_blank" class="learnLink">Ethereum JavaScript API</a><br>
           <a href="http://truffleframework.com/" target="_blank" class="learnLink">Truffe</a> Development framework for Ethereum<br>
+          <a href="https://github.com/iurimatias/embark-framework" target="_blank" class="learnLink">Embark</a> Framework to develop and deploy DApps<br>
+          <a href="http://dapple.readthedocs.io/en/master/" target="_blank" class="learnLink">Dapple</a> Development framework for Ethereum<br>
           <a href="https://github.com/nexusdev/projectle" target="_blank" class="learnLink">Projectle</a> EVM contract system developer multi-tool<br>
-          <a href="https://github.com/iurimatias/embark-framework" target="_blank" class="learnLink">Embarke</a> Framework to develop and deploy DApps.<br>
           <a href="https://github.com/blockapps/bloc" target="_blank" class="learnLink">BlockApps</a> REST API and Javascript and Mobile SDK to Ethereum blockchains.<br>
           <a href="https://infura.io/" target="_blank" class="learnLink">Infura</a> APIs to Ethereum and IPFS nodes<br>
           <a href="https://ethereum.github.io/browser-solidity/" target="_blank" class="learnLink">Browser Solidity</a> Solidity Realtime compiler and IDE<br>

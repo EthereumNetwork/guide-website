@@ -1,5 +1,9 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://' + process.env.mongoDB)
+mongoose.connect('mongodb://' + process.env.mongoDB, function (err) {
+  if (err) {
+    return console.error(err)
+  }
+})
 mongoose.Promise = Promise
 
 const Schema = mongoose.Schema
@@ -44,3 +48,4 @@ const Address = mongoose.model('Address', addressSchema)
 
 module.exports.Project = Project
 module.exports.Address = Address
+module.exports.connection = mongoose.connection
