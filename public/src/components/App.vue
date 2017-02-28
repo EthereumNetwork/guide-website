@@ -38,7 +38,7 @@
       </main>
       <v-footer class="grey darken-4">
         <div class="text-xs-right">
-          <a href="https://www.linkedin.com/company/ethereum-network" target="_blank">LinkedIn</a> | <a href="https://twitter.com/EthereumPress" target="_blank">Twitter</a> | <a href="https://github.com/EthereumNetwork/guide-website" target="_blank">Github</a>
+          <a href="https://www.linkedin.com/company/ethereum-network" target="_blank">LinkedIn</a> | <a href="https://twitter.com/EthereumNetw" target="_blank">Twitter</a> | <a href="https://github.com/EthereumNetwork/guide-website" target="_blank">Github</a> | <a href="https://www.facebook.com/EthereumNetwork/" target="_blank">Facebook</a>
        </div>
       </v-footer>
     </v-app>
