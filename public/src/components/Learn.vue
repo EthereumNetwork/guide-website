@@ -207,6 +207,14 @@ Ethereum is still a young project. When you consult the resources on our site, p
       </v-card>
     </v-expansion-panel-content>
     <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">What is the current roadmap?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Both the Ethereum Foundatin and the <a href="https://www.reddit.com/r/ethereum/comments/5wo6hy/ethereum_enterprise_alliance_live_updates/" target="blank">Enterprise Ethereum Alliance</a> are working on it.</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
       <div slot="header">Can ether be used as a currency?</div>
       <v-card>
         <v-card-text class="grey lighten-3 black--text">

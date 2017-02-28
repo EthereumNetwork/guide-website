@@ -19,8 +19,10 @@
           <div @click="editProject" v-if="this.$store.state.token" ><i class="fa fa-pencil contact-link"></div>
           <a v-bind:href="project.contact.website" v-if="project.contact.website" target="_blank"> <i class="fa fa-link contact-link"> </a>
           <a v-bind:href="project.contact.github" v-if="project.contact.github" target="_blank"> <i class="fa fa-github contact-link"> </i></a>
+          <a v-bind:href="project.contact.linkedin" v-if="project.contact.linkedin" target="_blank"> <i class="fa fa-linkedin contact-link"> </i></a>
           <a v-bind:href="project.contact.twitter" v-if="project.contact.twitter" target="_blank"> <i class="fa fa-twitter contact-link"> </a>
           <a v-bind:href="project.contact.facebook" v-if="project.contact.facebook" target="_blank"> <i class="fa fa-facebook contact-link"> </a>
+          <a v-bind:href="project.contact.wechat" v-if="project.contact.wechat" target="_blank"> <i class="fa fa-weixin contact-link"> </a>
           <a v-bind:href="project.contact.slack" v-if="project.contact.slack" target="_blank"> <i class="fa fa-slack contact-link"> </a>
           <a v-bind:href="project.contact.reddit" v-if="project.contact.reddit" target="_blank"> <i class="fa fa-reddit contact-link"></a>
           <a v-bind:href="'mailto:' + project.contact.email" v-if="project.contact.email"> <i class="fa fa-at contact-link"></a>
