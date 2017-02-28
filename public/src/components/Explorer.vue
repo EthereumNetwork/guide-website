@@ -12,9 +12,9 @@
       <tbody>
         <template v-for="tx in transactionList">
           <tr>
-            <td><router-link :to="'/address/' + tx.from">{{tx.from}}</router-link></td>
-            <td><router-link :to="'/address/' + tx.to">{{tx.to}}</router-link></td>
-            <td><router-link :to="'/tx/' + tx.hash">{{tx.value/1e18}} Ether</router-link> (${{Math.round(tx.value/1e16*price.USD)/100}})</td>
+            <td><router-link :to="'/address/' + tx.from">{{tx.from.slice(0,10)}}...</router-link></td>
+            <td><router-link :to="'/address/' + tx.to">{{tx.to.slice(0,10)}}...</router-link></td>
+            <td><router-link :to="'/tx/' + tx.hash">{{Math.round(tx.value/1e10)/1e8}} Ether</router-link> (${{Math.round(tx.value/1e16*price.USD)/100}})</td>
             <td></td>
           </tr>
         </template>

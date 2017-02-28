@@ -1,6 +1,6 @@
 <template>
 
-    <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+    <v-col xs12="xs12" sm4="sm4" md6="md6" lg4>
       <v-card>
         <v-card-row class="grey darken-2 projectcard-title">
           <v-card-title @click="showProject" class="projectTitle">
