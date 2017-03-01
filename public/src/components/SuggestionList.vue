@@ -1,16 +1,30 @@
 <template>
   <v-row>
-    <project-item v-for="project in filteredProjects" v-bind:project="project"></project-item>
+    <project-item v-for="project in suggestionArray" v-bind:project="project"></project-item>
   </v-row>
 </template>
 
 <script>
   import ProjectItem from './ProjectItem.vue'
   export default {
-    name: 'projectList',
+    name: 'suggestionList',
     props: ['searchField', 'query'],
+    data () {
+      return {
+        suggestionArray: 'the network explorer is in the works...'
+      }
+    },
     components: {
       ProjectItem
+    },
+    mounted () {
+      console.log('data')
+      fetch('/api/suggestions')
+      .then((response) => { return response.json() })
+      .then((data) => {
+        console.log(data)
+        this.suggestionArray = data
+      })
     },
     computed: {
       filteredProjects: function () {

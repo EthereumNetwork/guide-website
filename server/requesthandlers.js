@@ -9,9 +9,12 @@ const ethUtil = require('ethereumjs-util')
 // Project methods
 
 module.exports.sendAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
+module.exports.sendAllSuggestions = (req, res) => { db.Suggestion.find().then(suggestions => res.send(suggestions)) }
 
 module.exports.saveProject = (req, res) => {
+  console.log('Authorized')
   req.body.creator = req.user.username
+  req.body._id = req.body.originalId
   if (req.body._id) {
     delete req.body.__v
     delete req.body.updatedAt
@@ -32,6 +35,20 @@ module.exports.saveProject = (req, res) => {
       }
     })
   }
+}
+module.exports.saveSuggestion = (req, res) => {
+  console.log('not authorized', req.body)
+  delete req.body._id
+  var suggestion1 = new db.Suggestion(req.body)
+  suggestion1.save(function (err, userObj) {
+    if (err) {
+      console.log('suggestion error', err)
+      res.send({result: 0, message: err})
+    } else {
+      console.log(' created: ', suggestion1)
+      res.send({result: 1, message: ''})
+    }
+  })
 }
 
 // Authentificatoin methods

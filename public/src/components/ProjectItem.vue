@@ -16,17 +16,17 @@
           </v-card-row>
         </v-card-text>
         <v-card-row actions>
-          <div @click="editProject" v-if="this.$store.state.token" ><i class="fa fa-pencil contact-link"></div>
-          <a v-bind:href="project.contact.website" v-if="project.contact.website" target="_blank"> <i class="fa fa-link contact-link"> </a>
-          <a v-bind:href="project.contact.github" v-if="project.contact.github" target="_blank"> <i class="fa fa-github contact-link"> </i></a>
-          <a v-bind:href="project.contact.linkedin" v-if="project.contact.linkedin" target="_blank"> <i class="fa fa-linkedin contact-link"> </i></a>
-          <a v-bind:href="project.contact.twitter" v-if="project.contact.twitter" target="_blank"> <i class="fa fa-twitter contact-link"> </a>
-          <a v-bind:href="project.contact.facebook" v-if="project.contact.facebook" target="_blank"> <i class="fa fa-facebook contact-link"> </a>
-          <a v-bind:href="project.contact.wechat" v-if="project.contact.wechat" target="_blank"> <i class="fa fa-weixin contact-link"> </a>
-          <a v-bind:href="project.contact.slack" v-if="project.contact.slack" target="_blank"> <i class="fa fa-slack contact-link"> </a>
-          <a v-bind:href="project.contact.reddit" v-if="project.contact.reddit" target="_blank"> <i class="fa fa-reddit contact-link"></a>
-          <a v-bind:href="'mailto:' + project.contact.email" v-if="project.contact.email"> <i class="fa fa-at contact-link"></a>
-          <a v-bind:href="project.contact.blog" v-if="project.contact.email" target="_blank"> <i class="fa fa-newspaper-o contact-link"></a>
+          <div @click="editProject" data-wenk="Suggest edits"><i class="fa fa-pencil contact-link"></div>
+          <a v-bind:href="project.website" v-if="project.website" target="_blank"> <i class="fa fa-link contact-link"> </a>
+          <a v-bind:href="project.github" v-if="project.github" target="_blank"> <i class="fa fa-github contact-link"> </i></a>
+          <a v-bind:href="project.linkedin" v-if="project.linkedin" target="_blank"> <i class="fa fa-linkedin contact-link"> </i></a>
+          <a v-bind:href="project.twitter" v-if="project.twitter" target="_blank"> <i class="fa fa-twitter contact-link"> </a>
+          <a v-bind:href="project.facebook" v-if="project.facebook" target="_blank"> <i class="fa fa-facebook contact-link"> </a>
+          <a v-bind:href="project.wechat" v-if="project.wechat" target="_blank"> <i class="fa fa-weixin contact-link"> </a>
+          <a v-bind:href="project.slack" v-if="project.slack" target="_blank"> <i class="fa fa-slack contact-link"> </a>
+          <a v-bind:href="project.reddit" v-if="project.reddit" target="_blank"> <i class="fa fa-reddit contact-link"></a>
+          <a v-bind:href="'mailto:' + project.email" v-if="project.email"> <i class="fa fa-at contact-link"></a>
+          <a v-bind:href="project.blog" v-if="project.blog" target="_blank"> <i class="fa fa-newspaper-o contact-link"></a>
         </v-card-row>
       </v-card>
     </v-col>

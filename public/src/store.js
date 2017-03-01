@@ -8,6 +8,7 @@ export default new Vuex.Store({
   state: {
     token: null,
     projectToEdit: {
+      _id: null,
       title: '',
       shortDescription: '',
       longDescription: 'long description with **markdown**\nadd images with [![projectImage](https://www.ethereum.org/images/logos/ETHEREUM-ICON_Black.png)](https://www.ethereum.org/images/logos/ETHEREUM-ICON_Black.png) to allow scaling ',
@@ -19,18 +20,16 @@ export default new Vuex.Store({
       license: '',
       contractAddrMain: '',
       contractAddrTest: '',
-      contact: {
-        github: '',
-        website: '',
-        twitter: '',
-        linkedin: '',
-        facebook: '',
-        slack: '',
-        reddit: '',
-        wechat: '',
-        email: '',
-        blog: ''
-      }
+      github: '',
+      website: '',
+      twitter: '',
+      linkedin: '',
+      facebook: '',
+      slack: '',
+      reddit: '',
+      wechat: '',
+      email: '',
+      blog: ''
     },
     projectList: [],
     price: {}

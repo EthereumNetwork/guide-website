@@ -19,28 +19,28 @@
           <v-text-input label="Latest News" id="latestNews" name="latestNews" v-model="project.latestNews"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Github" id="github" name="github" v-model="project.contact.github"></v-text-input>
+          <v-text-input label="Github" id="github" name="github" v-model="project.github"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Website" id="website" name="website" v-model="project.contact.website"></v-text-input>
+          <v-text-input label="Website" id="website" name="website" v-model="project.website"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Twitter" id="twitter" name="twitter" v-model="project.contact.twitter"></v-text-input>
+          <v-text-input label="Twitter" id="twitter" name="twitter" v-model="project.twitter"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Facebook" id="facebook" name="facebook" v-model="project.contact.facebook"></v-text-input>
+          <v-text-input label="Facebook" id="facebook" name="facebook" v-model="project.facebook"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Reddit" id="reddit" name="reddit" v-model="project.contact.reddit"></v-text-input>
+          <v-text-input label="Reddit" id="reddit" name="reddit" v-model="project.reddit"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Slack" id="slack" name="slack" v-model="project.contact.slack"></v-text-input>
+          <v-text-input label="Slack" id="slack" name="slack" v-model="project.slack"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Email" id="email" name="email" v-model="project.contact.email"></v-text-input>
+          <v-text-input label="Email" id="email" name="email" v-model="project.email"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Blog" id="blog" name="blog" v-model="project.contact.blog"></v-text-input>
+          <v-text-input label="Blog" id="blog" name="blog" v-model="project.blog"></v-text-input>
         </v-col>
       </v-row>
       <v-row>
@@ -49,10 +49,10 @@
         </v-col>
         <v-col xs9>
           <v-alert v-if="alert" hide-icon success dismissible v-model="alert">
-            Project saved successfully!
+            Submitted successfully!
           </v-alert>
           <v-alert v-if="error" hide-icon error dismissible v-model="error">
-            Error saving project! Are you logged in?
+            An error occurred.
           </v-alert>
           <div v-if="token">You are logged in and can update projects.</div>
           <div v-else>You need to be logged in to submit projects.</div>
@@ -92,8 +92,12 @@
     methods: {
 
       submit: function () {
+        this.IsProgress = true
+        this.project.originalId = this.project.originalId || this.project._id
         let token = this.$store.state.token
-        fetch(('/api/saveprojects'), {
+        let path = token ? 'saveprojects' : 'savesuggestion'
+        console.log(path)
+        fetch(('/api/' + path), {
           method: 'POST',
           headers: {
             'Accept': 'application/json',
@@ -108,6 +112,7 @@
           this.IsProgress = false
         })
         .catch((error) => {
+          this.IsProgress = false
           if (error) { this.error = true }
         })
       },
