@@ -2,7 +2,7 @@
   <div>
     <h2>{{this.$route.params.id}}</h2>
     <VueQrcode class="qrcode" id="tdsfgdsfgs" :text="this.$route.params.id" :size="128"></VueQrcode>
-    <p>This page doesn't show old transactions yet, as I'm still building up an address-transaction database, but new transactions to or from this address should show up as they come in.</p>
+    <p>I'm still building up an address-transaction database inlcluding the pending transactions. Until then, old transactions are coming from <a href="https://etherscan.io/">Etherscan</a> (They are awesome) and new transactions to or from this address only show up here once they are confirmed (~30 sec after sending them)</p>
     <p>ETH balance: {{balance/1e18}} Ether (${{Math.round(balance/1e16*price.USD)/100}})</p>
     <table>
       <thead>
@@ -42,9 +42,15 @@ export default {
     .then((balance) => {
       this.balance = balance
     })
-    this.$socket.on(this.$route.params.id, (transaction) => {
-      console.log('got that: ', this.transactionList, transaction)
-      this.transactionList.unshift(transaction)
+    fetch('http://api.etherscan.io/api?module=account&action=txlist&sort=desc&address=' + this.$route.params.id)
+    .then((response) => { return response.json() })
+    .then((transactionList) => {
+      this.transactionList = transactionList.result
+    })
+  },
+  mounted () {
+    this.$socket.on(this.$route.params.id, (transactions) => {
+      this.transactionList.unshift(transactions)
     })
   },
   components: {

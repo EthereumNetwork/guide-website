@@ -96,7 +96,6 @@
         this.project.originalId = this.project.originalId || this.project._id
         let token = this.$store.state.token
         let path = token ? 'saveprojects' : 'savesuggestion'
-        console.log(path)
         fetch(('/api/' + path), {
           method: 'POST',
           headers: {

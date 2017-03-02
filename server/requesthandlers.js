@@ -12,9 +12,11 @@ module.exports.sendAllProjects = (req, res) => { db.Project.find().then(projects
 module.exports.sendAllSuggestions = (req, res) => { db.Suggestion.find().then(suggestions => res.send(suggestions)) }
 
 module.exports.saveProject = (req, res) => {
-  console.log('Authorized')
+  console.log('Authorized', req.body)
+  db.Suggestion.remove({_id: req.body._id}, () => {})
   req.body.creator = req.user.username
   req.body._id = req.body.originalId
+  delete req.body.originalId
   if (req.body._id) {
     delete req.body.__v
     delete req.body.updatedAt
@@ -26,7 +28,7 @@ module.exports.saveProject = (req, res) => {
     })
   } else {
     var project1 = new db.Project(req.body)
-    project1.save(function (err, userObj) {
+    project1.save(function (err, doc) {
       if (err) {
         res.send({result: 0, message: err})
       } else {
@@ -40,12 +42,12 @@ module.exports.saveSuggestion = (req, res) => {
   console.log('not authorized', req.body)
   delete req.body._id
   var suggestion1 = new db.Suggestion(req.body)
-  suggestion1.save(function (err, userObj) {
+  suggestion1.save(function (err, doc) {
     if (err) {
       console.log('suggestion error', err)
       res.send({result: 0, message: err})
     } else {
-      console.log(' created: ', suggestion1)
+      console.log(' created: ', suggestion1.title)
       res.send({result: 1, message: ''})
     }
   })

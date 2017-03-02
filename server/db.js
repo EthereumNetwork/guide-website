@@ -5,8 +5,8 @@ mongoose.connect('mongodb://' + process.env.mongoDB, function (err) {
   }
 })
 mongoose.Promise = Promise
-
 const Schema = mongoose.Schema
+
 const projectSchema = new Schema({
   title: { type: String, unique: true, required: true },
   shortDescription: String,
@@ -32,6 +32,8 @@ const projectSchema = new Schema({
   email: String,
   blog: String
 })
+const Project = mongoose.model('Project', projectSchema)
+
 const suggestionSchema = new Schema({
   title: { type: String, required: true },
   shortDescription: String,
@@ -58,28 +60,21 @@ const suggestionSchema = new Schema({
   blog: String,
   originalId: String
 })
-
-const Project = mongoose.model('Project', projectSchema)
 const Suggestion = mongoose.model('Suggestion', suggestionSchema)
 
-// Project.find().then(projects => console.log('following projects found:', projects))
-
-// Project.remove({}, function (err) {
-//   console.log('collection removed')
-// })
-// Suggestion.remove({}, function (err) {
-//   console.log('collection removed')
-// })
 const addressSchema = new Schema({
   address: { type: String, unique: true, required: true },
   transactions: [{ hash: String, to: String, from: String, blockNumber: Number, value: Number }]
 })
-
 const Address = mongoose.model('Address', addressSchema)
+
 // Project.find().then(projects => console.log('following projects found:', projects))
 
 // Project.remove({}, function (err) {
-//   console.log('collection removed')
+//   console.log('projects removed')
+// })
+// Suggestion.remove({}, function (err) {
+//   console.log('suggestions removed')
 // })
 
 module.exports.Project = Project
