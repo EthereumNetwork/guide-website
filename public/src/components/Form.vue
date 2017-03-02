@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <v-container fluid>
+    <div>
       <v-row>
         <v-col xs12>
           <v-text-input label="Title" id="title" name="title" v-model="project.title"  ></v-text-input>
@@ -13,7 +12,7 @@
           <div v-html="compiledMarkdown"></div>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Logo Url" id="owner" name="owner" v-model="project.owner"></v-text-input>
+          <v-text-input label="Owner" id="owner" name="owner" v-model="project.owner"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-input label="Logo Url" id="logoUrl" name="logoUrl" v-model="project.logoUrl"></v-text-input>
@@ -52,7 +51,13 @@
           <v-text-input label="Blog" id="blog" name="blog" v-model="project.blog"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Blog" id="blog" name="blog" v-model="project.blog"></v-text-input>
+          <v-text-input label="Mainnet Contract Address" id="contractAddrMain" name="contractAddrMain" v-model="project.contractAddrMain"></v-text-input>
+        </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-input label="Testnet Contract Address" id="contractAddrTest" name="contractAddrTest" v-model="project.contractAddrTest"></v-text-input>
+        </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-input label="License" id="license" name="license" v-model="project.license"></v-text-input>
         </v-col>
       </v-row>
       <v-row>
@@ -72,8 +77,7 @@
           <v-btn small v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
         </v-col>
       </v-row>
-    </v-container>
-  </div>
+    </div>
 </template>
 
 <script>
