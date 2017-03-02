@@ -1,7 +1,6 @@
 <template>
 <v-container fluid>
-  <p>
-Ethereum is still a young project. When you consult the resources on our site, please keep in mind that most of it is designed to help developers. In the future, we plan to add more information and step-by-step guides to help less technical users to understand Ethereum.</p>
+  <p>Ethereum is still a young project. When you consult the resources on our site, please keep in mind that most of it is designed to help developers. In the future, we plan to add more information and step-by-step guides to help less technical users to understand Ethereum.</p>
   <v-expansion-panel>
     <h2>What is Ethereum?</h2>
     <p>The Ethereum project aims to do for human collaboration what the internet did for information. It is part of a world computer, where everyone can publish and access content, write and use applications, send value and make agreements.</p>
@@ -203,6 +202,14 @@ Ethereum is still a young project. When you consult the resources on our site, p
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
           <p>The Ethereum network can be very overwhelming, so that is a good question and completely depends what you're looking for. If you are a developer looking into blockchain programming and the creation of decentralized apps, most of the sections here are directed towards you. Let me know if you run into any trouble or out-dated info.<br> As a curious user, on <router-link to="/projects">the projects page</router-link> use any decentralized app that you find interesting. Then complain to the developers about any user experience difficulties that you encounter, and otherwise give helpful feedback.<br> Generally be curious and engage in the community, either through <a href="https://www.meetup.com/topics/ethereum/" target="_blank" class="learnLink">meetups</a> or the ones mentioned in the section above</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">What is the current roadmap?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Both the Ethereum Foundatin and the <a href="https://www.reddit.com/r/ethereum/comments/5wo6hy/ethereum_enterprise_alliance_live_updates/" target="blank">Enterprise Ethereum Alliance</a> are working on it.</p>
         </v-card-text>
       </v-card>
     </v-expansion-panel-content>

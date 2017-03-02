@@ -45,6 +45,7 @@
 </template>
 
 <script>
+  import 'wenk'
   export default {
     name: 'app',
     data () {

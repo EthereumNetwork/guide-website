@@ -9,6 +9,7 @@ import App from './components/App.vue'
 import Home from './components/Home.vue'
 import Learn from './components/Learn.vue'
 import ProjectList from './components/ProjectList.vue'
+import SuggestionList from './components/SuggestionList.vue'
 import Explorer from './components/Explorer.vue'
 import ProjectsForm from './components/Form.vue'
 import LoginForm from './components/Login.vue'
@@ -29,6 +30,7 @@ const routes = [
   { path: '/learn', component: Learn },
   { path: '/explorer', component: Explorer },
   { path: '/projects', component: ProjectList },
+  { path: '/suggestions', component: SuggestionList },
   { path: '/form', component: ProjectsForm },
   { path: '/login', component: LoginForm },
   { path: '/about', component: About },

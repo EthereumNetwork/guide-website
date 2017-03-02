@@ -5,47 +5,79 @@ mongoose.connect('mongodb://' + process.env.mongoDB, function (err) {
   }
 })
 mongoose.Promise = Promise
-
 const Schema = mongoose.Schema
+
 const projectSchema = new Schema({
   title: { type: String, unique: true, required: true },
   shortDescription: String,
   longDescription: String,
+  tags: String,
   updatedAt: { type: Date, default: Date.now },
-  latestNews: [String],
   creator: String,
+  owner: String,
   likes: [{like: Boolean, user: String}],
   logoUrl: String,
-  contact: {
-    github: String,
-    website: String,
-    twitter: String,
-    facebook: String,
-    slack: String,
-    reddit: String,
-    email: String,
-    blog: String
-  }
+  license: String,
+  featured: Number,
+  contractAddrMain: String,
+  contractAddrTest: String,
+  github: String,
+  website: String,
+  twitter: String,
+  linkedin: String,
+  facebook: String,
+  slack: String,
+  reddit: String,
+  wechat: String,
+  email: String,
+  blog: String
 })
-
 const Project = mongoose.model('Project', projectSchema)
-// Project.find().then(projects => console.log('following projects found:', projects))
 
-// Project.remove({}, function (err) {
-//   console.log('collection removed')
-// })
+const suggestionSchema = new Schema({
+  title: { type: String, required: true },
+  shortDescription: String,
+  longDescription: String,
+  tags: String,
+  updatedAt: { type: Date, default: Date.now },
+  creator: String,
+  owner: String,
+  likes: [{like: Boolean, user: String}],
+  logoUrl: String,
+  license: String,
+  featured: Number,
+  contractAddrMain: String,
+  contractAddrTest: String,
+  github: String,
+  website: String,
+  twitter: String,
+  linkedin: String,
+  facebook: String,
+  slack: String,
+  reddit: String,
+  wechat: String,
+  email: String,
+  blog: String,
+  originalId: String
+})
+const Suggestion = mongoose.model('Suggestion', suggestionSchema)
+
 const addressSchema = new Schema({
   address: { type: String, unique: true, required: true },
   transactions: [{ hash: String, to: String, from: String, blockNumber: Number, value: Number }]
 })
-
 const Address = mongoose.model('Address', addressSchema)
+
 // Project.find().then(projects => console.log('following projects found:', projects))
 
 // Project.remove({}, function (err) {
-//   console.log('collection removed')
+//   console.log('projects removed')
+// })
+// Suggestion.remove({}, function (err) {
+//   console.log('suggestions removed')
 // })
 
 module.exports.Project = Project
+module.exports.Suggestion = Suggestion
 module.exports.Address = Address
 module.exports.connection = mongoose.connection

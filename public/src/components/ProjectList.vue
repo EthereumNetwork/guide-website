@@ -15,19 +15,28 @@
     computed: {
       filteredProjects: function () {
         let projectListArray = this.$store.state.projectList
-        let searchField = this.searchField
         if (this.$route.query.q) {
-          searchField = this.$route.query.q
+          this.searchField = this.$route.query.q
         }
-        if (!searchField || searchField.length <= 2) {
+        if (!this.searchField || this.searchField.length <= 2) {
           return projectListArray
         }
-        searchField = searchField.trim().toLowerCase()
+        let searchArray = this.searchField.trim().toLowerCase().split(' ')
+
         projectListArray = projectListArray.filter(function (item) {
-          if (item.longDescription.toLowerCase().indexOf(searchField) !== -1) {
-            return item
+          // if (item.longDescription.toLowerCase().indexOf(searchArray) !== -1) {
+          //   return item
+          // }
+          let found = true
+          for (var i = 0; i < searchArray.length; i++) {
+            if (item.longDescription.toLowerCase().indexOf(searchArray[i]) === -1) {
+              console.log(searchArray[i])
+              found = false
+            }
           }
+          return found
         })
+
         return projectListArray
       }
     }
