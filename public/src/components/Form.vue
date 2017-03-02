@@ -13,16 +13,19 @@
           <div v-html="compiledMarkdown"></div>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-input label="Logo Url" id="owner" name="owner" v-model="project.owner"></v-text-input>
+        </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-input label="Logo Url" id="logoUrl" name="logoUrl" v-model="project.logoUrl"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Latest News" id="latestNews" name="latestNews" v-model="project.latestNews"></v-text-input>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Github" id="github" name="github" v-model="project.github"></v-text-input>
+          <v-text-input label="Tags" id="tags" name="tags" v-model="project.tags"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-input label="Website" id="website" name="website" v-model="project.website"></v-text-input>
+        </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-input label="Github" id="github" name="github" v-model="project.github"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-input label="Twitter" id="twitter" name="twitter" v-model="project.twitter"></v-text-input>
@@ -37,7 +40,16 @@
           <v-text-input label="Slack" id="slack" name="slack" v-model="project.slack"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-input label="LinkedIn" id="linkedin" name="linkedin" v-model="project.linkedin"></v-text-input>
+        </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-input label="WeChat" id="wechat" name="wechat" v-model="project.wechat"></v-text-input>
+        </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-input label="Email" id="email" name="email" v-model="project.email"></v-text-input>
+        </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-input label="Blog" id="blog" name="blog" v-model="project.blog"></v-text-input>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-input label="Blog" id="blog" name="blog" v-model="project.blog"></v-text-input>
@@ -49,13 +61,13 @@
         </v-col>
         <v-col xs9>
           <v-alert v-if="alert" hide-icon success dismissible v-model="alert">
-            Submitted successfully!
+            Submitted successfully! Thank you.
           </v-alert>
           <v-alert v-if="error" hide-icon error dismissible v-model="error">
             An error occurred.
           </v-alert>
-          <div v-if="token">You are logged in and can update projects.</div>
-          <div v-else>You need to be logged in to submit projects.</div>
+          <div v-if="token">You are logged in and can update projects directly.</div>
+          <div v-else>Suggestions will be checked for scams and spam.</div>
           <div v-if="project._id">editing: {{project.title}}, {{project._id}}, last edited by {{project.creator}}</div>
           <v-btn small v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
         </v-col>
