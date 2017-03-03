@@ -15,7 +15,6 @@
             <td><router-link :to="'/address/' + tx.from">{{tx.from.slice(0,10)}}...</router-link></td>
             <td><router-link :to="'/address/' + tx.to">{{tx.to.slice(0,10)}}...</router-link></td>
             <td><router-link :to="'/tx/' + tx.hash">{{Math.round(tx.value/1e10)/1e8}} Ether</router-link> (${{Math.round(tx.value/1e16*price.USD)/100}})</td>
-            <td></td>
           </tr>
         </template>
       </tbody>
@@ -41,10 +40,6 @@ export default {
     .then((response) => { return response.json() })
     .then((blockData) => {
       this.blockNumber = blockData.number
-      // for (var i = 0; i < blockData.transactions.length; i++) {
-      //   blockData.transactions[i].from = ethUtil.toChecksumAddress(blockData.transactions[i].from)
-      //   blockData.transactions[i].to = ethUtil.toChecksumAddress(blockData.transactions[i].to)
-      // }
       this.transactionList = blockData.transactions
     })
   },
@@ -57,10 +52,6 @@ export default {
     events: {
       latestTransactions (blockData) {
         this.blockNumber = blockData.number
-        // for (var i = 0; i < blockData.transactions.length; i++) {
-        //   blockData.transactions[i].from = ethUtil.toChecksumAddress(blockData.transactions[i].from)
-        //   blockData.transactions[i].to = ethUtil.toChecksumAddress(blockData.transactions[i].to)
-        // }
         this.transactionList = blockData.transactions.concat(this.transactionList).slice(0, 200)
       }
     }

@@ -1,48 +1,46 @@
 <template>
-  <v-row>
-    <project-item v-for="project in suggestionArray" v-bind:project="project"></project-item>
-  </v-row>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th v-for="header in headers" v-text="header"></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <template v-for="(suggestion, index) in suggestionArray">
+        <tr @click="editProject(index)">
+          <td></td>
+          <td>{{suggestion.title}}</td>
+          <td>{{suggestion.updatedAt}}</td>
+        </tr>
+      </template>
+    </tbody>
+  </table>
 </template>
 
 <script>
-  import ProjectItem from './ProjectItem.vue'
   export default {
     name: 'suggestionList',
     props: ['searchField', 'query'],
     data () {
       return {
-        suggestionArray: 'the network explorer is in the works...'
+        headers: ['title', 'updated'],
+        suggestionArray: []
       }
     },
-    components: {
-      ProjectItem
-    },
     mounted () {
-      console.log('data')
       fetch('/api/suggestions')
       .then((response) => { return response.json() })
       .then((data) => {
-        console.log(data)
         this.suggestionArray = data
       })
     },
-    computed: {
-      filteredProjects: function () {
-        let projectListArray = this.$store.state.projectList
-        let searchField = this.searchField
-        if (this.$route.query.q) {
-          searchField = this.$route.query.q
-        }
-        if (!searchField || searchField.length <= 2) {
-          return projectListArray
-        }
-        searchField = searchField.trim().toLowerCase()
-        projectListArray = projectListArray.filter(function (item) {
-          if (item.longDescription.toLowerCase().indexOf(searchField) !== -1) {
-            return item
-          }
-        })
-        return projectListArray
+    methods: {
+      editProject: function (index) {
+        console.log('hey', index)
+        this.$store.commit('setProjectToEdit', { projectToEdit: this.suggestionArray[index] })
+        this.$router.push('/form')
       }
     }
   }

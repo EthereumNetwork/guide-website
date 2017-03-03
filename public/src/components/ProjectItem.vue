@@ -1,8 +1,8 @@
 <template>
-    <v-col xs12="xs12" sm4="sm4" md6="md6" lg4 pb-2>
+    <v-col xs12="xs12" sm4="sm4" md6="md6" lg4 pb-2 @click="showProject" >
       <v-card>
-        <v-card-row class="grey darken-2 projectcard-title">
-          <v-card-title @click="showProject" class="projectTitle">
+        <v-card-row class="grey darken-">
+          <v-card-title class="projectTitle">
             <span>{{project.title}}</span>
           </v-card-title>
         </v-card-row>
@@ -23,11 +23,6 @@ var marked = require('marked')
 export default {
   name: 'project-item',
   props: ['project'],
-  computed: {
-    compiledMarkdown: function () {
-      return marked(this.project.longDescription || '', { sanitize: true })
-    }
-  },
   methods: {
     showProject: function () {
       this.$router.push('/project/' + this.project.title.replace(/\s+/g, ''))
