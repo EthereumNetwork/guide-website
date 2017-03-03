@@ -24,13 +24,9 @@
         let searchArray = this.searchField.trim().toLowerCase().split(' ')
 
         projectListArray = projectListArray.filter(function (item) {
-          // if (item.longDescription.toLowerCase().indexOf(searchArray) !== -1) {
-          //   return item
-          // }
           let found = true
           for (var i = 0; i < searchArray.length; i++) {
-            if (item.longDescription.toLowerCase().indexOf(searchArray[i]) === -1) {
-              console.log(searchArray[i])
+            if (item.tags.toLowerCase().indexOf(searchArray[i]) === -1) {
               found = false
             }
           }
