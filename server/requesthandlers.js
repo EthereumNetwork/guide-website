@@ -7,9 +7,18 @@ const web3 = require('./web3.js')
 const ethUtil = require('ethereumjs-util')
 
 // Project methods
+let projectsList = []
+let suggestionsList = []
 
-module.exports.sendAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
-module.exports.sendAllSuggestions = (req, res) => { db.Suggestion.find().then(suggestions => res.send(suggestions)) }
+db.Project.find({}, 'title shortDescription logoUrl').then(projects => {
+  projectsList = projects
+})
+db.Suggestion.find({}, 'title shortDescription logoUrl').then(suggestions => {
+  suggestionsList = suggestions
+})
+
+module.exports.sendAllProjects = (req, res) => { res.send(projectsList) }
+module.exports.sendAllSuggestions = (req, res) => { res.send(suggestionsList) }
 
 module.exports.saveProject = (req, res) => {
   console.log('Authorized', req.body)
