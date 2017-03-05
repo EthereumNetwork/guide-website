@@ -8,20 +8,15 @@ const ethUtil = require('ethereumjs-util')
 
 // Project methods
 let projectsList = []
-let suggestionsList = []
-
-db.Project.find({}, 'title shortDescription logoUrl').then(projects => {
-  projectsList = projects
-})
-db.Suggestion.find({}, 'title shortDescription logoUrl').then(suggestions => {
-  suggestionsList = suggestions
-})
+let updateProjectsList = () => {
+  db.Project.find({}, 'title shortDescription logoUrl').then(projects => { projectsList = projects })
+}
+updateProjectsList()
 
 module.exports.sendAllProjects = (req, res) => { res.send(projectsList) }
-module.exports.sendAllSuggestions = (req, res) => { res.send(suggestionsList) }
+module.exports.sendAllSuggestions = (req, res) => { db.Suggestion.find().then(suggestions => res.send(suggestions)) }
 
 module.exports.saveProject = (req, res) => {
-  console.log('Authorized', req.body)
   db.Suggestion.remove({_id: req.body._id}, () => {})
   req.body.creator = req.user.username
   req.body._id = req.body.originalId
@@ -32,7 +27,6 @@ module.exports.saveProject = (req, res) => {
     var query = { _id: req.body._id }
     db.Project.findOneAndUpdate(query, req.body, { upsert: true, new: true }, function (err, doc) {
       if (err) return res.send(500, { error: err })
-      console.log(doc)
       return res.send({result: 1, message: ''})
     })
   } else {
@@ -46,9 +40,9 @@ module.exports.saveProject = (req, res) => {
       }
     })
   }
+  updateProjectsList()
 }
 module.exports.saveSuggestion = (req, res) => {
-  console.log('not authorized', req.body)
   delete req.body._id
   var suggestion1 = new db.Suggestion(req.body)
   suggestion1.save(function (err, doc) {

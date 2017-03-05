@@ -10,9 +10,9 @@
       <div slot="header">Links</div>
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
-          <a href="http://blockgeeks.com/guides/what-is-ethereum/" target="_blank" class="learnLink">A beginner's guide</a> to Ethereum<br>
+          <a href="https://blog.coinbase.com/a-beginners-guide-to-ethereum-46dd486ceecf" target="_blank" class="learnLink">A beginner's guide</a> to Ethereum<br>
           <a href="http://blockgeeks.com/guides/what-is-ethereum/" target="_blank" class="learnLink">What is Ethereum?</a> A Step-by-Step Beginners Guide<br>
-          <a href="https://youtu.be/A1Vbrxkqjwc" target="_blank" class="learnLink">Video "New Kids on the Blockchain"</a> What can you use it for?<br>
+          <a href="https://youtu.be/Pl8OlkkwRpc" target="_blank" class="learnLink">Video "How the blockchain is changing money and business"</a> by Don Tapscott<br>
           <a href="https://youtu.be/j23HnORQXvs" target="_blank" class="learnLink">Video "Ethereum, the world computer"</a> How the internet will work in the future<br>
           <a href="https://youtu.be/66SaEDzlmP4" target="_blank" class="learnLink">Video "Ethereum in 25 minutes"</a> by Vitalik Buterin<br>
           <a href="https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos" target="_blank" class="learnLink">Videos from Ethereum DevCon 2</a> Sep. 2016 in Shanghai<br>
