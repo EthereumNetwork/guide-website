@@ -38,14 +38,15 @@ export default {
   name: 'project',
   data () {
     return {
-      msg: 'the network explorer is in the works...'
+      msg: 'the network explorer is in the works...',
+      project: {}
     }
   },
   computed: {
-    project: function () {
-      let title = this.$route.params.title.replace(/\s+/g, '').toLowerCase()
-      return this.$store.state.projectList.find((project) => project.title.replace(/\s+/g, '').toLowerCase() === title)
-    },
+    // project: function () {
+    //   let title = this.$route.params.title.replace(/\s+/g, '').toLowerCase()
+    //   return this.$store.state.projectList.find((project) => project.title.replace(/\s+/g, '').toLowerCase() === title)
+    // },
     compiledMarkdown: function () {
       return marked(this.project.longDescription || '', { sanitize: true })
     }
@@ -55,6 +56,13 @@ export default {
       this.$store.commit('setProjectToEdit', { projectToEdit: this.project })
       this.$router.push('/form')
     }
+  },
+  created () {
+    fetch('/api/project/' + this.$route.params.title)
+    .then((response) => { return response.json() })
+    .then((data) => {
+      this.project = data
+    })
   }
 }
 </script>
