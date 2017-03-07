@@ -12,18 +12,18 @@
         </v-card-row>
       </v-card-text>
       <v-card-row actions>
-        <a v-bind:href="project.website" v-if="project.website" target="_blank"> <i class="fa fa-link contact-link"> </a>
-        <a v-bind:href="project.github" v-if="project.github" target="_blank"> <i class="fa fa-github contact-link"> </i></a>
-        <a v-bind:href="project.linkedin" v-if="project.linkedin" target="_blank"> <i class="fa fa-linkedin contact-link"> </i></a>
-        <a v-bind:href="project.twitter" v-if="project.twitter" target="_blank"> <i class="fa fa-twitter contact-link"> </a>
-        <a v-bind:href="project.facebook" v-if="project.facebook" target="_blank"> <i class="fa fa-facebook contact-link"> </a>
-        <a v-bind:href="project.wechat" v-if="project.wechat" target="_blank"> <i class="fa fa-weixin contact-link"> </a>
-        <a v-bind:href="project.slack" v-if="project.slack" target="_blank"> <i class="fa fa-slack contact-link"> </a>
-        <a v-bind:href="project.reddit" v-if="project.reddit" target="_blank"> <i class="fa fa-reddit contact-link"></a>
-        <a v-bind:href="'mailto:' + project.email" v-if="project.email"> <i class="fa fa-at contact-link"></a>
-        <a v-bind:href="project.blog" v-if="project.blog" target="_blank"> <i class="fa fa-newspaper-o contact-link"></a>
+        <a v-bind:href="project.website" v-if="project.website" target="_blank"> <i class="icon-link contact-link"> </a>
+        <a v-bind:href="project.github" v-if="project.github" target="_blank"> <i class="icon-github-squared contact-link"> </i></a>
+        <a v-bind:href="project.linkedin" v-if="project.linkedin" target="_blank"> <i class="icon-linkedin-squared contact-link"> </i></a>
+        <a v-bind:href="project.twitter" v-if="project.twitter" target="_blank"> <i class="icon-twitter-squared contact-link"> </a>
+        <a v-bind:href="project.facebook" v-if="project.facebook" target="_blank"> <i class="icon-facebook-official contact-link"> </a>
+        <a v-bind:href="project.wechat" v-if="project.wechat" target="_blank"> <i class="icon-wechat contact-link"> </a>
+        <a v-bind:href="project.slack" v-if="project.slack" target="_blank"> <i class="icon-slack contact-link"> </a>
+        <a v-bind:href="project.reddit" v-if="project.reddit" target="_blank"> <i class="icon-reddit contact-link"></a>
+        <a v-bind:href="'mailto:' + project.email" v-if="project.email"> <i class="icon-mail contact-link"></a>
+        <a v-bind:href="project.blog" v-if="project.blog" target="_blank"> <i class="icon-newspaper-o contact-link"></a>
         <v-spacer></v-spacer>
-        <div @click="editProject" data-wenk="Suggest edits" data-wenk-pos="left"><i class="fa fa-pencil contact-link"></div>
+        <div @click="editProject" data-wenk="Suggest edits" data-wenk-pos="left"><i class="icon-pencil contact-link"></div>
       </v-card-row>
     </v-card>
   </div>
@@ -76,7 +76,7 @@ export default {
     color: black;
     text-shadow: 1px 1px 1px #ccc;
     font-size: 1.4em;
-    margin-left: 0.3em;
+    margin-left: 0.1em;
 }
 img[alt=projectImage] { width: 250px; }
 </style>
