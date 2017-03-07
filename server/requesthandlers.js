@@ -6,14 +6,27 @@ const db = require('./db.js')
 const web3 = require('./web3.js')
 const ethUtil = require('ethereumjs-util')
 
+// Authentificatoin methods
+
+module.exports.login = (req, res) => {
+  let payload = { username: req.body.username, exp: moment().add(30, 'days').unix() }
+  let token = jwt.encode(payload, process.env.jwtSecret)
+  if (process.env[req.body.username] && process.env[req.body.username] === req.body.password) {
+    res.json({ token: token })
+  } else {
+    res.status(401).send('auth error')
+  }
+}
+
 // Project methods
 let projectsList = []
 let updateProjectsList = () => {
-  db.Project.find({}, 'title shortDescription logoUrl').then(projects => { projectsList = projects })
+  db.Project.find({}, 'title shortDescription tags logoUrl').then(projects => { projectsList = projects })
 }
 updateProjectsList()
 
 module.exports.sendAllProjects = (req, res) => { res.send(projectsList) }
+module.exports.sendProject = (req, res) => { db.Project.findOne({title: req.params.title.replace(/_+/g, ' ')}).then(project => res.send(project)) }
 module.exports.sendAllSuggestions = (req, res) => { db.Suggestion.find().then(suggestions => res.send(suggestions)) }
 
 module.exports.saveProject = (req, res) => {
@@ -54,18 +67,6 @@ module.exports.saveSuggestion = (req, res) => {
       res.send({result: 1, message: ''})
     }
   })
-}
-
-// Authentificatoin methods
-
-module.exports.login = (req, res) => {
-  let payload = { username: req.body.username, exp: moment().add(30, 'days').unix() }
-  let token = jwt.encode(payload, process.env.jwtSecret)
-  if (process.env[req.body.username] && process.env[req.body.username] === req.body.password) {
-    res.json({ token: token })
-  } else {
-    res.status(401).send('auth error')
-  }
 }
 
 // Explorer methods

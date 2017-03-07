@@ -25,7 +25,7 @@ export default {
   props: ['project'],
   methods: {
     showProject: function () {
-      this.$router.push('/project/' + this.project.title.replace(/\s+/g, ''))
+      this.$router.push('/project/' + this.project.title.replace(/\s+/g, '_'))
     }
   }
 }
