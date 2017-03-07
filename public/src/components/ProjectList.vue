@@ -48,10 +48,10 @@
     methods: {
       onInfinite () {
         setTimeout(() => {
-          if (this.$store.state.projectList.length > this.maxProjects) {
+          if (this.$store.state.projectList.length >= this.maxProjects) {
             this.maxProjects = this.maxProjects + 50
             this.$refs.infiniteLoading.$emit('$InfiniteLoading:loaded')
-          } else {
+          } else if (this.$store.state.projectList.length) {
             this.$refs.infiniteLoading.$emit('$InfiniteLoading:complete')
           }
         }, 300)
