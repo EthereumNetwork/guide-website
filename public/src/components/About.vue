@@ -12,9 +12,9 @@
       <img src="../assets/milg.jpg">
       <v-col xs12 sm6>
       <p> started out with programming on the Bitcoin blockchain before moving on to Ethereum to decentralize all the things.</p>
-      <a href="https://github.com/misterigl" target="_blank"> <i class="fa fa-github contact-link"> </i></a>
-      <a href="https://twitter.com/misterigl" target="_blank"> <i class="fa fa-twitter contact-link"> </a>
-      <a href="https://www.reddit.com/user/misterigl/" target="_blank"> <i class="fa fa-reddit contact-link"></a>
+      <a href="https://github.com/misterigl" target="_blank"> <i class="icon-github-squared contact-link"> </i></a>
+      <a href="https://twitter.com/misterigl" target="_blank"> <i class="icon-twitter-squared contact-link"> </a>
+      <a href="https://www.reddit.com/user/misterigl/" target="_blank"> <i class="icon-reddit contact-link"></a>
     </v-col>
   </v-row>
 </div>
