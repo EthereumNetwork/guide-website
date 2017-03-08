@@ -72,7 +72,7 @@
             An error occurred.
           </v-alert>
           <div v-if="token">You are logged in and can update projects directly.</div>
-          <div v-else>Suggestions will be checked for scams and spam.</div>
+          <div v-else>You can suggest projects and changes, we still need to check for scams and spam.</div>
           <div v-if="project._id">editing: {{project.title}}, {{project._id}}, last edited by {{project.creator}}</div>
           <v-btn small v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
         </v-col>
@@ -147,5 +147,9 @@
       min-height:100px;
       width: 99%;
   }
-  img[alt=projectImage] { width: 250px; }
+  img {
+    display: block;
+    margin: 5px auto;
+    max-width: 100%;
+  }
 </style>

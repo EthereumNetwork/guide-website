@@ -21,7 +21,7 @@
         <a v-bind:href="project.slack" v-if="project.slack" target="_blank"> <i class="icon-slack contact-link"> </a>
         <a v-bind:href="project.reddit" v-if="project.reddit" target="_blank"> <i class="icon-reddit contact-link"></a>
         <a v-bind:href="'mailto:' + project.email" v-if="project.email"> <i class="icon-mail contact-link"></a>
-        <a v-bind:href="project.blog" v-if="project.blog" target="_blank"> <i class="icon-newspaper-o contact-link"></a>
+        <a v-bind:href="project.blog" v-if="project.blog" target="_blank"> <i class="icon-newspaper contact-link"></a>
         <v-spacer></v-spacer>
         <div @click="editProject" data-wenk="Suggest edits" data-wenk-pos="left"><i class="icon-pencil contact-link"></div>
       </v-card-row>
@@ -78,5 +78,9 @@ export default {
     font-size: 1.4em;
     margin-left: 0.1em;
 }
-img[alt=projectImage] { width: 250px; }
+img {
+  display: block;
+  margin: 5px auto;
+  max-width: 100%;
+}
 </style>

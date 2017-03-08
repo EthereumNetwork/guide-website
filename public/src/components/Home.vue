@@ -1,12 +1,15 @@
 <template>
-  <v-row>
-    <v-col xs12 sm12 md12 lg6>
-      <p>I'm in the progress of building out the website, that's why everything is still ugly (I'm not very good with styling), empty (still getting all the content ready) and slow (running on tiny test servers). If you have time and ideas, <a href="https://github.com/EthereumNetwork/guide-website/issues">any help or found bugs</a> will be greatly appriciated.<br> The plan for this landing page is a search bar to look up addresses, transactions, contracts, but also projects and articles. And to show some featured projects and the news of the day. Until that's all finished, with the links above you can already check out how the different parts come to fruition.</p>
-    </v-col>
-    <v-col xs12 sm8 md6 lg4>
-    <a class="twitter-timeline" data-show-count="true" data-show-screen-name="false" href="https://twitter.com/EthereumNetw"></a>
-    </v-col>
-  </v-row>
+  <v-container fluid class="content">
+    <img class="homeImage "src="../assets/NA.png"></img>
+    <v-row>
+      <v-col xs1>
+      </v-col>
+      <v-col xs10 class="searchbar">
+        <v-text-input v-on:keyup.enter.native="submit" v-model="searchBar" placeholder="search for Ethereum projects, topics, txIDs, adresses, ..."></v-text-input>
+        <input type="text" v-on:keyup.enter="submit">
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
@@ -15,8 +18,30 @@ export default {
   props: ['searchField'],
   data () {
     return {
-      msg: 'the network explorer will come later...'
+      msg: 'the network explorer will come later...',
+      searchBar: ''
+    }
+  },
+  methods: {
+    submit () {
+      if (this.searchBar.length === 42 && this.searchBar.slice(0,2) === '0x') {
+        console.log('found an address', this.searchBar.length)
+        this.$router.push('/projects/?q=' + this.searchBar)
+      } else if (this.searchBar.length === 66 && this.searchBar.slice(0,2) === '0x') {
+        this.$router.push('/projects/?q=' + this.searchBar)
+        console.log('found a tx', this.searchBar.length)
+      } else {
+        this.$router.push('/projects/?q=' + this.searchBar)
+      }
     }
   }
 }
 </script>
+
+<style>
+.homeImage {
+  max-height: 150px;
+  display: block;
+  margin: 20px auto;
+}
+</style>
