@@ -11,7 +11,7 @@ export default new Vuex.Store({
       _id: null,
       title: '',
       shortDescription: '',
-      longDescription: 'long description with **markdown**\nyou can add images with\n\n[![projectImage](https://www.ethereum.org/images/logos/ETHEREUM-ICON_Black.png)](https://www.ethereum.org/images/logos/ETHEREUM-ICON_Black.png)\n\nto allow scaling ',
+      longDescription: 'long description with **markdown**\nyou can add images with\n\n[![](https://www.ethereum.org/images/logos/ETHEREUM-ICON_Black.png)](https://www.ethereum.org/images/logos/ETHEREUM-ICON_Black.png)\n\n',
       tags: '',
       creator: '',
       owner: '',

@@ -1,7 +1,10 @@
 <template>
   <v-row>
     <project-item v-for="project in filteredProjects" v-bind:project="project"></project-item>
-    <v-col xs12><infinite-loading :on-infinite="onInfinite" ref="infiniteLoading" spinner="bubbles"></infinite-loading></v-col>
+    <v-col xs12 class="showall">
+      <infinite-loading v-if="!searchField" :on-infinite="onInfinite" ref="infiniteLoading" spinner="bubbles"></infinite-loading>
+      <div v-else @click="showAllProjects" data-wenk="Show All Projects"><i class="icon-resize-full-alt"></div>
+    </v-col>
   </v-row>
 </template>
 
@@ -55,10 +58,19 @@
             this.$refs.infiniteLoading.$emit('$InfiniteLoading:complete')
           }
         }, 300)
+      },
+      showAllProjects () {
+        this.searchField = ''
+        this.$router.push('/projects')
       }
     }
   }
 </script>
 
 <style>
+.showall {
+    color: grey;
+    font-size: 2em;
+    text-align: center;
+}
 </style>

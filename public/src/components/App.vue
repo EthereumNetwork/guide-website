@@ -11,7 +11,7 @@
         </v-toolbar-items>
         <v-spacer></v-spacer>
         <div class="searchfield">
-          <v-text-input v-if="this.$route.path !== '/'" placeholder="filter projects, txIDs, adresses" v-model="searchField"></v-text-input>
+          <v-text-input v-if="this.$route.path === '/projects'" placeholder="filter projects, txIDs, adresses" v-model="searchField"></v-text-input>
         </div>
       </v-toolbar>
     </heade0>
