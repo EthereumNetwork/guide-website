@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <project-item v-for="project in filteredProjects" v-bind:project="project"></project-item>
-    <v-col xs12><infinite-loading :on-infinite="onInfinite" ref="infiniteLoading" spinner="waveDots"></infinite-loading></v-col>
+    <v-col xs12><infinite-loading :on-infinite="onInfinite" ref="infiniteLoading" spinner="bubbles"></infinite-loading></v-col>
   </v-row>
 </template>
 
