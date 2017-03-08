@@ -67,7 +67,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
 .edit-link {
   cursor: pointer;
   cursor: hand;
@@ -79,8 +79,7 @@ export default {
     margin-left: 0.1em;
 }
 img {
-  display: block;
-  margin: 5px auto;
   max-width: 100%;
+  max-height: 250px;
 }
 </style>

@@ -140,16 +140,11 @@
   }
 
 </script>
-<style>
+<style scoped>
   textarea {
       display:inline-block;
       border: solid 1px #000;
       min-height:100px;
       width: 99%;
-  }
-  img {
-    display: block;
-    margin: 5px auto;
-    max-width: 100%;
   }
 </style>
