@@ -13,9 +13,9 @@
       <tbody>
         <template v-for="tx in transactionList">
           <tr>
-            <td><router-link :to="'/address/' + tx.from">{{tx.from}}</router-link></td>
-            <td><router-link :to="'/address/' + tx.to">{{tx.to}}</router-link></td>
-            <td>{{tx.value}}</td>
+            <td><router-link :to="'/address/' + tx.from">{{tx.from.slice(0,10)}}...</router-link></td>
+            <td><router-link :to="'/address/' + tx.to">{{tx.to.slice(0,10)}}...</router-link></td>
+            <td><router-link :to="'/tx/' + tx.hash">{{Math.round(tx.value/1e10)/1e8}} Ether</router-link> (${{Math.round(tx.value/1e16*price.USD)/100}})</td>
           </tr>
         </template>
       </tbody>
@@ -42,7 +42,7 @@ export default {
     .then((balance) => {
       this.balance = balance
     })
-    fetch('http://api.etherscan.io/api?module=account&action=txlist&sort=desc&address=' + this.$route.params.id)
+    fetch('https://api.etherscan.io/api?module=account&action=txlist&sort=desc&address=' + this.$route.params.id)
     .then((response) => { return response.json() })
     .then((transactionList) => {
       this.transactionList = transactionList.result

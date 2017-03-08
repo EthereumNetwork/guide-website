@@ -24,12 +24,10 @@ export default {
   },
   methods: {
     submit () {
-      if (this.searchBar.length === 42 && this.searchBar.slice(0,2) === '0x') {
-        console.log('found an address', this.searchBar.length)
-        this.$router.push('/projects/?q=' + this.searchBar)
-      } else if (this.searchBar.length === 66 && this.searchBar.slice(0,2) === '0x') {
-        this.$router.push('/projects/?q=' + this.searchBar)
-        console.log('found a tx', this.searchBar.length)
+      if (this.searchBar.length === 42 && this.searchBar.slice(0, 2) === '0x') {
+        this.$router.push('/address/' + this.searchBar)
+      } else if (this.searchBar.length === 66 && this.searchBar.slice(0, 2) === '0x') {
+        this.$router.push('/tx/' + this.searchBar)
       } else {
         this.$router.push('/projects/?q=' + this.searchBar)
       }
