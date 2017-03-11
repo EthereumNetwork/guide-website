@@ -199,16 +199,23 @@
     </v-expansion-panel-content>
     </br>
   </v-expansion-panel>
+  <div class="comments">
+    <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="$route.path"></VueDisqus>
+  </div>
 </v-container>
 </template>
 
 <script>
+import VueDisqus from 'vue-disqus/VueDisqus.vue'
 export default {
   name: 'learn',
   data () {
     return {
       msg: 'better formation and organization of developer resources coming soon...'
     }
+  },
+  components: {
+    VueDisqus
   }
 }
 </script>
