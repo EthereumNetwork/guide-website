@@ -1,6 +1,6 @@
 <template>
 <v-container fluid>
-  <p>Ethereum is still a young and experimental project, it isn't safe or scalable yet. Most resources here are for developers not afraid to try out new things. In the future, we plan to add more information and step-by-step guides to help less technical users to understand Ethereum.</p>
+  <p>Ethereum is still a young and experimental project, it isn't safe or scalable yet. Most resources here are for developers not afraid to try out new things. In the future, there will be more information and step-by-step guides to help less technical users to understand Ethereum.</p>
   <v-expansion-panel>
     <h2>What is Ethereum?</h2>
     <p>The Ethereum project aims to do for human collaboration what the internet did for information. It is part of a world computer, where everyone can publish and access content, write and use applications, send value and make agreements.</p>
