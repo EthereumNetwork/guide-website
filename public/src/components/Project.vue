@@ -27,7 +27,7 @@
       </v-card-row>
     </v-card>
     <div class="comments">
-      <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="$route.path"></VueDisqus>
+      <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="'https://ethereum.network' + $route.path"></VueDisqus>
     </div>
   </div>
   <div v-else>
