@@ -26,6 +26,9 @@
         <div @click="editProject" data-wenk="Suggest edits" data-wenk-pos="left"><i class="icon-pencil contact-link"></div>
       </v-card-row>
     </v-card>
+    <div class="comments">
+      <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="$route.path"></VueDisqus>
+    </div>
   </div>
   <div v-else>
     Unfortunately we couldn't find any information about {{$route.params.title}}
@@ -34,6 +37,7 @@
 
 <script>
 var marked = require('marked')
+import VueDisqus from 'vue-disqus/VueDisqus.vue'
 export default {
   name: 'project',
   data () {
@@ -63,6 +67,9 @@ export default {
     .then((data) => {
       this.project = data
     })
+  },
+  components: {
+    VueDisqus
   }
 }
 </script>

@@ -20,11 +20,15 @@
         </template>
       </tbody>
     </table>
+    <div class="comments">
+      <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="$route.path"></VueDisqus>
+    </div>
   </div>
 </template>
 
 <script>
 import VueQrcode from 'vue-qrcode-component'
+import VueDisqus from 'vue-disqus/VueDisqus.vue'
 export default {
   name: 'block',
   props: ['searchField'],
@@ -54,7 +58,8 @@ export default {
     })
   },
   components: {
-    VueQrcode: VueQrcode
+    VueQrcode,
+    VueDisqus
   },
   computed: {
     price: function () {

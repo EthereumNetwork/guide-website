@@ -1,6 +1,6 @@
 <template>
 <v-container fluid>
-  <p>Ethereum is still a young and experimental project, it isn't safe or scalable yet. Most resources here are for developers not afraid to try out new things. In the future, we plan to add more information and step-by-step guides to help less technical users to understand Ethereum.</p>
+  <p>Ethereum is still a young and experimental project, it isn't safe or scalable yet. Most resources here are for developers not afraid to try out new things. In the future, there will be more information and step-by-step guides to help less technical users to understand Ethereum.</p>
   <v-expansion-panel>
     <h2>What is Ethereum?</h2>
     <p>The Ethereum project aims to do for human collaboration what the internet did for information. It is part of a world computer, where everyone can publish and access content, write and use applications, send value and make agreements.</p>
@@ -80,7 +80,7 @@
     </v-expansion-panel-content>
     <br>
     <h2>Clients and Implementations</h2>
-    <p>some text about Clients and Implementations</p>
+    <p>Clients directly (node as part of the network) or indirectly (remote connection to a node) connect to the Ethereum network and are used by browsers and wallets to allow the user to interact with it.</p>
     <v-expansion-panel-content class="grey darken-2 white--text">
       <div slot="header">Links</div>
       <v-card>
@@ -98,7 +98,7 @@
     </v-expansion-panel-content>
     <br>
     <h2>Security</h2>
-    <p>some text about Security</p>
+    <p>Security. Security. Security. Do it! Follow the guidelines, both for general online security as well as for saver smart contract programming. Your and other people's money might depend on it. </p>
     <v-expansion-panel-content class="grey darken-2 white--text">
       <div slot="header">Links for online and wallet security</div>
       <v-card>
@@ -113,20 +113,20 @@
       <div slot="header">Links for smart contract security</div>
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
-          <a href="https://www.kingoftheether.com/contract-safety-checklist.html" target="_blank" class="learnLink">Contract Safety and Security Checklist</a> by King of the Ether<br>
           <a href="https://github.com/ConsenSys/smart-contract-best-practices" target="_blank" class="learnLink">Smart contract best practices</a> by ConsenSys<br>
+          <a href="https://ethereum.stackexchange.com/questions/tagged/security" target="_blank" class="learnLink">Stack exhange security tag</a> see what people ask about security<br>
+          <a href="https://www.kingoftheether.com/contract-safety-checklist.html" target="_blank" class="learnLink">Contract Safety and Security Checklist</a> by King of the Ether<br>
           <a href="http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/" target="_blank" class="learnLink">Analysis of theDAO exploit</a> How a bug caused a theft of $50 million<br>
           <a href="http://vessenes.com/deconstructing-thedao-attack-a-brief-code-tour/" target="_blank" class="learnLink">Deconstructing theDAO Attack</a> The bug that caused the theft<br>
           <a href="https://github.com/raineorshine/solgraph" target="_blank" class="learnLink">Solgraph</a> Visualize Solidity control flow for smart contract security analysis.<br>
           <a href="https://medium.com/zeppelin-blog/zeppelin-v1-0-0-4e593c505345#.bv6yubf7v" target="_blank" class="learnLink">Zeppelin</a> framework to build secure smart contracts in the Solidity language<br>
-          <a href="https://ethereum.stackexchange.com/questions/tagged/security" target="_blank" class="learnLink">Stack exhange security tag</a> see what people ask about security<br>
           <a href="https://www.reddit.com/r/ethereum/comments/4uu9fb/formal_verification_for_solidity/?st=irj5anka&sh=c23052c7" target="_blank" class="learnLink">Formal Verification For Solidity</a><br>
         </v-card-text>
       </v-card>
     </v-expansion-panel-content>
     <br>
     <h2>Guides and Tips:</h2>
-    <p>some text about Guides and Tips</p>
+    <p>Every day there are new blog posts, tutorials, research article and discussions about how to develop smart contracts and decentralized applications. I try to keep the best and most up-to-date ones here, please let me know about new ones I should add or old ones to remove.</p>
     <v-expansion-panel-content class="grey darken-2 white--text">
       <div slot="header">Links</div>
       <v-card>
@@ -160,16 +160,19 @@
     </v-expansion-panel-content>
     <br>
     <h2>News and communities</h2>
-    <p>some text about news and communities</p>
+    <p>There are many quality news outlet reporting about Ethereum and the decentralization of the web. Check them out or follow us via the links in the footer for the most important news articles of the day.</p>
     <v-expansion-panel-content class="grey darken-2 white--text">
       <div slot="header">Links</div>
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
           <a href="https://blog.ethereum.org/" target="_blank" class="learnLink">Official Ethereum blog</a> by the Ethereum Foundation<br>
-          <a href="https://media.consensys.net/" target="_blank" class="learnLink">ConsenSys Blog</a> Blog of the Ethereum powerhouse <a href="https://consensys.net/" target="_blank" class="learnLink">ConsenSys</a><br>
           <a href="https://www.ethnews.com/" target="_blank" class="learnLink">ETHNews</a> News Website<br>
-          <a href="https://cointelegraph.com/" target="_blank" class="learnLink">Cointelegraph</a> News Website<br>
-          <a href="http://www.coindesk.com/?s=ethereum#" target="_blank" class="learnLink">Coindesk</a> News Website<br>
+          <a href="https://cointelegraph.com/tags/ethereum" target="_blank" class="learnLink">Cointelegraph</a> News Website<br>
+          <a href="https://media.consensys.net/" target="_blank" class="learnLink">ConsenSys Blog</a> Blog of the Ethereum powerhouse <a href="https://consensys.net/" target="_blank" class="learnLink">ConsenSys</a><br>
+          <a href="https://www.cryptocoinsnews.com/ethereum-news/" target="_blank" class="learnLink">CryptocoinsNews</a> News Website<br>
+          <a href="https://bitcoinmagazine.com/sections/ethereum/" target="_blank" class="learnLink">Bitcoin Magazine</a> News Website<br>
+          <a href="http://www.coindesk.com/?s=ethereum" target="_blank" class="learnLink">Coindesk</a> News Website<br>
+          <a href="http://www.ibtimes.co.uk/topics/ethereum" target="_blank" class="learnLink">International Business Times</a> News Website<br>
           <a href="http://www.weekinethereum.com/" target="_blank" class="learnLink">The week in Ethereum</a> Newsletter by Evan Van Ness<br>
           <a href="https://www.reddit.com/r/ethereum/" target="_blank" class="learnLink">Ethereum subreddit</a> Daily news, development Most news about Ethereum can be found here daily<br>
           <a href="https://www.reddit.com/r/ethtrader/" target="_blank" class="learnLink">Ethtrader subreddit</a> Ether price and trading discussions<br>
@@ -196,16 +199,23 @@
     </v-expansion-panel-content>
     </br>
   </v-expansion-panel>
+  <div class="comments">
+    <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="$route.path"></VueDisqus>
+  </div>
 </v-container>
 </template>
 
 <script>
+import VueDisqus from 'vue-disqus/VueDisqus.vue'
 export default {
   name: 'learn',
   data () {
     return {
       msg: 'better formation and organization of developer resources coming soon...'
     }
+  },
+  components: {
+    VueDisqus
   }
 }
 </script>
