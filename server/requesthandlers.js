@@ -25,7 +25,8 @@ let updateProjectsList = () => {
 }
 updateProjectsList()
 
-module.exports.sendAllProjects = (req, res) => { res.send(projectsList) }
+module.exports.sendAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
+module.exports.downloadAllProjects = (req, res) => { res.send(projectsList) }
 module.exports.sendProject = (req, res) => { db.Project.findOne({title: req.params.title.replace(/_+/g, ' ')}).then(project => res.send(project)) }
 module.exports.sendAllSuggestions = (req, res) => { db.Suggestion.find().then(suggestions => res.send(suggestions)) }
 
