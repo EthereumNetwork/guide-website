@@ -10,13 +10,11 @@
         <v-col xs12>
           <textarea :value="project.longDescription" @input="update"></textarea>
           <v-modal v-model="modal">
-            <v-col small flat slot="activator">Markdown Help</v-col>
+            <v-col class="markdownhelp" small flat slot="activator">Markdown Help</v-col>
             <v-card>
               <v-card-text>
-                <h2 class="title">Markdown Help</h2>
-              </v-card-text>
-              <v-card-text class="subheading grey--text">
-                Markdown in the long description will be rendered accordingly. For example:</br>
+                <h2 class="title">Markdown Help</h2></br>
+                <p>Markdown in the long description will be rendered accordingly, e.g.:</br></br>
                 # headers</br>
                 **bold**</br>
                 [link](link url)</br>
@@ -24,7 +22,7 @@
                 - list item 1</br>
                 - list item 2</br>
                 ```code```</br>
-                ...
+                ...</p>
               </v-card-text>
               <v-card-row actions>
                 <v-spacer></v-spacer>
@@ -169,5 +167,10 @@
       border: solid 1px #000;
       min-height:100px;
       width: 99%;
+  }
+  .markdownhelp {
+    cursor: pointer;
+    cursor: hand;
+    text-decoration: underline;
   }
 </style>
