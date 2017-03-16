@@ -31,7 +31,9 @@
         </v-list>
       </v-sidebar>
       <v-content>
-        <router-view v-bind:search-field="searchField"> </router-view>
+        <v-container fluid class="px-2">
+          <router-view v-bind:search-field="searchField"> </router-view>
+        </v-container>
       </v-content>
     </main>
     <v-footer class="grey darken-4">

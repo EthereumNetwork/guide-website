@@ -1,7 +1,7 @@
 <template>
 <v-container fluid>
   <p>Ethereum is still a young and experimental project, it isn't safe or scalable yet. Most resources here are for developers not afraid to try out new things. In the future, there will be more information and step-by-step guides to help less technical users to understand Ethereum.</p>
-  <v-expansion-panel>
+  <v-expansion-panel class="pl-1">
     <h2>What is Ethereum?</h2>
     <p>The Ethereum project aims to do for human collaboration what the internet did for information. It is part of a world computer, where everyone can publish and access content, write and use applications, send value and make agreements.</p>
     <p>This is done through so called smart contracts and decentralized applications (dapps), open, tamper proof, opt-in, self executing applications that run exactly as programmed and all share one common, append-only "truth", the Ethereum blockchain, while ensuring that there is no downtime, censorship, fraud or third party interference.<br>This decentralized environment allows all people, programs, IoT devices, markets, registries and other things to collaborate without the need for explicit trust. That's why people also call it the trust machine, it is not just an upgrade to our databases and Internet, but rather a tool to re-architect social, financial and political systems.</p>
@@ -223,5 +223,8 @@ export default {
 <style>
 .content {
   margin-left: 0.4vmin;
+}
+.panel {
+  border: none;
 }
 </style>
