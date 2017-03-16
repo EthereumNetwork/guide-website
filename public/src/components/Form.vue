@@ -9,6 +9,27 @@
         </v-col>
         <v-col xs12>
           <textarea :value="project.longDescription" @input="update"></textarea>
+          <v-modal v-model="modal">
+            <v-col class="markdownhelp" small flat slot="activator">Markdown Help</v-col>
+            <v-card>
+              <v-card-text>
+                <h2 class="title">Markdown Help</h2></br>
+                <p>Markdown in the long description will be rendered accordingly, e.g.:</br></br>
+                # headers</br>
+                **bold**</br>
+                [link](link url)</br>
+                ![](image url)</br>
+                - list item 1</br>
+                - list item 2</br>
+                ```code```</br>
+                ...</p>
+              </v-card-text>
+              <v-card-row actions>
+                <v-spacer></v-spacer>
+                <v-btn flat v-on:click.native="modal = false">Cancel</v-btn>
+              </v-card-row>
+            </v-card>
+          </v-modal>
           <div v-html="compiledMarkdown"></div>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
@@ -91,7 +112,8 @@
         activeColor: 'Red',
         msg: 'Projects Form',
         alert: false,
-        error: false
+        error: false,
+        modal: false
       }
     },
     beforeCreate () {
@@ -102,7 +124,7 @@
         return this.$store.state.token
       },
       compiledMarkdown: function () {
-        return marked(this.project.longDescription || '', { sanitize: true })
+        return marked(this.project.longDescription || '', { sanitize: true, smartLists: false })
       }
     },
     methods: {
@@ -135,7 +157,6 @@
       update: function (e) {
         this.project.longDescription = e.target.value
       }
-
     }
   }
 
@@ -146,5 +167,10 @@
       border: solid 1px #000;
       min-height:100px;
       width: 99%;
+  }
+  .markdownhelp {
+    cursor: pointer;
+    cursor: hand;
+    text-decoration: underline;
   }
 </style>

@@ -30,7 +30,7 @@
     <br>
     <h2>Wallets and Browsers</h2>
     <p>Wallets and browsers are your windows to the Ethereum world. The former works just like your normal wallet, i.e. it allows you to store, add and spend money via different currencies and payment systems. It contains one or more Ethereum addresses (long hexadecimal strings that uniquely identifies them) and can receive and send ether (the underlying Ethereum currency) or other tokens running on top of Ethereum. Before taking the plunge and spending any money on ether, please read the information provided by the first link in the security section.</p>
-    <p>As we said already, Ethereum is much more than just a crypto-currency blockchain. The main porpuse is hosting and running smart contracts, storing distributed data (swarm), decentralized communication (whisper) and much more. This begs the question: “How can I access all these cool features?”. This is where browser plugins such as Metamask and Ethereum browsers like Mist come in.</p>
+    <p>As we said already, Ethereum is much more than just a crypto-currency blockchain. The main purpose is hosting and running smart contracts, storing distributed data (swarm), decentralized communication (whisper) and much more. This begs the question: “How can I access all these cool features?”. This is where browser plugins such as Metamask and Ethereum browsers like Mist come in.</p>
     <v-expansion-panel-content class="grey darken-2 white--text">
       <div slot="header">Links</div>
       <v-card>
@@ -47,11 +47,45 @@
       </v-card>
     </v-expansion-panel-content>
     <br>
+    <h2>Guides and Tips:</h2>
+    <p>Every day there are new blog posts, tutorials, research article and discussions about how to develop smart contracts and decentralized applications. I try to keep the best and most up-to-date ones here, please let me know about new ones I should add or old ones to remove.</p>
+    <p>Below you'll find some links to instruction guides and videos that will help you on your path to becoming a Ðapp developer.</p>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">Links</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <a href="https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4#.tcmcvxugj" target="_blank" class="learnLink">101 Noob Intro</a> to Programming Smart Contracts<br>
+          <a href="http://blockgeeks.com/guides/smart-contracts-the-blockchain-technology-that-will-replace-lawyers/" target="_blank" class="learnLink">Smart Contracts</a> Beginner’s Guide<br>
+          <a href="https://truffle-box.github.io/" target="_blank" class="learnLink">Truffle Box</a>A Set of Truffle + Webpack + React Boilerplates<br>
+          <a href="https://medium.com/metamask/developing-ethereum-projects-with-truffle-and-metamask-aa8ad7e363ba" target="_blank" class="learnLink">Developing Ethereum Projects</a> with Truffle and MetaMask<br>
+          <a href="https://medium.com/@timothyjcoulter/truffle-tricks-for-ethereum-development-dispelling-8-myths-first-impressions-880f66bf3320" target="_blank" class="learnLink">Truffle Tricks for Ethereum Development</a> Dispelling Myths and First Impressions<br>
+          <a href="http://blog.nexusdev.us/dapple-tutorial/" target="_blank" class="learnLink">Creating an Upgradeable Token</a> With Dapple and Dappsys<br>
+          <a href="http://blog.nexusdev.us/saving-time-and-sanity-using-the-next-generation-of-dapple-testing-tools/" target="_blank" class="learnLink">Dapple’s Next-Generation Testing Tools</a> Saving Time and Sanity<br>
+          <a href="https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos" target="_blank" class="learnLink">Devcon2 videos</a> and <a href="https://ethereumfoundation.org/devcon/?page_id=14" target="_blank" class="learnLink">slides</a><br>
+          <a href="https://medium.com/@mvmurthy/ethereum-for-web-developers-890be23d1d0c" target="_blank" class="learnLink">Ethereum for web developers</a> including a Full Stack Hello World Voting Ethereum Dapp Tutorial <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2#.q932mbg6o" target="_blank" class="learnLink">part1</a> and <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-2-30b3d335aa1f#.x5pslrvs0" target="_blank" class="learnLink">part2</a><br>
+          <a href="http://blockgeeks.com/decentralized-applications-development-net-developers/" target="_blank" class="learnLink">Decentralized applications development</a> for .NET developers using Microsoft Visual Studio<br>
+          <a href="https://www.youtube.com/watch?v=2184nCGMxyQ" target="_blank" class="learnLink">Building a DApp and write contracts</a> video by Alex Van de Sande and Christian Reitwiessner<br>
+          <a href="https://www.youtube.com/watch?v=9_coM_g7Dbg&list=PLH4m2oS2ratdoHFEkGvwvd7TkeTv4sa7Z" target="_blank" class="learnLink">Building an Ethereum dapp using Solidity</a> video series by Shlomi Zeltsinger<br>
+          <a href="https://medium.com/@mvmurthy/ethereum-for-web-developers-890be23d1d0c" target="_blank" class="learnLink">iEx.ec EDCON series</a> 10 blog posts to understand the technology behind the Ethereum decentralized cloud<br>
+          <a href="https://blog.ethereum.org/2016/07/12/build-server-less-applications-mist/" target="_blank" class="learnLink">How to build severless applications</a> for Mist<br>
+          <a href="http://blockchainers.org/index.php/2016/11/27/ethereum-usecase-claim-and-endorse" target="_blank" class="learnLink"> A generic “Claim and Endorse” Contract</a><br>
+          <a href="https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/private-chain.html" target="_blank" class="learnLink">Set up a private chain</a> for testing purposes<br>
+          <a href="https://medium.com/@ConsenSys/very-deep-dive-on-ethereum-reading-list-f5b1122e5990#.d9mtt32ic" target="_blank" class="learnLink">Ethereum Reading List</a> for more in depth learning<br>
+          <a href="https://zupzup.org/smart-contract-solidity/" target="_blank" class="learnLink">Getting Started with Smart Contracts</a> using Solidity<br>
+          <a href="https://monax.io/docs/tutorials/solidity/solidity_1_the_five_types_model/" target="_blank" class="learnLink">Solidity series on Eris</a> different blockchain, same smart contract language<br>
+          <a href="https://medium.com/@codetractio/try-out-ethereum-using-only-nodejs-and-npm-eabaaaf97c80" target="_blank" class="learnLink">Try out Ethereum</a> using only nodejs and npm<br>
+          <a href="https://hackernoon.com/how-to-create-a-token-factory-with-ethereum-part-1-85e84d1f38fc" target="_blank" class="learnLink">How to create a Token Factory</a> with Ethereum. <a href="https://medium.com/@iurimatias/how-to-create-a-token-factory-with-ethereum-part-2-ce96a31a5f59" target="_blank" class="learnLink">Part 2</a><br>
+
+          <a href="http://decypher.tv/series/ethereum-development" target="_blank" class="learnLink">Video Series</a> for Ethereum Ðapp Development (paid)<br>
+          <a href="https://academy.b9lab.com/" target="_blank" class="learnLink">Certified Online Course</a> for Ethereum Developer (paid)<br>
+          <a href="http://exosphe.re/#blockchain" target="_blank" class="learnLink">8 week immersive program</a> for Blockchain App Dev (paid)<br>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <br>
     <h2>Developer Resources and Tools</h2>
     <p>Now that you have a wallet and have probably installed Mist and/or Metamask, it’s time roll up your sleeves and get your hands dirty. There are tons of frameworks, tools and resources that you will help you create your very own first Ðapp.</p>
-    <p>Ethereum nodes each run an EVM (Ethereum Virtual Machine). This is where the smart contracts run. To run code on the EVM, you will want to pick a language to write them in. As Solidity can be considered the reference implementation in terms of smart-contract programming languages, it is a good place to start. However, don’t stop there: other smart contract languages exist such as Serpent (a smart contract programming language for pythonistas).</p>
-    <p>Once you have gotten familiar with a language and maybe even compiled your first smart contract using Solc, you will want to look at Ðapp development frameworks such as Truffle, Embark or Dapple.</p>
-    <p>Below you'll find some links to instruction guides and videos that will help you on your path to becoming a Ðapp developer.</p>
+    <p>Ethereum nodes each run an EVM (Ethereum Virtual Machine). This is where the smart contracts run. To run code on the EVM, you will want to pick a language to write them in. As Solidity can be considered the reference implementation in terms of smart-contract programming languages, it is a good place to start. Once you have gotten familiar with it and maybe even compiled your first smart contract using Solc, you will want to look at Ðapp development frameworks such as Truffle, Embark or Dapple.</p>
     <v-expansion-panel-content class="grey darken-2 white--text">
       <div slot="header">Links</div>
       <v-card>
@@ -121,40 +155,6 @@
           <a href="https://github.com/raineorshine/solgraph" target="_blank" class="learnLink">Solgraph</a> Visualize Solidity control flow for smart contract security analysis.<br>
           <a href="https://medium.com/zeppelin-blog/zeppelin-v1-0-0-4e593c505345#.bv6yubf7v" target="_blank" class="learnLink">Zeppelin</a> framework to build secure smart contracts in the Solidity language<br>
           <a href="https://www.reddit.com/r/ethereum/comments/4uu9fb/formal_verification_for_solidity/?st=irj5anka&sh=c23052c7" target="_blank" class="learnLink">Formal Verification For Solidity</a><br>
-        </v-card-text>
-      </v-card>
-    </v-expansion-panel-content>
-    <br>
-    <h2>Guides and Tips:</h2>
-    <p>Every day there are new blog posts, tutorials, research article and discussions about how to develop smart contracts and decentralized applications. I try to keep the best and most up-to-date ones here, please let me know about new ones I should add or old ones to remove.</p>
-    <v-expansion-panel-content class="grey darken-2 white--text">
-      <div slot="header">Links</div>
-      <v-card>
-        <v-card-text class="grey lighten-3 black--text">
-          <a href="https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4#.tcmcvxugj" target="_blank" class="learnLink">101 Noob Intro</a> to Programming Smart Contracts<br>
-          <a href="http://blockgeeks.com/guides/smart-contracts-the-blockchain-technology-that-will-replace-lawyers/" target="_blank" class="learnLink">Smart Contracts</a> Beginner’s Guide<br>
-          <a href="https://truffle-box.github.io/" target="_blank" class="learnLink">Truffle Box</a>A Set of Truffle + Webpack + React Boilerplates<br>
-          <a href="https://medium.com/metamask/developing-ethereum-projects-with-truffle-and-metamask-aa8ad7e363ba" target="_blank" class="learnLink">Developing Ethereum Projects</a> with Truffle and MetaMask<br>
-          <a href="https://medium.com/@timothyjcoulter/truffle-tricks-for-ethereum-development-dispelling-8-myths-first-impressions-880f66bf3320" target="_blank" class="learnLink">Truffle Tricks for Ethereum Development</a> Dispelling Myths and First Impressions<br>
-          <a href="http://blog.nexusdev.us/dapple-tutorial/" target="_blank" class="learnLink">Creating an Upgradeable Token</a> With Dapple and Dappsys<br>
-          <a href="http://blog.nexusdev.us/saving-time-and-sanity-using-the-next-generation-of-dapple-testing-tools/" target="_blank" class="learnLink">Dapple’s Next-Generation Testing Tools</a> Saving Time and Sanity<br>
-          <a href="https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos" target="_blank" class="learnLink">Devcon2 videos</a> and <a href="https://ethereumfoundation.org/devcon/?page_id=14" target="_blank" class="learnLink">slides</a><br>
-          <a href="https://medium.com/@mvmurthy/ethereum-for-web-developers-890be23d1d0c" target="_blank" class="learnLink">Ethereum for web developers</a> including a Full Stack Hello World Voting Ethereum Dapp Tutorial <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2#.q932mbg6o" target="_blank" class="learnLink">part1</a> and <a href="https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-2-30b3d335aa1f#.x5pslrvs0" target="_blank" class="learnLink">part2</a><br>
-          <a href="http://blockgeeks.com/decentralized-applications-development-net-developers/" target="_blank" class="learnLink">Decentralized applications development</a> for .NET developers using Microsoft Visual Studio<br>
-          <a href="https://www.youtube.com/watch?v=2184nCGMxyQ" target="_blank" class="learnLink">Building a DApp and write contracts</a> video by Alex Van de Sande and Christian Reitwiessner<br>
-          <a href="https://www.youtube.com/watch?v=9_coM_g7Dbg&list=PLH4m2oS2ratdoHFEkGvwvd7TkeTv4sa7Z" target="_blank" class="learnLink">Building an Ethereum dapp using Solidity</a> video series by Shlomi Zeltsinger<br>
-          <a href="https://medium.com/@mvmurthy/ethereum-for-web-developers-890be23d1d0c" target="_blank" class="learnLink">iEx.ec EDCON series</a> 10 blog posts to understand the technology behind the Ethereum decentralized cloud<br>
-          <a href="https://blog.ethereum.org/2016/07/12/build-server-less-applications-mist/" target="_blank" class="learnLink">How to build severless applications</a> for Mist<br>
-          <a href="http://blockchainers.org/index.php/2016/11/27/ethereum-usecase-claim-and-endorse" target="_blank" class="learnLink"> A generic “Claim and Endorse” Contract</a><br>
-          <a href="https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/private-chain.html" target="_blank" class="learnLink">Set up a private chain</a> for testing purposes<br>
-          <a href="https://medium.com/@ConsenSys/very-deep-dive-on-ethereum-reading-list-f5b1122e5990#.d9mtt32ic" target="_blank" class="learnLink">Ethereum Reading List</a> for more in depth learning<br>
-          <a href="https://zupzup.org/smart-contract-solidity/" target="_blank" class="learnLink">Getting Started with Smart Contracts</a> using Solidity<br>
-          <a href="https://monax.io/docs/tutorials/solidity/solidity_1_the_five_types_model/" target="_blank" class="learnLink">Solidity series on Eris</a> different blockchain, same smart contract language<br>
-          <a href="https://medium.com/@codetractio/try-out-ethereum-using-only-nodejs-and-npm-eabaaaf97c80" target="_blank" class="learnLink">Try out Ethereum</a> using only nodejs and npm<br>
-
-          <a href="http://decypher.tv/series/ethereum-development" target="_blank" class="learnLink">Video Series</a> for Ethereum Ðapp Development (paid)<br>
-          <a href="https://academy.b9lab.com/" target="_blank" class="learnLink">Certified Online Course</a> for Ethereum Developer (paid)<br>
-          <a href="http://exosphe.re/#blockchain" target="_blank" class="learnLink">8 week immersive program</a> for Blockchain App Dev (paid)<br>
         </v-card-text>
       </v-card>
     </v-expansion-panel-content>
