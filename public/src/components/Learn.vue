@@ -198,6 +198,57 @@
       </v-card>
     </v-expansion-panel-content>
     </br>
+    <h2>FAQs</h2>
+    <p>Answers to some of the questions you might enconter while getting to know Ethereum. Another good place is the <a href="http://ethereum.stackexchange.com/" target="_blank" class="learnLink">Ethereum StackExchange</a>.</p>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">Where do I start?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>The Ethereum network can be very overwhelming, so that is a good question and completely depends what you're looking for. If you are a developer looking into blockchain programming and the creation of decentralized apps, most of the sections here are directed towards you. Let me know if you run into any trouble or out-dated info.<br> As a curious user, on <router-link to="/projects">the projects page</router-link> use any decentralized app that you find interesting. Then complain to the developers about any user experience difficulties that you encounter, and otherwise give helpful feedback.<br> Generally be curious and engage in the community, either through <a href="https://www.meetup.com/topics/ethereum/" target="_blank" class="learnLink">meetups</a> or the ones mentioned in the section above</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">What is the current roadmap?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Both the <a href="https://www.ethnews.com/ethereums-road-map-for-2017" target="blank">Ethereum Foundatin</a> and the <a href="https://www.reddit.com/r/ethereum/comments/5wo6hy/ethereum_enterprise_alliance_live_updates/" target="blank">Enterprise Ethereum Alliance</a> are working on it.</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">Can ether be used as a currency?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Answer</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">What is Ethereum Classic, SOILcoin, Expanse or any of the other Ethereum forks?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Because every Ethereum implementation is completely open-source, anyone can just run their own version with all kind of variations. The mentioned projects either moved away for some changes or stayed behind when the community moved on. The are all legit efforts with more or less noble causes, just be aware which variant you want to use.</br>All the projects shown on <router-link to="/projects">/projects</router-link> use the real Ethereum, currently valued at about ${{price.USD}}, while most others end up with almost no value eventually.</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">Question?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Answer</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">Question?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Answer</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    </br>
   </v-expansion-panel>
   <div class="comments">
     <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="'https://ethereum.network' + $route.path"></VueDisqus>
