@@ -267,6 +267,11 @@ export default {
   },
   components: {
     VueDisqus
+  },
+  computed: {
+    price: function () {
+      return this.$store.state.price
+    }
   }
 }
 </script>
