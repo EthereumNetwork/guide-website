@@ -217,10 +217,10 @@
       </v-card>
     </v-expansion-panel-content>
     <v-expansion-panel-content class="grey darken-2 white--text">
-      <div slot="header">Can ether be used as a currency?</div>
+      <div slot="header">Can ether be used as a currency like bitcoin?</div>
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
-          <p>Answer</p>
+          <p>Bitcoin tried to make the perfect "coin", with a lot of focus on the monetary properties itself (how much there are, what is the increase schedule, etc...). It tries to compete with the Dollar, the Euro, the Yuan, gold, etc to buy things, which supposingly will make it truly valuable</br>Ethereum's focus is different, it is the ecosystem itself. It is trying to create an economy that has never existed before, it’s creating its own ocean.</br>The paradox is that by not making that the center and competing in the existing ocean, but rather focusing on its own world, it’s creating value well above and beyond any other token-centric coin — which gives it real value.</br>Why use it for things you can buy with Dollars? When you think about it, it mainly shines in areas you can't use Dollar, like gambling, drugs and international money transfers.</br></br>Bitcoin: waiting for "X" to accept Bitcoin. Ethereum: building the new X.</p>
         </v-card-text>
       </v-card>
     </v-expansion-panel-content>
@@ -228,7 +228,7 @@
       <div slot="header">What is Ethereum Classic, SOILcoin, Expanse or any of the other Ethereum forks?</div>
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
-          <p>Because every Ethereum implementation is completely open-source, anyone can just run their own version with all kind of variations. The mentioned projects either moved away for some changes or stayed behind when the community moved on. They are all legit efforts with more or less noble causes, just be aware what you want to use.</br>All the projects shown on <router-link to="/projects">/projects</router-link> use the real Ethereum, currently valued at about ${{price.USD}}, while most others might end up with almost no value eventually.</p>
+          <p>Because every Ethereum implementation is completely open-source, anyone can just run their own version with all kind of variations. The mentioned projects either moved away for some changes or stayed behind when the community moved on. They are all legit efforts with more or less noble causes, just be aware what you want to use.</br>All the projects shown on <router-link to="/projects">/projects</router-link> use the real Ethereum, currently valued at about ${{price.USD}}, while most others might end up with almost no value eventually.ll</p>
         </v-card-text>
       </v-card>
     </v-expansion-panel-content>
