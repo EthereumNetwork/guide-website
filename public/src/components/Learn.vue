@@ -199,7 +199,7 @@
     </v-expansion-panel-content>
     </br>
     <h2>FAQs</h2>
-    <p>Answers to some of the questions you might enconter while getting to know Ethereum. Another good place is the <a href="http://ethereum.stackexchange.com/" target="_blank" class="learnLink">Ethereum StackExchange</a>.</p>
+    <p>Answers to some of the questions you might enconter while getting to know Ethereum. More questions and answers can be found at the <a href="http://ethereum.stackexchange.com/" target="_blank" class="learnLink">Ethereum StackExchange</a>.</p>
     <v-expansion-panel-content class="grey darken-2 white--text">
       <div slot="header">Where do I start?</div>
       <v-card>
@@ -228,7 +228,7 @@
       <div slot="header">What is Ethereum Classic, SOILcoin, Expanse or any of the other Ethereum forks?</div>
       <v-card>
         <v-card-text class="grey lighten-3 black--text">
-          <p>Because every Ethereum implementation is completely open-source, anyone can just run their own version with all kind of variations. The mentioned projects either moved away for some changes or stayed behind when the community moved on. The are all legit efforts with more or less noble causes, just be aware which variant you want to use.</br>All the projects shown on <router-link to="/projects">/projects</router-link> use the real Ethereum, currently valued at about ${{price.USD}}, while most others end up with almost no value eventually.</p>
+          <p>Because every Ethereum implementation is completely open-source, anyone can just run their own version with all kind of variations. The mentioned projects either moved away for some changes or stayed behind when the community moved on. They are all legit efforts with more or less noble causes, just be aware what you want to use.</br>All the projects shown on <router-link to="/projects">/projects</router-link> use the real Ethereum, currently valued at about ${{price.USD}}, while most others might end up with almost no value eventually.</p>
         </v-card-text>
       </v-card>
     </v-expansion-panel-content>
