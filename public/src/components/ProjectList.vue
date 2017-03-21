@@ -3,7 +3,7 @@
     <project-item v-for="project in filteredProjects" v-bind:project="project"></project-item>
     <v-col xs12 class="showall">
       <infinite-loading v-if="!searchField" :on-infinite="onInfinite" ref="infiniteLoading" spinner="bubbles"></infinite-loading>
-      <div v-else @click="showAllProjects" data-wenk="Show All Projects"><i class="icon-resize-full-alt"></div>
+      <div v-else @click="showAllProjects" data-wenk="Show All Projects"><i class="icon-resize-full-alt"></i></div>
     </v-col>
   </v-row>
 </template>

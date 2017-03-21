@@ -11,10 +11,10 @@
         </v-toolbar-items>
         <v-spacer></v-spacer>
         <div class="searchfield">
-          <v-text-input v-if="this.$route.path === '/projects'" placeholder="filter projects, txIDs, adresses" v-model="searchField"></v-text-input>
+          <v-text-field v-if="this.$route.path === '/projects'" label="filter projects" v-model="searchField"></v-text-field>
         </div>
       </v-toolbar>
-    </heade0>
+    </header>
     <main>
       <v-sidebar drawer v-model="sidebar">
         <v-list>
