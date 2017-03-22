@@ -198,6 +198,58 @@
       </v-card>
     </v-expansion-panel-content>
     </br>
+    <h2>FAQs</h2>
+    <p>Answers to some of the questions you might enconter while getting to know Ethereum. More questions and answers can be found at the <a href="http://ethereum.stackexchange.com/" target="_blank" class="learnLink">Ethereum StackExchange</a>.</p>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">Where do I start?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>The Ethereum network can be very overwhelming, so that is a good question and completely depends what you're looking for. If you are a developer looking into blockchain programming and the creation of decentralized apps, most of the sections here are directed towards you. Let me know if you run into any trouble or out-dated info.<br> As a curious user, on <router-link to="/projects">the projects page</router-link> use any decentralized app that you find interesting. Then complain to the developers about any user experience difficulties that you encounter, and otherwise give helpful feedback.<br> Generally be curious and engage in the community, either through <a href="https://www.meetup.com/topics/ethereum/" target="_blank" class="learnLink">meetups</a> or the ones mentioned in the section above</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">What is the current roadmap?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Both the <a href="https://www.ethnews.com/ethereums-road-map-for-2017" target="blank">Ethereum Foundatin</a> and the <a href="https://www.reddit.com/r/ethereum/comments/5wo6hy/ethereum_enterprise_alliance_live_updates/" target="blank">Enterprise Ethereum Alliance</a> are working on it.</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">Can ether be used as a currency like bitcoin?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Bitcoin tried to create the perfect "coin", with a lot of focus on the monetary properties itself (how much are there, what is the increase schedule, etc...). It tries to compete with the Dollar, the Euro, the Yuan, gold, etc to buy things and thus make it valuable.</br>Ethereum's focus is different, it is the ecosystem itself. It is trying to create an economy that has never existed before, it’s creating its own ocean.</br>The paradox is that by not making that the center and competing in the existing ocean, but rather focusing on its own world, it’s creating value well above and beyond any other token-centric coin — which gives it real value.</br>Why use it for things you can buy with Dollars? When you think about it, it mainly shines in areas you can't use Dollar, like gambling, drugs and international money transfers.</br>Bitcoin: waiting for "X" to accept Bitcoin. Ethereum: building the new X.</p>
+          <p>Another problem for actually buying stuff with bitcoin or ether is their volatility. Merchants and service provider with bills to pay have to instantly convert crypto to fiat and prices need to be updated as the exchange rate changes. A better solution would be <router-link to="/projects?q=stable coin">stable coins</router-link> which track the value of one or more fiat currencies and will probably end up being the primary payment mechanism on Ethereum. Ether's function is more seen as investment in the network itself (used for all transactions, generating a return though staking, very low inflation), as technical payments between devices or as collateral deposits.</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">What is Ethereum Classic, SOILcoin, Expanse or any of the other Ethereum forks?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Because every Ethereum implementation is completely open-source, anyone can just run their own version with all kind of variations. The mentioned projects either moved away for some changes or stayed behind when the community moved on. They are all legit efforts with more or less noble causes, just be aware what you want to use.</br>All the projects shown on <router-link to="/projects">/projects</router-link> use the real Ethereum, currently valued at about ${{price.USD}}, while most others might end up with almost no value eventually.</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">Question?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Answer</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    <v-expansion-panel-content class="grey darken-2 white--text">
+      <div slot="header">Question?</div>
+      <v-card>
+        <v-card-text class="grey lighten-3 black--text">
+          <p>Answer</p>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+    </br>
   </v-expansion-panel>
   <div class="comments">
     <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="'https://ethereum.network' + $route.path"></VueDisqus>
@@ -216,6 +268,11 @@ export default {
   },
   components: {
     VueDisqus
+  },
+  computed: {
+    price: function () {
+      return this.$store.state.price
+    }
   }
 }
 </script>

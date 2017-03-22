@@ -1,12 +1,11 @@
 <template>
-  <v-container fluid class="content">
+  <v-container fluid>
     <img class="homeImage "src="../assets/NA.png"></img>
     <v-row>
       <v-col xs1>
       </v-col>
-      <v-col xs10 class="searchbar">
-        <v-text-input v-on:keyup.enter.native="submit" v-model="searchBar" placeholder="search for Ethereum projects, topics, txIDs, adresses, ..."></v-text-input>
-        <input type="text" v-on:keyup.enter="submit">
+      <v-col xs10>
+        <v-text-field v-on:keyup.enter.native="submit" v-model="searchBar" hint="search for Ethereum projects, topics, txIDs, adresses, ..."></v-text-field>
       </v-col>
     </v-row>
   </v-container>
