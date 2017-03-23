@@ -72,5 +72,7 @@
     color: grey;
     font-size: 2em;
     text-align: center;
+    cursor: pointer;
+    cursor: hand;
 }
 </style>
