@@ -89,6 +89,7 @@
     padding-right: 1%;
     color: white;
     width: 20em;
+    height: 4.5em;
   }
   .app  {
     font-family: Arial, Helvetica, sans-serif;
