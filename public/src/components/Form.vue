@@ -2,10 +2,10 @@
     <div>
       <v-row>
         <v-col xs12>
-          <v-text-input label="Title" id="title" name="title" v-model="project.title"  ></v-text-input>
+          <v-text-field label="Title" id="title" name="title" v-model="project.title"  ></v-text-field>
         </v-col>
         <v-col xs12>
-          <v-text-input label="Short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-input>
+          <v-text-field label="Short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-field>
         </v-col>
         <v-col xs12>
           <textarea :value="project.longDescription" @input="update"></textarea>
@@ -33,52 +33,52 @@
           <div v-html="compiledMarkdown"></div>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Owner" id="owner" name="owner" v-model="project.owner"></v-text-input>
+          <v-text-field label="Owner" id="owner" name="owner" v-model="project.owner"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Logo Url" id="logoUrl" name="logoUrl" v-model="project.logoUrl"></v-text-input>
+          <v-text-field label="Logo Url" id="logoUrl" name="logoUrl" v-model="project.logoUrl"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Tags" id="tags" name="tags" v-model="project.tags"></v-text-input>
+          <v-text-field label="Tags" id="tags" name="tags" v-model="project.tags"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Website" id="website" name="website" v-model="project.website"></v-text-input>
+          <v-text-field label="Website" id="website" name="website" v-model="project.website"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Github" id="github" name="github" v-model="project.github"></v-text-input>
+          <v-text-field label="Github" id="github" name="github" v-model="project.github"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Twitter" id="twitter" name="twitter" v-model="project.twitter"></v-text-input>
+          <v-text-field label="Twitter" id="twitter" name="twitter" v-model="project.twitter"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Facebook" id="facebook" name="facebook" v-model="project.facebook"></v-text-input>
+          <v-text-field label="Facebook" id="facebook" name="facebook" v-model="project.facebook"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Reddit" id="reddit" name="reddit" v-model="project.reddit"></v-text-input>
+          <v-text-field label="Reddit" id="reddit" name="reddit" v-model="project.reddit"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Slack" id="slack" name="slack" v-model="project.slack"></v-text-input>
+          <v-text-field label="Slack" id="slack" name="slack" v-model="project.slack"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="LinkedIn" id="linkedin" name="linkedin" v-model="project.linkedin"></v-text-input>
+          <v-text-field label="LinkedIn" id="linkedin" name="linkedin" v-model="project.linkedin"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="WeChat" id="wechat" name="wechat" v-model="project.wechat"></v-text-input>
+          <v-text-field label="WeChat" id="wechat" name="wechat" v-model="project.wechat"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Email" id="email" name="email" v-model="project.email"></v-text-input>
+          <v-text-field label="Email" id="email" name="email" v-model="project.email"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Blog" id="blog" name="blog" v-model="project.blog"></v-text-input>
+          <v-text-field label="Blog" id="blog" name="blog" v-model="project.blog"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Mainnet Contract Address" id="contractAddrMain" name="contractAddrMain" v-model="project.contractAddrMain"></v-text-input>
+          <v-text-field label="Mainnet Contract Address" id="contractAddrMain" name="contractAddrMain" v-model="project.contractAddrMain"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="Testnet Contract Address" id="contractAddrTest" name="contractAddrTest" v-model="project.contractAddrTest"></v-text-input>
+          <v-text-field label="Testnet Contract Address" id="contractAddrTest" name="contractAddrTest" v-model="project.contractAddrTest"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-input label="License" id="license" name="license" v-model="project.license"></v-text-input>
+          <v-text-field label="License" id="license" name="license" v-model="project.license"></v-text-field>
         </v-col>
       </v-row>
       <v-row>
