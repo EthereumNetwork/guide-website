@@ -5,7 +5,7 @@
       <v-col xs1>
       </v-col>
       <v-col xs10>
-        <v-text-field v-on:keyup.enter.native="submit" v-model="searchBar" hint="search for Ethereum projects, topics, txIDs, adresses, ..."></v-text-field>
+        <v-text-field v-on:keyup.enter.native="submit" v-model="searchBar" label="Ethereum Network" hint="search for projects, topics, adresses, txIDs, ..."></v-text-field>
       </v-col>
     </v-row>
   </v-container>
