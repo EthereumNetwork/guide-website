@@ -233,24 +233,8 @@
         </v-card-text>
       </v-card>
     </v-expansion-panel-content>
-    <v-expansion-panel-content class="grey darken-2 white--text">
-      <div slot="header">Question?</div>
-      <v-card>
-        <v-card-text class="grey lighten-3 black--text">
-          <p>Answer</p>
-        </v-card-text>
-      </v-card>
-    </v-expansion-panel-content>
-    <v-expansion-panel-content class="grey darken-2 white--text">
-      <div slot="header">Question?</div>
-      <v-card>
-        <v-card-text class="grey lighten-3 black--text">
-          <p>Answer</p>
-        </v-card-text>
-      </v-card>
-    </v-expansion-panel-content>
-    </br>
   </v-expansion-panel>
+  </br>
   <div class="comments">
     <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="'https://ethereum.network' + $route.path"></VueDisqus>
   </div>
