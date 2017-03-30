@@ -2,8 +2,8 @@
   <div>
     <v-container fluid>
       <v-row>
-        <v-text-input label="Username" id="username" name="username" v-model="username"></v-text-input>
-        <v-text-input label="Password" id="password" name="password" v-model="password" ></v-text-input>
+        <v-text-field label="Username" id="username" name="username" v-model="username"></v-text-field>
+        <v-text-field label="Password" id="password" name="password" v-model="password" ></v-text-field>
       </v-row>
       <p>For adding new projects, you have to be logged in.</p>
       <v-btn success v-on:click.native="submit()">Login</v-btn>

@@ -39,7 +39,7 @@
           <v-text-field label="Logo Url" id="logoUrl" name="logoUrl" v-model="project.logoUrl"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-field label="Tags" id="tags" name="tags" v-model="project.tags"></v-text-field>
+          <v-text-field label="Tags" id="tags" name="tags" hint="hint" v-model="project.tags"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Website" id="website" name="website" v-model="project.website"></v-text-field>
@@ -93,7 +93,7 @@
             An error occurred.
           </v-alert>
           <div v-if="token">You are logged in and can update projects directly.</div>
-          <div v-else>You can suggest projects and changes, we still need to check for scams and spam.</div>
+          <div v-else>You can ad and edit projects, we still integrate them within a day after checking for scams and spam.</div>
           <div v-if="project._id">editing: {{project.title}}, {{project._id}}, last edited by {{project.creator}}</div>
           <v-btn small v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
         </v-col>
