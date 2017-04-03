@@ -4,7 +4,7 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-export default new Vuex.Store({
+const store = new Vuex.Store({
   state: {
     token: null,
     projectToEdit: {
@@ -49,3 +49,5 @@ export default new Vuex.Store({
     }
   }
 })
+
+export default store
