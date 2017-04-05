@@ -1,11 +1,11 @@
 import en from './static/en.json'
 
 export const config = {
-  defaultCode: 'en-GB',
+  defaultCode: 'en',
   languages: [
     {
       name: 'English',
-      code: 'en-GB',
+      code: 'en',
       urlPrefix: 'en',
       translationKey: 'en'
     }
@@ -17,7 +17,9 @@ export const config = {
 
 export const proxy = {
   getTranslation: function ({ translationKey }) {
-    return fetch(`/static/${translationKey}.js`)
-    .then((response) => { return response.json() })
+    return fetch(`/src/static/${translationKey}.json`)
+    .then((response) => {
+      return response.json()
+    })
   }
 }

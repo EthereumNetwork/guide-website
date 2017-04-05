@@ -43,6 +43,7 @@
 
 <script>
 import VueDisqus from 'vue-disqus/VueDisqus.vue'
+
 export default {
   name: 'learn',
   data () {
@@ -59,7 +60,6 @@ export default {
     },
     translations: function () {
       let key = this.$store.state['vue-i18n-manager'].currentLanguage.translationKey
-      console.log(key)
       return this.$store.state['vue-i18n-manager'].translations[key] || { learn: { FAQs: {} } }
     }
   }
