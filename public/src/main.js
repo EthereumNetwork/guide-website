@@ -10,7 +10,7 @@ import VueWebsocket from 'vue-websocket'
 import App from './components/App.vue'
 
 Vue.use(Vuetify)
-Vue.use(VueI18nManager, { store, config })
+Vue.use(VueI18nManager, { store, config, proxy })
 Vue.use(VueCookie)
 Vue.use(VueWebsocket, '/', {'path': '/socket/socket.io'})
 
