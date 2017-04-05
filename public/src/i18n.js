@@ -1,6 +1,6 @@
-import en from './static/en.js'
+import en from './static/en.json'
 
-const config = {
+export const config = {
   defaultCode: 'en-GB',
   languages: [
     {
@@ -15,4 +15,9 @@ const config = {
   }
 }
 
-export default config
+export const proxy = {
+  getTranslation: function ({ translationKey }) {
+    return fetch(`/static/${translationKey}.js`)
+    .then((response) => { return response.json() })
+  }
+}

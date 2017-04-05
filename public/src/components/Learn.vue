@@ -1,22 +1,38 @@
 <template>
 <v-container fluid>
   <p>{{ $t('learn.description') }}</p>
-  <v-expansion-panel class="pl-1"v-for="topic in translations.learn.topics">
-    <h2>{{ topic.headline }}</h2>
-    <div v-for="paragraph in topic.paragraphs">
-      <p>{{ paragraph.text }}</p>
+  <v-expansion-panel class="pl-1">
+    <div v-for="topic in translations.learn.topics">
+      <h2>{{ topic.headline }}</h2>
+      <div v-for="paragraph in topic.paragraphs">
+        <p>{{ paragraph.text }}</p>
+      </div>
+      <v-expansion-panel-content class="grey darken-2 white--text">
+        <div slot="header">Links</div>
+        <v-card>
+          <v-card-text class="grey lighten-3 black--text">
+            <div v-for="link in topic.links">
+              <a :href="link.link" target="_blank" class="learnLink">{{link.title}}</a> {{link.desc}}<br>
+            </div>
+          </v-card-text>
+        </v-card>
+      </v-expansion-panel-content>
+      </br>
     </div>
-    <v-expansion-panel-content class="grey darken-2 white--text">
-      <div slot="header">Links</div>
-      <v-card>
-        <v-card-text class="grey lighten-3 black--text">
-          <div v-for="link in topic.links">
-            <a :href="link.link" target="_blank" class="learnLink">{{link.title}}</a> {{link.desc}}<br>
-          </div>
-        </v-card-text>
-      </v-card>
-    </v-expansion-panel-content>
-  </br>
+    <h2>{{ translations.learn.FAQs.headline }}</h2>
+    <p>{{ translations.learn.FAQs.description }}</p>
+      <v-expansion-panel-content v-for="question in translations.learn.FAQs.questions" class="grey darken-2 white--text">
+        <div slot="header">{{ question.question }}</div>
+        <v-card>
+          <v-card-text class="grey lighten-3 black--text">
+            <div>{{ question.answer }}</div></br>
+            <div>Links:</div>
+            <div v-for="link in question.links">
+              <a :href="link.link" target="_blank" class="learnLink">{{link.title}}</a><br>
+            </div>
+          </v-card-text>
+        </v-card>
+      </v-expansion-panel-content>
   </v-expansion-panel>
   </br>
   <div class="comments">
@@ -44,7 +60,7 @@ export default {
     translations: function () {
       let key = this.$store.state['vue-i18n-manager'].currentLanguage.translationKey
       console.log(key)
-      return this.$store.state['vue-i18n-manager'].translations[key] || {learn: {}}
+      return this.$store.state['vue-i18n-manager'].translations[key] || { learn: { FAQs: {} } }
     }
   }
 }
