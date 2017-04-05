@@ -2,7 +2,7 @@
   <v-app top-toolbar footer class="app">
     <header>
       <v-toolbar class="grey darken-3">
-        <v-toolbar-side-icon class="hidden-sm-and-up" @click.native.stop="sidebar = !sidebar" />
+        <v-toolbar-side-icon class="hidden-md-and-up" @click.native.stop="sidebar = !sidebar" />
         <v-toolbar-items class="hidden-sm-and-down" v-for="item in items">
           <v-toolbar-item :href="item.href" router>{{item.title}}</v-toolbar-item>
         </v-toolbar-items>
@@ -10,9 +10,28 @@
           <v-toolbar-item class="hidden-sm-and-down" href="https://blog.ethereum.network/latest">Blog</v-toolbar-item>
         </v-toolbar-items>
         <v-spacer></v-spacer>
-        <div class="searchfield">
-          <v-text-field v-if="this.$route.path === '/projects'" label="filter projects" v-model="searchField"></v-text-field>
-        </div>
+          <v-menu>
+            <v-btn dark icon slot="activator">
+              <i class="icon-language"></i>
+            </v-btn>
+            <v-list>
+              <v-list-item>
+                <v-list-tile v-on:click.native="setNewLanguage('en')">
+                  <v-list-tile-title>EN</v-list-tile-title>
+                </v-list-tile>
+                <v-list-tile v-on:click.native="setNewLanguage('de')">
+                  <v-list-tile-title>DE</v-list-tile-title>
+                </v-list-tile>
+                <v-list-tile v-on:click.native="setNewLanguage('it')">
+                  <v-list-tile-title>IT</v-list-tile-title>
+                </v-list-tile>
+                <v-divider></v-divider>
+                <v-list-tile href="/about" router>
+                  <v-list-tile-title>info</v-list-tile-title>
+                </v-list-tile>
+              </v-list-item>
+            </v-list>
+          </v-menu>
       </v-toolbar>
     </header>
     <main>
@@ -32,7 +51,7 @@
       </v-sidebar>
       <v-content>
         <v-container fluid class="px-2">
-          <router-view v-bind:search-field="searchField"> </router-view>
+          <router-view> </router-view>
         </v-container>
       </v-content>
     </main>
@@ -46,6 +65,8 @@
 
 <script>
   import 'wenk'
+  import { events } from 'vue-i18n-manager'
+
   export default {
     name: 'app',
     data () {
@@ -73,6 +94,16 @@
       .then((price) => { this.$store.commit('setPrice', { price: price }) })
 
       this.$store.commit('setToken', { token: this.$cookie.get('token') })
+    },
+    methods: {
+      setNewLanguage (lang) {
+        this.$store.dispatch(events.ADD_LANGUAGE, {
+          code: lang,
+          urlPrefix: lang,
+          translationKey: lang
+        })
+        this.$store.dispatch(events.SET_LANGUAGE, lang)
+      }
     }
   }
 </script>
@@ -82,14 +113,7 @@
     font-size: 1.8em;
   }
   h2 {
-    font-size: 1.6em;
-  }
-  .searchfield {
-    float:right;
-    padding-right: 1%;
-    color: white;
-    width: 20em;
-    height: 4.5em;
+    font-size: 1.4em;
   }
   .app  {
     font-family: Arial, Helvetica, sans-serif;

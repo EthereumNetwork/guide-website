@@ -34,6 +34,13 @@ app.get('/api/balance/:address', requestHandlers.getBalanceByAddress)
 // history between routes and static files to catch client-side route paths
 app.use(history())
 
+// return .js.gz so you can still load bundle.js from the html but will receive bundle.js.gz
+app.get('*.js', function (req, res, next) {
+  req.url = req.url + '.gz'
+  res.set('Content-Encoding', 'gzip')
+  next()
+})
+
 // serving index.html and build.js, client-side routes handled by Vue router
 app.use(express.static('public'))
 

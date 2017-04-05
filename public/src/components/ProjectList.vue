@@ -1,5 +1,8 @@
 <template>
   <v-row>
+    <v-col xs11="xs11">
+      <v-text-field label="filter projects" v-model="searchField"></v-text-field>
+    </v-col>
     <project-item v-for="project in filteredProjects" v-bind:project="project"></project-item>
     <v-col xs12 class="showall">
       <infinite-loading v-if="!searchField" :on-infinite="onInfinite" ref="infiniteLoading" spinner="bubbles"></infinite-loading>
@@ -14,9 +17,10 @@
 
   export default {
     name: 'projectList',
-    props: ['searchField', 'query'],
+    props: ['query'],
     data () {
       return {
+        searchField: '',
         maxProjects: 0
       }
     },
