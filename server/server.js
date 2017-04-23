@@ -9,7 +9,7 @@ const history = require('connect-history-api-fallback')
 const auth = require('./auth.js')
 const requestHandlers = require('./requesthandlers.js')
 // require('./workers.js')(io)
-const deepstream = ('./deepstream.js')
+require('./deepstream.js')()
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())

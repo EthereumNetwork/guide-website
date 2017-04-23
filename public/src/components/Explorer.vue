@@ -3,8 +3,6 @@
     <p>{{ msg }} as I'm building out the core functionalities.</p>
     <p>Once it's finished, you will be able to use the search bar to look up addresses, txIDs and other smart contract properties. In the meantime, watch transactions showing up as they get confirmed.</p>
     <p>Currently, the ether price is ${{price.USD}}, the current block number is <router-link :to="'/block/' + blockNumber">{{blockNumber}}</router-link> and the latest transactions are: </p>
-    <textarea :value="input" @input="update"></textarea>
-    {{ test }}
     <table>
       <thead>
         <tr>
@@ -26,9 +24,7 @@
 
 <script>
 // import * as ethUtil from 'ethereumjs-util'
-var client = deepstream('localhost:6020').login()
-console.log(client)
-var record = client.record.getRecord('latest-transactions')
+
 export default {
   name: 'explorer',
   props: ['searchField'],
@@ -37,22 +33,25 @@ export default {
       msg: 'The network explorer is still not fully impplemented,',
       headers: ['from', 'to', 'value'],
       blockNumber: 0,
-      transactionList: [],
-      input: ''
+      transactionList: []
     }
   },
   beforeCreate () {
-    fetch('/api/block/pending')
-    .then((response) => { return response.json() })
-    .then((blockData) => {
-      this.blockNumber = blockData.number
-      this.transactionList = blockData.transactions
-    })
+    // fetch('/api/block/pending')
+    // .then((response) => { return response.json() })
+    // .then((blockData) => {
+    //   this.blockNumber = blockData.number
+    //   this.transactionList = blockData.transactions
+    // })
   },
   mounted () {
-    record.subscribe('firstname', (value) => {
-      console.log(value)
-      this.$store.commit('setTest', { test: value })
+    var record = this.$store.state.dsClient.record.getRecord('ethnet-record')
+    record.subscribe('latest-transactions', (blockData) => {
+      this.blockNumber = blockData.number
+    })
+    this.$store.state.dsClient.event.subscribe('pending', (txData) => {
+      this.transactionList.unshift(txData)
+      this.transactionList = this.transactionList.slice(0, 50)
     })
   },
   computed: {
@@ -60,25 +59,12 @@ export default {
       return this.$store.state.price
     },
     test: function () {
-      return this.$store.state.test
+      return this.$store.state.latestTransactions
     }
   },
-  // socket: {
-  //   events: {
-  //     latestTransactions (blockData) {
-  //       this.blockNumber = blockData.number
-  //       this.transactionList = blockData.transactions.concat(this.transactionList).slice(0, 200)
-  //     }
-  //   }
-  // },
   methods: {
     goToTransaction: function (hash) {
       this.$router.push('/tx/' + hash)
-    },
-    update: function (e) {
-      this.input = e.target.value
-      console.log('tets')
-      record.set('firstname', this.input)
     }
   }
 }

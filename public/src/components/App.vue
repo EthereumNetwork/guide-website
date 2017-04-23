@@ -66,6 +66,7 @@
 <script>
   import 'wenk'
   import { events } from 'vue-i18n-manager'
+  var dsClient = deepstream('localhost:6020').login()
 
   export default {
     name: 'app',
@@ -82,7 +83,12 @@
         ]
       }
     },
+    beforeCreate () {
+      this.$store.commit('setDsClient', { dsClient: dsClient })
+    },
     mounted () {
+      this.$store.commit('setToken', { token: this.$cookie.get('token') })
+
       fetch('/api/projects')
       .then((response) => { return response.json() })
       .then((data) => {
@@ -92,9 +98,8 @@
       fetch('https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR')
       .then((response) => { return response.json() })
       .then((price) => { this.$store.commit('setPrice', { price: price }) })
-
-      this.$store.commit('setToken', { token: this.$cookie.get('token') })
     },
+
     methods: {
       setNewLanguage (lang) {
         this.$store.dispatch(events.ADD_LANGUAGE, {
