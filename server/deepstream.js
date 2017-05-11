@@ -21,7 +21,21 @@ filter.watch(function (error, txHash) {
           hash: txData.hash || '',
           value: txData.value || ''
         }
-        client.event.emit('pending', txToSend)
+        client.event.emit('pending/all', txToSend)
+        // client.event.listen('^pending/.*', (eventName, isSubscribed, response) => {
+        //   console.log(eventName) // 'news/all' or pending/<tx>
+        //   if (isSubscribed) {
+        //     if (eventName === 'pending/all') {
+        //       // response.accept()
+        //       client.event.emit(eventName, txToSend)
+        //       // start publishing data via `client.event.emit(eventName, /* data */)`
+        //     } else {
+        //       response.reject() // let deepstream ask another provider
+        //     }
+        //   } else {
+        //     // stop publishing data
+        //   }
+        // })
       }
     })
   }
