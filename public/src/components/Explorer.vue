@@ -49,7 +49,7 @@ export default {
     record.subscribe('latest-transactions', (blockData) => {
       this.blockNumber = blockData.number
     })
-    this.$store.state.dsClient.event.subscribe('pending', (txData) => {
+    this.$store.state.dsClient.event.subscribe('pending/all', (txData) => {
       this.transactionList.unshift(txData)
       this.transactionList = this.transactionList.slice(0, 50)
     })
