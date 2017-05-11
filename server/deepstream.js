@@ -1,5 +1,5 @@
 var deepstream = require('deepstream.io-client-js')
-const client = deepstream('localhost:6020').login()
+const client = deepstream(process.env.deepstreamHub).login()
 var record = client.record.getRecord('ethnet-record')
 const web3 = require('./web3.js')
 const ethUtil = require('ethereumjs-util')
@@ -12,8 +12,8 @@ filter.watch(function (error, txHash) {
     console.error(error)
   } else {
     web3.eth.getTransaction(txHash, (error, txData) => {
-      if (error) {
-        console.error(error)
+      if (error || !txData) {
+        console.error('error receiving pending TXs', error, txData)
       } else {
         let txToSend = {
           to: ethUtil.toChecksumAddress(txData.to || ''),
@@ -22,20 +22,9 @@ filter.watch(function (error, txHash) {
           value: txData.value || ''
         }
         client.event.emit('pending/all', txToSend)
-        // client.event.listen('^pending/.*', (eventName, isSubscribed, response) => {
-        //   console.log(eventName) // 'news/all' or pending/<tx>
-        //   if (isSubscribed) {
-        //     if (eventName === 'pending/all') {
-        //       // response.accept()
-        //       client.event.emit(eventName, txToSend)
-        //       // start publishing data via `client.event.emit(eventName, /* data */)`
-        //     } else {
-        //       response.reject() // let deepstream ask another provider
-        //     }
-        //   } else {
-        //     // stop publishing data
-        //   }
-        // })
+        client.event.emit('pending/' + txToSend.to, txToSend)
+        client.event.emit('pending/' + txToSend.from, txToSend)
+        // client.event.emit('pending/0x95AaD90B17ef088E4f79E79e899f85FA72b2Db53', txToSend)
       }
     })
   }

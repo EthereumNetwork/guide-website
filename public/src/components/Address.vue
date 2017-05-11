@@ -2,7 +2,7 @@
   <div>
     <h2>{{this.$route.params.id}}</h2>
     <VueQrcode class="qrcode" id="tdsfgdsfgs" :text="this.$route.params.id" :size="128"></VueQrcode>
-    <p>I'm still building up an address-transaction database inlcluding the pending transactions. Until then, old transactions are coming from <a href="https://etherscan.io/">Etherscan</a> (They are awesome) and new transactions to or from this address only show up here once they are confirmed (~30 sec after sending them)</p>
+    <p>I'm still building up an address-transaction database inlcluding the pending transactions. Until then, old transactions are coming from <a href="https://etherscan.io/">Etherscan</a> (They are awesome), but new transactions should show up here in realtime...</p>
     <p>ETH balance: {{balance/1e18}} Ether (${{Math.round(balance/1e16*price.USD)/100}})</p>
     <table>
       <thead>
@@ -56,11 +56,11 @@ export default {
     // this.$socket.on(this.$route.params.id, (transactions) => {
     //   this.transactionList.unshift(transactions)
     // })
+    console.log('pending/' + this.$route.params.id)
     this.$store.state.dsClient.event.subscribe('pending/' + this.$route.params.id, (txData) => {
-      if (true) {
+      console.log(txData)
         this.transactionList.unshift(txData)
         this.transactionList = this.transactionList.slice(0, 50)
-      }
     })
   },
   components: {

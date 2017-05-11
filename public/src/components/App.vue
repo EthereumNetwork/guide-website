@@ -66,7 +66,7 @@
 <script>
   import 'wenk'
   import { events } from 'vue-i18n-manager'
-  var dsClient = deepstream('localhost:6020').login()
+  var dsClient = deepstream('wss://013.deepstreamhub.com?apiKey=479aedee-9623-48bd-813d-fb67b4a59ff6').login()
 
   export default {
     name: 'app',
