@@ -19,11 +19,8 @@
                 <v-list-tile v-on:click.native="setNewLanguage('en')">
                   <v-list-tile-title>EN</v-list-tile-title>
                 </v-list-tile>
-                <v-list-tile v-on:click.native="setNewLanguage('de')">
-                  <v-list-tile-title>DE</v-list-tile-title>
-                </v-list-tile>
-                <v-list-tile v-on:click.native="setNewLanguage('it')">
-                  <v-list-tile-title>IT</v-list-tile-title>
+                <v-list-tile v-on:click.native="setNewLanguage('cn')">
+                  <v-list-tile-title>CN</v-list-tile-title>
                 </v-list-tile>
                 <v-divider></v-divider>
                 <v-list-tile href="/about" router>
