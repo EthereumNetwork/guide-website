@@ -53,12 +53,7 @@ export default {
     })
   },
   mounted () {
-    // this.$socket.on(this.$route.params.id, (transactions) => {
-    //   this.transactionList.unshift(transactions)
-    // })
-    console.log('pending/' + this.$route.params.id)
     this.$store.state.dsClient.event.subscribe('pending/' + this.$route.params.id, (txData) => {
-      console.log(txData)
         this.transactionList.unshift(txData)
         this.transactionList = this.transactionList.slice(0, 50)
     })
