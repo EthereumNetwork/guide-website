@@ -39,7 +39,6 @@ module.exports = function () {
         console.error(error)
       } else {
         currentBlock = blockData
-        console.log('last', blockData.transactions.length, blockData.number, Object.keys(pendingTransactions).length)
         for (let i = 0; i < currentBlock.transactions.length; i++) {
           currentBlock.transactions[i].from = ethUtil.toChecksumAddress(currentBlock.transactions[i].from || '')
           currentBlock.transactions[i].to = ethUtil.toChecksumAddress(currentBlock.transactions[i].to || '')
