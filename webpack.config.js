@@ -1,13 +1,16 @@
 var path = require('path')
 var webpack = require('webpack')
 var CompressionPlugin = require('compression-webpack-plugin')
+var HtmlWebpackPlugin = require('html-webpack-plugin')
+var InlineManifestWebpackPlugin = require('inline-manifest-webpack-plugin')
+var CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: './public/src/main.js',
   output: {
     path: path.resolve(__dirname, './public/dist'),
-    publicPath: '/dist/',
-    filename: 'build.js'
+    publicPath: '/',
+    filename: 'build.[hash].js'
   },
   module: {
     rules: [
@@ -55,10 +58,6 @@ module.exports = {
       '/api': {
         target: 'http://localhost:3001',
         secure: false
-      },
-      '/socket': {
-        ws: true,
-        target: 'http://localhost:3001'
       }
     }
   },
@@ -66,6 +65,21 @@ module.exports = {
     hints: false
   },
   devtool: '#eval-source-map'
+}
+
+if (process.env.NODE_ENV === 'development') {
+  module.exports.output.filename = 'build.js'
+  module.exports.plugins = (module.exports.plugins || []).concat([
+    new CopyWebpackPlugin([
+      { from: './public/src/assets' }
+    ]),
+    new HtmlWebpackPlugin({
+      template: './public/index.ejs'
+    }),
+    new InlineManifestWebpackPlugin({
+      name: 'webpackManifest'
+    })
+  ])
 }
 
 if (process.env.NODE_ENV === 'production') {
@@ -87,9 +101,18 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.LoaderOptionsPlugin({
       minimize: true
     }),
+    new CopyWebpackPlugin([
+      { from: './public/src/assets' }
+    ]),
+    new HtmlWebpackPlugin({
+      template: './public/index.ejs'
+    }),
+    new InlineManifestWebpackPlugin({
+      name: 'webpackManifest'
+    }),
     new CompressionPlugin({
-      asset: "[path].gz[query]",
-      algorithm: "gzip",
+      asset: '[path].gz[query]',
+      algorithm: 'gzip',
       test: /\.js$|\.css$|\.html$/,
       threshold: 10240,
       minRatio: 0.8

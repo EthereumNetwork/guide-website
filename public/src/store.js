@@ -32,7 +32,9 @@ const store = new Vuex.Store({
       blog: ''
     },
     projectList: [],
-    price: {}
+    price: {},
+    dsClient: {},
+    latestTransactions: 'test'
   },
   mutations: {
     setToken (state, payload) {
@@ -46,6 +48,12 @@ const store = new Vuex.Store({
     },
     setPrice (state, payload) {
       state.price = payload.price
+    },
+    setDsClient (state, payload) {
+      state.dsClient = payload.dsClient
+    },
+    setLatestTransactions (state, payload) {
+      state.latestTransactions = payload.latestTransactions
     }
   }
 })
