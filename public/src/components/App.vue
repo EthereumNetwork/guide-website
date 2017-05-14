@@ -19,11 +19,8 @@
                 <v-list-tile v-on:click.native="setNewLanguage('en')">
                   <v-list-tile-title>EN</v-list-tile-title>
                 </v-list-tile>
-                <v-list-tile v-on:click.native="setNewLanguage('de')">
-                  <v-list-tile-title>DE</v-list-tile-title>
-                </v-list-tile>
-                <v-list-tile v-on:click.native="setNewLanguage('it')">
-                  <v-list-tile-title>IT</v-list-tile-title>
+                <v-list-tile v-on:click.native="setNewLanguage('cn')">
+                  <v-list-tile-title>CN</v-list-tile-title>
                 </v-list-tile>
                 <v-divider></v-divider>
                 <v-list-tile href="/about" router>
@@ -66,6 +63,7 @@
 <script>
   import 'wenk'
   import { events } from 'vue-i18n-manager'
+  var dsClient = deepstream('wss://013.deepstreamhub.com?apiKey=479aedee-9623-48bd-813d-fb67b4a59ff6').login()
 
   export default {
     name: 'app',
@@ -82,7 +80,12 @@
         ]
       }
     },
+    beforeCreate () {
+      this.$store.commit('setDsClient', { dsClient: dsClient })
+    },
     mounted () {
+      this.$store.commit('setToken', { token: this.$cookie.get('token') })
+
       fetch('/api/projects')
       .then((response) => { return response.json() })
       .then((data) => {
@@ -92,9 +95,8 @@
       fetch('https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR')
       .then((response) => { return response.json() })
       .then((price) => { this.$store.commit('setPrice', { price: price }) })
-
-      this.$store.commit('setToken', { token: this.$cookie.get('token') })
     },
+
     methods: {
       setNewLanguage (lang) {
         this.$store.dispatch(events.ADD_LANGUAGE, {

@@ -1,6 +1,6 @@
 {
   "learn": {
-    "description": "Here you should see the Italian translation. Ethereum is still a young and experimental project, it isn't safe or scalable yet. Most resources here are for developers not afraid to try out new things. In the future, there will be more information and step-by-step guides to help less technical users to understand Ethereum.",
+    "description": "Ethereum is still a young and experimental project, it isn't safe or scalable yet. Most resources here are for developers not afraid to try out new things. In the future, there will be more information and step-by-step guides to help less technical users to understand Ethereum.",
     "topics": [
       {
         "headline": "What is Ethereum?",
@@ -187,7 +187,7 @@
     ],
     "FAQs": {
       "headline": "FAQs",
-      "description": "Answers to some of the questions you might encounter while getting to know Ethereum. More questions and answers can be found at the http://ethereum.stackexchange.com/ Ethereum StackExchange",
+      "description": "Answers to some of the questions you might encounter while getting to know Ethereum. More questions and answers can be found at the Ethereum StackExchange at http://ethereum.stackexchange.com/",
       "questions": [
         { "question": "Where do I start?", "answer": "The Ethereum network can be very overwhelming, so that is a good question and completely depends what you're looking for. If you are a developer looking into blockchain programming and the creation of decentralized apps, most of the sections here are directed towards you. Let me know if you run into any trouble or out-dated info. As a curious user, on the projects page use any decentralized app that you find interesting. Then complain to the developers about any user experience difficulties that you encounter, and otherwise give helpful feedback. Generally be curious and engage in the communities mentioned in the section above", "links": [{"link": "https://ethereum.network/projects", "title": "project page" }]},
         { "question": "What is the current roadmap?", "answer": "Both the Ethereum Foundation and the Enterprise Ethereum Alliance are working on it", "links": [{"link": "https://www.ethnews.com/ethereums-road-map-for-2017", "title": "Ethereum Foundation" }, {"link": "https://www.reddit.com/r/ethereum/comments/5wo6hy/ethereum_enterprise_alliance_live_updates/", "title": "Enterprise Ethereum Alliance" }]},

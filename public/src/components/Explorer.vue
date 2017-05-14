@@ -24,6 +24,7 @@
 
 <script>
 // import * as ethUtil from 'ethereumjs-util'
+
 export default {
   name: 'explorer',
   props: ['searchField'],
@@ -36,24 +37,29 @@ export default {
     }
   },
   beforeCreate () {
-    fetch('/api/block/pending')
-    .then((response) => { return response.json() })
-    .then((blockData) => {
+    // fetch('/api/block/pending')
+    // .then((response) => { return response.json() })
+    // .then((blockData) => {
+    //   this.blockNumber = blockData.number
+    //   this.transactionList = blockData.transactions
+    // })
+  },
+  mounted () {
+    var record = this.$store.state.dsClient.record.getRecord('ethnet-record')
+    record.subscribe('latest-transactions', (blockData) => {
       this.blockNumber = blockData.number
-      this.transactionList = blockData.transactions
+    })
+    this.$store.state.dsClient.event.subscribe('pending/all', (txData) => {
+      this.transactionList.unshift(txData)
+      this.transactionList = this.transactionList.slice(0, 50)
     })
   },
   computed: {
     price: function () {
       return this.$store.state.price
-    }
-  },
-  socket: {
-    events: {
-      latestTransactions (blockData) {
-        this.blockNumber = blockData.number
-        this.transactionList = blockData.transactions.concat(this.transactionList).slice(0, 200)
-      }
+    },
+    test: function () {
+      return this.$store.state.latestTransactions
     }
   },
   methods: {

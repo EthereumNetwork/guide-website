@@ -1,13 +1,13 @@
 {
   "learn": {
-    "description": "Ethereum is still a young and experimental project, it isn't safe or scalable yet. Most resources here are for developers not afraid to try out new things. In the future, there will be more information and step-by-step guides to help less technical users to understand Ethereum.",
+    "description": "以太币目前仍处于发展和探索阶段，还未达到一定的安全高度和规模。在这里大部分分享的资源是为提供给哪些勇于尝试新事物的开发者们。未来，这里也会为非技术人员的以太币爱好者提供更多信息以及一步步的指导。",
     "topics": [
       {
-        "headline": "What is Ethereum?",
+        "headline": "什么是以太币？",
         "paragraphs": [
-          { "text": "The Ethereum project aims to do for human collaboration what the internet did for information. It is part of a world computer, where everyone can publish and access content, write and use applications, send value and make agreements. This is done through so called smart contracts and decentralized applications (dapps), open, tamper proof, opt-in, self executing applications that run exactly as programmed and all share one common, append-only 'truth', the Ethereum blockchain, while ensuring that there is no downtime, censorship, fraud or third party interference." },
-          { "text": "This decentralized environment allows all people, programs, IoT devices, markets, registries and other things to collaborate without the need for explicit trust. That's why people also call it the trust machine, it is not just an upgrade to our databases and Internet, but rather a tool to re-architect social, financial and political systems." },
-          { "text": "While that all just sounds a lot like a long list of awesome buzzwords, it is very actively developed by tens of thousand of developers around the world and happening right now. Below you'll find some links to instruction guides and videos that will help you get started. Once you're a bit more familiar with Ethereum, dive in deeper and read the other sections" }
+          { "text": "以太币项目是为人们之间的合作形式那样将信息发布在网络上。它是世界网络的一部分，任何人都可以发布或获取需要的信息内容，攥写申请，传输价值以及达成协议。 实现这一目的的方式是一种称之为“智能合约”和去中心化方式，公开，防干扰，自主操控，完全按照程序运行，所有信息共享并且“真实”，以太币区块链，更保证了不会出现断档，被审查，欺诈或第三方干涉的情况。" },
+          { "text": "去中心化的环境使得所有人，项目，物联网设备，市场，注册用户等等，在没有完全信任的情况下得以合作。这也就是为什么人们称它为信任机器，它不仅仅是升级版的信息库和网络，更是重新构建社交，财务和政治的系统。" },
+          { "text": "以上种种描述听起来可能有些天花乱坠，但以太币正在被全球数以万计的程序员们不断开发着。下面的链接包括了更多指导和视频可以帮助你直接开始进行。一旦你对以太币更了解和熟悉了，那么请继续深入阅读下面的章节吧。" }
         ],
         "links": [
           { "link": "http://blockgeeks.com/guides/what-is-ethereum/", "title": "What is Ethereum?", "desc": "A Step-by-Step Beginners Guide" },
@@ -27,10 +27,9 @@
         ]
       },
       {
-        "headline": "Wallets and Browsers",
+        "headline": "钱包和游览器",
         "paragraphs": [
-          { "text": "Wallets and browsers are your windows to the Ethereum world. The former works just like your normal wallet, i.e. it allows you to store, add and spend money via different currencies and payment systems. It contains one or more Ethereum addresses (long hexadecimal strings that uniquely identifies them) and can receive and send ether (the underlying Ethereum currency) or other tokens running on top of Ethereum. Before taking the plunge and spending any money on ether, please read the information in the online security section." },
-          { "text": "As we said already, Ethereum is much more than just a crypto-currency blockchain. The main purpose is hosting and running smart contracts, storing distributed data (swarm), decentralized communication (whisper) and much more. This begs the question: “How can I access all these cool features?”. This is where browser plugins such as Metamask and Ethereum browsers like Mist come in." }
+          { "text": "钱包和游览器将是你进入以太币世界的窗口。使用起来就像你的普通钱包，你可以储存，或者通过不同的系统进行不同币种的交易。通常钱包内含有一个或以上以太币地址（一连串代码具有唯一性），可以接收或发出以太币，或交易其他以太币价值内的钱币。在投资购买以太币之前，请仔细阅读安全提示部分内的第一条链接内容。" }
         ],
         "links": [
             { "link": "https://github.com/ethereum/mist/releases", "title": "Mist", "desc": "Official Ethereum browser and wallet" },
@@ -55,9 +54,9 @@
         ]
       },
       {
-        "headline": "Guides and Tips:",
+        "headline": "指导及提示",
         "paragraphs": [
-          { "text": "Every day there are new blog posts, tutorials, research article and discussions about how to develop smart contracts and decentralized applications. I try to keep the best and most up-to-date ones here, please let me know about new ones I should add or old ones to remove." }
+          { "text": "每天网络上都会大量发布关于如何开发智能合约和去中心化应用的学习指南，研究类文献和讨论。我会尽量在这里持续更新，请及时提醒我有哪些更新需要在此增加以及那些较为陈旧的新闻需要删除。" }
         ],
         "links": [
             { "link": "https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4#.tcmcvxugj", "title": "101 Noob Intro", "desc": "to Programming Smart Contracts" },
@@ -88,10 +87,10 @@
         ]
       },
       {
-        "headline": "Developer Resources and Tools",
+        "headline": "开发者的资源和工具",
         "paragraphs": [
-          { "text": "Now that you have a wallet and maybe even installed Mist and/or Metamask, it’s time roll up your sleeves and get your hands dirty. There are tons of frameworks, tools and resources that you will help you create your very own first Ðapp." },
-          { "text": "Smart contracts are executed in the Ethereum Virtual Machine(EVM), which runs on every full Ethereum node. The most contracts are written in Solidity, and frameworks like Truffle, Embark or Dapple simplify the creation." }
+          { "text": "现在你已经有了钱包，应该也安装了Mist 和/或 Metamask，接下来就让我们行动起来吧！ 网络上有丰富的框架，工具和资源以供你创建第一个属于你的去中心化应用。" },
+          { "text": "每一个以太坊会运行一个虚拟以太坊机器的区块。这就是智能合约运行的地方。在运行虚拟以太坊机器时，你将选择一种语言编入进去。由于可靠性将被作为智能合约编程语言的实施参考价值，那么这将是一个好的开始。一旦你使用熟练了并且使用Solc编出了你的第一个智能合约，去中心化的框架例如Truffle, Embark和Dapple仍可以帮助到你。" }
         ],
         "links": [
           { "link": "https://ethereum.org/", "title": "Ethereum Website", "desc": "Browser and first tutorials from the Ethereum Foundation" },
@@ -116,9 +115,9 @@
         ]
       },
       {
-        "headline": "Clients and Implementations",
+        "headline": "客户以及实施",
         "paragraphs": [
-          { "text": "Clients directly (node as part of the network) or indirectly (remote connection to a node) connect to the Ethereum network and are used by browsers and wallets to allow the user to interact with it." }
+          { "text": "直接客户（网络部分中的节点）或间接客户（和节点远程链接的关系）连入以太坊社区内都将使用游览器和钱包进行操作。" }
         ],
         "links": [
           { "link": "https://geth.ethereum.org/", "title": "Geth Ethereum Client", "desc": "Ethereum client developed in Go" },
@@ -148,12 +147,13 @@
         ]
       },
       {
-        "headline": "News and communities",
+        "headline": "新闻和社区",
         "paragraphs": [
-          { "text": "There are many quality news outlet reporting about Ethereum and the decentralization of the web. Check them out or follow us via the links in the footer for the most important news articles of the day." }
+          { "text": "网络上有很多关于以太坊和去中心化应用的高质量新闻报道。常常阅读或通过链接关注我们，我们每天更新要闻。" }
         ],
         "links": [
             { "link": "https://blog.ethereum.org/", "title": "Official Ethereum blog", "desc": "by the Ethereum Foundation" },
+            { "link": "http://ethfans.org/", "title": "EthFans", "desc": "Chinese Ethereum Community" },
             { "link": "https://www.ethnews.com/", "title": "ETHNews", "desc": "News Website" },
             { "link": "https://cointelegraph.com/tags/ethereum", "title": "Cointelegraph", "desc": "News Website" },
             { "link": "https://media.consensys.net/", "title": "ConsenSys Blog", "desc": "Blog of the Ethereum powerhouse ConsenSys" },
@@ -168,11 +168,11 @@
         ]
       },
       {
-        "headline": "Exchanges",
+        "headline": "兑换",
         "paragraphs": [
-          { "text": "Even though there are no borders in the Ethereum world, you would need some ether to use the services and decentralized apps there. Like exchanging into the local currency in a foreign country you're visiting. Exchanges provide a means to move in or out of ether by trading it for fiat money ($, €, ¥, £) or other crypto-currencies." },
-          { "text": "Some of the exchanges directly offer fiat money trades via bank transfers, while others only handle trades between crypto-currencies. And then there are the decentralized ones. You'll need to run an Ethereum client, such as Mist or MetaMask, but they never hold costumer funds and generally have lower fees than the normal ones." },
-          { "text": "Before getting in crypto-currencies, be sure to read the wallet and online security related parts in the section above." }
+          { "text": "尽管以太坊的世界是没有界限的，你仍需要花费一些用于服务和去中心化应用的软件上。例如把把本地的货币换成你在国外需要的币种。兑换意意味着将以太币和法定货币（美元/欧元/人民币/法郎）之间的转换，或者和其他加密货币之间的兑换。" },
+          { "text": "有一些兑换可以直接和银行直接进行法定货币之间的转换，另一些则只能在加密货币之间兑换。并且也有去中心化的那些。你需要去运营一个以太坊客户，例如Mist或MetaMask,但他们从不会告诉客户有比市面上价格更优惠的。" },
+          { "text": "投资加密货币之前，确保已经阅读了关于钱包和线上安全知识的文章，参考链接。" }
         ],
         "links": [
             { "link": "https://www.coinbase.com/", "title": "Coinbase", "desc": "Exchange based in the US" },
@@ -186,14 +186,9 @@
       }
     ],
     "FAQs": {
-      "headline": "FAQs",
-      "description": "Answers to some of the questions you might encounter while getting to know Ethereum. More questions and answers can be found at the http://ethereum.stackexchange.com/ Ethereum StackExchange",
-      "questions": [
-        { "question": "Where do I start?", "answer": "The Ethereum network can be very overwhelming, so that is a good question and completely depends what you're looking for. If you are a developer looking into blockchain programming and the creation of decentralized apps, most of the sections here are directed towards you. Let me know if you run into any trouble or out-dated info. As a curious user, on the projects page use any decentralized app that you find interesting. Then complain to the developers about any user experience difficulties that you encounter, and otherwise give helpful feedback. Generally be curious and engage in the communities mentioned in the section above", "links": [{"link": "https://ethereum.network/projects", "title": "project page" }]},
-        { "question": "What is the current roadmap?", "answer": "Both the Ethereum Foundation and the Enterprise Ethereum Alliance are working on it", "links": [{"link": "https://www.ethnews.com/ethereums-road-map-for-2017", "title": "Ethereum Foundation" }, {"link": "https://www.reddit.com/r/ethereum/comments/5wo6hy/ethereum_enterprise_alliance_live_updates/", "title": "Enterprise Ethereum Alliance" }]},
-        { "question": "Can ether be used as a currency?", "answer": "Bitcoin tried to create the perfect 'coin', with a lot of focus  itself (how much are there, what is the increase schedule, etc...). It tries to compete with the Dollar, the Euro, the Yuan, gold, etc to buy things and thus make it valuable. Ethereum's focus is, rather on the monetary properties, on creating a whole ecosystem that has never existed before. Why use it for things you can buy with Dollars, Euro or Yuan? It is too volatile for merchants and service provider with bills to pay. A better solution would are be stable coins which track the value of one or more fiat currencies and will probably end up being the primary payment mechanism on Ethereum. Ether's function is more seen as investment in the network itself (used for all transactions, generating a return though staking, very low inflation), as technical payments between devices or as collateral deposits.", "links": [{"link": "https://ethereum.network//projects?q=stable coin", "title": "stable coins" }]},
-        { "question": "What is Ethereum Classic, SOILcoin, Expanse or any of the other Ethereum forks?", "answer": "Ethereum is completely open-source, so anyone can just run their own version with all kind of variations. The mentioned projects either moved away for some changes or stayed behind when the community moved on. They are all legit efforts with more or less noble causes, just be aware what you want to use. All the projects shown on /projects use the real Ethereum, which you can check on /explorer.", "links": [{"link": "https://ethereum.network/projects", "title": "project page" }, {"link": "https://ethereum.network/explorer", "title": "explorer" }]}
-      ]
+      "headline": "答疑",
+      "description": "这些回答是在学习了解以太坊的过程中，你可能会遇到的问题。更多提问和回答可以在Ethereum StackExchange(http://ethereum.stackexchange.com/)中找到。",
+      "questions": []
     }
   }
 }

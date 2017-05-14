@@ -2,13 +2,12 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const server = require('http').createServer(app)
-const io = require('socket.io')(server, { path: '/socket/socket.io' })
 const bodyParser = require('body-parser')
 const history = require('connect-history-api-fallback')
 
 const auth = require('./auth.js')
 const requestHandlers = require('./requesthandlers.js')
-require('./workers.js')(io)
+require('./deepstream.js')()
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
@@ -42,7 +41,7 @@ app.get('*.js', function (req, res, next) {
 })
 
 // serving index.html and build.js, client-side routes handled by Vue router
-app.use(express.static('public'))
+app.use(express.static('public/dist'))
 
 server.listen(3001, function listening () {
   console.log('Server started at', (new Date()).toString(), 'on port', server.address().port)
