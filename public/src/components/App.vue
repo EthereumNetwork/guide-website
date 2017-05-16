@@ -63,7 +63,7 @@
 <script>
   import 'wenk'
   import { events } from 'vue-i18n-manager'
-  var dsClient = deepstream('wss://013.deepstreamhub.com?apiKey=479aedee-9623-48bd-813d-fb67b4a59ff6').login()
+  var dsClient = deepstream('ws://api.ethereum.network:6020').login()
 
   export default {
     name: 'app',
