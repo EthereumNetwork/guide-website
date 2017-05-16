@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>{{ msg }} as I'm building out the core functionalities.</p>
-    <p>Once it's finished, you will be able to use the search bar to look up addresses, txIDs and other smart contract properties. In the meantime, watch transactions showing up as they get confirmed.</p>
+    <p>Once it's finished, you will be able to use the search bar to look up addresses, txIDs and smart contract properties. In the meantime, watch ether transactions coming in.</p>
     <p>Currently, the ether price is ${{price.USD}}, the current block number is <router-link :to="'/block/' + blockNumber">{{blockNumber}}</router-link> and the latest transactions are: </p>
     <table>
       <thead>
@@ -35,14 +35,6 @@ export default {
       blockNumber: 0,
       transactionList: []
     }
-  },
-  beforeCreate () {
-    // fetch('/api/block/pending')
-    // .then((response) => { return response.json() })
-    // .then((blockData) => {
-    //   this.blockNumber = blockData.number
-    //   this.transactionList = blockData.transactions
-    // })
   },
   mounted () {
     var record = this.$store.state.dsClient.record.getRecord('ethnet-record')
