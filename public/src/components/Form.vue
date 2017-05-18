@@ -84,16 +84,17 @@
       <v-row>
         <v-col xs3>
           <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save</v-btn>
+          <v-btn error v-on:click.native="remove()" v-if="token">Delete</v-btn>
         </v-col>
         <v-col xs9>
-          <v-alert v-if="alert" hide-icon success dismissible v-model="alert">
-            Submitted successfully! Thank you.
+          <v-alert hide-icon success dismissible v-model="success">
+            {{ alertMsg }}
           </v-alert>
-          <v-alert v-if="error" hide-icon error dismissible v-model="error">
-            An error occurred.
+          <v-alert hide-icon error dismissible v-model="error">
+            An error occurred: {{ alertMsg }}
           </v-alert>
           <div v-if="token">You are logged in and can update projects directly.</div>
-          <div v-else>You can ad and edit projects, we still integrate them within a day after checking for scams and spam.</div>
+          <div v-else>You can ad and edit projects, we will integrate them within a day after checking for scams and spam.</div>
           <div v-if="project._id">editing: {{project.title}}, {{project._id}}, last edited by {{project.creator}}</div>
           <v-btn small v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
         </v-col>
@@ -110,8 +111,8 @@
         project: this.$store.state.projectToEdit,
         IsProgress: false,
         activeColor: 'Red',
-        msg: 'Projects Form',
-        alert: false,
+        alertMsg: '',
+        success: false,
         error: false,
         modal: false
       }
@@ -145,7 +146,31 @@
         })
         .then((response) => { return response.json() })
         .then((data) => {
-          data.result ? this.alert = true : this.error = true
+          this.alertMsg = data.message
+          data.result ? this.success = true : this.error = true
+          this.IsProgress = false
+        })
+        .catch((error) => {
+          this.IsProgress = false
+          if (error) { this.error = true }
+        })
+      },
+
+      remove: function () {
+        this.IsProgress = true
+        fetch(('/api/deletesuggestion'), {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': ('JWT ' + this.$store.state.token)
+          },
+          body: JSON.stringify(this.project)
+        })
+        .then((response) => { return response.json() })
+        .then((data) => {
+          this.alertMsg = data.message
+          data.result.ok ? this.success = true : this.error = true
           this.IsProgress = false
         })
         .catch((error) => {

@@ -23,9 +23,7 @@ pendingTransactionsFilter.watch(function (error, txHash) {
     console.error(error)
   } else {
     web3.eth.getTransaction(txHash, (error, txData) => {
-      if (error || !txData) {
-        console.error('error receiving pending TXs', error, txData)
-      } else {
+      if (txData && !error) {
         let txToSend = {
           to: ethUtil.toChecksumAddress(txData.to || ''),
           from: ethUtil.toChecksumAddress(txData.from || ''),

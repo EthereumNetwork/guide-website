@@ -15,13 +15,14 @@ app.use(auth.initialize())
 
 // Authentificatoin routes
 app.post('/api/login', requestHandlers.login)
-// Project routes
+// Project and suggestion routes
 app.get('/api/projects', requestHandlers.sendAllProjects)
 app.get('/download/projects', requestHandlers.downloadAllProjects)
 app.get('/api/project/:title', requestHandlers.sendProject)
 app.get('/api/suggestions', requestHandlers.sendAllSuggestions)
 app.post('/api/saveprojects', auth.authenticate(), requestHandlers.saveProject)
 app.post('/api/savesuggestion', requestHandlers.saveSuggestion)
+app.post('/api/deletesuggestion', auth.authenticate(), requestHandlers.deleteSuggestion)
 // Explorer routes
 app.get('/api/blocknumber', requestHandlers.getBlockNumber)
 app.get('/api/block/:blockId', requestHandlers.getBlock)

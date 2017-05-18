@@ -3,6 +3,7 @@
     <v-card>
       <v-card-row>
         <v-card-title>
+          <img v-bind:src="project.logoUrl || '/NA.png'" class="project-image">
           <span>{{project.title}}</span>
         </v-card-title>
       </v-card-row>
@@ -88,5 +89,11 @@ export default {
 img {
   max-width: 100%;
   max-height: 250px;
+}
+.project-image {
+  max-height: 60px;
+  max-width: 60px;
+  background: #c3c5c9;
+  margin-right: 10px;
 }
 </style>
