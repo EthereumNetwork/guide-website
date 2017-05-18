@@ -5,6 +5,7 @@ const moment = require('moment')
 const db = require('./db.js')
 const web3 = require('./web3.js')
 const ethUtil = require('ethereumjs-util')
+const shuffle = require('shuffle-array')
 
 // Authentificatoin methods
 
@@ -18,17 +19,24 @@ module.exports.login = (req, res) => {
   }
 }
 
-// Project methods
+// Project and suggestion methods
 let projectsList = []
 let updateProjectsList = () => {
-  db.Project.find({}, 'title shortDescription tags logoUrl').then(projects => { projectsList = projects })
+  db.Project.find({}, 'title shortDescription tags logoUrl').then(projects => { projectsList = shuffle(projects) })
 }
 updateProjectsList()
+setInterval(updateProjectsList, 60000)
 
-module.exports.sendAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
-module.exports.downloadAllProjects = (req, res) => { res.send(projectsList) }
+module.exports.sendAllProjects = (req, res) => { res.send(projectsList) }
+module.exports.downloadAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
 module.exports.sendProject = (req, res) => { db.Project.findOne({title: req.params.title.replace(/_+/g, ' ')}).then(project => res.send(project)) }
 module.exports.sendAllSuggestions = (req, res) => { db.Suggestion.find().then(suggestions => res.send(suggestions)) }
+module.exports.deleteSuggestion = (req, res) => {
+  db.Suggestion.remove({_id: req.body._id}, (err, dbAnswer) => {
+    console.log('deleted ', req.body.title)
+    res.send({result: 1, message: 'Successfully deleted ' + req.body.title})
+  })
+}
 
 module.exports.saveProject = (req, res) => {
   db.Suggestion.remove({_id: req.body._id}, () => {})
@@ -40,8 +48,8 @@ module.exports.saveProject = (req, res) => {
     delete req.body.updatedAt
     var query = { _id: req.body._id }
     db.Project.findOneAndUpdate(query, req.body, { upsert: true, new: true }, function (err, doc) {
-      if (err) return res.send(500, { error: err })
-      return res.send({result: 1, message: ''})
+      if (err) return res.send(500, { message: err })
+      return res.send({result: 1, message: req.body.title + ' submitted successfully! Thank you.'})
     })
   } else {
     var project1 = new db.Project(req.body)
@@ -50,7 +58,7 @@ module.exports.saveProject = (req, res) => {
         res.send({result: 0, message: err})
       } else {
         console.log(req.user.username, ' created: ', project1)
-        res.send({result: 1, message: ''})
+        res.send({result: 1, message: req.body.title + ' submitted successfully! Thank you.'})
       }
     })
   }
@@ -65,7 +73,7 @@ module.exports.saveSuggestion = (req, res) => {
       res.send({result: 0, message: err})
     } else {
       console.log(' created: ', suggestion1.title)
-      res.send({result: 1, message: ''})
+      res.send({result: 1, message: req.body.title + ' submitted successfully! Thank you.'})
     }
   })
 }
