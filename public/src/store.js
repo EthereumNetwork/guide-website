@@ -29,7 +29,8 @@ const store = new Vuex.Store({
       reddit: '',
       wechat: '',
       email: '',
-      blog: ''
+      blog: '',
+      etherianLink: ''
     },
     projectList: [],
     price: {},

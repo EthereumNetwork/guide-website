@@ -19,6 +19,7 @@
                 **bold**</br>
                 [link](link url)</br>
                 ![](image url)</br>
+                [![](image url)](link to larger image)</br>
                 - list item 1</br>
                 - list item 2</br>
                 ```code```</br>
@@ -70,6 +71,9 @@
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Blog" id="blog" name="blog" v-model="project.blog"></v-text-field>
+        </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-field label="etherian.world link" id="etherianLink" name="etherianLink" v-model="project.etherianLink"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Mainnet Contract Address" id="contractAddrMain" name="contractAddrMain" v-model="project.contractAddrMain"></v-text-field>
@@ -170,7 +174,7 @@
         .then((response) => { return response.json() })
         .then((data) => {
           this.alertMsg = data.message
-          data.result.ok ? this.success = true : this.error = true
+          data.result ? this.success = true : this.error = true
           this.IsProgress = false
         })
         .catch((error) => {
