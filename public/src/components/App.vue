@@ -117,6 +117,9 @@
   h2 {
     font-size: 1.4em;
   }
+  h3 {
+    font-size: 1.2em;
+  }
   .app  {
     font-family: Arial, Helvetica, sans-serif;
   }

@@ -23,6 +23,7 @@
         <a v-bind:href="project.reddit" v-if="project.reddit" target="_blank"> <i class="icon-reddit contact-link"></i></a>
         <a v-bind:href="'mailto:' + project.email" v-if="project.email"> <i class="icon-mail contact-link"></i></a>
         <a v-bind:href="project.blog" v-if="project.blog" target="_blank"> <i class="icon-newspaper contact-link"></i></a>
+        <a v-bind:href="project.etherianLink" v-if="project.etherianLink" target="_blank"> <i class="icon-newspaper contact-link"></i></a>
         <v-spacer></v-spacer>
         <div @click="editProject" data-wenk="Suggest edits" data-wenk-pos="left"><i class="icon-pencil contact-link"></i></div>
       </v-card-row>
