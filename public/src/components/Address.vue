@@ -54,8 +54,8 @@ export default {
   },
   mounted () {
     this.$store.state.dsClient.event.subscribe('pending/' + this.$route.params.id, (txData) => {
-        this.transactionList.unshift(txData)
-        this.transactionList = this.transactionList.slice(0, 50)
+      this.transactionList.unshift(txData)
+      this.transactionList = this.transactionList.slice(0, 50)
     })
   },
   components: {

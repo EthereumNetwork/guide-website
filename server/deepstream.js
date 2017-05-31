@@ -33,6 +33,8 @@ pendingTransactionsFilter.watch(function (error, txHash) {
         client.event.emit('pending/all', txToSend)
         client.event.emit('pending/' + txToSend.to, txToSend)
         client.event.emit('pending/' + txToSend.from, txToSend)
+        client.event.emit('pending/' + txData.to, txToSend)
+        client.event.emit('pending/' + txData.from, txToSend)
       }
     })
   }

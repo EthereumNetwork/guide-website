@@ -98,7 +98,7 @@
             An error occurred: {{ alertMsg }}
           </v-alert>
           <div v-if="token">You are logged in and can update projects directly.</div>
-          <div v-else>You can ad and edit projects, we will integrate them within a day after checking for scams and spam.</div>
+          <div v-else>You can add and edit projects, we will integrate them within a day after checking for spam.</div>
           <div v-if="project._id">editing: {{project.title}}, {{project._id}}, last edited by {{project.creator}}</div>
           <v-btn small v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
         </v-col>
