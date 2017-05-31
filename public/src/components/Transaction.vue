@@ -20,7 +20,6 @@ export default {
     .then((response) => { return response.json() })
     .then((blockData) => {
       this.blockData = blockData
-      console.log(blockData)
     })
   }
 }

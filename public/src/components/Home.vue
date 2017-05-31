@@ -12,6 +12,9 @@
 </template>
 
 <script>
+// const toChecksumAddress = require('ethereumjs-util').toChecksumAddress
+// import { toChecksumAddress } from 'ethereumjs-util'
+// both include the whole library
 export default {
   name: 'home',
   props: ['searchField'],
