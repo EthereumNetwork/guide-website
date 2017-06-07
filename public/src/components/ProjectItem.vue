@@ -8,7 +8,7 @@
         </v-card-row>
         <v-card-text>
           <v-card-row>
-            <img v-bind:src="project.logoUrl || './NA.png'" class="project-image">
+            <img v-bind:src="project.logoUrl || '/NA.png'" class="project-image">
             <div>
               <p>{{project.shortDescription}}</p>
             </div>

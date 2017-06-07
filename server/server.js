@@ -17,6 +17,7 @@ app.use(auth.initialize())
 app.post('/api/login', requestHandlers.login)
 // Project and suggestion routes
 app.get('/api/projects', requestHandlers.sendAllProjects)
+app.get('/api/projectsCN', requestHandlers.sendAllProjectsCN)
 app.get('/download/projects', requestHandlers.downloadAllProjects)
 app.get('/api/project/:title', requestHandlers.sendProject)
 app.get('/api/suggestions', requestHandlers.sendAllSuggestions)
