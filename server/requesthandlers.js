@@ -21,13 +21,16 @@ module.exports.login = (req, res) => {
 
 // Project and suggestion methods
 let projectsList = []
+let projectsListCN = []
 let updateProjectsList = () => {
   db.Project.find({}, 'title shortDescription tags logoUrl').then(projects => { projectsList = shuffle(projects) })
+  db.Project.find({}, 'title shortDescriptionCN tagsCN logoUrl').then(projects => { projectsListCN = shuffle(projects) })
 }
 updateProjectsList()
 setInterval(updateProjectsList, 60000)
 
 module.exports.sendAllProjects = (req, res) => { res.send(projectsList) }
+module.exports.sendAllProjectsCN = (req, res) => { res.send(projectsListCN) }
 module.exports.downloadAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
 module.exports.sendProject = (req, res) => { db.Project.findOne({title: req.params.title.replace(/_+/g, ' ')}).then(project => res.send(project)) }
 module.exports.sendAllSuggestions = (req, res) => { db.Suggestion.find().then(suggestions => res.send(suggestions)) }

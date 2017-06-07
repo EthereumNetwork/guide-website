@@ -8,6 +8,9 @@
           <v-text-field label="Short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-field>
         </v-col>
         <v-col xs12>
+          <v-text-field label="Chinese short description" id="shortDescriptionCN" name="shortDescriptionCN" v-model="project.shortDescriptionCN"></v-text-field>
+        </v-col>
+        <v-col xs12>
           <textarea :value="project.longDescription" @input="update"></textarea>
           <v-modal v-model="modal">
             <v-col class="markdownhelp" small flat slot="activator">Markdown Help</v-col>
@@ -40,7 +43,10 @@
           <v-text-field label="Logo Url" id="logoUrl" name="logoUrl" v-model="project.logoUrl"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-field label="Tags" id="tags" name="tags" hint="hint" v-model="project.tags"></v-text-field>
+          <v-text-field label="Tags" id="tags" name="tags" hint="tags to find this project" v-model="project.tags"></v-text-field>
+        </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-field label="Chinese Tags" id="tagsCN" name="tagsCN" hint="Chinese tags to find this project" v-model="project.tagsCN"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Website" id="website" name="website" v-model="project.website"></v-text-field>
