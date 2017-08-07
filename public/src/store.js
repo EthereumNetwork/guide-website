@@ -16,7 +16,7 @@ const store = new Vuex.Store({
       shortDescriptionCN: '',
       longDescriptionCN: '',
       tagsCN: '',
-      translated: false,
+      translatedCN: false,
       creator: '',
       owner: '',
       likes: [],

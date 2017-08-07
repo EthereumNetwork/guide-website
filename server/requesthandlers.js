@@ -19,7 +19,7 @@ module.exports.login = (req, res) => {
   }
 }
 
-// Project and suggestion methods
+// Project methods
 let projectsList = []
 let projectsListCN = []
 let updateProjectsList = () => {
@@ -33,6 +33,8 @@ module.exports.sendAllProjects = (req, res) => { res.send(projectsList) }
 module.exports.sendAllProjectsCN = (req, res) => { res.send(projectsListCN) }
 module.exports.downloadAllProjects = (req, res) => { db.Project.find().then(projects => res.send(projects)) }
 module.exports.sendProject = (req, res) => { db.Project.findOne({title: req.params.title.replace(/_+/g, ' ')}).then(project => res.send(project)) }
+
+// Suggestion methods
 module.exports.sendAllSuggestions = (req, res) => { db.Suggestion.find().then(suggestions => res.send(suggestions)) }
 module.exports.deleteSuggestion = (req, res) => {
   db.Suggestion.remove({_id: req.body._id}, (err, dbAnswer) => {
@@ -79,6 +81,12 @@ module.exports.saveSuggestion = (req, res) => {
       res.send({result: 1, message: req.body.title + ' submitted successfully! Thank you.'})
     }
   })
+}
+
+// Translation methods
+
+module.exports.sendAllTranslations = (req, res) => {
+  db.Project.find({ $or: [ { translatedCN: false }, { translatedCN: null } ] }).then(translations => res.send(translations))
 }
 
 // Explorer methods
