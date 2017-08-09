@@ -16,7 +16,7 @@ const projectSchema = new Schema({
   longDescriptionCN: String,
   tagsCN: String,
   updatedAt: { type: Date, default: Date.now },
-  translated: Boolean,
+  translatedCN: Boolean,
   creator: String,
   owner: String,
   likes: [{like: Boolean, user: String}],
@@ -78,6 +78,7 @@ const addressSchema = new Schema({
 })
 const Address = mongoose.model('Address', addressSchema)
 
+// DB maintenance
 // Project.find().then(projects => console.log('following projects found:', projects))
 
 // Project.remove({}, function (err) {

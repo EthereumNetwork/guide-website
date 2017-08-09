@@ -4,36 +4,46 @@
         <v-col xs12>
           <v-text-field label="Title" id="title" name="title" v-model="project.title"  ></v-text-field>
         </v-col>
-        <v-col xs12>
-          <v-text-field label="Short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-field>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg6>
+          <v-text-field label="English short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-field>
         </v-col>
-        <v-col xs12>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg6>
           <v-text-field label="Chinese short description" id="shortDescriptionCN" name="shortDescriptionCN" v-model="project.shortDescriptionCN"></v-text-field>
         </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg6>
+          <v-text-field label="English tags" id="tags" name="tags" hint="tags to find this project" v-model="project.tags"></v-text-field>
+        </v-col>
+        <v-col xs12="xs12" sm6="sm6" md6="md6" lg6>
+          <v-text-field label="Chinese Tags" id="tagsCN" name="tagsCN" hint="Chinese tags to find this project" v-model="project.tagsCN"></v-text-field>
+        </v-col>
         <v-col xs12>
-          <textarea :value="project.longDescription" @input="update"></textarea>
+          English long description with
           <v-modal v-model="modal">
-            <v-col class="markdownhelp" small flat slot="activator">Markdown Help</v-col>
+            <v-col class="markdownhelp" small flat slot="activator">Markdown</v-col>
             <v-card>
               <v-card-text>
                 <h2 class="title">Markdown Help</h2></br>
                 <p>Markdown in the long description will be rendered accordingly, e.g.:</br></br>
-                # headers</br>
-                **bold**</br>
-                [link](link url)</br>
-                ![](image url)</br>
-                [![](image url)](link to larger image)</br>
-                - list item 1</br>
-                - list item 2</br>
-                ```code```</br>
-                ...</p>
-              </v-card-text>
-              <v-card-row actions>
-                <v-spacer></v-spacer>
-                <v-btn flat v-on:click.native="modal = false">Cancel</v-btn>
-              </v-card-row>
-            </v-card>
-          </v-modal>
+                  # headers</br>
+                  **bold**</br>
+                  [link](link url)</br>
+                  ![](image url)</br>
+                  [![](image url)](link to larger image)</br>
+                  - list item 1</br>
+                  - list item 2</br>
+                  ```code```</br>
+                  ...</p>
+                </v-card-text>
+                <v-card-row actions>
+                  <v-spacer></v-spacer>
+                  <v-btn flat v-on:click.native="modal = false">Cancel</v-btn>
+                </v-card-row>
+              </v-card>
+            </v-modal>
+          <textarea :value="project.longDescription" @input="update"></textarea>
+          Chinese long description
+          <textarea :value="project.longDescriptionCN" @input="updateCN"></textarea>
+          <v-checkbox v-bind:label="'Chinese translation done'" v-model="translatedCN" light></v-checkbox>
           <div v-html="compiledMarkdown"></div>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
@@ -41,12 +51,6 @@
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Logo Url" id="logoUrl" name="logoUrl" v-model="project.logoUrl"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-field label="Tags" id="tags" name="tags" hint="tags to find this project" v-model="project.tags"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
-          <v-text-field label="Chinese Tags" id="tagsCN" name="tagsCN" hint="Chinese tags to find this project" v-model="project.tagsCN"></v-text-field>
         </v-col>
         <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Website" id="website" name="website" v-model="project.website"></v-text-field>
@@ -119,6 +123,7 @@
     data () {
       return {
         project: this.$store.state.projectToEdit,
+        translatedCN: this.$store.state.projectToEdit.translatedCN,
         IsProgress: false,
         activeColor: 'Red',
         alertMsg: '',
@@ -142,6 +147,7 @@
 
       submit: function () {
         this.IsProgress = true
+        this.project.translatedCN = this.translatedCN
         this.project.originalId = this.project.originalId || this.project._id
         let token = this.$store.state.token
         let path = token ? 'saveprojects' : 'savesuggestion'
@@ -191,6 +197,9 @@
 
       update: function (e) {
         this.project.longDescription = e.target.value
+      },
+      updateCN: function (e) {
+        this.project.longDescriptionCN = e.target.value
       }
     }
   }
@@ -200,7 +209,7 @@
   textarea {
       display:inline-block;
       border: solid 1px #000;
-      min-height:100px;
+      min-height:10px;
       width: 99%;
   }
   .markdownhelp {
