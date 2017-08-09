@@ -26,7 +26,7 @@ app.get('/api/suggestions', requestHandlers.sendAllSuggestions)
 app.post('/api/savesuggestion', requestHandlers.saveSuggestion)
 app.post('/api/deletesuggestion', auth.authenticate(), requestHandlers.deleteSuggestion)
 // Translation routes
-app.get('/api/translations', requestHandlers.sendAllTranslations)
+app.get('/api/translationsCN', requestHandlers.sendAllTranslationsCN)
 // Explorer routes
 app.get('/api/blocknumber', requestHandlers.getBlockNumber)
 app.get('/api/block/:blockId', requestHandlers.getBlock)

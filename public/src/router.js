@@ -14,6 +14,7 @@ import Block from './components/Block.vue'
 import Address from './components/Address.vue'
 import Transaction from './components/Transaction.vue'
 import TransactionList from './components/TransactionList.vue'
+import TranslationsCN from './components/TranslationsCN.vue'
 
 Vue.use(VueRouter)
 
@@ -31,7 +32,8 @@ const routes = [
   { path: '/address/:id', component: Address },
   { path: '/tx/:id', component: Transaction },
   { path: '/txs', component: TransactionList },
-  { path: '/project', redirect: '/projects' }
+  { path: '/project', redirect: '/projects' },
+  { path: '/translationsCN', component: TranslationsCN }
 ]
 
 const router = new VueRouter({

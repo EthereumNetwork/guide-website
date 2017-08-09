@@ -49,6 +49,7 @@ const store = new Vuex.Store({
       state.projectList = payload.projectList
     },
     setProjectToEdit (state, payload) {
+      payload.projectToEdit.translatedCN = !!payload.projectToEdit.translatedCN
       state.projectToEdit = payload.projectToEdit
     },
     setPrice (state, payload) {

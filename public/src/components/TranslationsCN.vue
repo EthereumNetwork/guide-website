@@ -8,11 +8,11 @@
       </tr>
     </thead>
     <tbody>
-      <template v-for="(suggestion, index) in suggestionArray">
+      <template v-for="(translation, index) in translationsCNArray">
         <tr @click="editProject(index)">
           <td></td>
-          <td>{{suggestion.title}}</td>
-          <td>{{suggestion.updatedAt}}</td>
+          <td>{{translation.title}}</td>
+          <td>{{translation.updatedAt}}</td>
         </tr>
       </template>
     </tbody>
@@ -21,25 +21,25 @@
 
 <script>
   export default {
-    name: 'suggestionList',
+    name: 'translationsCN',
     props: ['searchField', 'query'],
     data () {
       return {
         headers: ['title', 'updated'],
-        suggestionArray: []
+        translationsCNArray: []
       }
     },
     mounted () {
-      fetch('/api/suggestions')
+      fetch('api/translationsCN')
       .then((response) => { return response.json() })
       .then((data) => {
-        this.suggestionArray = data
+        this.translationsCNArray = data
       })
     },
     methods: {
       editProject: function (index) {
         console.log('hey', index)
-        this.$store.commit('setProjectToEdit', { projectToEdit: this.suggestionArray[index] })
+        this.$store.commit('setProjectToEdit', { projectToEdit: this.translationsCNArray[index] })
         this.$router.push('/form')
       }
     }

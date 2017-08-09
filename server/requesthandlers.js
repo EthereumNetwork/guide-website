@@ -85,7 +85,7 @@ module.exports.saveSuggestion = (req, res) => {
 
 // Translation methods
 
-module.exports.sendAllTranslations = (req, res) => {
+module.exports.sendAllTranslationsCN = (req, res) => {
   db.Project.find({ $or: [ { translatedCN: false }, { translatedCN: null } ] }).then(translations => res.send(translations))
 }
 
