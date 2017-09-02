@@ -28,8 +28,10 @@
       <img src="../assets/jjd.jpg">
       <v-col xs12 sm6>
         <p>in Mexico City, is a marketing consultant who knew the blockchain by accident (or not).</p>
-        <p>As manager for the Spanish speaking community, he manages our Spanish <a href="https://t.me/EthereumNetworkES" target="_blank">Telegram</a> and <a href="https://facebook.com/groups/113343209354983" target="_blank">Facebook</a> groups, and translates important Ethereum news and summaries.</a></p>
-        <!-- <a href="https://blockchainmarketing.org/" target="_blank"> <i class="icon-link contact-link"></i></a> -->
+        <p>As manager for the Spanish speaking community, he manages our Spanish <a href="https://t.me/ReddeEthereum" target="_blank">Telegram</a> and <a href="https://facebook.com/groups/113343209354983" target="_blank">Facebook</a> groups, and translates important Ethereum news and summaries.</a></p>
+        <a href="https://www.linkedin.com/in/juanjosedominguezochoa/" target="_blank"> <i class="icon-linkedin-squared contact-link"></i></a>
+        <a href="https://twitter.com/jjthink" target="_blank"> <i class="icon-twitter-squared contact-link"></i></a>
+        <a href="https://blockchainmarketing.org/" target="_blank"> <i class="icon-link contact-link"></i></a>
       </v-col>
     </v-row>
     <br>
