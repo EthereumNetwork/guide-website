@@ -32,7 +32,7 @@ const routes = [
   { path: '/address/:id', component: Address },
   { path: '/tx/:id', component: Transaction },
   { path: '/txs', component: TransactionList },
-  { path: '/project', redirect: '/projects' },
+  { path: '/project', redirect: '/' },
   { path: '/translationsCN', component: TranslationsCN }
 ]
 

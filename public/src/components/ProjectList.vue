@@ -65,7 +65,7 @@
       },
       showAllProjects () {
         this.searchField = ''
-        this.$router.push('/projects')
+        this.$router.push('/')
       }
     }
   }
