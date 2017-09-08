@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col xs11="xs11">
-      <v-text-field label="filter projects" v-model="searchField"></v-text-field>
+      <v-text-field label="filter projects" v-model="searchField" v-if="!$route.query.q" autofocus></v-text-field>
     </v-col>
     <project-item v-for="project in filteredProjects" v-bind:project="project"></project-item>
     <v-col xs12 class="showall">

@@ -72,9 +72,8 @@
         sidebar: false,
         searchField: '',
         items: [
-          {title: 'Home', href: '/'},
+          {title: 'Projects', href: '/'},
           {title: 'Learn', href: '/learn'},
-          {title: 'Projects', href: '/projects'},
           {title: 'Explorer', href: '/explorer'},
           {title: 'About', href: '/about'}
         ]
