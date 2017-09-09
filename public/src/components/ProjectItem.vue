@@ -11,6 +11,7 @@
             <img v-bind:src="project.logoUrl || '/NA.png'" class="project-image">
             <div>
               <p>{{project.shortDescription}}</p>
+              <p>{{project.shortDescriptionCN}}</p>
             </div>
           </v-card-row>
         </v-card-text>

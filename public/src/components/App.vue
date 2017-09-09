@@ -85,11 +85,7 @@
     mounted () {
       this.$store.commit('setToken', { token: this.$cookie.get('token') })
 
-      fetch('/api/projects')
-      .then((response) => { return response.json() })
-      .then((data) => {
-        this.$store.commit('setProjectList', { projectList: data })
-      })
+      this.fetchProjects()
 
       fetch('https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR')
       .then((response) => { return response.json() })
@@ -104,6 +100,16 @@
           translationKey: lang
         })
         this.$store.dispatch(events.SET_LANGUAGE, lang)
+        console.log(this.$store.state['vue-i18n-manager'].currentLanguage.translationKey)
+        this.fetchProjects()
+      },
+      fetchProjects () {
+        fetch('/api/' + this.$store.state['vue-i18n-manager'].currentLanguage.translationKey + '/projects')
+        .then((response) => { return response.json() })
+        .then((data) => {
+          this.$store.commit('setProjectList', { projectList: data })
+          console.log('new projects fetched:', data)
+        })
       }
     }
   }
