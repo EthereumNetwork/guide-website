@@ -54,7 +54,13 @@ export default {
     //   return this.$store.state.projectList.find((project) => project.title.replace(/\s+/g, '').toLowerCase() === title)
     // },
     compiledMarkdown: function () {
-      return marked(this.project.longDescription || '', { sanitize: true })
+      let toBeCompiled = ''
+      if (this.$store.state['vue-i18n-manager'].currentLanguage.translationKey === 'cn') {
+        toBeCompiled = this.project.longDescriptionCN
+      } else {
+        toBeCompiled = this.project.longDescription
+      }
+      return marked(toBeCompiled || '', { sanitize: true })
     }
   },
   methods: {
