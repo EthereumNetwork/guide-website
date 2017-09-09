@@ -93,6 +93,11 @@
     },
 
     methods: {
+      fetchProjects () {
+        fetch('/api/' + this.$store.state['vue-i18n-manager'].currentLanguage.translationKey + '/projects')
+        .then((response) => { return response.json() })
+        .then((data) => { this.$store.commit('setProjectList', { projectList: data }) })
+      },
       setNewLanguage (lang) {
         this.$store.dispatch(events.ADD_LANGUAGE, {
           code: lang,
@@ -100,16 +105,8 @@
           translationKey: lang
         })
         this.$store.dispatch(events.SET_LANGUAGE, lang)
-        console.log(this.$store.state['vue-i18n-manager'].currentLanguage.translationKey)
+        console.log('changed to', this.$store.state['vue-i18n-manager'].currentLanguage.translationKey)
         this.fetchProjects()
-      },
-      fetchProjects () {
-        fetch('/api/' + this.$store.state['vue-i18n-manager'].currentLanguage.translationKey + '/projects')
-        .then((response) => { return response.json() })
-        .then((data) => {
-          this.$store.commit('setProjectList', { projectList: data })
-          console.log('new projects fetched:', data)
-        })
       }
     }
   }

@@ -31,18 +31,20 @@
     computed: {
       filteredProjects: function () {
         let projectListArray = this.$store.state.projectList
+        let translationKey = this.$store.state['vue-i18n-manager'].currentLanguage.translationKey
         if (this.$route.query.q) {
           this.searchField = this.$route.query.q
         }
-        if (!this.searchField || this.searchField.length <= 2) {
+        if (!this.searchField/* || this.searchField.length <= 2 */) {
           return projectListArray.slice(0, this.maxProjects)
         }
         let searchArray = this.searchField.trim().toLowerCase().split(' ')
 
         projectListArray = projectListArray.filter(function (item) {
+          let fieldToCheck = (translationKey === 'cn') ? item.tagsCN || '' : item.tags || ''
           let found = true
           for (var i = 0; i < searchArray.length; i++) {
-            if (item.tags.toLowerCase().indexOf(searchArray[i]) === -1) {
+            if (fieldToCheck.toLowerCase().indexOf(searchArray[i]) === -1) {
               found = false
             }
           }
