@@ -72,9 +72,8 @@
         sidebar: false,
         searchField: '',
         items: [
-          {title: 'Home', href: '/'},
+          {title: 'Projects', href: '/'},
           {title: 'Learn', href: '/learn'},
-          {title: 'Projects', href: '/projects'},
           {title: 'Explorer', href: '/explorer'},
           {title: 'About', href: '/about'}
         ]
@@ -86,11 +85,7 @@
     mounted () {
       this.$store.commit('setToken', { token: this.$cookie.get('token') })
 
-      fetch('/api/projects')
-      .then((response) => { return response.json() })
-      .then((data) => {
-        this.$store.commit('setProjectList', { projectList: data })
-      })
+      this.fetchProjects()
 
       fetch('https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR')
       .then((response) => { return response.json() })
@@ -98,6 +93,11 @@
     },
 
     methods: {
+      fetchProjects () {
+        fetch('/api/' + this.$store.state['vue-i18n-manager'].currentLanguage.translationKey + '/projects')
+        .then((response) => { return response.json() })
+        .then((data) => { this.$store.commit('setProjectList', { projectList: data }) })
+      },
       setNewLanguage (lang) {
         this.$store.dispatch(events.ADD_LANGUAGE, {
           code: lang,
@@ -105,6 +105,8 @@
           translationKey: lang
         })
         this.$store.dispatch(events.SET_LANGUAGE, lang)
+        console.log('changed to', this.$store.state['vue-i18n-manager'].currentLanguage.translationKey)
+        this.fetchProjects()
       }
     }
   }

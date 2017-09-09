@@ -16,8 +16,8 @@ app.use(auth.initialize())
 // Authentificatoin routes
 app.post('/api/login', requestHandlers.login)
 // Project routes
-app.get('/api/projects', requestHandlers.sendAllProjects)
-app.get('/api/projectsCN', requestHandlers.sendAllProjectsCN)
+app.get('/api/en/projects', requestHandlers.sendAllProjects)
+app.get('/api/cn/projects', requestHandlers.sendAllProjectsCN)
 app.get('/download/projects', requestHandlers.downloadAllProjects)
 app.get('/api/project/:title', requestHandlers.sendProject)
 app.post('/api/saveprojects', auth.authenticate(), requestHandlers.saveProject)
