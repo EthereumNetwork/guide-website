@@ -43,6 +43,10 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         }
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
       }
     ]
   },
@@ -61,9 +65,9 @@ module.exports = {
       }
     }
   },
-  performance: {
-    hints: false
-  },
+  // performance: {
+  //   hints: false
+  // },
   devtool: '#eval-source-map'
 }
 
