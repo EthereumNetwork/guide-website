@@ -38,7 +38,7 @@
     "vue-disqus": "^2.0.3",
     "vue-i18n-manager": "^3.2.2",
     "vue-infinite-loading": "^2.0.2",
-    "vue-loader": "^10.0.0",
+    "vue-loader": "^13.0.4",
     "vue-qrcode-component": "^2.1.1",
     "vue-router": "^2.3.0",
     "vue-template-compiler": "^2.2.4",

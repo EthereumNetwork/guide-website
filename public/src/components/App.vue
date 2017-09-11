@@ -3,7 +3,7 @@
     <header>
       <v-toolbar class="grey darken-3">
         <v-toolbar-side-icon class="hidden-md-and-up" @click.native.stop="sidebar = !sidebar" />
-        <v-toolbar-items class="hidden-sm-and-down" v-for="item in items">
+        <v-toolbar-items class="hidden-sm-and-down" v-for="item in items" :key="item.title">
           <v-toolbar-item :href="item.href" router>{{item.title}}</v-toolbar-item>
         </v-toolbar-items>
         <v-toolbar-items>
@@ -34,7 +34,7 @@
     <main>
       <v-sidebar drawer v-model="sidebar">
         <v-list>
-          <v-list-item v-for="item in items">
+          <v-list-item v-for="item in items" :key="item.title">
             <v-list-tile :href="item.href" router>
               <v-list-tile-title>{{ item.title }}</v-list-tile-title>
             </v-list-tile>
