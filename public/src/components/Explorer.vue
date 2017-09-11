@@ -1,8 +1,8 @@
 <template>
   <div>
-    <p>{{ msg }} as I'm building out the core functionalities.</p>
-    <p>Once it's finished, you will be able to use the search bar to look up addresses, txIDs and smart contract properties. In the meantime, watch ether transactions coming in.</p>
-    <p>Currently, the ether price is ${{price.USD}}, the current block number is <router-link :to="'/block/' + blockNumber">{{blockNumber}}</router-link> and the latest transactions are: </p>
+    <p>{{ msg }} as we're building out the core functionalities.</p>
+    <p>Once it's finished, you will be able to use the search bar to look up addresses, txIDs and smart contract properties.</p>
+    <p>Currently, the ether price is ${{price.USD}}, the current block number is <router-link :to="'/block/' + blockNumber">{{blockNumber}}</router-link></p>
     <table>
       <thead>
         <tr>
@@ -30,7 +30,7 @@ export default {
   props: ['searchField'],
   data () {
     return {
-      msg: 'The network explorer is still not fully impplemented,',
+      msg: 'The network explorer is still in beta,',
       headers: ['from', 'to', 'value'],
       blockNumber: 0,
       transactionList: []
@@ -41,10 +41,10 @@ export default {
     record.subscribe('latest-transactions', (blockData) => {
       this.blockNumber = blockData.number
     })
-    this.$store.state.dsClient.event.subscribe('pending/all', (txData) => {
-      this.transactionList.unshift(txData)
-      this.transactionList = this.transactionList.slice(0, 50)
-    })
+    // this.$store.state.dsClient.event.subscribe('pending/all', (txData) => {
+    //   this.transactionList.unshift(txData)
+    //   this.transactionList = this.transactionList.slice(0, 50)
+    // })
   },
   computed: {
     price: function () {

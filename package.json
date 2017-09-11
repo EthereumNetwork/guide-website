@@ -44,7 +44,7 @@
     "vue-template-compiler": "^2.2.4",
     "vuetify": "^0.9.4",
     "vuex": "^2.1.1",
-    "web3": "^0.18.2",
+    "web3": "^1.0.0-beta.18",
     "webpack": "3.5.6",
     "webpack-dev-server": "2.7.1",
     "wenk": "^1.0.5"
