@@ -1,14 +1,22 @@
 <template>
-  <v-row>
-    <v-col xs11="xs11">
-      <v-text-field label="filter projects" v-model="searchField" v-if="!$route.query.q"></v-text-field>
-    </v-col>
-    <project-item v-for="project in filteredProjects" v-bind:project="project" :key="project.title"></project-item>
-    <v-col xs12 class="showall">
-      <infinite-loading v-if="!searchField" :on-infinite="onInfinite" ref="infiniteLoading" spinner="bubbles"></infinite-loading>
-      <div v-else @click="showAllProjects" data-wenk="Show All Projects"><i class="icon-resize-full-alt"></i></div>
-    </v-col>
-  </v-row>
+  <v-layout row>
+    <v-flex>
+      <v-container fluid grid-list-sm>
+        <v-layout row wrap>
+          <v-flex xs10 offset-xs1>
+            <v-text-field label="filter projects" v-model="searchField" v-if="!$route.query.q"></v-text-field>
+          </v-flex>
+            <v-flex xl12 sm6 md4 v-for="project in filteredProjects" :key="project.title">
+              <project-item v-bind:project="project" ></project-item>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      <div class="showall">
+        <infinite-loading v-if="!searchField" :on-infinite="onInfinite" ref="infiniteLoading" spinner="bubbles"></infinite-loading>
+        <div v-else @click="showAllProjects" data-wenk="Show All Projects"><i class="icon-resize-full-alt"></i></div>
+      </div>
+    </v-flex>
+  </v-layout>
 </template>
 
 <script>
@@ -35,7 +43,8 @@
         if (this.$route.query.q) {
           this.searchField = this.$route.query.q
         }
-        if (!this.searchField/* || this.searchField.length <= 2 */) {
+        let minSearchchar = (translationKey === 'cn') ? 0 : 2
+        if (!this.searchField || this.searchField.length <= minSearchchar ) {
           return projectListArray.slice(0, this.maxProjects)
         }
         let searchArray = this.searchField.trim().toLowerCase().split(' ')
@@ -68,6 +77,13 @@
       showAllProjects () {
         this.searchField = ''
         this.$router.push('/')
+      },
+      binding () {
+        const binding = {}
+
+        if (this.$vuetify.breakpoint.mdAndUp) binding.column = true
+
+        return binding
       }
     }
   }

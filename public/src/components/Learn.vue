@@ -67,10 +67,4 @@ export default {
 </script>
 
 <style>
-.content {
-  margin-left: 0.4vmin;
-}
-.panel {
-  border: none;
-}
 </style>

@@ -1,22 +1,21 @@
 <template>
-    <v-col xs12="xs12" sm4="sm4" md6="md6" lg4 pb-2 @click="showProject" >
+  <v-flex>
+    <!-- <v-col xs12="xs12" sm4="sm4" md6="md6" lg4 pb-2 @click="showProject" > -->
       <v-card>
-        <v-card-row class="grey darken-">
-          <v-card-title class="projectTitle">
+          <v-card-title class="projectTitle grey darken-1" grey >
             <span>{{project.title}}</span>
           </v-card-title>
-        </v-card-row>
         <v-card-text>
-          <v-card-row>
             <img v-bind:src="project.logoUrl || '/NA.png'" class="project-image">
             <div>
               <p>{{project.shortDescription}}</p>
               <p>{{project.shortDescriptionCN}}</p>
             </div>
-          </v-card-row>
         </v-card-text>
       </v-card>
+
     </v-col>
+  </v-flex>
 </template>
 
 <script>
