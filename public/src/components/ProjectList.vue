@@ -1,22 +1,18 @@
 <template>
-  <v-layout row>
-    <v-flex>
-      <v-container fluid grid-list-sm>
-        <v-layout row wrap>
-          <v-flex xs10 offset-xs1>
-            <v-text-field label="filter projects" v-model="searchField" v-if="!$route.query.q"></v-text-field>
-          </v-flex>
-            <v-flex xl12 sm6 md4 v-for="project in filteredProjects" :key="project.title">
-              <project-item v-bind:project="project" ></project-item>
-            </v-flex>
-          </v-layout>
-        </v-container>
-      <div class="showall">
+  <v-container fluid grid-list-sm>
+    <v-layout row wrap>
+      <v-flex xs10 offset-xs1>
+        <v-text-field label="filter projects" v-model="searchField" v-if="!$route.query.q"></v-text-field>
+      </v-flex>
+      <v-flex xs12 sm6 md4 v-for="project in filteredProjects" :key="project.title">
+        <project-item v-bind:project="project" ></project-item>
+      </v-flex>
+      <v-flex xs12 class="showall">
         <infinite-loading v-if="!searchField" :on-infinite="onInfinite" ref="infiniteLoading" spinner="bubbles"></infinite-loading>
         <div v-else @click="showAllProjects" data-wenk="Show All Projects"><i class="icon-resize-full-alt"></i></div>
-      </div>
-    </v-flex>
-  </v-layout>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
@@ -77,13 +73,6 @@
       showAllProjects () {
         this.searchField = ''
         this.$router.push('/')
-      },
-      binding () {
-        const binding = {}
-
-        if (this.$vuetify.breakpoint.mdAndUp) binding.column = true
-
-        return binding
       }
     }
   }

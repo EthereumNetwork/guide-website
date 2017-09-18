@@ -1,6 +1,6 @@
 <template>
   <v-flex>
-    <!-- <v-col xs12="xs12" sm4="sm4" md6="md6" lg4 pb-2 @click="showProject" > -->
+    <v-col xs12="xs12" sm4="sm4" md6="md6" lg4 pb-2 @click="showProject" >
       <v-card>
           <v-card-title class="projectTitle grey darken-1" grey >
             <span>{{project.title}}</span>

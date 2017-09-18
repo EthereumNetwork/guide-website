@@ -87,12 +87,6 @@ export default {
   cursor: pointer;
   cursor: hand;
 }
-.contact-link {
-    color: black;
-    text-shadow: 1px 1px 1px #ccc;
-    font-size: 1.4em;
-    margin-left: 0.1em;
-}
 img {
   max-width: 100%;
   max-height: 250px;

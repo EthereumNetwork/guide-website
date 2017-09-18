@@ -18,12 +18,13 @@
         </v-col>
         <v-col xs12>
           English long description with
-          <v-modal v-model="modal">
-            <v-col class="markdownhelp" small flat slot="activator">Markdown</v-col>
+          <v-dialog v-model="dialog" lazy absolute>
+            <v-flex class="dialogactivator" slot="activator">Markdown</v-flex>
             <v-card>
-              <v-card-text>
-                <h2 class="title">Markdown Help</h2></br>
-                <p>Markdown in the long description will be rendered accordingly, e.g.:</br></br>
+              <v-card-title primary-title>
+                <h3 class="headline mb-0">Markdown Help</h3>
+                <div>
+                  Markdown in the long description will be rendered accordingly, e.g.:</br></br>
                   # headers</br>
                   **bold**</br>
                   [link](link url)</br>
@@ -32,14 +33,14 @@
                   - list item 1</br>
                   - list item 2</br>
                   ```code```</br>
-                  ...</p>
-                </v-card-text>
-                <v-card-row actions>
-                  <v-spacer></v-spacer>
-                  <v-btn flat v-on:click.native="modal = false">Cancel</v-btn>
-                </v-card-row>
-              </v-card>
-            </v-modal>
+                  ...
+                </div>
+              </v-card-title>
+              <v-card-actions>
+                <v-btn flat v-on:click.native="dialog = false">Cancel</v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-dialog>
           <textarea :value="project.longDescription" @input="update"></textarea>
           Chinese long description
           <textarea :value="project.longDescriptionCN" @input="updateCN"></textarea>
@@ -129,7 +130,7 @@
         alertMsg: '',
         success: false,
         error: false,
-        modal: false
+        dialog: false
       }
     },
     beforeCreate () {
@@ -211,10 +212,5 @@
       border: solid 1px #000;
       min-height:10px;
       width: 99%;
-  }
-  .markdownhelp {
-    cursor: pointer;
-    cursor: hand;
-    text-decoration: underline;
   }
 </style>

@@ -16,14 +16,6 @@
             </v-list>
           </v-flex>
         </v-layout>
-        <!-- TODO  put social links to bottom-->
-        <v-layout flex-end justify-end align-end>
-          <v-flex flex-end justify-end align-end>
-            <v-divider></v-divider>
-            <p></p>
-            <a href="https://www.linkedin.com/company/ethereum-network" target="_blank">LinkedIn</a> | <a href="https://twitter.com/EthereumNetw" target="_blank">Twitter</a> | <a href="https://github.com/EthereumNetwork/guide-website" target="_blank">Github</a> | <a href="https://www.facebook.com/EthereumNetwork/" target="_blank">Facebook</a>
-          </v-flex>
-        </v-layout>
       </v-container>
     </v-navigation-drawer>
     <v-toolbar dark fixed>
@@ -45,7 +37,7 @@
       </v-menu>
     </v-toolbar>
     <main>
-      <v-container fluid px-1>
+      <v-container fluid pa-0>
         <router-view> </router-view>
       </v-container>
     </main>
@@ -66,7 +58,8 @@
           {title: 'Projects', path: '/'},
           {title: 'Learn', path: '/learn'},
           {title: 'Explorer', path: '/explorer'},
-          {title: 'About', path: '/about'}
+          {title: 'About', path: '/about'},
+          {title: 'Social', path: '/social'}
         ]
       }
     },
@@ -112,5 +105,16 @@
   }
   h3 {
     font-size: 1.2em;
+  }
+  .contact-link {
+      color: black;
+      text-shadow: 1px 1px 1px #ccc;
+      font-size: 1.4em;
+      margin-left: 0.1em;
+  }
+  .dialogactivator {
+    cursor: pointer;
+    cursor: hand;
+    text-decoration: underline;
   }
 </style>
