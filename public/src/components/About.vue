@@ -7,7 +7,6 @@
     <p>The <b>project</b> list gives an overview of all projects using Ethereum in some way, searchable by their keywords, technologies, developers and other criteria. URLs can link directly to <router-link to="/project/AKASHA">project details</router-link> or <router-link to="/?q=prediction market">search queries</router-link>.</br>It's more a tools to find ideas and people with the same interests to form connections and work together, rather than a list to brag how many projects exist on Ethereum. So you will also find <router-link to="/?q=abandoned">abandoned</router-link> projects and the ones which never made it past the idea stage.</p>
     <p>Through the <b>explorer</b> you can analyze the Ethereum blockchain in detail, see transactions coming in in real time, verify smart contract code and view statistics (coming soon).</p>
     <p>As there are already many quality news websites reporting about Ethereum, we just link gather the important ones and post them via our social media accounts, but in our <b>blog</b> we report from Ethereum meetups around the world.</p>
-    <p>In our <b>chat groups</b>, you can disccus all Ethereum news in English, Spanish or Chinese, get help for technical problems or post funny memes.</p>
     <br>
     <h1>Team</h1>
     <p> This website is still being worked on and help is always appreciated, either by <a href="https://github.com/EthereumNetwork/guide-website/issues">finding bugs</a>, <router-link to="/address/0x99b4bA87538A86c0065A3f50e32101df0bEe9815">donating</router-link> a little bit, or translating text. All code is open source, everyone can <router-link to="/form">add projects</router-link> and <router-link to="/learn">/learn links</router-link>, and all project data can be edited (via the little edit symbol) or <a href="/download/projects" target="_blank">downloaded</a>.</br>We are still looking for more Ethereum enthusiasts to join the team, just find us in the  <a href="https://the-etherian.slack.com/messages/C5MP9GC95/" target="_blank">#ethereum-network</a> channel in <a href="http://the-etherian.herokuapp.com/" target="_blank">the Etherian World Slack</a>, which we are collaborating with. Or via the links in the footer.</p>
@@ -20,7 +19,6 @@
         <a href="https://www.linkedin.com/in/dang-du-330068106/" target="_blank"> <i class="icon-linkedin-squared contact-link"></i></a>
         <a href="https://twitter.com/DDeconomics" target="_blank"> <i class="icon-twitter-squared contact-link"></i></a>
         <a href="https://medium.com/@DDeconomics" target="_blank"> <i class="icon-newspaper contact-link"></i></a>
-        <a href="https://www.facebook.com/EthereumNetwork/" target="_blank"> <i class="icon-facebook-official contact-link"></i></a>
       </v-flex>
     </v-layout>
     <br>
@@ -42,9 +40,9 @@
       <v-flex xs12 sm6>
         <p>in Berlin, started out with programming on the Bitcoin blockchain before moving on to Ethereum to decentralize all the things.</p>
         <p>As founder and developer, he keeps the <router-link to="/">website</router-link> running by fixing bugs and adding features, as well as assisting the community managers.</p>
-        <a href="https://github.com/misterigl" target="_blank"> <i class="icon-github-squared contact-link"></i></a>
-        <a href="https://twitter.com/misterigl" target="_blank"> <i class="icon-twitter-squared contact-link"></i></a>
         <a href="https://www.linkedin.com/in/michaelilg/" target="_blank"> <i class="icon-linkedin-squared contact-link"></i></a>
+        <a href="https://twitter.com/misterigl" target="_blank"> <i class="icon-twitter-squared contact-link"></i></a>
+        <a href="https://github.com/misterigl" target="_blank"> <i class="icon-github-squared contact-link"></i></a>
       </v-flex>
     </v-layout>
   </div>

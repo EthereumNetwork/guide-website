@@ -8,7 +8,7 @@
         <project-item v-bind:project="project" ></project-item>
       </v-flex>
       <v-flex xs12 class="showall">
-        <infinite-loading v-if="!searchField" :on-infinite="onInfinite" ref="infiniteLoading" spinner="bubbles"></infinite-loading>
+        <infinite-loading v-if="!searchField" @infinite="infiniteHandler" ref="infiniteLoading" spinner="bubbles"></infinite-loading>
         <div v-else @click="showAllProjects" data-wenk="Show All Projects"><i class="icon-resize-full-alt"></i></div>
       </v-flex>
     </v-layout>
@@ -60,7 +60,7 @@
       }
     },
     methods: {
-      onInfinite () {
+      infiniteHandler () {
         setTimeout(() => {
           if (this.$store.state.projectList.length >= this.maxProjects) {
             this.maxProjects = this.maxProjects + 50

@@ -2,14 +2,14 @@
   <v-layout wrap pa-2>
     <v-flex xs12>
       <h1>Ethereum Network News Feeds</h1>
-      <p>For the latest Ethereum news and updates, follow our social news feeds:</p>
+      <p>For the latest Ethereum news and updates, follow our news feeds:</p>
       <a href="https://twitter.com/EthereumNetw" target="_blank"><i class="icon-twitter-squared contact-link">Twitter</i></a><br>
       <a href="https://www.facebook.com/EthereumNetwork/" target="_blank"><i class="icon-facebook-official contact-link">Facebook</i></a><br>
       <a href="https://www.linkedin.com/company/ethereum-network" target="_blank"><i class="icon-linkedin-squared contact-link">LinkedIn</i></a>
     </v-flex>
     <v-flex xs12 class="mt-5">
         <h1>Ethereum Network Chat Groups</h1>
-        <p>To talk about current Ethereum news, get help for problems, or discuss relevant topics in different languages, join our chat groups here:</p>
+        <p>To receive daily Ethereum news summaries, get help for problems, or discuss any Ethereum topic in different languages, join our chat groups here:</p>
     </v-flex>
     <v-flex xs12 sm6 md4>
       <h2>English:</h2>
