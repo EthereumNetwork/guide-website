@@ -162,7 +162,7 @@
             { "link": "http://www.coindesk.com/?s=ethereum", "title": "Coindesk", "desc": "News Website" },
             { "link": "http://www.ibtimes.co.uk/topics/ethereum", "title": "International Business Times", "desc": "News Website" },
             { "link": "http://www.weekinethereum.com/", "title": "The week in Ethereum", "desc": "Newsletter by Evan Van Ness" },
-            { "link": "https://www.reddit.com/r/ethereum/", "title": "Ethereum subreddit", "desc": "Daily news, development Most news about Ethereum can be found here daily" },
+            { "link": "https://www.reddit.com/r/ethereum/", "title": "Ethereum subreddit", "desc": "Most news about Ethereum can be found here daily" },
             { "link": "https://www.reddit.com/r/ethtrader/", "title": "Ethtrader subreddit", "desc": "Ether price and trading discussions" },
             { "link": "https://www.reddit.com/r/ethdev/", "title": "EthDev subreddit", "desc": "Discussions about Ethereum development" }
         ]

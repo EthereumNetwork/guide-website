@@ -21,7 +21,7 @@
     </div>
     <h2>{{ translations.learn.FAQs.headline }}</h2>
     <p>{{ translations.learn.FAQs.description }}</p>
-      <v-expansion-panel-content v-for="question in translations.learn.FAQs.questions" class="grey darken-2 white--text">
+      <v-expansion-panel-content v-for="question in translations.learn.FAQs.questions" :key="question.question" class="grey darken-2 white--text">
         <div slot="header">{{ question.question }}</div>
         <v-card>
           <v-card-text class="grey lighten-3 black--text">
@@ -67,10 +67,4 @@ export default {
 </script>
 
 <style>
-.content {
-  margin-left: 0.4vmin;
-}
-.panel {
-  border: none;
-}
 </style>

@@ -1,21 +1,21 @@
 <template>
-  <div>
-    <v-container fluid>
-      <v-row>
-        <v-text-field label="Username" id="username" name="username" v-model="username"></v-text-field>
-        <v-text-field label="Password" id="password" name="password" v-model="password" ></v-text-field>
-      </v-row>
-      <p>For adding new projects, you have to be logged in.</p>
-      <v-btn success v-on:click.native="submit()">Login</v-btn>
-      <router-link to="/form">Form</router-link>
-      <v-alert v-if="alert" success dismissible v-model="alert">
-        Login successful!
-      </v-alert>
-      <v-alert v-if="error" error dismissible v-model="error">
-        Error logging in!
-      </v-alert>
-    </v-container>
-  </div>
+      <v-layout row wrap>
+        <v-flex>
+          <v-text-field label="Username" id="username" name="username" v-model="username"></v-text-field>
+          <v-text-field label="Password" id="password" name="password" v-model="password" ></v-text-field>
+        </v-flex>
+        <v-flex>
+        <p>For adding new projects, you have to be logged in.</p>
+        <v-btn success v-on:click.native="submit()">Login</v-btn>
+        <router-link to="/form">Form</router-link>
+        <v-alert v-if="alert" success dismissible v-model="alert">
+          Login successful!
+        </v-alert>
+        <v-alert v-if="error" error dismissible v-model="error">
+          Error logging in!
+        </v-alert>
+      </v-flex>
+    </v-layout>
 </template>
 
 <script>

@@ -1,9 +1,13 @@
 <template>
-  <div>
-    <p>{{ msg }} as I'm building out the core functionalities.</p>
-    <p>Once it's finished, you will be able to use the search bar to look up addresses, txIDs and smart contract properties. In the meantime, watch ether transactions coming in.</p>
-    <p>Currently, the ether price is ${{price.USD}}, the current block number is <router-link :to="'/block/' + blockNumber">{{blockNumber}}</router-link> and the latest transactions are: </p>
-    <table>
+  <v-layout row wrap>
+    <v-flex xs10 offset-xs1>
+      <v-text-field v-on:keyup.enter.native="submit" v-model="searchBar" label="Ethereum blockchan explorer" hint="search for addresses or transactions"></v-text-field>
+      <v-alert info dismissible v-model="alert"> No transaction or address pattern recognized. Sorry :( </v-alert>
+    </v-flex>
+    <p>{{ msg }} as we're building out the core functionalities.</p>
+    <p>Once it's finished, you will be able to use the search bar to look up addresses, txIDs and smart contract properties.</p>
+    <p>Currently, the ether price is ${{price.USD}}, the current block number is <router-link :to="'/block/' + blockNumber">{{blockNumber}}</router-link></p>
+    <!-- <table>
       <thead>
         <tr>
           <th v-for="header in headers" v-text="header"></th>
@@ -18,8 +22,8 @@
           </tr>
         </template>
       </tbody>
-    </table>
-  </div>
+    </table> -->
+  </v-layout>
 </template>
 
 <script>
@@ -30,10 +34,12 @@ export default {
   props: ['searchField'],
   data () {
     return {
-      msg: 'The network explorer is still not fully impplemented,',
+      msg: 'The network explorer is still in beta,',
       headers: ['from', 'to', 'value'],
       blockNumber: 0,
-      transactionList: []
+      transactionList: [],
+      alert: false,
+      searchBar: ''
     }
   },
   mounted () {
@@ -41,10 +47,10 @@ export default {
     record.subscribe('latest-transactions', (blockData) => {
       this.blockNumber = blockData.number
     })
-    this.$store.state.dsClient.event.subscribe('pending/all', (txData) => {
-      this.transactionList.unshift(txData)
-      this.transactionList = this.transactionList.slice(0, 50)
-    })
+    // this.$store.state.dsClient.event.subscribe('pending/all', (txData) => {
+    //   this.transactionList.unshift(txData)
+    //   this.transactionList = this.transactionList.slice(0, 50)
+    // })
   },
   computed: {
     price: function () {
@@ -57,6 +63,15 @@ export default {
   methods: {
     goToTransaction: function (hash) {
       this.$router.push('/tx/' + hash)
+    },
+    submit () {
+      if (this.searchBar.length === 42 && this.searchBar.slice(0, 2) === '0x') {
+        this.$router.push('/address/' + this.searchBar)
+      } else if (this.searchBar.length === 66 && this.searchBar.slice(0, 2) === '0x') {
+        this.$router.push('/tx/' + this.searchBar)
+      } else {
+        this.alert = true
+      }
     }
   }
 }

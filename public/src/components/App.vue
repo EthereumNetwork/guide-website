@@ -1,62 +1,46 @@
 <template>
-  <v-app top-toolbar footer class="app">
-    <header>
-      <v-toolbar class="grey darken-3">
-        <v-toolbar-side-icon class="hidden-md-and-up" @click.native.stop="sidebar = !sidebar" />
-        <v-toolbar-items class="hidden-sm-and-down" v-for="item in items">
-          <v-toolbar-item :href="item.href" router>{{item.title}}</v-toolbar-item>
-        </v-toolbar-items>
-        <v-toolbar-items>
-          <v-toolbar-item class="hidden-sm-and-down" href="https://blog.ethereum.network/latest">Blog</v-toolbar-item>
-        </v-toolbar-items>
-        <v-spacer></v-spacer>
-          <v-menu>
-            <v-btn dark icon slot="activator">
-              <i class="icon-language"></i>
-            </v-btn>
+  <v-app id="app" toolbar>
+    <v-navigation-drawer clipped persistent v-model="drawer" enable-resize-watcher dark>
+      <v-container fluid>
+        <v-layout>
+          <v-flex>
             <v-list>
-              <v-list-item>
-                <v-list-tile v-on:click.native="setNewLanguage('en')">
-                  <v-list-tile-title>EN</v-list-tile-title>
-                </v-list-tile>
-                <v-list-tile v-on:click.native="setNewLanguage('cn')">
-                  <v-list-tile-title>CN</v-list-tile-title>
-                </v-list-tile>
-                <v-divider></v-divider>
-                <v-list-tile href="/about" router>
-                  <v-list-tile-title>info</v-list-tile-title>
-                </v-list-tile>
-              </v-list-item>
+              <v-list-tile v-for="i in items" :to="{path: i.path}" :key="i.title" exact>
+                <v-list-tile-content>
+                  <v-list-tile-title>{{i.title}}</v-list-tile-title>
+                </v-list-tile-content>
+              </v-list-tile>
+              <v-list-tile href="https://blog.ethereum.network/latest">
+                <v-list-tile-title>Blog</v-list-tile-title>
+              </v-list-tile>
             </v-list>
-          </v-menu>
-      </v-toolbar>
-    </header>
-    <main>
-      <v-sidebar drawer v-model="sidebar">
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </v-navigation-drawer>
+    <v-toolbar dark fixed>
+      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-title>Ethereum Network</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-menu>
+        <v-btn dark icon slot="activator">
+          <i class="icon-language"></i>
+        </v-btn>
         <v-list>
-          <v-list-item v-for="item in items">
-            <v-list-tile :href="item.href" router>
-              <v-list-tile-title>{{ item.title }}</v-list-tile-title>
-            </v-list-tile>
-          </v-list-item>
-          <v-list-item>
-            <v-list-tile href="https://blog.ethereum.network/latest">
-              <v-list-tile-title>Blog</v-list-tile-title>
-            </v-list-tile>
-          </v-list-item>
+          <v-list-tile @click.native="setNewLanguage('en')">
+            <v-list-tile-title>EN</v-list-tile-title>
+          </v-list-tile>
+          <v-list-tile v-on:click.native="setNewLanguage('cn')">
+            <v-list-tile-title>中文</v-list-tile-title>
+          </v-list-tile>
         </v-list>
-      </v-sidebar>
-      <v-content>
-        <v-container fluid class="px-2">
-          <router-view> </router-view>
-        </v-container>
-      </v-content>
+      </v-menu>
+    </v-toolbar>
+    <main>
+      <v-container fluid>
+        <router-view> </router-view>
+      </v-container>
     </main>
-    <v-footer class="grey darken-4">
-      <div class="text-xs-right">
-        <a href="https://www.linkedin.com/company/ethereum-network" target="_blank">LinkedIn</a> | <a href="https://twitter.com/EthereumNetw" target="_blank">Twitter</a> | <a href="https://github.com/EthereumNetwork/guide-website" target="_blank">Github</a> | <a href="https://www.facebook.com/EthereumNetwork/" target="_blank">Facebook</a>
-     </div>
-    </v-footer>
   </v-app>
 </template>
 
@@ -69,13 +53,13 @@
     name: 'app',
     data () {
       return {
-        sidebar: false,
-        searchField: '',
+        drawer: true,
         items: [
-          {title: 'Projects', href: '/'},
-          {title: 'Learn', href: '/learn'},
-          {title: 'Explorer', href: '/explorer'},
-          {title: 'About', href: '/about'}
+          {title: 'Projects', path: '/'},
+          {title: 'Learn', path: '/learn'},
+          {title: 'Explorer', path: '/explorer'},
+          {title: 'About', path: '/about'},
+          {title: 'Social', path: '/social'}
         ]
       }
     },
@@ -122,11 +106,15 @@
   h3 {
     font-size: 1.2em;
   }
-  .app  {
-    font-family: Arial, Helvetica, sans-serif;
+  .contact-link {
+      color: black;
+      text-shadow: 1px 1px 1px #ccc;
+      font-size: 1.4em;
+      margin-left: 0.1em;
   }
-  .menu {
-    color: grey;
-    font-size: 1em;
+  .dialogactivator {
+    cursor: pointer;
+    cursor: hand;
+    text-decoration: underline;
   }
 </style>

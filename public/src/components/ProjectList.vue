@@ -1,14 +1,18 @@
 <template>
-  <v-row>
-    <v-col xs11="xs11">
-      <v-text-field label="filter projects" v-model="searchField" v-if="!$route.query.q" autofocus></v-text-field>
-    </v-col>
-    <project-item v-for="project in filteredProjects" v-bind:project="project"></project-item>
-    <v-col xs12 class="showall">
-      <infinite-loading v-if="!searchField" :on-infinite="onInfinite" ref="infiniteLoading" spinner="bubbles"></infinite-loading>
-      <div v-else @click="showAllProjects" data-wenk="Show All Projects"><i class="icon-resize-full-alt"></i></div>
-    </v-col>
-  </v-row>
+  <v-container fluid grid-list-sm>
+    <v-layout row wrap>
+      <v-flex xs10 offset-xs1>
+        <v-text-field label="filter projects" v-model="searchField" v-if="!$route.query.q"></v-text-field>
+      </v-flex>
+      <v-flex xs12 sm6 md4 pb-2 v-for="project in filteredProjects" :key="project.title">
+        <project-item v-bind:project="project" ></project-item>
+      </v-flex>
+      <v-flex xs12 class="showall">
+        <infinite-loading v-if="!searchField" @infinite="infiniteHandler" ref="infiniteLoading" spinner="bubbles"></infinite-loading>
+        <div v-else @click="showAllProjects" data-wenk="Show All Projects"><i class="icon-resize-full-alt"></i></div>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
@@ -35,7 +39,8 @@
         if (this.$route.query.q) {
           this.searchField = this.$route.query.q
         }
-        if (!this.searchField/* || this.searchField.length <= 2 */) {
+        let minSearchchar = (translationKey === 'cn') ? 0 : 2
+        if (!this.searchField || this.searchField.length <= minSearchchar ) {
           return projectListArray.slice(0, this.maxProjects)
         }
         let searchArray = this.searchField.trim().toLowerCase().split(' ')
@@ -55,7 +60,7 @@
       }
     },
     methods: {
-      onInfinite () {
+      infiniteHandler () {
         setTimeout(() => {
           if (this.$store.state.projectList.length >= this.maxProjects) {
             this.maxProjects = this.maxProjects + 50

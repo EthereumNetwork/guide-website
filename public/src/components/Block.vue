@@ -1,7 +1,7 @@
 <template>
   <div>
-    <v-row>
-      <v-col xs3>
+    <v-layout>
+      <v-flex xs3>
           Height:<br>
           TimeStamp:<br>
           Hash:<br>
@@ -15,8 +15,8 @@
           Gas Used:<br>
           Nonce:<br>
           Extra Data:<br>
-    </v-col>
-    <v-col xs9>
+    </v-flex>
+    <v-flex xs9>
       {{$route.params.id}}<br>
       {{ new Date(blockData.timestamp*1000).toString() }}<br>
       {{ blockData.hash }}<br>
@@ -30,8 +30,8 @@
       {{ blockData.gasUsed }}<br>
       {{ blockData.nonce }}<br>
       {{ blockData.extraData }}<br>
-    </v-col>
-  </v-row>
+    </v-flex>
+  </v-layout>
     <p>Transactions:</p>
     <table>
       <thead>

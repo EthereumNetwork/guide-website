@@ -10,6 +10,7 @@ import ProjectsForm from './components/Form.vue'
 import LoginForm from './components/Login.vue'
 import About from './components/About.vue'
 import Project from './components/Project.vue'
+import Social from './components/Social.vue'
 import Block from './components/Block.vue'
 import Address from './components/Address.vue'
 import Transaction from './components/Transaction.vue'
@@ -27,6 +28,7 @@ const routes = [
   { path: '/form', component: ProjectsForm },
   { path: '/login', component: LoginForm },
   { path: '/about', component: About },
+  { path: '/social', component: Social },
   { path: '/project/:title', component: Project },
   { path: '/block/:id', component: Block },
   { path: '/address/:id', component: Address },
