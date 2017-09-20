@@ -1,22 +1,22 @@
 <template>
     <div>
-      <v-row>
-        <v-col xs12>
+      <v-layout row wrap>
+        <v-flex xs12>
           <v-text-field label="Title" id="title" name="title" v-model="project.title"  ></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg6>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg6>
           <v-text-field label="English short description" id="shortDescription" name="shortDescription" v-model="project.shortDescription"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg6>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg6>
           <v-text-field label="Chinese short description" id="shortDescriptionCN" name="shortDescriptionCN" v-model="project.shortDescriptionCN"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg6>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg6>
           <v-text-field label="English tags" id="tags" name="tags" hint="tags to find this project" v-model="project.tags"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg6>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg6>
           <v-text-field label="Chinese Tags" id="tagsCN" name="tagsCN" hint="Chinese tags to find this project" v-model="project.tagsCN"></v-text-field>
-        </v-col>
-        <v-col xs12>
+        </v-flex>
+        <v-flex xs12>
           English long description with
           <v-dialog v-model="dialog" lazy absolute>
             <v-flex class="dialogactivator" slot="activator">Markdown</v-flex>
@@ -46,62 +46,62 @@
           <textarea :value="project.longDescriptionCN" @input="updateCN"></textarea>
           <v-checkbox v-bind:label="'Chinese translation done'" v-model="translatedCN" light></v-checkbox>
           <div v-html="compiledMarkdown"></div>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Owner" id="owner" name="owner" v-model="project.owner"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Logo Url" id="logoUrl" name="logoUrl" v-model="project.logoUrl"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Website" id="website" name="website" v-model="project.website"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Github" id="github" name="github" v-model="project.github"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Twitter" id="twitter" name="twitter" v-model="project.twitter"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Facebook" id="facebook" name="facebook" v-model="project.facebook"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Reddit" id="reddit" name="reddit" v-model="project.reddit"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Slack" id="slack" name="slack" v-model="project.slack"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="LinkedIn" id="linkedin" name="linkedin" v-model="project.linkedin"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="WeChat" id="wechat" name="wechat" v-model="project.wechat"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Email" id="email" name="email" v-model="project.email"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Blog" id="blog" name="blog" v-model="project.blog"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="etherian.world link" id="etherianLink" name="etherianLink" v-model="project.etherianLink"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Mainnet Contract Address" id="contractAddrMain" name="contractAddrMain" v-model="project.contractAddrMain"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Testnet Contract Address" id="contractAddrTest" name="contractAddrTest" v-model="project.contractAddrTest"></v-text-field>
-        </v-col>
-        <v-col xs12="xs12" sm6="sm6" md6="md6" lg4>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="License" id="license" name="license" v-model="project.license"></v-text-field>
-        </v-col>
-      </v-row>
-      <v-row>
-        <v-col xs3>
+        </v-flex>
+      </v-layout>
+      <v-layout row wrap>
+        <v-flex xs3>
           <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save</v-btn>
           <v-btn error v-on:click.native="remove()" v-if="token">Delete</v-btn>
-        </v-col>
-        <v-col xs9>
+        </v-flex>
+        <v-flex xs9>
           <v-alert hide-icon success dismissible v-model="success">
             {{ alertMsg }}
           </v-alert>
@@ -112,8 +112,8 @@
           <div v-else>You can add and edit projects, we will integrate them within a day after checking for spam.</div>
           <div v-if="project._id">editing: {{project.title}}, {{project._id}}, last edited by {{project.creator}}</div>
           <v-btn small v-if="IsProgress"><v-progress-circular class="green--text" indeterminate></v-progress-circular>Progressing..</v-btn>
-        </v-col>
-      </v-row>
+        </v-flex>
+      </v-layout>
     </div>
 </template>
 

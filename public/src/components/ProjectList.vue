@@ -4,7 +4,7 @@
       <v-flex xs10 offset-xs1>
         <v-text-field label="filter projects" v-model="searchField" v-if="!$route.query.q"></v-text-field>
       </v-flex>
-      <v-flex xs12 sm6 md4 v-for="project in filteredProjects" :key="project.title">
+      <v-flex xs12 sm6 md4 pb-2 v-for="project in filteredProjects" :key="project.title">
         <project-item v-bind:project="project" ></project-item>
       </v-flex>
       <v-flex xs12 class="showall">
