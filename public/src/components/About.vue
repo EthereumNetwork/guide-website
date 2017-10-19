@@ -12,7 +12,7 @@
     <p> This website is still being worked on and help is always appreciated, either by <a href="https://github.com/EthereumNetwork/guide-website/issues">finding bugs</a>, <router-link to="/address/0x99b4bA87538A86c0065A3f50e32101df0bEe9815">donating</router-link> a little bit, or translating text. All code is open source, everyone can <router-link to="/form">add projects</router-link> and <router-link to="/learn">/learn links</router-link>, and all project data can be edited (via the little edit symbol) or <a href="/download/projects" target="_blank">downloaded</a>.</br>We are still looking for more Ethereum enthusiasts to join the team, just find us in the  <a href="https://the-etherian.slack.com/messages/C5MP9GC95/" target="_blank">#ethereum-network</a> channel in <a href="http://the-etherian.herokuapp.com/" target="_blank">the Etherian World Slack</a>, which we are collaborating with. Or via the links in the footer.</p>
     <h2>Dang Du</h2>
     <v-layout>
-      <img src="ddu.jpg" class="profilePic">
+      <img src="/ddu.jpg" class="profilePic">
       <v-flex xs12 sm6>
         <p>Dang’s projects have evolved from public policy to central banking before moving on to the financial sector. Now his time is devoted to decentralized finance and the digital economy.</p>
         <p>As community manager, he manages the main <a href="https://t.me/EthereumNetwork" target="_blank">Telegram</a> and <a href="https://www.facebook.com/groups/112915296053162/" target="_blank">Facebook</a> groups, and writes news summaries and Ethereum meetup reports on our <a href="https://blog.ethereum.network/latest" target="_blank">blog</a></p>
@@ -36,7 +36,7 @@
     <br>
     <h2>Michael Ilg</h2>
     <v-layout>
-      <img src="milg.jpg" class="profilePic">
+      <img src="/milg.jpg" class="profilePic">
       <v-flex xs12 sm6>
         <p>in Berlin, started out with programming on the Bitcoin blockchain before moving on to Ethereum to decentralize all the things.</p>
         <p>As founder and developer, he keeps the <router-link to="/">website</router-link> running by fixing bugs and adding features, as well as assisting the community managers.</p>

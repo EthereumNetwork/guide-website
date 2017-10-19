@@ -23,7 +23,7 @@ const routes = [
   { path: '/', component: ProjectList },
   { path: '/learn', component: Learn },
   { path: '/explorer', component: Explorer },
-  { path: '/projects', redirect: '/' },
+  { path: '/projects',redirect: '/' },
   { path: '/suggestions', component: SuggestionList },
   { path: '/form', component: ProjectsForm },
   { path: '/login', component: LoginForm },

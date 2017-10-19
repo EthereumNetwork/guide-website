@@ -55,7 +55,8 @@
       return {
         drawer: true,
         items: [
-          {title: 'Projects', path: '/'},
+          // {title: 'Home', path: '/'},
+          {title: 'Projects', path: '/projects'},
           {title: 'Learn', path: '/learn'},
           {title: 'Explorer', path: '/explorer'},
           {title: 'About', path: '/about'},

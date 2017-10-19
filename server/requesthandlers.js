@@ -47,6 +47,7 @@ module.exports.saveProject = (req, res) => {
   db.Suggestion.remove({_id: req.body._id}, () => {})
   req.body.creator = req.user.username
   req.body._id = req.body.originalId
+  console.log(req.body)
   delete req.body.originalId
   if (req.body._id) {
     delete req.body.__v
@@ -62,7 +63,7 @@ module.exports.saveProject = (req, res) => {
       if (err) {
         res.send({result: 0, message: err})
       } else {
-        console.log(req.user.username, ' created: ', project1)
+        console.log(req.user.username, ' created: ', project1.title)
         res.send({result: 1, message: req.body.title + ' submitted successfully! Thank you.'})
       }
     })
@@ -77,7 +78,7 @@ module.exports.saveSuggestion = (req, res) => {
       console.log('suggestion error', err)
       res.send({result: 0, message: err})
     } else {
-      console.log(' created: ', suggestion1.title)
+      console.log(' suggested: ', suggestion1.title)
       res.send({result: 1, message: req.body.title + ' submitted successfully! Thank you.'})
     }
   })

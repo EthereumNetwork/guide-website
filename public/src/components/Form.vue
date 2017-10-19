@@ -150,6 +150,7 @@
         this.IsProgress = true
         this.project.translatedCN = this.translatedCN
         this.project.originalId = this.project.originalId || this.project._id
+        console.log(this.project)
         let token = this.$store.state.token
         let path = token ? 'saveprojects' : 'savesuggestion'
         fetch(('/api/' + path), {
