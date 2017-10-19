@@ -35,7 +35,8 @@ const projectSchema = new Schema({
   wechat: String,
   email: String,
   blog: String,
-  etherianLink: String
+  etherianLink: String,
+  popularity: Number
 })
 const Project = mongoose.model('Project', projectSchema)
 
@@ -68,7 +69,8 @@ const suggestionSchema = new Schema({
   email: String,
   blog: String,
   etherianLink: String,
-  originalId: String
+  originalId: String,
+  popularity: Number
 })
 const Suggestion = mongoose.model('Suggestion', suggestionSchema)
 

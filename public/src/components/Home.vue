@@ -1,14 +1,72 @@
 <template>
-  <v-container fluid>
-    <img class="homeImage "src="../assets/NA.png"></img>
-    <v-layout>
-      <v-flex xs1>
-      </v-flex>
-      <v-flex xs10>
-        <v-text-field v-on:keyup.enter.native="submit" v-model="searchBar" label="Ethereum Network" hint="search for project tags, addresses, transactions, ..." autofocus></v-text-field>
-      </v-flex>
-    </v-layout>
-  </v-container>
+  <v-container fluid grid-list-xl>
+  <v-layout row justify-space-around wrap>
+    <v-flex xs12 sm5 md4>
+      <v-card>
+        <v-card-media src="NA.png" height="200px">
+        </v-card-media>
+        <v-card-title primary-title>
+          <div>
+            <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
+            <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+          </div>
+        </v-card-title>
+        <v-card-actions>
+          <v-btn flat color="orange">Share</v-btn>
+          <v-btn flat color="orange">Explore</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-flex>
+    <v-flex xs12 sm5 md4>
+      <v-card>
+        <v-card-media src="NA.png" height="200px">
+        </v-card-media>
+        <v-card-title primary-title>
+          <div>
+            <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
+            <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+          </div>
+        </v-card-title>
+        <v-card-actions>
+          <v-btn flat color="orange">Share</v-btn>
+          <v-btn flat color="orange">Explore</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-flex>
+    <v-flex xs12 sm5 md4>
+      <v-card>
+        <v-card-media src="NA.png" height="200px">
+        </v-card-media>
+        <v-card-title primary-title>
+          <div>
+            <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
+            <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+          </div>
+        </v-card-title>
+        <v-card-actions>
+          <v-btn flat color="orange">Share</v-btn>
+          <v-btn flat color="orange">Explore</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-flex>
+    <v-flex xs12 sm5 md4>
+      <v-card>
+        <v-card-media src="NA.png" height="200px">
+        </v-card-media>
+        <v-card-title primary-title>
+          <div>
+            <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
+            <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+          </div>
+        </v-card-title>
+        <v-card-actions>
+          <v-btn flat color="orange">Share</v-btn>
+          <v-btn flat color="orange">Explore</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-flex>
+  </v-layout>
+</v-container>
 </template>
 
 <script>
@@ -20,8 +78,11 @@ export default {
   props: ['searchField'],
   data () {
     return {
-      msg: 'the network explorer will come later...',
-      searchBar: ''
+      cards: [
+        { title: 'Pre-fab homes', src: 'NA.png', flex: 12 },
+        { title: 'Favorite road trips', src: 'NA.png', flex: 6 },
+        { title: 'Best airlines', src: 'NA.png', flex: 6 }
+      ]
     }
   },
   methods: {
