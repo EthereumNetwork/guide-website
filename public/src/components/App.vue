@@ -1,6 +1,6 @@
 <template>
-  <v-app id="app" toolbar>
-    <v-navigation-drawer clipped persistent v-model="drawer" enable-resize-watcher dark>
+  <v-app id="app">
+    <v-navigation-drawer clipped persistent v-model="drawer" enable-resize-watcher dark app>
       <v-container fluid>
         <v-layout>
           <v-flex>
@@ -18,7 +18,7 @@
         </v-layout>
       </v-container>
     </v-navigation-drawer>
-    <v-toolbar dark fixed>
+    <v-toolbar app fixed dark clipped-left>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title>Ethereum Network</v-toolbar-title>
       <v-spacer></v-spacer>
@@ -37,9 +37,11 @@
       </v-menu>
     </v-toolbar>
     <main>
-      <v-container fluid>
-        <router-view> </router-view>
-      </v-container>
+      <v-content>
+        <v-container fluid>
+          <router-view> </router-view>
+        </v-container>
+      </v-content>
     </main>
   </v-app>
 </template>
@@ -55,7 +57,7 @@
       return {
         drawer: true,
         items: [
-          // {title: 'Home', path: '/'},
+          {title: 'Home', path: '/'},
           {title: 'Projects', path: '/projects'},
           {title: 'Learn', path: '/learn'},
           {title: 'Explorer', path: '/explorer'},

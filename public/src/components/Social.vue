@@ -2,7 +2,7 @@
   <v-layout wrap pa-2>
     <v-flex xs12>
       <h1>Ethereum Network News Feeds</h1>
-      <p>For the latest Ethereum news and updates, follow our news feeds:</p>
+      <p>For the 24 most important Ethereum news of the day, follow us on your favorite social media:</p>
       <a href="https://twitter.com/EthereumNetw" target="_blank"><i class="icon-twitter-squared contact-link">Twitter</i></a><br>
       <a href="https://www.facebook.com/EthereumNetwork/" target="_blank"><i class="icon-facebook-official contact-link">Facebook</i></a><br>
       <a href="https://www.linkedin.com/company/ethereum-network" target="_blank"><i class="icon-linkedin-squared contact-link">LinkedIn</i></a>

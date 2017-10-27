@@ -41,7 +41,7 @@ app.use(history())
 // return .js.gz so you can still load bundle.js from the html but will receive bundle.js.gz
 app.get('*.js', function (req, res, next) {
   req.url = req.url + '.gz'
-  res.set('Content-Encoding', 'gzip')
+  res.set('Content-Encoding', 'x-gzip')
   next()
 })
 

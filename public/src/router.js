@@ -20,10 +20,10 @@ import TranslationsCN from './components/TranslationsCN.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: ProjectList },
+  { path: '/', component: Home },
   { path: '/learn', component: Learn },
   { path: '/explorer', component: Explorer },
-  { path: '/projects',redirect: '/' },
+  { path: '/projects',component: ProjectList },
   { path: '/suggestions', component: SuggestionList },
   { path: '/form', component: ProjectsForm },
   { path: '/login', component: LoginForm },
