@@ -32,11 +32,12 @@
     </v-flex>
     <v-flex xs12 sm5 md4>
       <v-card>
-        <v-card-media src="worldmap.jpeg" height="150px">
-        </v-card-media>
+        <router-link to="/map">
+          <v-card-media src="worldmap.jpeg" height="150px"></v-card-media>
+        </router-link>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Map (beta)</h3>
+            <h3 class="headline mb-0">Map (coming soon)</h3>
             <div>Find Ethereum nodes, meetups and ether-cash trades</div>
           </div>
         </v-card-title>
@@ -57,8 +58,9 @@
     </v-flex>
     <v-flex xs12 sm5 md4>
       <v-card>
-        <v-card-media src="xEther.jpeg" height="150px">
-        </v-card-media>
+        <router-link to="/social">
+          <v-card-media src="xEther.jpeg" height="150px"></v-card-media>
+        </router-link>
         <v-card-title primary-title>
           <div>
             <h3 class="headline mb-0">Social</h3>
