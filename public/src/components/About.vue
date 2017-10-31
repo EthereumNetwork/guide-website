@@ -9,7 +9,7 @@
     <p>As there are already many quality news websites reporting about Ethereum, we just gather the 24 most important ones of the day and post them via our social media accounts, but in our <b>blog</b> we report from Ethereum meetups around the world.</p>
     <br>
     <h1>Team</h1>
-    <p>Unitl now this project is built in spare time and paid by ether appreciation, but will turn into a decentralized community project with the help of Colony, Aragon or alike. Help is always appreciated, either by <a href="https://github.com/EthereumNetwork/guide-website/issues">finding bugs</a>, <router-link to="/address/0x720AD841f4B0ffB8aB8EEe4Ed1Bd5d84DD282450">donating</router-link> a little bit, or <router-link to="/form">adding projects</router-link>.<br>All <a href="https://blog.ethereum.network/latest" target="_blank">code</a> and the project database is open source and can be edited (via the little edit symbol) or <a href="/download/projects" target="_blank">downloaded</a>.</p>
+    <p>Unitl now this project is built in spare time and paid by ether appreciation, but will turn into a fully decentralized community project with the help of Colony, Aragon or alike. Help is always appreciated, either by <a href="https://github.com/EthereumNetwork/guide-website/issues">finding bugs</a>, <router-link to="/address/0x720AD841f4B0ffB8aB8EEe4Ed1Bd5d84DD282450">donating</router-link> a little bit, or <router-link to="/form">adding projects</router-link>.<br>All <a href="https://blog.ethereum.network/latest" target="_blank">code</a> and the project database is open source and can be edited (via the little edit symbol) or <a href="/download/projects" target="_blank">downloaded</a>.</p>
     <h2>Dang Du</h2>
     <v-layout>
       <img src="/ddu.jpg" class="profilePic">

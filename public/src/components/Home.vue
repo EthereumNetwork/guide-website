@@ -3,66 +3,68 @@
   <v-layout row justify-space-around wrap>
     <v-flex xs12 sm5 md4>
       <v-card>
-        <v-card-media src="NA.png" height="200px">
-        </v-card-media>
+        <router-link to="/learn">
+          <v-card-media src="Vitalik_explaining.jpeg" height="150px"></v-card-media>
+        </router-link>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-            <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+            <h3 class="headline mb-0">Learn about Ethereum</h3>
+            <div>A big collection of videos, guides and tutorials to get you started</div>
           </div>
         </v-card-title>
-        <v-card-actions>
-          <v-btn flat color="orange">Share</v-btn>
-          <v-btn flat color="orange">Explore</v-btn>
-        </v-card-actions>
       </v-card>
     </v-flex>
     <v-flex xs12 sm5 md4>
       <v-card>
-        <v-card-media src="NA.png" height="200px">
-        </v-card-media>
+        <router-link to="/projects">
+          <v-card-media src="xEther.jpeg" height="150px"></v-card-media>
+        </router-link>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-            <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+            <h3 class="headline mb-0">Ethereum projects</h3>
+            <div>Projects using Ethereum</div>
           </div>
         </v-card-title>
-        <v-card-actions>
-          <v-btn flat color="orange">Share</v-btn>
-          <v-btn flat color="orange">Explore</v-btn>
-        </v-card-actions>
+        <!-- <v-card-actions>
+          <v-btn flat color="orange"><router-link to="/form">Add Project</router-link></v-btn>
+        </v-card-actions> -->
       </v-card>
     </v-flex>
     <v-flex xs12 sm5 md4>
       <v-card>
-        <v-card-media src="NA.png" height="200px">
+        <v-card-media src="worldmap.jpeg" height="150px">
         </v-card-media>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-            <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+            <h3 class="headline mb-0">Map (beta)</h3>
+            <div>Find Ethereum nodes, meetups and ether-cash trades</div>
           </div>
         </v-card-title>
-        <v-card-actions>
-          <v-btn flat color="orange">Share</v-btn>
-          <v-btn flat color="orange">Explore</v-btn>
-        </v-card-actions>
       </v-card>
     </v-flex>
     <v-flex xs12 sm5 md4>
       <v-card>
-        <v-card-media src="NA.png" height="200px">
+        <router-link to="/explorer">
+          <v-card-media src="dotes_connected.jpeg" height="150px"></v-card-media>
+        </router-link>
+        <v-card-title primary-title>
+          <div>
+            <h3 class="headline mb-0">Blockchan Explorer (beta)</h3>
+            <v-text-field v-on:keyup.enter.native="submit" v-model="searchBar" label="Search by address"></v-text-field>
+          </div>
+        </v-card-title>
+      </v-card>
+    </v-flex>
+    <v-flex xs12 sm5 md4>
+      <v-card>
+        <v-card-media src="xEther.jpeg" height="150px">
         </v-card-media>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-            <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+            <h3 class="headline mb-0">Social</h3>
+            <div>Ethereum news and discussions</div>
           </div>
         </v-card-title>
-        <v-card-actions>
-          <v-btn flat color="orange">Share</v-btn>
-          <v-btn flat color="orange">Explore</v-btn>
-        </v-card-actions>
       </v-card>
     </v-flex>
   </v-layout>
@@ -78,11 +80,7 @@ export default {
   props: ['searchField'],
   data () {
     return {
-      cards: [
-        { title: 'Pre-fab homes', src: 'NA.png', flex: 12 },
-        { title: 'Favorite road trips', src: 'NA.png', flex: 6 },
-        { title: 'Best airlines', src: 'NA.png', flex: 6 }
-      ]
+      searchBar: ''
     }
   },
   methods: {
