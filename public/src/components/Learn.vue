@@ -1,6 +1,5 @@
 <template>
 <v-container fluid>
-  <p>{{ $t('learn.description') }}</p>
   <v-expansion-panel class="pl-1">
     <div v-for="topic in translations.learn.topics">
       <h2>{{ topic.headline }}</h2>
