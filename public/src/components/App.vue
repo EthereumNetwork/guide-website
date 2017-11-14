@@ -38,7 +38,7 @@
     </v-toolbar>
     <main>
       <v-content>
-        <v-container fluid>
+        <v-container fluid pa-0>
           <router-view> </router-view>
         </v-container>
       </v-content>
