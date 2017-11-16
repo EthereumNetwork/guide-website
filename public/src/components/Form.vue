@@ -153,17 +153,17 @@
         this.IsProgress = true
         this.project.translatedCN = this.translatedCN
         this.project.originalId = this.project.originalId || this.project._id
-        console.log(this.project)
         let token = this.$store.state.token
+        let body = this.project
+        body.auth = token
         let path = token ? 'saveprojects' : 'savesuggestion'
         fetch(('/api/' + path), {
           method: 'POST',
           headers: {
             'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Authorization': ('JWT ' + token)
+            'Content-Type': 'application/json'
           },
-          body: JSON.stringify(this.project)
+          body: JSON.stringify(body)
         })
         .then((response) => { return response.json() })
         .then((data) => {
