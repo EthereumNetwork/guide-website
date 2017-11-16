@@ -11,7 +11,7 @@ const cfg = {
 
 const params = {
   secretOrKey: process.env.jwtSecret,
-  jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken()
+  jwtFromRequest: ExtractJwt.fromBodyField('auth')
 }
 
 const strategy = new Strategy(params, function (payload, done) {
