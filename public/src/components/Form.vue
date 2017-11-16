@@ -60,6 +60,9 @@
           <v-text-field label="Github" id="github" name="github" v-model="project.github"></v-text-field>
         </v-flex>
         <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
+          <v-text-field label="Whitepaper" id="whitepaper" name="whitepaper" v-model="project.whitepaper"></v-text-field>
+        </v-flex>
+        <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>
           <v-text-field label="Twitter" id="twitter" name="twitter" v-model="project.twitter"></v-text-field>
         </v-flex>
         <v-flex xs12="xs12" sm6="sm6" md6="md6" lg4>

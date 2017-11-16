@@ -25,6 +25,7 @@ const store = new Vuex.Store({
       contractAddrMain: '',
       contractAddrTest: '',
       github: '',
+      whitepaper: '',
       website: '',
       twitter: '',
       linkedin: '',

@@ -16,6 +16,7 @@
           <v-card-actions>
             <a v-bind:href="project.website" v-if="project.website" target="_blank"> <i class="icon-link contact-link"> </i></a>
             <a v-bind:href="project.github" v-if="project.github" target="_blank"> <i class="icon-github-squared contact-link"> </i></a>
+            <a v-bind:href="project.whitepaper" v-if="project.whitepaper" target="_blank"> <i class="icon-newspaper contact-link"> </i></a>
             <a v-bind:href="project.linkedin" v-if="project.linkedin" target="_blank"> <i class="icon-linkedin-squared contact-link"> </i></a>
             <a v-bind:href="project.twitter" v-if="project.twitter" target="_blank"> <i class="icon-twitter-squared contact-link"> </i></a>
             <a v-bind:href="project.facebook" v-if="project.facebook" target="_blank"> <i class="icon-facebook-official contact-link"> </i></a>
