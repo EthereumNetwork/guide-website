@@ -2,7 +2,7 @@
   <div>
     <h2>{{this.$route.params.id}}</h2>
     <VueQrcode class="qrcode" id="tdsfgdsfgs" :text="this.$route.params.id" :size="128"></VueQrcode>
-    <p>I'm still building up an address-transaction database inlcluding the pending transactions. Until then, old transactions are coming from <a href="https://etherscan.io/">Etherscan</a> (They are awesome), but new transactions should show up here in realtime...</p>
+    <p>I'm still building up an address-transaction database including the pending transactions. Until then, old transactions are coming from <a href="https://etherscan.io/">Etherscan</a> (They are awesome), but new transactions should show up here in realtime...</p>
     <p>ETH balance: {{balance/1e18}} Ether (${{Math.round(balance/1e16*price.USD)/100}})</p>
     <v-data-table
       v-bind:headers = "headers"
@@ -15,7 +15,6 @@
       <td><router-link :to="'/tx/' + props.item.hash">{{Math.round(props.item.value/1e10)/1e8}} Ether</router-link> (${{Math.round(props.item.value/1e16*price.USD)/100}})</td>
     </template>
     </v-data-table>
-  
     <div class="comments">
       <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="'https://ethereum.network' + $route.path"></VueDisqus>
     </div>
@@ -56,7 +55,7 @@ export default {
     this.$store.state.dsClient.event.subscribe('pending/' + this.$route.params.id, (txData) => {
       this.transactionList.unshift(txData)
       this.transactionList = this.transactionList.slice(0, 50)
-      
+
     })
   },
   components: {
