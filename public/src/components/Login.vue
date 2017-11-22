@@ -6,12 +6,12 @@
         </v-flex>
         <v-flex>
         <p>For adding new projects, you have to be logged in.</p>
-        <v-btn success v-on:click.native="submit()">Login</v-btn>
-        <router-link to="/form">Form</router-link>
-        <v-alert v-if="alert" success dismissible v-model="alert">
+        <v-btn color="success" v-on:click.native="submit()">Login</v-btn>
+        <router-link to="/form">Form</router-link> <router-link to="/suggestions">Suggestions</router-link>
+        <v-alert color="success" icon="check_circle" dismissible v-model="success">
           Login successful!
         </v-alert>
-        <v-alert v-if="error" error dismissible v-model="error">
+        <v-alert color="error" icon="warning" dismissible v-model="error">
           Error logging in!
         </v-alert>
       </v-flex>
@@ -25,7 +25,7 @@
       return {
         username: '',
         password: '',
-        alert: false,
+        success: false,
         error: false
       }
     },
@@ -43,7 +43,7 @@
         })
         .then((response) => { return response.json() })
         .then((data) => {
-          data.token ? this.alert = true : this.error = true
+          data.token ? this.success = true : this.error = true
           this.$store.commit('setToken', {token: data.token})
           this.$cookie.set('token', data.token, { expires: '1M' })
         })
