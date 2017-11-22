@@ -41,7 +41,6 @@ export default {
   },
 
   beforeCreate () {
-    console.log('starting fetch');
     fetch('/api/tx/' + this.$route.params.id)
     .then((response) => { console.log(response); return response.json() })
     .then((data) => {
