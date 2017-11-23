@@ -1,7 +1,11 @@
 <template>
     <div>
       <v-layout row wrap>
-        <v-flex xs12>
+
+        <v-flex xs2 v-if="token">
+          <v-btn color="error" v-on:click.native="remove()">Delete</v-btn>
+        </v-flex>
+        <v-flex xs10>
           <v-text-field label="Title" id="title" name="title" v-model="project.title"  ></v-text-field>
         </v-flex>
         <v-flex xs12="xs12" sm6="sm6" md6="md6" lg6>
@@ -101,14 +105,14 @@
       </v-layout>
       <v-layout row wrap>
         <v-flex xs3>
-          <v-btn success v-on:click.native="submit()" v-if="!IsProgress">Save</v-btn>
-          <v-btn error v-on:click.native="remove()" v-if="token">Delete</v-btn>
+          <v-btn color="success" v-on:click.native="submit()" v-if="!IsProgress">Save</v-btn>
+          <v-btn color="error" v-on:click.native="remove()" v-if="token">Delete</v-btn>
         </v-flex>
         <v-flex xs9>
-          <v-alert hide-icon success dismissible v-model="success">
+          <v-alert color="success" dismissible v-model="success">
             {{ alertMsg }}
           </v-alert>
-          <v-alert hide-icon error dismissible v-model="error">
+          <v-alert color="error" dismissible v-model="error">
             An error occurred: {{ alertMsg }}
           </v-alert>
           <div v-if="token">You are logged in and can update projects directly.</div>
@@ -179,6 +183,8 @@
 
       remove: function () {
         this.IsProgress = true
+        let body = this.project
+        body.auth = this.$store.state.token
         fetch(('/api/deletesuggestion'), {
           method: 'POST',
           headers: {
@@ -186,13 +192,14 @@
             'Content-Type': 'application/json',
             'Authorization': ('JWT ' + this.$store.state.token)
           },
-          body: JSON.stringify(this.project)
+          body: JSON.stringify(body)
         })
         .then((response) => { return response.json() })
         .then((data) => {
           this.alertMsg = data.message
           data.result ? this.success = true : this.error = true
           this.IsProgress = false
+          this.$router.push('/suggestions')          
         })
         .catch((error) => {
           this.IsProgress = false
