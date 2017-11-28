@@ -19,18 +19,20 @@
             <v-btn flat color="default" @click="etcMap">Etc</v-btn>
           </v-btn-toggle>
         </v-card-actions>
-        <v-card-media class="ma-1 text-xs-center" id="mapHolder">
+        <v-card-media class="ma-1 text-xs-center" id="mapHolder" style="width: 100%; height: 300px;">
           <gmap-map id = "gmap"
             :center = "center"
             :zoom = 3
-            style="width: 500px; height: 300px;"
+            style="width: 99%; height: 100%;"
           >
+            <!--<gmap-cluster>-->
               <gmap-marker
                 :key="index"
                 v-for="(m, index) in markers"
                 :position="m.position"
                 @click="center=m.position">
               </gmap-marker>
+            <!--</gmap-cluster>-->
           </gmap-map>
         </v-card-media>
         </v-card>
