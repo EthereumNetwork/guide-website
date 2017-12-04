@@ -35,6 +35,11 @@ app.get('/api/txs/:address', requestHandlers.getTransactionsByAddress)
 app.get('/api/txs', requestHandlers.getLatestTransactions)
 app.get('/api/balance/:address', requestHandlers.getBalanceByAddress)
 
+// Map routes
+app.get('/api/map/nodes', requestHandlers.getNodeCoordinates)
+app.get('/api/map/meetups', requestHandlers.getMeetupCoordinates)
+app.get('/api/map/misc', requestHandlers.getMiscCoordinates)
+
 // history between routes and static files to catch client-side route paths
 app.use(history())
 

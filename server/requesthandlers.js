@@ -133,3 +133,18 @@ module.exports.getTransactionsByAddress = (req, res) => {
   // see https://ethereum.stackexchange.com/questions/8900/how-to-get-transactions-by-account-using-web3-js
   res.json(['not', 'impplemented', 'yet'])
 }
+
+module.exports.getNodeCoordinates = (req, res) => {
+  res.status(200)
+    .sendFile("C:/Dmitry/Coding/guide-website/public/src/assets/nodes.json");  
+}
+
+module.exports.getMeetupCoordinates = (req, res) => {
+  res.status(200)
+  .sendFile("C:/Dmitry/Coding/guide-website/public/src/assets/meetups.json"); 
+}
+
+module.exports.getMiscCoordinates = (req, res) => {
+  res.status(200)
+  .sendFile("C:/Dmitry/Coding/guide-website/public/src/assets/misc.json");
+}
