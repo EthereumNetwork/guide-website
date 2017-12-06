@@ -25,14 +25,23 @@
             :zoom = 2
             style="width: 99%; height: 100%;"
           >
-            <!--<gmap-cluster>-->
-              <gmap-marker
-                :key="index"
-                v-for="(m, index) in markers"
-                :position="m.position"
-                @click="center=m.position">
-              </gmap-marker>
-            <!--</gmap-cluster>-->
+            <gmap-marker
+              :key="index"
+              v-for="(m, index) in markers"
+              :position="m.position"
+              :clickable="true"
+              @click="toggleInfoWindow(m, index)">
+            </gmap-marker>
+            <gmap-info-window
+              :opened = "infoWinOpen"
+              :infoContent = 'infoContent'
+              :currentMidx = 'currentMidx'
+              :position = 'infoWindowPos'
+              :options = 'infoOptions'
+              @closeclick = 'closeMarker()'
+            >
+              {{ infoContent }}            
+            </gmap-info-window>
           </gmap-map>
         </v-card-media>
         </v-card>
@@ -52,9 +61,31 @@
         center: {lat: 10.123, lng: 10.44321},
         markers: [],
         apiRoutes: ['nodes', 'meetups', 'misc'],
+        infoContent: '',
+        infoWindowPos: {lat: 0, lng: 0},
+        infoWinOpen: false,
+        currentMidx: null,
+        infoOptions: {
+          pixelOffset: {height: -35, width: 0}
+        }
       }
     },
-    methods: {},
+    methods: {
+      toggleInfoWindow: function(m, idx){
+        this.infoWindowPos = {lat: m.position.lat, lng: m.position.lng};
+        this.infoContent = m.infoText;
+        if (this.currentMidx == idx) {
+          this.infoWinOpen = !this.infoWinOpen;
+        } else {
+          this.infoWinOpen = true;
+          this.currentMidx = idx;
+        }
+      },
+      closeMarker: function (){
+        console.log('Close click event fired');
+         this.infoWinOpen = false;
+      }
+    },
     watch: {
       toggle_exclusive: function (newValue) {
         if (Number.isInteger(newValue)){
