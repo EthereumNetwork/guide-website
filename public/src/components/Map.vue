@@ -7,7 +7,7 @@
     </v-layout>
     
     <v-layout row wrap>
-      <v-flex xs12 sm6>
+      <v-flex xs6 sm8>
         <v-card>
         <v-card-title primary-title>
           <div class="Headline">Interactive map of nodes, meetups etc.</div>
@@ -15,14 +15,14 @@
         <v-card-actions>
           <v-btn-toggle v-model="toggle_exclusive">
             <v-btn flat color="default">Nodes</v-btn>
-            <v-btn flat color="default">MeetUps</v-btn>
+            <v-btn flat color="default">Groups</v-btn>
             <v-btn flat color="default">Etc</v-btn>
           </v-btn-toggle>
         </v-card-actions>
-        <v-card-media class="ma-1 text-xs-center" id="mapHolder" style="width: 100%; height: 300px;">
+        <v-card-media class="ma-1 text-xs-center" id="mapHolder" style="width: 100%; height: 400px;">
           <gmap-map id = "gmap"
             :center = "center"
-            :zoom = 2
+            :zoom = 4
             style="width: 99%; height: 100%;"
           >
             <gmap-marker
@@ -34,13 +34,12 @@
             </gmap-marker>
             <gmap-info-window
               :opened = "infoWinOpen"
-              :infoContent = 'infoContent'
               :currentMidx = 'currentMidx'
               :position = 'infoWindowPos'
               :options = 'infoOptions'
               @closeclick = 'closeMarker()'
             >
-              {{ infoContent }}            
+                        
             </gmap-info-window>
           </gmap-map>
         </v-card-media>
@@ -61,19 +60,19 @@
         center: {lat: 10.123, lng: 10.44321},
         markers: [],
         apiRoutes: ['nodes', 'meetups', 'misc'],
-        infoContent: '',
         infoWindowPos: {lat: 0, lng: 0},
         infoWinOpen: false,
         currentMidx: null,
         infoOptions: {
-          pixelOffset: {height: -35, width: 0}
+          pixelOffset: {height: -35, width: 0},
+          content: ''
         }
       }
     },
     methods: {
       toggleInfoWindow: function(m, idx){
         this.infoWindowPos = {lat: m.position.lat, lng: m.position.lng};
-        this.infoContent = m.infoText;
+        this.infoOptions.content = m.infoText;
         if (this.currentMidx == idx) {
           this.infoWinOpen = !this.infoWinOpen;
         } else {

@@ -136,15 +136,15 @@ module.exports.getTransactionsByAddress = (req, res) => {
 
 module.exports.getNodeCoordinates = (req, res) => {
   res.status(200)
-    .sendFile("C:/Dmitry/Coding/guide-website/public/src/assets/nodes.json");  
+    .sendFile(__dirname + "../public/src/assets/nodes.json");  
 }
 
 module.exports.getMeetupCoordinates = (req, res) => {
   res.status(200)
-  .sendFile("C:/Dmitry/Coding/guide-website/public/src/assets/meetups.json"); 
+  .sendFile( __dirname + "../public/src/assets/groups.json"); 
 }
 
 module.exports.getMiscCoordinates = (req, res) => {
   res.status(200)
-  .sendFile("C:/Dmitry/Coding/guide-website/public/src/assets/misc.json");
+  .sendFile(__dirname + "../public/src/assets/misc.json");
 }
