@@ -38,8 +38,8 @@ formatMarkers = (data) =>{
             let singleMarker = {
                 "position": {"lat": element.lat,"lng": element.lon},
                 "infoText": "<h6>" + element.name + "</h6>" +
-                            "<a href=" + element.link + " target='blank'>" + element.link + "</a>" +
-                            "<div>" + description + "</div>" 
+                            "<a href=" + element.link + " target='blank'>" + element.link + "</a>" 
+                            
             }
             markers.push(singleMarker);
         });
@@ -53,7 +53,7 @@ saveToFile = (data, filename ) => {
               console.log('error occured writing file', err);
               return false;
             };
-            console.log('File has been saved');
+            console.log('File has been saved:', `${filename}`);
             return;
           });
     });

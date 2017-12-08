@@ -6,6 +6,7 @@ const db = require('./db.js')
 const web3 = require('./web3.js')
 const ethUtil = require('ethereumjs-util')
 const shuffle = require('shuffle-array')
+const path = require('path')
 
 // Authentificatoin methods
 
@@ -136,15 +137,15 @@ module.exports.getTransactionsByAddress = (req, res) => {
 
 module.exports.getNodeCoordinates = (req, res) => {
   res.status(200)
-    .sendFile(__dirname + "../public/src/assets/nodes.json");  
+    .sendFile(path.join(__dirname,'..','./public/src/assets/nodes.json'));  
 }
 
 module.exports.getMeetupCoordinates = (req, res) => {
   res.status(200)
-  .sendFile( __dirname + "../public/src/assets/groups.json"); 
+  .sendFile(path.join(__dirname, '..', './public/src/assets/groups.json')); 
 }
 
 module.exports.getMiscCoordinates = (req, res) => {
   res.status(200)
-  .sendFile(__dirname + "../public/src/assets/misc.json");
+  .sendFile(path.join(__dirname, '..', './public/src/assets/misc.json'));
 }
