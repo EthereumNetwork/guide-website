@@ -2,21 +2,21 @@
   <v-container fluid grid-list>
     <v-layout row wrap>
       <v-card-text>
-      Map coming soon, with nodes from <a href="https://www.ethernodes.org" target="_blank"> ethernodes.org</a>, meetups from <a href="https://www.meetup.com/topics/ethereum/" target="_blank">Meetup.com</a>, as well as ether-cash trades from <a href="https://dether.io/" target="_blank">Dether</a> and <a href="https://localethereum.com/" target="_blank">localethereum</a>
+      Map in development process, with nodes from <a href="https://www.ethernodes.org" target="_blank"> ethernodes.org</a>, meetup groups from <a href="https://www.meetup.com/topics/ethereum/" target="_blank">Meetup.com</a>, as well as ether-cash trades from <a href="https://dether.io/" target="_blank">Dether</a> and <a href="https://localethereum.com/" target="_blank">localethereum</a>
       </v-card-text>
     </v-layout>
     
     <v-layout row wrap>
-      <v-flex xs6 sm8>
+      <v-flex xs12 sm8>
         <v-card>
-        <v-card-title primary-title>
+        <!--<v-card-title primary-title>
           <div class="Headline">Interactive map of nodes, meetups etc.</div>
-        </v-card-title>
+        </v-card-title>-->
         <v-card-actions>
           <v-btn-toggle v-model="toggle_exclusive">
-            <v-btn flat color="default">Nodes</v-btn>
             <v-btn flat color="default">Groups</v-btn>
-            <v-btn flat color="default">Etc</v-btn>
+            <v-btn flat color="default" disabled>Nodes</v-btn>
+            <v-btn flat color="default" disabled>Cash trades</v-btn>
           </v-btn-toggle>
         </v-card-actions>
         <v-card-media class="ma-1 text-xs-center" id="mapHolder" style="width: 100%; height: 400px;">
@@ -59,7 +59,7 @@
         name: 'map',
         center: {lat: 10.123, lng: 10.44321},
         markers: [],
-        apiRoutes: ['nodes', 'meetups', 'misc'],
+        apiRoutes: ['meetups', 'nodes', 'misc'],
         infoWindowPos: {lat: 0, lng: 0},
         infoWinOpen: false,
         currentMidx: null,
@@ -81,8 +81,7 @@
         }
       },
       closeMarker: function (){
-        console.log('Close click event fired');
-         this.infoWinOpen = false;
+        this.infoWinOpen = false;
       }
     },
     watch: {
@@ -107,8 +106,6 @@
           var userLng;
           if ('geolocation' in navigator) {
             navigator.geolocation.getCurrentPosition(function(position, error){
-              console.log(position);
-              console.log(error);
               userLat = position.coords.latitude;
               userLng = position.coords.longitude;
               resolve({lat: userLat, lng: userLng});
