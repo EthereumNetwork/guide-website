@@ -6,6 +6,7 @@ const db = require('./db.js')
 const web3 = require('./web3.js')
 const ethUtil = require('ethereumjs-util')
 const shuffle = require('shuffle-array')
+const path = require('path')
 
 // Authentificatoin methods
 
@@ -132,4 +133,19 @@ module.exports.getTransactionsByAddress = (req, res) => {
   // not impplemented yet
   // see https://ethereum.stackexchange.com/questions/8900/how-to-get-transactions-by-account-using-web3-js
   res.json(['not', 'impplemented', 'yet'])
+}
+
+module.exports.getNodeCoordinates = (req, res) => {
+  res.status(200)
+    .sendFile(path.join(__dirname,'..','./public/src/assets/nodes.json'));  
+}
+
+module.exports.getMeetupCoordinates = (req, res) => {
+  res.status(200)
+  .sendFile(path.join(__dirname, '..', './public/src/assets/groups.json')); 
+}
+
+module.exports.getMiscCoordinates = (req, res) => {
+  res.status(200)
+  .sendFile(path.join(__dirname, '..', './public/src/assets/misc.json'));
 }

@@ -1,0 +1,31 @@
+[ {
+    "position": {"lat": 49.2, "lng": 11.2}, "infoText": "Marker1"
+  }, {
+    "position": {"lat": 50, "lng": 12.2}, "infoText": "Marker2"
+  },{
+    "position": {"lat": 51, "lng": 13.2}, "infoText": "Marker3"
+  },{
+    "position": {"lat": 52.2, "lng": 14.2}, "infoText": "Marker4" 
+  },{
+    "position": {"lat": 53.2, "lng": 15.2}, "infoText": "Marker5"
+  },{
+    "position": {"lat": 54.2, "lng": 16.2}, "infoText": "Marker6"
+  },{
+    "position": {"lat": 55.2, "lng": 17.2}, "infoText": "Marker7"
+  },{
+    "position": {"lat": 56.2, "lng": 18.2}, "infoText": "Marker8"
+  },{
+    "position": {"lat": 57.2, "lng": 19.2}, "infoText": "Marker9"
+  },{
+    "position": {"lat": 58.2, "lng": 20.2}, "infoText": "Marker10"
+  },{
+    "position": {"lat": 59.2, "lng": 21.2}, "infoText": "Marker11"
+  },{
+    "position": {"lat": 60.2, "lng": 22.2}, "infoText": "Marker12"
+  },{
+    "position": {"lat": 61.2, "lng": 23.2}, "infoText": "Marker13"
+  },{
+    "position": {"lat": 62.2, "lng": 24.2}, "infoText": "Marker14"
+  },{
+    "position": {"lat": 63.2, "lng": 25.2}, "infoText": "Marker15"
+  }]
