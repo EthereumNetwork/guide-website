@@ -2,7 +2,7 @@
   <v-container fluid grid-list-sm>
     <v-layout row wrap>
       <v-flex xs10 offset-xs1>
-        <v-text-field label="filter projects" v-model="searchField" v-if="!$route.query.q"></v-text-field>
+        <v-text-field label="filter projects" v-model="searchField" hint="type in names, topics, industries, ..." single-line clearable v-if="!$route.query.q"></v-text-field>
       </v-flex>
       <v-flex xs12 sm6 md4 pb-2 v-for="project in filteredProjects" :key="project.title">
         <project-item v-bind:project="project" ></project-item>
