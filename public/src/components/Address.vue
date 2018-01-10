@@ -1,24 +1,27 @@
 <template>
-  <div>
+  <v-container fluid grid-list>
     <h2>{{this.$route.params.id}}</h2>
     <VueQrcode class="qrcode" id="tdsfgdsfgs" :text="this.$route.params.id" :size="128"></VueQrcode>
     <p>I'm still building up an address-transaction database including the pending transactions. Until then, old transactions are coming from <a href="https://etherscan.io/">Etherscan</a> (They are awesome), but new transactions should show up here in realtime...</p>
     <p>ETH balance: {{balance/1e18}} Ether (${{Math.round(balance/1e16*price.USD)/100}})</p>
+
     <v-data-table
       v-bind:headers = "headers"
       v-bind:items = "transactionList"
       class="elevation-1"
+
     >
     <template slot="items" slot-scope="props">
-      <td><router-link :to="'/address/' + props.item.from">{{props.item.from.slice(0,10)}}...</router-link></td>
-      <td><router-link :to="'/address/' + props.item.to">{{props.item.to.slice(0,10)}}...</router-link></td>
-      <td><router-link :to="'/tx/' + props.item.hash">{{Math.round(props.item.value/1e10)/1e8}} Ether</router-link> (${{Math.round(props.item.value/1e16*price.USD)/100}})</td>
+      <td><router-link :to="'/address/' + props.item.from">{{props.item.from.slice(0,30)}}...</router-link></td>
+      <td><router-link :to="'/address/' + props.item.to">{{props.item.to.slice(0,30)}}...</router-link></td>
+      <td><router-link :to="'/tx/' + props.item.hash">{{props.item.value.toPrecision(6)}} Ether</router-link> (${{Math.round(props.item.value/1e16*price.USD)/100}})</td>
     </template>
     </v-data-table>
+
     <div class="comments">
       <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="'https://ethereum.network' + $route.path"></VueDisqus>
     </div>
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -45,11 +48,12 @@ export default {
     .then((balance) => {
       this.balance = balance
     })
-    fetch('https://api.etherscan.io/api?module=account&action=txlist&sort=desc&address=' + this.$route.params.id)
-    .then((response) => { return response.json() })
+    fetch('https://api.ethplorer.io/getAddressTransactions/'+ this.$route.params.id +'?apiKey=freekey&limit=20')
+    .then((response) => {
+      return response.json() })
     .then((transactionList) => {
-      this.transactionList = transactionList.result
-    })
+      this.transactionList = transactionList;
+     })
   },
   mounted () {
     this.$store.state.dsClient.event.subscribe('pending/' + this.$route.params.id, (txData) => {
