@@ -44,7 +44,17 @@ export default {
     .then((response) => { return response.json() })
     .then((data) => {
       Object.entries(data).forEach( (value, index, array) => {
-	      let element = {
+        switch (value[0]) {
+            case 'timestamp':
+            var date = new Date(value[1]*1000);
+            value[1] = date.toDateString();
+            break;
+            case 'value':
+            value[1] = value[1] + ' ETHER';
+            break;
+        }
+
+        let element = {
 		      name: value[0],
 		      description: value[1]
 	      };

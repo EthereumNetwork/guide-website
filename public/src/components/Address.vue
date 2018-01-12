@@ -14,7 +14,8 @@
     <template slot="items" slot-scope="props">
       <td><router-link :to="'/address/' + props.item.from">{{props.item.from.slice(0,30)}}...</router-link></td>
       <td><router-link :to="'/address/' + props.item.to">{{props.item.to.slice(0,30)}}...</router-link></td>
-      <td><router-link :to="'/tx/' + props.item.hash">{{props.item.value.toPrecision(6)}} Ether</router-link> (${{Math.round(props.item.value/1e16*price.USD)/100}})</td>
+      <td>{{props.item.value.toPrecision(6)}} Ether (${{Math.round(props.item.value/1e16*price.USD)/100}})</td>
+      <td><router-link :to="'/tx/' + props.item.hash"><v-icon medium color="blue">info</v-icon></router-link></td>
     </template>
     </v-data-table>
 
@@ -38,6 +39,7 @@ export default {
         {text: 'From', value: 'from', sortable: false, align: 'left'},
         {text: 'To', value: 'to', sortable: false, align: 'left'},
         {text: 'Value', value: 'value', sortable: true, align: 'left'},
+        {text: 'Info', value: 'info', sortable: false, align: 'left'},
       ],
       transactionList: []
     }
