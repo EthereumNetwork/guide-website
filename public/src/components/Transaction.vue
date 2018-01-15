@@ -54,8 +54,10 @@ export default {
             break;
         }
 
+        let formatedField = value[0][0].toUpperCase() + value[0].slice(1);
+
         let element = {
-		      name: value[0],
+		      name: formatedField,
 		      description: value[1]
 	      };
 	    this.blockData.push(element);
