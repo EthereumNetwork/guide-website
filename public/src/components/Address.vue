@@ -56,9 +56,9 @@
           class="elevation-1"
         >
           <template slot="items" slot-scope="props">
-            <td><router-link :to="'/address/' + props.item.from">{{props.item.from.slice(0,30)}}...</router-link></td>
-            <td><router-link :to="'/address/' + props.item.to">{{props.item.to.slice(0,30)}}...</router-link></td>
-            <td>{{props.item.value.toPrecision(6)}} Ether (${{Math.round(props.item.value/1e16*price.USD)/100}})</td>
+            <td><router-link :to="'/address/' + props.item.from">{{props.item.from.slice(0,20)}}...</router-link></td>
+            <td><router-link :to="'/address/' + props.item.to">{{props.item.to.slice(0,20)}}...</router-link></td>
+            <td>{{props.item.value}}</td>
             <td><router-link :to="'/tx/' + props.item.hash"><v-icon medium color="blue">info</v-icon></router-link></td>
           </template>
         </v-data-table>
@@ -109,8 +109,12 @@ export default {
         .then((response) => {
             return response.json() })
         .then((transactionList) => {
-          this.transactionList = transactionList;
           if (Array.isArray(transactionList)) {
+            transactionList.map((obj)=>{
+              obj['value'] = obj['value']+' Ether '+ '$('+Math.round(obj['value']/1e16*this.price.USD)/100 +')';
+              return obj;
+            });
+            this.transactionList = transactionList;
             resolve(true);
           } else {
             resolve(false);
