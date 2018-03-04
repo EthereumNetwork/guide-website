@@ -61,6 +61,7 @@
           {title: 'Projects', path: '/projects'},
           {title: 'Learn', path: '/learn'},
           {title: 'Explorer', path: '/explorer'},
+          {title: 'Map', path: '/map'},
           {title: 'About', path: '/about'},
           {title: 'Social', path: '/social'}
         ]

@@ -28,6 +28,15 @@ async function getData(uri){
     }
 }
 
+randomStep = () => {
+  // 1 grad of lattitude is 112 km divided by 8000 gives 14 meters.
+  if (Math.random()>0.5) {
+    return Math.random()/8000;
+  } else {
+    return (Math.random()/8000)*(-1);
+  }
+}
+
 formatMarkers = (data) =>{
     return new Promise ((resolve, reject) => {
         let markers = [];
@@ -36,15 +45,21 @@ formatMarkers = (data) =>{
             description = description.split('<br>');
             description = description.join('');
             let singleMarker = {
-                "position": {"lat": element.lat,"lng": element.lon},
+                "position": {"lat": element.lat + randomStep(),"lng": element.lon},
                 "infoText": "<h6>" + element.name + "</h6>" +
-                            "<a href=" + element.link + " target='blank'>" + element.link + "</a>" 
-                            
+                            "<a href=" + element.link + " target='blank'>" + element.link + "</a>"
+
             }
             markers.push(singleMarker);
         });
         resolve(markers);
     });
+}
+
+findDuplicatePositions = (markers) => {
+  return new Promise((resolve, reject) => {
+
+  });
 }
 saveToFile = (data, filename ) => {
     return new Promise ((resolve, reject) => {
@@ -73,4 +88,3 @@ wrapper = async () => {
     }
 }
 wrapper();
-

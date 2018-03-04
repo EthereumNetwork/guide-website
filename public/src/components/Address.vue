@@ -1,24 +1,73 @@
 <template>
-  <div>
-    <h2>{{this.$route.params.id}}</h2>
-    <VueQrcode class="qrcode" id="tdsfgdsfgs" :text="this.$route.params.id" :size="128"></VueQrcode>
-    <p>I'm still building up an address-transaction database including the pending transactions. Until then, old transactions are coming from <a href="https://etherscan.io/">Etherscan</a> (They are awesome), but new transactions should show up here in realtime...</p>
-    <p>ETH balance: {{balance/1e18}} Ether (${{Math.round(balance/1e16*price.USD)/100}})</p>
+  <v-container fluid grid-list>
+    <v-layout row wrap>
+
+      <v-flex md4 xs12>
+      <v-card>
+        <v-card-title class="subheading">Address Information</v-card-title>
+      <v-data-table
+          v-bind:headers = "infoHeaders"
+          v-bind:items = "addressInformation"
+          class="elevation-1"
+          hide-headers
+          hide-actions
+        >
+          <template slot="items" slot-scope="props">
+            <td>{{props.item.name}}</td>
+            <td>{{props.item.description}}</td>
+          </template>
+        </v-data-table>
+      </v-card>
+    </v-flex>
+    <v-flex md4 offset-md1>
+    <v-card>
+      <v-card-title class="subheading">Token Information</v-card-title>
     <v-data-table
-      v-bind:headers = "headers"
-      v-bind:items = "transactionList"
+      v-bind:headers = "tokenHeaders"
+      v-bind:items = "tokenData"
       class="elevation-1"
+      hide-actions
+      hide-headers
     >
     <template slot="items" slot-scope="props">
-      <td><router-link :to="'/address/' + props.item.from">{{props.item.from.slice(0,10)}}...</router-link></td>
-      <td><router-link :to="'/address/' + props.item.to">{{props.item.to.slice(0,10)}}...</router-link></td>
-      <td><router-link :to="'/tx/' + props.item.hash">{{Math.round(props.item.value/1e10)/1e8}} Ether</router-link> (${{Math.round(props.item.value/1e16*price.USD)/100}})</td>
+      <td>{{props.item.name}}</td>
+      <td>{{props.item.description}}</td>
     </template>
-    </v-data-table>
+  </v-data-table>
+</v-card>
+</v-flex>
+<v-flex md1 offset-md1>
+  <v-card-media>
+    <VueQrcode class="qrcode" id="tdsfgdsfgs" :text="this.$route.params.id" :size="128"></VueQrcode>
+  </v-card-media>
+</v-flex>
+  </v-layout>
+  <v-layout row wrap>
+    <v-btn block color="info" @click='toggleTransactions()'>Toggle transactions</v-btn>
+  </v-layout>
+  <v-layout row wrap>
+    <v-alert type="error" v-model="fetchAlert" dismissible>Unable to fetch data from remote server, please try later or contact webmaster</v-alert>
+  </v-layout>
+
+    <v-layout row wrap v-if="loadTransactions">
+      <v-data-table
+          v-bind:headers = "transactionHeaders"
+          v-bind:items = "transactionList"
+          class="elevation-1"
+        >
+          <template slot="items" slot-scope="props">
+            <td><router-link :to="'/address/' + props.item.from">{{props.item.from.slice(0,20)}}...</router-link></td>
+            <td><router-link :to="'/address/' + props.item.to">{{props.item.to.slice(0,20)}}...</router-link></td>
+            <td>{{props.item.value}}</td>
+            <td><router-link :to="'/tx/' + props.item.hash"><v-icon medium color="blue">info</v-icon></router-link></td>
+          </template>
+        </v-data-table>
+    </v-layout>
+
     <div class="comments">
       <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="'https://ethereum.network' + $route.path"></VueDisqus>
     </div>
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -31,25 +80,95 @@ export default {
     return {
       msg: 'the network explorer is in the works...',
       balance: -0,
-      headers: [
+      totalPrice: 0,
+      infoHeaders: [
+        {text: 'Position', value: 'name', sortable: false, align: 'left'},
+        {text: 'Value', value: 'description', sortable: false, align: 'left'},
+      ],
+      transactionHeaders: [
         {text: 'From', value: 'from', sortable: false, align: 'left'},
         {text: 'To', value: 'to', sortable: false, align: 'left'},
         {text: 'Value', value: 'value', sortable: true, align: 'left'},
+        {text: 'Info', value: 'info', sortable: false, align: 'left'},
       ],
-      transactionList: []
+      transactionList: [],
+      addressInformation: [],
+      tokenHeaders: [
+        {text: 'Name', value: 'name', sortable: false, align: 'left'},
+        {text: 'Value', value: 'description', sortable: false, align: 'left'}
+      ],
+      tokenData: [],
+      loadTransactions: false,
+      fetchAlert: false
     }
   },
+  methods: {
+    getTransactionData: function() {
+      return new Promise ((resolve,reject) => {
+        fetch('https://api.ethplorer.io/getAddressTransactions/'+ this.$route.params.id +'?apiKey=freekey&limit=20')
+        .then((response) => {
+            return response.json() })
+        .then((transactionList) => {
+          if (Array.isArray(transactionList)) {
+            transactionList.map((obj)=>{
+              obj['value'] = obj['value']+' Ether '+ '$('+Math.round(obj['value']/1e16*this.price.USD)/100 +')';
+              return obj;
+            });
+            this.transactionList = transactionList;
+            resolve(true);
+          } else {
+            resolve(false);
+          }
+         })
+      });
+    },
+
+    toggleTransactions: function() {
+      if (this.loadTransactions===false){
+        this.getTransactionData()
+          .then((success) => {
+            if (success){
+              this.loadTransactions = true;
+            } else {
+              this.loadTransactions = false;
+              this.fetchAlert = true;
+              console.log('Unable fo tetch transactions from remote server');
+            }
+          })
+
+      } else {
+        this.loadTransactions = false;
+      }
+    }
+  },
+
   beforeCreate () {
     fetch('/api/balance/' + this.$route.params.id)
     .then((response) => { return response.json() })
     .then((balance) => {
       this.balance = balance
     })
-    fetch('https://api.etherscan.io/api?module=account&action=txlist&sort=desc&address=' + this.$route.params.id)
-    .then((response) => { return response.json() })
-    .then((transactionList) => {
-      this.transactionList = transactionList.result
+    .then(() => {
+      fetch('https://api.ethplorer.io/getAddressInfo/'+ this.$route.params.id +'?apiKey=freekey')
+      .then((response) => {
+        return response.json() })
+      .then((data) => {
+        this.addressInformation = [
+          {name: 'Address', description: data['address']},
+          {name: 'Balance', description: data['ETH']['balance']+ ' Ether ' + ' $' + Math.round(this.balance/1e16*this.price.USD)/100},
+          {name: 'Total in', description: data['ETH']['totalIn']},
+          {name: 'Total out', description: data['ETH']['totalOut']},
+        ];
+        if (Array.isArray(data['tokens']) && data['tokens'].length >=1) {
+          console.log('tokens is an Array, and length is >=1');
+          data['tokens'].forEach((element) => {
+            let pos = {name: element.tokenInfo.name, description: element.balance}
+            this.tokenData.push(pos);
+          });
+        }
+       })
     })
+
   },
   mounted () {
     this.$store.state.dsClient.event.subscribe('pending/' + this.$route.params.id, (txData) => {
