@@ -131,7 +131,7 @@ export default {
           {name: 'Total in', description: data['ETH']['totalIn']},
           {name: 'Total out', description: data['ETH']['totalOut']},
         ];
-        if (Array.isArray(data['tokens']) && data['tokens'].length >=1) {
+        if (Array.isArray(data['tokens']) && data['tokens'].length >=0) {
           data['tokens'].forEach((element) => {
             let pos = {name: element.tokenInfo.name, description: element.balance}
             this.tokenData.push(pos);
@@ -184,6 +184,7 @@ export default {
         .then((balance) => {
           this.balance = balance;
           this.getAddressInfo();
+          this.toggleTransactions();
         })
     }
   },
