@@ -50,7 +50,7 @@
         </router-link>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Blockchan Explorer (beta)</h3>
+            <h3 class="headline mb-0">Blockchain Explorer (beta)</h3>
             <v-text-field v-on:keyup.enter.native="submit" v-model="searchBar" label="Search by address"></v-text-field>
           </div>
         </v-card-title>

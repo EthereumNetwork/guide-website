@@ -103,6 +103,44 @@ export default {
     }
   },
   methods: {
+    getBalance: function() {
+      return new Promise((resolve,reject) => {
+        fetch('/api/balance/' + this.$route.params.id)
+          .then((response) => {
+            if (response.status != 200){
+              console.log('Error getting balance from server, leaving 0');
+              resolve(0);
+              return;
+            }
+            return response.json()
+          })
+          .then((balance) => {
+            resolve(balance);
+          });
+      });
+
+    },
+    getAddressInfo: function() {
+      fetch('https://api.ethplorer.io/getAddressInfo/'+ this.$route.params.id +'?apiKey=freekey')
+      .then((response) => {
+        return response.json() })
+      .then((data) => {
+        this.addressInformation = [
+          {name: 'Address', description: data['address']},
+          {name: 'Balance', description: data['ETH']['balance']+ ' Ether ' + ' $' + Math.round(this.balance/1e16*this.price.USD)/100},
+          {name: 'Total in', description: data['ETH']['totalIn']},
+          {name: 'Total out', description: data['ETH']['totalOut']},
+        ];
+        if (Array.isArray(data['tokens']) && data['tokens'].length >=0) {
+          data['tokens'].forEach((element) => {
+            let pos = {name: element.tokenInfo.name, description: element.balance}
+            this.tokenData.push(pos);
+          });
+        } else {
+          this.tokenData = [];
+        }
+       })
+    },
     getTransactionData: function() {
       return new Promise ((resolve,reject) => {
         fetch('https://api.ethplorer.io/getAddressTransactions/'+ this.$route.params.id +'?apiKey=freekey&limit=20')
@@ -122,7 +160,6 @@ export default {
          })
       });
     },
-
     toggleTransactions: function() {
       if (this.loadTransactions===false){
         this.getTransactionData()
@@ -141,34 +178,25 @@ export default {
       }
     }
   },
+  watch: {
+    $route: function(newRoute){
+      this.getBalance()
+        .then((balance) => {
+          this.balance = balance;
+          this.getAddressInfo();
+          this.toggleTransactions();
+        })
+    }
+  },
 
-  beforeCreate () {
-    fetch('/api/balance/' + this.$route.params.id)
-    .then((response) => { return response.json() })
-    .then((balance) => {
-      this.balance = balance
-    })
-    .then(() => {
-      fetch('https://api.ethplorer.io/getAddressInfo/'+ this.$route.params.id +'?apiKey=freekey')
-      .then((response) => {
-        return response.json() })
-      .then((data) => {
-        this.addressInformation = [
-          {name: 'Address', description: data['address']},
-          {name: 'Balance', description: data['ETH']['balance']+ ' Ether ' + ' $' + Math.round(this.balance/1e16*this.price.USD)/100},
-          {name: 'Total in', description: data['ETH']['totalIn']},
-          {name: 'Total out', description: data['ETH']['totalOut']},
-        ];
-        if (Array.isArray(data['tokens']) && data['tokens'].length >=1) {
-          console.log('tokens is an Array, and length is >=1');
-          data['tokens'].forEach((element) => {
-            let pos = {name: element.tokenInfo.name, description: element.balance}
-            this.tokenData.push(pos);
-          });
-        }
-       })
-    })
+  beforeCreate () {},
 
+  created () {
+    this.getBalance()
+      .then((balance) => {
+        this.balance = balance;
+        this.getAddressInfo();
+      })
   },
   mounted () {
     this.$store.state.dsClient.event.subscribe('pending/' + this.$route.params.id, (txData) => {

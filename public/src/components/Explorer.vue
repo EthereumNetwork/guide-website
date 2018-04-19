@@ -1,7 +1,7 @@
 <template>
   <v-layout row wrap>
     <v-flex xs10 offset-xs1>
-      <v-text-field v-on:keyup.enter.native="submit" v-model="searchBar" label="Ethereum blockchan explorer" hint="search for addresses or transactions"></v-text-field>
+      <v-text-field v-on:keyup.enter.native="submit" v-model="searchBar" label="Ethereum blockchain explorer" hint="search for addresses or transactions"></v-text-field>
       <v-alert info dismissible v-model="alert"> No transaction or address pattern recognized. Sorry :( </v-alert>
     </v-flex>
     <p>{{ msg }} as we're building out the core functionalities.</p>

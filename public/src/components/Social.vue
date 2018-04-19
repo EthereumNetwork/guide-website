@@ -18,25 +18,6 @@
         <a href="https://facebook.com/groups/112915296053162" target="_blank" class=""> <i class="icon-facebook-official contact-link">Facebook</i></a>
       </p>
     </v-flex>
-      <v-flex xs12 sm6 md4>
-      <h2>Spanish:</h2>
-      <p>
-        <a href="https://t.me/ReddeEthereum" target="_blank" class=""> <i class="icon-telegram contact-link">Telegram</i></a>
-        <a href="https://www.facebook.com/groups/113343209354983" target="_blank" class=""> <i class="icon-facebook-official contact-link">Facebook</i></a>
-      </p>
-    </v-flex>
-    <v-flex xs12 sm6 md4>
-      <h2>Chinese:</h2>
-      <v-dialog v-model="dialog">
-       <i class="icon-wechat contact-link" slot="activator"><span class="dialogactivator">WeChat</span></i></a>
-        <v-card>
-            <img src="/WechatQR.png" class="wechat-image">
-          <!-- <v-card-actions>
-            <v-btn flat v-on:click.native="dialog = false">Cancel</v-btn>
-          </v-card-actions> -->
-        </v-card>
-      </v-dialog>
-    </v-flex>
     <v-flex xs12 class="mt-5">
       <h1>Ethereum Network Development</h1>
       <p>If you want to help foster the Ethereum community as well, your help is very appreciated, either with coding / finding bugs, adding projects or any other way:</p>

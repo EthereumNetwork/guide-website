@@ -1,18 +1,20 @@
 <template>
   <div v-if="project">
         <v-card>
-          <!-- <v-card-media :src="project.logoUrl" height="200px"></v-card-media> -->
-          <v-card-title>
+          <v-container fluid grid-list-lg>
             <v-layout row wrap>
-              <v-flex xs1>
-                <img v-bind:src="project.logoUrl || '/NA.png'" class="project-image">
+              <v-flex md1 lg1 xs3>
+                <v-card-media :src="project.logoUrl || '/NA.png'" height="60px" contain>
+                </v-card-media>
               </v-flex>
-              <v-flex xs11>
-                <h1 class="headline">{{project.title}}</h1>
+              <v-flex md11 lg11 xs9>
+                <div>
+                  <div class="headline">{{project.title}}</div>
+                </div>
               </v-flex>
               <span v-html="compiledMarkdown"></span>
             </v-layout>
-          </v-card-title>
+          </v-container>
           <v-card-actions>
             <a v-bind:href="project.website" v-if="project.website" target="_blank"> <i class="icon-link contact-link"> </i></a>
             <a v-bind:href="project.github" v-if="project.github" target="_blank"> <i class="icon-github-squared contact-link"> </i></a>
