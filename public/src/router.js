@@ -11,12 +11,12 @@ import LoginForm from './components/Login.vue'
 import About from './components/About.vue'
 import Project from './components/Project.vue'
 import Social from './components/Social.vue'
-import Map from './components/Map.vue'
 import Block from './components/Block.vue'
 import Address from './components/Address.vue'
 import Transaction from './components/Transaction.vue'
 import TransactionList from './components/TransactionList.vue'
 import TranslationsCN from './components/TranslationsCN.vue'
+import OpenMap from './components/OpenMap.vue'
 
 Vue.use(VueRouter)
 
@@ -30,14 +30,15 @@ const routes = [
   { path: '/login', component: LoginForm },
   { path: '/about', component: About },
   { path: '/social', component: Social },
-  { path: '/map', component: Map },
+  { path: '/map', component: OpenMap },
   { path: '/project/:title', component: Project },
   { path: '/block/:id', component: Block },
   { path: '/address/:id', component: Address },
   { path: '/tx/:id', component: Transaction },
   { path: '/txs', component: TransactionList },
   { path: '/project', redirect: '/' },
-  { path: '/translationsCN', component: TranslationsCN }
+  { path: '/translationsCN', component: TranslationsCN },
+
 ]
 
 const router = new VueRouter({
