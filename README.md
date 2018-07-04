@@ -5,8 +5,8 @@
 
 ## Setup to run / test it yourself
 
-Prerequisites: NodeJS, MongoDB, Ethereum node, deepstream server and a .env file
-talk to Michael if you need help setting it up
+Prerequisites: NodeJS, nodemon, MongoDB, Ethereum node, deepstream server and a .env file.
+Talk to Michael if you need help setting it up
 
 ``` bash
 # install dependencies
