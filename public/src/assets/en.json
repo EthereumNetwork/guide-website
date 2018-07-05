@@ -14,6 +14,7 @@
           { "link": "https://blog.coinbase.com/a-beginners-guide-to-ethereum-46dd486ceecf", "title": "A beginner’s guide to Ethereum", "desc": "by Coinbase", "date": 20170501 },
           { "link": "https://en.wikipedia.org/wiki/Blockchain", "title": "Blockchain Article", "desc":"on Wikipedia", "date": 20180601 },
           { "link": "https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html", "title": "Beyond the Bitcoin Bubble", "desc":"New York Times", "date": 20180116 },
+          { "link": "https://youtu.be/lYJymzsdXmU?t=36m27s", "title": "Video 'Why Ethereum Is Going to Change the World'", "desc": "by Joseph Lubin", "date": 20180620 },
           { "link": "https://youtu.be/Pl8OlkkwRpc", "title": "Video 'How the blockchain is changing money and business'", "desc": "by Don Tapscott", "date": 20160601 },
           { "link": "https://youtu.be/j23HnORQXvs", "title": "Video 'Ethereum, the world computer'", "desc": "How the internet will work in the future", "date": 20170501 },
           { "link": "https://youtu.be/H6bGuKN3m6E", "title": "Video 'Can Ethereum Restore Online Freedom & Transform the Internet?'", "desc": "by Joseph Lubin", "date": 20160318 },
@@ -63,17 +64,6 @@
         ]
       },
       {
-        "headline": "Online and Wallet Security",
-        "paragraphs": [
-          { "text": "General online and wallet security are essential when dealing with cryptocurrencies. Please read and follow the the links below carefully. Your money might depend on it, because once it's gone, it's gone." }
-        ],
-        "links": [
-          { "link": "https://medium.com/@pipermerriam/my-guide-to-solid-digital-security-fb76cb19c536#.cliexcgpg", "title": "Guide to securing your digital life", "desc": "necessary when dealing with cryptocurrencies", "date": 20170501 },
-          { "link": "https://ledger.groovehq.com/knowledge_base/topics/how-to-secure-your-eth-tokens-augur-rep-dot-dot-dot-with-your-nano-s", "title": "Ledger Nano", "desc": "Hardware wallet to store your ether and tokens", "date": 20170501 },
-          { "link": "http://doublenegative.com/ethereum-security-and-wallets/", "title": "Wallet Security", "desc": "and how to secure them", "date": 20170501 }
-        ]
-      },
-      {
         "headline": "Development Guides: Smart Contracts with Solidity",
         "paragraphs": [
           { "text": "Every day there are new blog posts, tutorials, research article and discussions about how to develop smart contracts and decentralized applications. I try to keep the best and most up-to-date ones here, please let me know about new ones I should add or old ones to remove." }
@@ -97,13 +87,21 @@
           { "link": "https://learnxinyminutes.com/docs/solidity/", "title": "Learn Solidity in y minutes", "desc": "step-by-step Solidity tutorial", "date": 20171101 },
           { "link": "https://github.com/manojpramesh/solidity-cheatsheet", "title": "Solidity Cheatsheet and Best practices", "date": 20180601 },
           { "link": "https://ethereumdev.io/", "title": "Ethereum Developers", "desc": "Tutorials and jobs for Ethereum enthusiasts.", "date": 20180601 },
-          { "link": "https://medium.com/@ConsenSys/very-deep-dive-on-ethereum-reading-list-f5b1122e5990#.d9mtt32ic", "title": "Ethereum Reading List", "desc": "for more in depth learning", "date": 20170501 },
+          { "link": "https://github.com/ConsenSysLabs/ethereum-developer-tools-list", "title": "ethereum-developer-tools-list", "desc": "A guide to available tools, components, patterns, and platforms for developing on Ethereum.", "date": 20180701 },
+          { "link": "https://medium.com/@ConsenSys/very-deep-dive-on-ethereum-reading-list-f5b1122e5990#.d9mtt32ic", "title": "Very deep-dive on Ethereum", "desc": "Reading List", "date": 20161130 },
           { "link": "https://github.com/Scanate/EthList", "title": "EthList", "desc": "The Crowdsourced Ethereum Reading List", "date": 20180401 },
-          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- blog posts and tutorials below are sorted by publication date, at most 18 months ago------------------------------------", "date": 20180401 },
+          { "link": "https://github.com/genesisdotre/awesome-ethereum-events", "title": "Ethereum events", "desc": "link list", "date": 20180701 },
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- the blog posts and tutorials below are simply sorted by publication date, at most 18 months ago------------------------------------", "date": 20180401 },
 
 
           { "link": "https://truffleframework.com/tutorials/", "title": "Tutorials", "desc": "for the truffle framework", "date": 20180601 },
+          { "link": "https://www.sitepoint.com/puppeth-introduction/", "title": "Using Puppeth", "desc": "the Ethereum Private Network Manager", "date": 20180703 },
+          { "link": "https://medium.com/decentcrypto/building-your-first-ethereum-oracle-1ab4cccf0b31", "title": "Building your first Ethereum Oracle", "desc": "How do blockchains get data?", "date": 20180620 },
+          { "link": "https://medium.com/blocktoken/how-to-code-in-ethereum-a-three-part-series-part-1-6697178a1ac1", "title": "How to Code in Ethereum", "desc": "A Three Part Series", "date": 20180614 },
+          { "link": "https://medium.com/@zack.learns/develop-a-smart-contract-on-ethereum-part-1-sync-a-node-a470943ef1c2", "title": "Develop a smart contract on Ethereum", "desc": "A Two Part Series", "date": 20180614 },
+          { "link": "https://www.pubnub.com/blog/implementing-pubnub-dapp-with-ethereum-blockchain/amp/", "title": "Implementing PubNub", "desc": "with the Ethereum Blockchain", "date": 20180601 },
           { "link": "https://medium.com/coinmonks/learn-solidity-shark-of-the-pool-part-1-ac0f733eecdd", "title": "Build an Ethereum DApp", "desc": "4 part blog series with solidity smart contracts, testing, NodeJS backend and React / MetaMask Web App", "date": 20180524 },
+          { "link": "https://medium.com/@engineering_12215/the-complete-tutorial-on-getting-started-with-smart-contracts-on-ethereum-7f7a2880b0d5", "title": "Getting Started With Smart Contracts On Ethereum", "desc": "Using Truffle and OpenZeppelin to create an ERC20 Token", "date": 20180520 },
           { "link": "https://www.youtube.com/watch?v=qlJ3cs7o2DE", "title": "Ethereum Dapp with React JS, Webpack, Web3 & Truffle", "desc": "Video tutorial, repo in the comments", "date": 20180306 },
           { "link": "https://medium.com/@tzhenghao/getting-started-with-geth-c1a30b8d6458", "title": "Getting started with Geth ", "desc": "on MacOS", "date": 20180211 },
           { "link": "https://blog.amr-gawish.com/building-a-production-ready-ethereum-dapp-from-idea-to-final-product-first-section-the-3b9975a226c", "title": "Building a production-ready Ethereum DApp", "desc": "from idea to final product", "date": 20180205 },
@@ -198,14 +196,19 @@
           { "link": "http://ethereum.stackexchange.com", "title": "Ethereum StackExchange", "desc": "get answers for all your Ethereum questions", "date": 20170501 },
           { "link": "https://github.com/ethereum/web3.js", "title": "Web3.js", "desc": "Ethereum JavaScript API", "date": 20180601 },
           { "link": "https://github.com/ethers-io/ethers.js", "title": "ethers.js", "desc": "Complete Ethereum wallet implementation and utilities in JavaScript", "date": 20180601 },
+          { "link": "https://github.com/pubkey/eth-crypto", "title": "eth-crypto", "desc": "Cryptographic javascript-functions for ethereum and tutorials on how to use them together with web3js and solidity.", "date": 20180701 },
+          { "link": "https://github.com/Boilertalk/Web3.swift", "title": "Web3.swift", "desc": "A pure swift Ethereum Web3 library", "date": 20180701 },
           { "link": "http://truffleframework.com/", "title": "Truffe", "desc": "Development framework for Ethereum", "date": 20170501 },
           { "link": "https://truffle-box.github.io/", "title": "Truffle Box", "desc": " Set of Truffle + Webpack + React Boilerplates", "date": 20170501 },
           { "link": "https://github.com/iurimatias/embark-framework", "title": "Embark", "desc": "Framework to develop and deploy DApps", "date": 20170501 },
           { "link": "https://github.com/Exartu/Meteor-Embark-boilerplate", "title": "Meteor-Embark-boilerplate", "desc": "Build your Ethereum app from the comfort of Meteor and the Embark framework", "date": 20170401 },
           { "link": "http://dapple.readthedocs.io/en/master/", "title": "Dapple", "desc": "Development framework for Ethereum", "date": 20170501 },
+          { "link": "https://github.com/nomiclabs/buidler", "title": "Buidler", "desc": "lean and flexible smart contracts development framework", "date": 20180601 },
+          { "link": "https://github.com/LimeChain/etherlime", "title": "etherlime", "desc": "Dapp Development framework based on ethers.js", "date": 20180701 },
           { "link": "https://remix.ethereum.org", "title": "Remix", "desc": "Solidity Realtime compiler and IDE in the browser", "date": 20180601 },
           { "link": "https://github.com/horizon-games/remix-app", "title": "Remix Solidity IDE", "desc": "as a desktop app with airplane mode", "date": 20180201 },
           { "link": "https://github.com/fubuloubu/pytest-ethereum", "title": "PyTest", "desc": "plugin for testing Ethereum Smart Contracts, using eth-tester and web3.py", "date": 20180701 },
+          { "link": "https://github.com/decentraland/dappeteer", "title": "dAppeteer", "desc": "E2E testing for dApps using Puppeteer + MetaMask", "date": 20180701 },
           { "link": "https://ethfiddle.com/", "title": "EthFiddle", "desc": "Solidity IDE in the browser", "date": 20180601 },
           { "link": "https://ethgasstation.info/", "title": "EthGasStation", "desc": "Monitor the gas price market", "date": 20180601 },
           { "link": "https://ethstats.net/", "title": "EthStats", "desc": "Monitor the network status", "date": 20180601 },
@@ -218,6 +221,7 @@
           { "link": "https://ethervis.com/", "title": "Ethervis", "desc": "Interactive ethereum address explorer", "date": 20180701 },
           { "link": "https://live.ether.camp/", "title": "Ether Camp", "desc": "Blockchain explorer", "date": 20170501 },
           { "link": "https://trivial.co/", "title": "Trivial", "desc": "Blockchain explorer", "date": 20180601 },
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- scaling solutions ------------------------------------", "date": 20180401 },
 
 
           { "link": "https://medium.com/web3foundation/scalingnow-scaling-solution-summit-summary-be30047047bf", "title": "ScalingNOW!", "desc": "Scaling Solution Summit Summary", "date": 20180326 },
@@ -228,7 +232,8 @@
           { "link": "https://raiden.network/", "title": "Raiden Network", "desc": "fast, cheap, scalable token transfers", "date": 20180603 },
           { "link": "https://loomx.io/", "title": "Loom Network", "desc": "large-scale apps on Ethereum", "date": 20180603 },
           { "link": "http://ethcalate.network/", "title": "Ethcalate Network", "desc": "A containerized state channels management system for DApps", "date": 20180303 },
-          { "link": "https://medium.com/celer-network/celer-network-bring-internet-scale-to-every-blockchain-b8f3c9a2d270", "title": "Celer Network", "desc": "Bring Internet Scale to Every Blockchain", "date": 20180514 }
+          { "link": "https://medium.com/celer-network/celer-network-bring-internet-scale-to-every-blockchain-b8f3c9a2d270", "title": "Celer Network", "desc": "Bring Internet Scale to Every Blockchain", "date": 20180514 },
+          { "link": "https://medium.com/zkcapital/a-primer-on-ethereum-blockchain-light-clients-f3cadde49137", "title": "Ethereum Blockchain Light Clients", "desc": "a primer", "date": 20180519 }
         ]
       },
       {
@@ -275,6 +280,17 @@
         ]
       },
       {
+        "headline": "Online and Wallet Security",
+        "paragraphs": [
+          { "text": "General online and wallet security are essential when dealing with cryptocurrencies. Please read and follow the the links below carefully. Your money might depend on it, because once it's gone, it's gone." }
+        ],
+        "links": [
+          { "link": "https://medium.com/@pipermerriam/my-guide-to-solid-digital-security-fb76cb19c536#.cliexcgpg", "title": "Guide to securing your digital life", "desc": "necessary when dealing with cryptocurrencies", "date": 20170501 },
+          { "link": "https://ledger.groovehq.com/knowledge_base/topics/how-to-secure-your-eth-tokens-augur-rep-dot-dot-dot-with-your-nano-s", "title": "Ledger Nano", "desc": "Hardware wallet to store your ether and tokens", "date": 20170501 },
+          { "link": "http://doublenegative.com/ethereum-security-and-wallets/", "title": "Wallet Security", "desc": "and how to secure them", "date": 20170501 }
+        ]
+      },
+      {
         "headline": "Exchanges",
         "paragraphs": [
           { "text": "Even though there are no borders in the Ethereum world, you would need some ether to use the services and decentralized apps there. Like exchanging into the local currency in a foreign country you're visiting. Exchanges provide a means to move in or out of ether by trading it for fiat money ($, €, ¥, £) or other crypto-currencies." },
@@ -300,7 +316,7 @@
       "questions": [
         { "question": "Where do I start?", "answer": "The Ethereum network can be very overwhelming, so that is a good question and completely depends what you're looking for. If you are a developer looking into blockchain programming and the creation of decentralized apps, most of the sections here are directed towards you. Let me know if you run into any trouble or out-dated info. As a curious user, on the projects page use any decentralized app that you find interesting. Then complain to the developers about any user experience difficulties that you encounter, and otherwise give helpful feedback. Generally be curious and engage in the communities mentioned in the section above", "links": [{"link": "https://ethereum.network/", "title": "project page" }]},
         { "question": "What is the current roadmap?", "answer": "Both the Ethereum Foundation and the Enterprise Ethereum Alliance are working on it", "links": [{"link": "https://www.ethnews.com/ethereums-road-map-for-2017", "title": "Ethereum Foundation" }, {"link": "https://www.reddit.com/r/ethereum/comments/5wo6hy/ethereum_enterprise_alliance_live_updates/", "title": "Enterprise Ethereum Alliance" }]},
-        { "question": "Can ether be used as a currency?", "answer": "Bitcoin tried to create the perfect 'coin', with a lot of focus  itself (how much are there, what is the increase schedule, etc...). It tries to compete with the Dollar, the Euro, the Yuan, gold, etc to buy things and thus make it valuable. Ethereum's focus is, rather on the monetary properties, on creating a whole ecosystem that has never existed before. Why use it for things you can buy with Dollars, Euro or Yuan? It is too volatile for merchants and service provider with bills to pay. A better solution would are be stable coins which track the value of one or more fiat currencies and will probably end up being the primary payment mechanism on Ethereum. Ether's function is more seen as investment in the network itself (used for all transactions, generating a return though staking, very low inflation), as technical payments between devices or as collateral deposits.", "links": [{"link": "https://ethereum.network/?q=stable coin", "title": "stable coins" }]},
+        { "question": "Can ether be used as a currency?", "answer": "Bitcoin tried to create the perfect 'coin', with a lot of focus  itself (how much are there, what is the increase schedule, etc...). It tries to compete with the Dollar, the Euro, the Yuan, gold, etc to buy things and thus make it valuable. Ethereum's focus is, rather on the monetary properties, on creating a whole ecosystem that has never existed before. Why use it for things you can buy with Dollars, Euro or Yuan? It is too volatile for merchants and service provider with bills to pay. A better solution would are be stable coins which track the value of one or more fiat currencies and will probably end up being the primary payment mechanism on Ethereum. Ether's function is more seen as investment in the network itself (used for all transactions, generating a return though staking, very low inflation), as technical payments between devices or as collateral deposits.", "links": [{"link": "ethereum.network/?q=stable coin", "title": "stable coins" }]},
         { "question": "What is Ethereum Classic, SOILcoin, Expanse or any of the other Ethereum forks?", "answer": "Ethereum is completely open-source, so anyone can just run their own version with all kind of variations. The mentioned projects either moved away for some changes or stayed behind when the community moved on. They are all legit efforts with more or less noble causes, just be aware what you want to use. All the projects shown on the projects page use the real Ethereum, which you can check on /explorer.", "links": [{"link": "https://ethereum.network/", "title": "project page" }, {"link": "https://ethereum.network/explorer", "title": "explorer" }]}
       ]
     }
