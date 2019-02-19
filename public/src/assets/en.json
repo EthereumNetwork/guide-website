@@ -11,19 +11,27 @@
         ],
         "links": [
           { "link": "http://blockgeeks.com/guides/what-is-ethereum/", "title": "What is Ethereum?", "desc": "A Step-by-Step Beginners Guide", "date": 20170501 },
-          { "link": "https://blog.coinbase.com/a-beginners-guide-to-ethereum-46dd486ceecf", "title": "A beginner’s guide to Ethereum", "desc": "by Coinbase", "date": 20170501 },
+          { "link": "https://en.wikipedia.org/wiki/Ethereum", "title": "Ethereum Article", "desc": "on Wikipedia", "date": 20170501 },
+          { "link": "https://www.upfolio.com/ultimate-ethereum-guide", "title": "Ethereum Explained", "desc": "Illustrated beginner's guide", "date": 20170501 },
+          { "link": "https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html", "title": "Beyond the Bitcoin Bubble", "desc": "simply articulated primer on blockchain and the greater promise these technologies and ideologies may bring to us", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/ethereum-basics/what-is-ethereum/", "title": "What is Ethereum?", "desc": "Crowdsourced overview of Ethereum", "date": 20170501 },
+          { "link": "https://medium.com/@mattcondon/getting-up-to-speed-on-ethereum-63ed28821bbe", "title": "Basic terminology for Ethereum", "desc": "From gas to DApps (Distributed Applications)", "date": 20170501 },
+          { "link": "https://decryptmedia.com/resources/ethereum", "title": "Litepaper - Ethereum", "desc": "Intro to Ethereum", "date": 20170501 },
+          { "link": "https://thenextweb.com/contributors/2017/11/28/ultimate-2000-word-plain-english-guide-ethereum/", "title": "Everything you’ve ever wanted to know about Ethereum", "desc": "Patiently explained", "date": 20170501 },
+          { "link": "https://cointelegraph.com/ethereum-for-beginners/what-is-ethereum#people-to-follow", "title": "Ethereum for beginners", "desc": "Guide on Cointelegraph", "date": 20170501 },
+          { "link": "https://novicedock.com/learn/cryptocurrency/ethereum", "title": "Ethereum syllabus", "desc": "Introduction for newcomers", "date": 20170501 },
+          { "link": "https://education.district0x.io/general-topics/understanding-ethereum/", "title": "Understanding Ethereum", "desc": "Educational portal of district0x ", "date": 20170501 },
+          { "link": "https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369", "title": "How does Ethereum work, anyway?", "desc": "How it functions at a technical level, without complex math", "date": 20170501 },
+          { "link": "https://medium.com/loom-network/ethereum-will-be-the-backbone-of-the-new-internet-88718e08124f", "title": "Ethereum Will Be the Backbone of the New Internet", "desc": "Why will Ethereum become the fundamental base layer to built-on by Loom", "date": 20170501 },
+          { "link": "https://medium.com/@lrettig/how-open-is-too-open-bfc412cf0d24", "title": "How open is too open?", "desc": "On transparency and governance of Ethereum", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/", "title": "Running an Ethereum Node", "desc": "Introduction to how to run an Ethereum node", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/other/ethereum-2.0-ama/", "title": "Ethereum 2.0 Reddit AMA", "desc": "TL;DR from AMA on Reddit", "date": 20170501 },
+          { "link": "https://www.meetup.com/topics/ethereum/", "title": "Ethereum meetups around the world", "desc": "Every meetup is welcoming and happy to help, as you can read in our blog", "date": 20170501 },
+
           { "link": "https://youtu.be/Pl8OlkkwRpc", "title": "Video 'How the blockchain is changing money and business'", "desc": "by Don Tapscott", "date": 20170501 },
           { "link": "https://youtu.be/j23HnORQXvs", "title": "Video 'Ethereum, the world computer'", "desc": "How the internet will work in the future", "date": 20170501 },
           { "link": "https://youtu.be/66SaEDzlmP4", "title": "Video 'Ethereum in 25 minutes'", "desc": "by Vitalik Buterin", "date": 20170501 },
           { "link": "https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos", "title": "Videos from Ethereum DevCon 2", "desc": "Sep. 2016 in Shanghai", "date": 20170501 },
-          { "link": "https://medium.com/ethlance/using-the-decentralized-web-3936dc5daac1", "title": "Using the Decentralized Web", "desc": "Interact with decentralized applications without understanding Ethereum", "date": 20170501 },
-          { "link": "https://steemit.com/ethereum/@cryptomancer/ethereum-for-dummies-introducing-the-next-great-technological-leap-forward", "title": "Ethereum for Dummies", "desc": "introducing the next great technological leap forward", "date": 20170501 },
-          { "link": "https://www.youtube.com/watch?v=U_LK0t_qaPo", "title": "Ethereum for Dummies 2", "desc": "a less up-to-date version by Dr. Gavin Wood, still relevant", "date": 20170501 },
-          { "link": "https://media.consensys.net/introduction-to-ethereum-the-internets-government-35bdd25f572a", "title": "Introduction to Ethereum", "desc": "as the Internet’s Government", "date": 20170501 },
-          { "link": "https://blog.coinbase.com/app-coins-and-the-dawn-of-the-decentralized-business-model-8b8c951e734f", "title": "Blockchain Tokens", "desc": "and the dawn of the Decentralized Business Model", "date": 20170501 },
-          { "link": "https://bitsonblocks.net/2016/10/02/a-gentle-introduction-to-ethereum/", "title": "A gentle introduction to Ethereum", "date": 20170501 },
-          { "link": "https://bitsonblocks.net/2016/10/02/a-gentle-introduction-to-ethereum/", "title": "Blockchain stack #1", "desc": "Installing Ethereum Geth and your first smart contract", "date": 20170501 },
-          { "link": "https://www.meetup.com/topics/ethereum/", "title": "Ethereum meetups around the world", "desc": "Every meetup is welcoming and happy to help, as you can read in our blog", "date": 20170501 }
         ]
       },
       {
@@ -98,9 +106,9 @@
         ]
       },
       {
-        "headline": "Development Guides: Smart Contract Security and programming with LLL, Viper or Bamboo",
+        "headline": "Development Guides: Smart Contract Security and programming with LLL, Vyper or Bamboo",
         "paragraphs": [
-          { "text": "After learning the first steps with Solidity, dive deeper into smart contract programming with LLL, Viper or Bamboo and learn important security aspects as well as more fine-grained control with Inline Assembly" }
+          { "text": "After learning the first steps with Solidity, dive deeper into smart contract programming with LLL, Vyper or Bamboo and learn important security aspects as well as more fine-grained control with Inline Assembly" }
         ],
         "links": [
           { "link": "https://media.consensys.net/an-introduction-to-lll-for-ethereum-smart-contract-development-e26e38ea6c23", "title": "An Introduction to LLL for Ethereum", "desc": "Smart Contract Development", "date": 20170501 },
