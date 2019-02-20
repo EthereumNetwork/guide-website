@@ -26,6 +26,7 @@
           { "link": "https://medium.com/loom-network/ethereum-will-be-the-backbone-of-the-new-internet-88718e08124f", "title": "Ethereum Will Be the Backbone of the New Internet", "desc": "Why will Ethereum become the fundamental base layer to built-on by Loom", "date": 20170501 },
           { "link": "https://medium.com/@lrettig/how-open-is-too-open-bfc412cf0d24", "title": "How open is too open?", "desc": "On transparency and governance of Ethereum", "date": 20170501 },
           { "link": "https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/", "title": "Running an Ethereum Node", "desc": "Introduction to how to run an Ethereum node", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/ethereum-roadmap/ethereum-1.x/", "title": "Ethereum roadmap", "desc": "Well-arranged summary - Ethereum 1.x, 2.0, layer 2 scaling, privacy and planned upgrades", "date": 20170501 },
           { "link": "https://docs.ethhub.io/other/ethereum-2.0-ama/", "title": "Ethereum 2.0 Reddit AMA", "desc": "TL;DR from AMA on Reddit", "date": 20170501 },
           { "link": "https://www.meetup.com/topics/ethereum/", "title": "Ethereum meetups around the world", "desc": "Every meetup is welcoming and happy to help, as you can read in our blog", "date": 20170501 },
         ]
@@ -167,7 +168,7 @@
         ]
       },
       {
-        "headline": "Development Guides: Scaling",
+        "headline": "Development Guides: Layer 2 Scaling Solutions",
         "paragraphs": [
           { "text": "Scaling" }
         ],
