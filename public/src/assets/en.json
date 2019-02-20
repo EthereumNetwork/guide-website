@@ -29,7 +29,7 @@
           { "link": "https://docs.ethhub.io/other/ethereum-2.0-ama/", "title": "Ethereum 2.0 Reddit AMA", "desc": "TL;DR from AMA on Reddit", "date": 20170501 },
           { "link": "https://www.meetup.com/topics/ethereum/", "title": "Ethereum meetups around the world", "desc": "Every meetup is welcoming and happy to help, as you can read in our blog", "date": 20170501 },
         ]
-        "paragraphs" [
+        "paragraphs": [
           { "text": "Videos" }
         ],
         "links": [
@@ -69,8 +69,17 @@
         ],
         "links": [
             { "link": "https://status.im/", "title": "Status", "desc": "Ethereum browser/messenger/wallet for mobile phones", "date": 20170501 },
-            { "link": "https://www.inzhoop.com/", "title": "LETH", "desc": "A mobile Ethereum wallet with chat function", "date": 20170501 },
-            { "link": "https://token.im/", "title": "imToken", "desc": "A smart digital wallet for mobile phones", "date": 20170501 }
+            { "link": "https://wallet.coinbase.com/", "title": "Coinbase Wallet", "desc": "Ethereum browser/wallet for mobile phones", "date": 20170501 },
+            { "link": "https://trustwallet.com/", "title": "Trust", "desc": "Multi-currency browser/wallet for mobile phones", "date": 20170501 },
+            { "link": "https://token.im/", "title": "imToken", "desc": "Multi-currency browser/wallet for mobile phones", "date": 20170501 }
+            { "link": "https://safe.gnosis.io/", "title": "Gnosis Safe", "desc": "Ethereum Multi Signature mobile wallet", "date": 20170501 }
+            { "link": "https://www.argent.xyz/", "title": "Argent", "desc": "Ethereum mobile wallet", "date": 20170501 }
+            { "link": "https://balance.io/", "title": "Balance", "desc": "Ethereum mobile wallet", "date": 20170501 }
+            { "link": "https://dether.io/", "title": "Dether", "desc": "Ethereum exchange/wallet for mobile phones and crypto/cash marketplace", "date": 20170501 }
+            { "link": "https://www.coinomi.com/en/", "title": "Coinomi", "desc": "Multi-currency mobile wallet", "date": 20170501 }
+            { "link": "https://walleth.org/", "title": "WallETH", "desc": "Native Ethereum Android wallet", "date": 20170501 }
+            { "link": "https://jaxx.io/", "title": "Jaxx", "desc": "Mobile multi-platform, multi-currency digital asset wallet", "date": 20170501 },
+            { "link": "https://www.cipherbrowser.com/", "title": "Cipher", "desc": "Mobile DApp explorer", "date": 20170501 },
         ]
       },
       {
