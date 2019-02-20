@@ -8,11 +8,12 @@
           { "text": "The Ethereum project aims to do for human collaboration what the internet did for information. It is part of a world computer, where everyone can publish and access content, write and use applications, send value and make agreements. This is done through so called smart contracts and decentralized applications (dapps), open, tamper proof, opt-in, self executing applications that run exactly as programmed and all share one common, append-only 'truth', the Ethereum blockchain, while ensuring that there is no downtime, censorship, fraud or third party interference." },
           { "text": "This decentralized environment allows all people, programs, IoT devices, markets, registries and other things to collaborate without the need for explicit trust. That's why people also call it the trust machine, it is not just an upgrade to our databases or internet, but rather a tool to re-architect social, financial and political systems. The Vision is one where people are no longer the product, producer and property of content platforms but are instead the contributors, curators and communicators of value." },
           { "text": "While that all just sounds a lot of awesome buzzwords, it is very actively developed by tens of thousand of developers around the world and happening right now. Below you'll find many links to videos, tutorials and instruction guides which will help you to get started. Welcome to the future." }
-          { "text": "Blog posts and guides" }
+          { "text": "Blog posts, guides and learning materials" }
         ],
         "links": [
           { "link": "http://blockgeeks.com/guides/what-is-ethereum/", "title": "What is Ethereum?", "desc": "A Step-by-Step Beginners Guide", "date": 20170501 },
           { "link": "https://www.upfolio.com/ultimate-ethereum-guide", "title": "Ethereum Explained", "desc": "Illustrated beginner's guide", "date": 20170501 },
+          { "link": "https://ethereum.org/", "title": "Ethereum Website", "desc": "Official site", "date": 20171101 },          
           { "link": "https://en.wikipedia.org/wiki/Ethereum", "title": "Ethereum Article", "desc": "on Wikipedia", "date": 20170501 },
           { "link": "https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html", "title": "Beyond the Bitcoin Bubble", "desc": "simply articulated primer on blockchain and the greater promise these technologies and ideologies may bring to us", "date": 20170501 },
           { "link": "https://docs.ethhub.io/ethereum-basics/what-is-ethereum/", "title": "What is Ethereum?", "desc": "Crowdsourced overview of Ethereum", "date": 20170501 },
@@ -28,6 +29,8 @@
           { "link": "https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/", "title": "Running an Ethereum Node", "desc": "Introduction to how to run an Ethereum node", "date": 20170501 },
           { "link": "https://docs.ethhub.io/ethereum-roadmap/ethereum-1.x/", "title": "Ethereum roadmap", "desc": "Well-arranged summary - Ethereum 1.x, 2.0, layer 2 scaling, privacy and planned upgrades", "date": 20170501 },
           { "link": "https://docs.ethhub.io/other/ethereum-2.0-ama/", "title": "Ethereum 2.0 Reddit AMA", "desc": "TL;DR from AMA on Reddit", "date": 20170501 },
+          { "link": "https://github.com/ethereum/wiki/wiki/White-Paper", "title": "White Paper", "desc": "The formal proposal of Ethereum", "date": 20170501 },
+          { "link": "https://github.com/ethereum/yellowpaper", "title": "Yellow Paper", "desc": "The formal specification of the Ethereum protocol", "date": 20170501 },
           { "link": "https://www.meetup.com/topics/ethereum/", "title": "Ethereum meetups around the world", "desc": "Every meetup is welcoming and happy to help, as you can read in our blog", "date": 20170501 },
         ]
         "paragraphs": [
@@ -109,6 +112,7 @@
           { "text": "Every day there are new blog posts, tutorials, research article and discussions about how to develop smart contracts and decentralized applications. I try to keep the best and most up-to-date ones here, please let me know about new ones I should add or old ones to remove." }
         ],
         "links": [
+          { "link": "https://ethereum.org/", "title": "Ethereum Website", "desc": "Browser and first tutorials from the Ethereum Foundation", "date": 20171101 },
           { "link": "https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4#.tcmcvxugj", "title": "101 Noob Intro", "desc": "to Programming Smart Contracts", "date": 20170501 },
           { "link": "http://blockgeeks.com/guides/smart-contracts-the-blockchain-technology-that-will-replace-lawyers/", "title": "Smart Contracts", "desc": "Beginner’s Guide", "date": 20161101 },
           { "link": "https://blockgeeks.com/guides/how-to-learn-solidity/", "title": "How To Learn Solidity", "desc": "The Ultimate Ethereum Coding Guide", "date": 20170501 },
@@ -203,12 +207,9 @@
         "paragraphs": [
           { "text": "Now that you have a wallet and maybe even installed Mist and/or Metamask, it’s time roll up your sleeves and get your hands dirty. There are tons of frameworks, tools and resources that you will help you create your very own first Ðapp." },
           { "text": "Smart contracts are executed in the Ethereum Virtual Machine(EVM), which runs on every full Ethereum node. The most contracts are written in Solidity, and frameworks like Truffle, Embark or Dapple simplify the creation." }
+          { "text": "Frameworks" }        
         ],
         "links": [
-          { "link": "https://ethereum.org/", "title": "Ethereum Website", "desc": "Browser and first tutorials from the Ethereum Foundation", "date": 20171101 },
-          { "link": "https://github.com/ethereum/wiki/wiki/White-Paper", "title": "White Paper", "desc": "The formal proposal of Ethereum", "date": 20170501 },
-          { "link": "https://github.com/ethereum/yellowpaper", "title": "Yellow Paper", "desc": "The formal specification of the Ethereum protocol", "date": 20170501 },
-          { "link": "https://solidity.readthedocs.io/en/latest/", "title": "Solidity Docs", "desc": "learn the contract-oriented, high-level language for the Ethereum Virtual Machine", "date": 20170501 },
           { "link": "https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial", "title": "Ethereum wiki", "desc": "Development Tutorial", "date": 20171101 },
           { "link": "http://www.ethdocs.org/en/latest/index.html", "title": "Homestead Documentation", "desc": "the current version of Ethereum", "date": 20170501 },
           { "link": "http://ethereum.stackexchange.com", "title": "Ethereum StackExchange", "desc": "get answers for all your Ethereum questions", "date": 20170501 },
