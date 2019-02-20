@@ -8,11 +8,12 @@
           { "text": "The Ethereum project aims to do for human collaboration what the internet did for information. It is part of a world computer, where everyone can publish and access content, write and use applications, send value and make agreements. This is done through so called smart contracts and decentralized applications (dapps), open, tamper proof, opt-in, self executing applications that run exactly as programmed and all share one common, append-only 'truth', the Ethereum blockchain, while ensuring that there is no downtime, censorship, fraud or third party interference." },
           { "text": "This decentralized environment allows all people, programs, IoT devices, markets, registries and other things to collaborate without the need for explicit trust. That's why people also call it the trust machine, it is not just an upgrade to our databases or internet, but rather a tool to re-architect social, financial and political systems. The Vision is one where people are no longer the product, producer and property of content platforms but are instead the contributors, curators and communicators of value." },
           { "text": "While that all just sounds a lot of awesome buzzwords, it is very actively developed by tens of thousand of developers around the world and happening right now. Below you'll find many links to videos, tutorials and instruction guides which will help you to get started. Welcome to the future." }
+          { "text": "Blog posts and guides" }
         ],
         "links": [
           { "link": "http://blockgeeks.com/guides/what-is-ethereum/", "title": "What is Ethereum?", "desc": "A Step-by-Step Beginners Guide", "date": 20170501 },
-          { "link": "https://en.wikipedia.org/wiki/Ethereum", "title": "Ethereum Article", "desc": "on Wikipedia", "date": 20170501 },
           { "link": "https://www.upfolio.com/ultimate-ethereum-guide", "title": "Ethereum Explained", "desc": "Illustrated beginner's guide", "date": 20170501 },
+          { "link": "https://en.wikipedia.org/wiki/Ethereum", "title": "Ethereum Article", "desc": "on Wikipedia", "date": 20170501 },
           { "link": "https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html", "title": "Beyond the Bitcoin Bubble", "desc": "simply articulated primer on blockchain and the greater promise these technologies and ideologies may bring to us", "date": 20170501 },
           { "link": "https://docs.ethhub.io/ethereum-basics/what-is-ethereum/", "title": "What is Ethereum?", "desc": "Crowdsourced overview of Ethereum", "date": 20170501 },
           { "link": "https://medium.com/@mattcondon/getting-up-to-speed-on-ethereum-63ed28821bbe", "title": "Basic terminology for Ethereum", "desc": "From gas to DApps (Distributed Applications)", "date": 20170501 },
@@ -27,11 +28,17 @@
           { "link": "https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/", "title": "Running an Ethereum Node", "desc": "Introduction to how to run an Ethereum node", "date": 20170501 },
           { "link": "https://docs.ethhub.io/other/ethereum-2.0-ama/", "title": "Ethereum 2.0 Reddit AMA", "desc": "TL;DR from AMA on Reddit", "date": 20170501 },
           { "link": "https://www.meetup.com/topics/ethereum/", "title": "Ethereum meetups around the world", "desc": "Every meetup is welcoming and happy to help, as you can read in our blog", "date": 20170501 },
-
+        ]
+        "paragraphs": [
+          { "text": "Videos" }
+        ],
+        "links": [
+          { "link": "https://youtu.be/Pl8OlkkwRpc", "title": "Video 'Why Ethereum Is Going to Change the World'", "desc": "by Joseph Lubin", "date": 20170501 },
+          { "link": "https://youtu.be/3xGLc-zz9cA", "title": "Video 'What is blockchain?'", "desc": "Simply explained", "date": 20170501 },
           { "link": "https://youtu.be/Pl8OlkkwRpc", "title": "Video 'How the blockchain is changing money and business'", "desc": "by Don Tapscott", "date": 20170501 },
           { "link": "https://youtu.be/j23HnORQXvs", "title": "Video 'Ethereum, the world computer'", "desc": "How the internet will work in the future", "date": 20170501 },
           { "link": "https://youtu.be/66SaEDzlmP4", "title": "Video 'Ethereum in 25 minutes'", "desc": "by Vitalik Buterin", "date": 20170501 },
-          { "link": "https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos", "title": "Videos from Ethereum DevCon 2", "desc": "Sep. 2016 in Shanghai", "date": 20170501 },
+          { "link": "https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos", "title": "Videos from Ethereum DevCon conferences, calls, meetings and other", "desc": "by Ethereum Foundation", "date": 20170501 },
         ]
       },
       {
@@ -39,13 +46,28 @@
         "paragraphs": [
           { "text": "Wallets and browsers are your windows to the Ethereum world. The former works just like your normal wallet, i.e. it allows you to store, add and spend money via different currencies and payment systems. It contains one or more Ethereum addresses (long hexadecimal strings that uniquely identifies them) and can receive and send ether (the underlying Ethereum currency) or other tokens running on top of Ethereum. Before taking the plunge and spending any money on ether, please read the information in the online security section." },
           { "text": "As we said already, Ethereum is much more than just a crypto-currency blockchain. The main purpose is hosting and running smart contracts, storing distributed data (swarm), decentralized communication (whisper) and much more. This begs the question: “How can I access all these cool features?”. This is where browser plugins such as Metamask and Ethereum browsers like Mist come in." }
+          { "text": "Desktop and web" }
         ],
         "links": [
             { "link": "https://github.com/ethereum/mist/releases", "title": "Mist", "desc": "Official Ethereum browser and wallet", "date": 20170501 },
-            { "link": "https://metamask.io/", "title": "MetaMask", "desc": "Chrome plugin to access Ethereum dapps", "date": 20170501 },
-            { "link": "https://www.myetherwallet.com/", "title": "MyEtherWallet", "desc": "client-side Ethereum online wallet and smart contract execution", "date": 20170501 },
-            { "link": "https://github.com/ethcore/parity/wiki/Parity-Wallet", "title": "Parity Wallet", "desc": "Parity also includes a bundled wallet application", "date": 20170501 },
-            { "link": "https://jaxx.io/", "title": "Jaxx", "desc": "Wallet for multiple currencieson on multiple platforms", "date": 20170501 },
+            { "link": "https://metamask.io/", "title": "MetaMask", "desc": "Chrome extension Ether wallet with ERC tokens support", "date": 20170501 },
+            { "link": "https://mycrypto.com/", "title": "MyCrypto", "desc": "Open-source, client-side tool for generating ether wallets, handling ERC-20 tokens, and interacting with the blockchain", "date": 20170501 },
+            { "link": "https://www.myetherwallet.com/", "title": "MyEtherWallet", "desc": "Open-source tool for interacting with the blockchains", "date": 20170501 },
+            { "link": "https://portis.io/", "title": "Portis", "desc": "Web-based wallet for easy user on-boarding to your DApp", "date": 20170501 },
+            { "link": "https://hellofetch.co/", "title": "Fetch", "desc": "Web-based (and desktop) wallet integrated with 20+ exchanges for real time trading rates and one-click trading", "date": 20170501 },
+            { "link": "https://www.opera.com/crypto", "title": "Opera Crypto Wallet", "desc": "Crypto wallet built in Opera browser supporting ERC-20 and ERC-721 tokens", "date": 20170501 },
+            { "link": "https://tokenary.io/macos/", "title": "Tokenary", "desc": "macOS Safari extension that enables interaction with DApps", "date": 20170501 },
+            { "link": "https://www.exodus.io/", "title": "Exodus", "desc": "Closed-source desktop wallet that allows for multi-currency interaction/transacting", "date": 20170501 },
+            { "link": "https://github.com/poanetwork/metamask-extension", "title": "Nifty Wallet", "desc": "Ethereum browser extension focused on usability of real world applications", "date": 20170501 },
+            { "link": "https://github.com/SpankChain/SpankCard", "title": "SpankCard", "desc": "An in-browser Ethereum wallet with support for payment channels", "date": 20170501 },
+            { "link": "https://zerion.io/", "title": "Zerion", "desc": "Web-based wallet interface with native DeFi integrations for trading borrowing and investing", "date": 20170501 },
+            { "link": "https://github.com/ConsenSys/eth-lightwallet", "title": "Eth Lightwallet", "desc": "Lightweight JavaScript wallet for node and the browser", "date": 20170501 },
+            { "link": "https://jaxx.io/", "title": "Jaxx", "desc": "Desktop and web multi-platform, multi-currency digital asset wallet", "date": 20170501 },
+          ]
+          "paragraphs": [
+            { "text": "Mobile" }
+        ],
+        "links": [
             { "link": "https://status.im/", "title": "Status", "desc": "Ethereum browser/messenger/wallet for mobile phones", "date": 20170501 },
             { "link": "https://www.inzhoop.com/", "title": "LETH", "desc": "A mobile Ethereum wallet with chat function", "date": 20170501 },
             { "link": "https://token.im/", "title": "imToken", "desc": "A smart digital wallet for mobile phones", "date": 20170501 }
