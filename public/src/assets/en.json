@@ -88,9 +88,10 @@
           { "text": "General online and wallet security are essential when dealing with cryptocurrencies. Please read and follow the the links below carefully. Your money might depend on it, because once it's gone, it's gone." }
         ],
         "links": [
+          { "link": "https://medium.com/mycrypto/mycryptos-security-guide-for-dummies-and-smart-people-too-ab178299c82e", "title": "MyCrypto's Security Guide", "desc": "How to be safe in the crypto world and the online world in general", "date": 20170501 },
           { "link": "https://medium.com/@pipermerriam/my-guide-to-solid-digital-security-fb76cb19c536#.cliexcgpg", "title": "Guide to securing your digital life", "desc": "necessary when dealing with cryptocurrencies", "date": 20170501 },
-          { "link": "https://ledger.groovehq.com/knowledge_base/topics/how-to-secure-your-eth-tokens-augur-rep-dot-dot-dot-with-your-nano-s", "title": "Ledger Nano", "desc": "Hardware wallet to store your ether and tokens", "date": 20170501 },
-          { "link": "http://doublenegative.com/ethereum-security-and-wallets/", "title": "Wallet Security", "desc": "and how to secure them", "date": 20170501 }
+          { "link": "https://blockgeeks.com/guides/cryptocurrency-wallet-guide/", "title": "Hardware wallet guide", "desc": "A step-by-step tutorial", "date": 20170501 }
+          { "link": "https://blockgeeks.com/guides/paper-wallet-guide/", "title": "Paper wallet guide", "desc": "How to protect your cryptocurrency", "date": 20170501 }        
         ]
       },
       {
