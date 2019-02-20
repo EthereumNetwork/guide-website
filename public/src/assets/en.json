@@ -167,9 +167,9 @@
         ]
       },
       {
-        "headline": "Development Guides: 2nd",
+        "headline": "Development Guides: Scaling",
         "paragraphs": [
-          { "text": "2nd" }
+          { "text": "Scaling" }
         ],
         "links": [
           { "link": "https://github.com/ConsenSys/smart-contract-best-practices", "title": "Smart contract best practices", "desc": "by ConsenSys", "date": 20170501 },
