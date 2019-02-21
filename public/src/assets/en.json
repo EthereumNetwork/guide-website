@@ -264,7 +264,8 @@
           { "link": "https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333", "title": "Plasma World Map - the hitchhiker’s guide to the plasma", "desc": "Large picture of numerous studies and a good cheat sheet for doing own research", "date": 20170501 },
           { "link": "https://github.com/omisego/plasma-mvp", "title": "Plasma MVP", "desc": "OmiseGO's research implementation of Minimal Viable Plasma", "date": 20170501 },
           { "link": "https://github.com/kyokan/plasma", "title": "Plasma MVP Golang", "desc": "Golang implementation and extension of the Minimum Viable Plasma specification", "date": 20170501 },
-          { "link": "https://github.com/omisego/plasma-cash", "title": "Plasma Cash", "desc": "Simple Plasma Cash implementation", "date": 20170501 },
+          { "link": "https://github.com/omisego/plasma-cash", "title": "Plasma Cash", "desc": "Simple Plasma Cash implementation", "date": 20170501 },        
+          { "link": "https://leapdao.org/", "title": "Plasma Leap", "desc": "Plasma chain to increase the capacity of Ethereum and widen the scope of possible DApps", "date": 20170501 },                
         ], 
         "paragraphs": [
           { "text": "Sidechains" }
