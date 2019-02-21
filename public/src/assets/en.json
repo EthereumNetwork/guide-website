@@ -32,8 +32,8 @@
           { "link": "https://github.com/ethereum/wiki/wiki/White-Paper", "title": "White Paper", "desc": "The formal proposal of Ethereum", "date": 20170501 },
           { "link": "https://github.com/ethereum/yellowpaper", "title": "Yellow Paper", "desc": "The formal specification of the Ethereum protocol", "date": 20170501 },
           { "link": "https://www.meetup.com/topics/ethereum/", "title": "Ethereum meetups around the world", "desc": "Every meetup is welcoming and happy to help, as you can read in our blog", "date": 20170501 },
-        ]
-        "paragraphs" [
+        ],
+        "paragraphs": [
           { "text": "Videos" }
         ],
         "links": [
