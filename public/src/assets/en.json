@@ -202,12 +202,38 @@
           { "link": "https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8/htmlview#", "title": "Scaling solutions", "desc": "Spreadsheet summary", "date": 20170501 },
           { "link": "https://www.ethnews.com/a-survey-of-second-layer-solutions-for-blockchain-scaling-part-3", "title": "Second Layer Solutions For Blockchain Scaling", "desc": "3 part blog series y ETHNews", "date": 20170501 },
           { "link": "https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4", "title": "Making Sense of Ethereum’s Layer 2 Scaling Solutions", "desc": "Deep dive into off-chain or layer 2 solutions - state channels, Plasma, and Truebit", "date": 20170501 },
-          { "link": "https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4", "title": "Making Sense of Ethereum’s Layer 2 Scaling Solutions", "desc": "Deep dive into off-chain or layer 2 solutions - state channels, Plasma, and Truebit", "date": 20170501 },        
         ], 
         "paragraphs": [
-          { "text": "Payment and state channels" }
+          { "text": "State and Payment Channels" }
         ],
         "links": [
+          { "link": "https://www.learnchannels.org/", "title": "LearnChannels", "desc": "Learning site dedicated to state channels", "date": 20170501 },
+          { "link": "https://blog.coinfund.io/the-state-of-state-channels-2018-edition-f5492134ab96", "title": "The state of state channels: 2018 edition", "desc": "Overview, projects and further readings", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/payment-channels/", "title": "Payment Channels", "desc": "Brief summary", "date": 20170501 },          
+          { "link": "https://medium.com/@matthewdif/ethereum-payment-channel-in-50-lines-of-code-a94fad2704bc", "title": "Ethereum Payment Channel", "desc": "Ethereum Payment Channel in 50 lines of code", "date": 20170501 },
+          { "link": "https://microraiden.readthedocs.io/", "title": "µRaiden Documentation", "desc": "Guides and samples for µRaiden sender/receiver use cases", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Plasma" }
+        ],
+        "links": [        
+          { "link": "https://www.learnplasma.org/en/", "title": "Learn Plasma", "desc": "Learn all about Plasma", "date": 20170501 },
+          { "link": "https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333", "title": "Plasma World Map - the hitchhiker’s guide to the plasma", "desc": "Large picture of numerous studies and a good cheat sheet for doing own research", "date": 20170501 },
+          { "link": "https://github.com/omisego/plasma-mvp", "title": "Plasma MVP", "desc": "OmiseGO's research implementation of Minimal Viable Plasma", "date": 20170501 },
+          { "link": "https://github.com/kyokan/plasma", "title": "Plasma MVP Golang", "desc": "Golang implementation and extension of the Minimum Viable Plasma specification", "date": 20170501 },
+          { "link": "https://github.com/omisego/plasma-cash", "title": "Plasma Cash", "desc": "Simple Plasma Cash implementation", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Sidechains" }
+        ],
+        "links": [        
+          { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/state-channels/", "title": "What are State and Payment Channels", "desc": "How they work", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "ZK-STARKs" }
+        ],
+        "links": [        
+          { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-starks/", "title": "Summary", "desc": "How they work", "date": 20170501 },
         ]
       },
       {
@@ -250,6 +276,7 @@
           { "link": "https://github.com/web3j/web3j", "title": "web3j", "desc": "Java and Android Ethereum library", "date": 20170501 },
           { "link": "https://github.com/ethereum/pyethereum", "title": "pyethereum", "desc": "Python core library of the Ethereum project", "date": 20170501 },
           { "link": "http://machinomy.com/", "title": "Machinomy", "desc": "JS library for micropayments in Ether over HTTP", "date": 20170501 }
+          { "link": "https://medium.com/zkcapital/a-primer-on-ethereum-blockchain-light-clients-f3cadde49137", "title": "Ethereum Blockchain Light Clients", "desc": "A primer", "date": 20170501 },                
         ]
       },
       {
