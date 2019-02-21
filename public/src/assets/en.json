@@ -227,7 +227,12 @@
           { "text": "Sidechains" }
         ],
         "links": [        
-          { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/state-channels/", "title": "What are State and Payment Channels", "desc": "How they work", "date": 20170501 },        
+          { "link": "https://hackernoon.com/difference-between-sidechains-and-state-channels-2f5dfbd10707", "title": "Difference Between SideChains and State Channels", "desc": "An explanation and a complete comparison of the two scaling methods", "date": 20170501 },        
+          { "link": "https://poa.net/", "title": "POA Network", "desc": "Open Ethereum sidechain with Proof of Authority consensus", "date": 20170501 },        
+          { "link": "https://bridge.poa.net/", "title": "POA Bridge", "desc": "POA <-> Ethereum bridge for self transfers of POA native token to POA20 (ERC20 representation)", "date": 20170501 },        
+          { "link": "https://poa.net/xdai", "title": "xDai Chain", "desc": "Ethereum-based blockchain that uses USD-stable xDai (a representation of DAI token) as the native coin", "date": 20170501 },                
+          { "link": "https://loomx.io/", "title": "Loom Network", "desc": "A network of DPoS sidechains for games and DApps", "date": 20170501 },                        
+          { "link": "https://skalelabs.com/", "title": "SKALE", "desc": "Ethereum sidechain test network", "date": 20170501 },        
         ], 
         "paragraphs": [
           { "text": "ZK-STARKs" }
