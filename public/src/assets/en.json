@@ -238,7 +238,8 @@
           { "text": "ZK-STARKs" }
         ],
         "links": [        
-          { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-starks/", "title": "Summary", "desc": "How they work", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-starks/", "title": "ZK-STARKs", "desc": "Summary, projects and further readings", "date": 20170501 },
+          { "link": "https://github.com/elibensasson/libSTARK", "title": "libSTARK", "desc": "C++ library for ZK-STARK systems", "date": 20170501 },
         ]
       },
       {
