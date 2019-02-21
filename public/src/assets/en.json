@@ -67,7 +67,7 @@
           { "link": "https://zerion.io/", "title": "Zerion", "desc": "Web-based wallet interface with native DeFi integrations for trading borrowing and investing", "date": 20170501 },
           { "link": "https://github.com/ConsenSys/eth-lightwallet", "title": "Eth Lightwallet", "desc": "Lightweight JavaScript wallet for node and the browser", "date": 20170501 },
           { "link": "https://jaxx.io/", "title": "Jaxx", "desc": "Desktop and web multi-platform, multi-currency digital asset wallet", "date": 20170501 },
-        ] 
+        ], 
         "paragraphs": [
           { "text": "Mobile" }
         ],
@@ -84,7 +84,7 @@
           { "link": "https://walleth.org/", "title": "WallETH", "desc": "Native Ethereum Android wallet", "date": 20170501 }
           { "link": "https://jaxx.io/", "title": "Jaxx", "desc": "Mobile multi-platform, multi-currency digital asset wallet", "date": 20170501 },
           { "link": "https://www.cipherbrowser.com/", "title": "Cipher", "desc": "Mobile DApp explorer", "date": 20170501 },
-        ] 
+        ], 
         "paragraphs": [
           { "text": "Hardware" }
         ],
@@ -182,7 +182,7 @@
           { "link": "https://media.consensys.net/how-formal-verification-can-ensure-flawless-smart-contracts-cbda8ad99bd1", "title": "How Formal Verification Can Ensure Flawless Smart Contracts", "desc": "How to eradicate errors in the Ethereum bytecode", "date": 20170501 },
           { "link": "https://www.reddit.com/r/ethereum/comments/4uu9fb/formal_verification_for_solidity/?st=irj5anka&sh=c23052c7", "title": "Formal Verification For Solidity", "date": 20170501 },
           { "link": "https://ethereum.stackexchange.com/questions/tagged/security", "title": "Stack exhange security tag", "desc": "See what people ask about security", "date": 20170501 },        
-        ] 
+        ], 
         "paragraphs": [
           { "text": "Resources" }
         ],
@@ -195,14 +195,19 @@
       {
         "headline": "Development Guides: Layer 2 Scaling Solutions",
         "paragraphs": [
-          { "text": "Scaling" }
+          { "text": "???" }
         ],
         "links": [
           { "link": "https://medium.com/web3foundation/scalingnow-scaling-solution-summit-summary-be30047047bf", "title": "ScalingNOW!", "desc": "Scaling Solution Summit Summary", "date": 20170501 },
           { "link": "https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8/htmlview#", "title": "Scaling solutions", "desc": "Spreadsheet summary", "date": 20170501 },
           { "link": "https://www.ethnews.com/a-survey-of-second-layer-solutions-for-blockchain-scaling-part-3", "title": "Second Layer Solutions For Blockchain Scaling", "desc": "3 part blog series y ETHNews", "date": 20170501 },
           { "link": "https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4", "title": "Making Sense of Ethereum’s Layer 2 Scaling Solutions", "desc": "Deep dive into off-chain or layer 2 solutions - state channels, Plasma, and Truebit", "date": 20170501 },
-
+          { "link": "https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4", "title": "Making Sense of Ethereum’s Layer 2 Scaling Solutions", "desc": "Deep dive into off-chain or layer 2 solutions - state channels, Plasma, and Truebit", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "Payment and state channels" }
+        ],
+        "links": [
         ]
       },
       {
