@@ -193,7 +193,50 @@
         ]
       },
       {
-        "headline": "Development Guides: Layer 2 Scaling Solutions",
+        "headline": "Developer Tools",
+        "paragraphs": [
+          { "text": "Now that you have a wallet and maybe even installed Mist and/or Metamask, it’s time roll up your sleeves and get your hands dirty. There are tons of frameworks, tools and resources that you will help you create your very own first Ðapp." },
+          { "text": "Smart contracts are executed in the Ethereum Virtual Machine(EVM), which runs on every full Ethereum node. The most contracts are written in Solidity, and frameworks like Truffle, Embark or Dapple simplify the creation." }
+          { "text": "Frameworks" }        
+        ],
+        "links": [
+          { "link": "https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial", "title": "Ethereum wiki", "desc": "Development Tutorial", "date": 20171101 },
+          { "link": "http://www.ethdocs.org/en/latest/index.html", "title": "Homestead Documentation", "desc": "the current version of Ethereum", "date": 20170501 },
+          { "link": "http://ethereum.stackexchange.com", "title": "Ethereum StackExchange", "desc": "get answers for all your Ethereum questions", "date": 20170501 },
+          { "link": "https://github.com/ethereum/web3.js", "title": "Ethereum JavaScript API", "date": 20170501 },
+          { "link": "http://truffleframework.com/", "title": "Truffe", "desc": "Development framework for Ethereum", "date": 20170501 },
+          { "link": "https://github.com/iurimatias/embark-framework", "title": "Embark", "desc": "Framework to develop and deploy DApps", "date": 20170501 },
+          { "link": "http://dapple.readthedocs.io/en/master/", "title": "Dapple", "desc": "Development framework for Ethereum", "date": 20170501 },
+          { "link": "https://github.com/nexusdev/projectle", "title": "Projectle", "desc": "EVM contract system developer multi-tool", "date": 20170501 },
+          { "link": "https://github.com/blockapps/bloc", "title": "BlockApps", "desc": "REST API and Javascript and Mobile SDK to Ethereum blockchains.", "date": 20170501 },
+          { "link": "https://infura.io/", "title": "Infura", "desc": "APIs to Ethereum and IPFS nodes", "date": 20170501 },
+          { "link": "https://ethereum.github.io/browser-solidity/", "title": "Browser Solidity / Remix", "desc": "Solidity Realtime compiler and IDE", "date": 20171101 },
+          { "link": "https://github.com/ethereum/viper", "title": "Viper", "desc": "Experimental EVM programming language with several security features", "date": 20170501 },
+          { "link": "https://github.com/SilentCicero/wafr", "title": "Wafr", "desc": "A super simple Solidity test harness for Ethereum smart-contracts.", "date": 20170501 },
+          { "link": "https://www.reddit.com/r/ethereum/comments/5q4at2/psa_add_this_git_webhook_to_your_solidity/", "title": "git webhook to your solidity codebases", "desc": "for the Ethereum Function Signature Registry", "date": 20170501 },
+          { "link": "https://live.ether.camp/", "title": "Ether Camp", "desc": "Blockchain explorer", "date": 20170501 },
+          { "link": "https://etherscan.io/", "title": "Etherscan", "desc": "Blockchain explorer", "date": 20170501 }
+        ]
+      },
+      {
+        "headline": "Clients and Implementations",
+        "paragraphs": [
+          { "text": "Clients directly (node as part of the network) or indirectly (remote connection to a node) connect to the Ethereum network and are used by browsers and wallets to allow the user to interact with it." }
+        ],
+        "links": [
+          { "link": "https://geth.ethereum.org/", "title": "Geth Ethereum Client", "desc": "Ethereum client developed in Go", "date": 20170501 },
+          { "link": "https://ethcore.io/parity.html", "title": "Parity Ethereum Client", "desc": "Ethereum client developed in Rust", "date": 20170501 },
+          { "link": "http://ethereumjs.github.io/", "title": "ethereumJS", "desc": "Javascript gateway to Ethereum", "date": 20170501 },
+          { "link": "https://github.com/ethereum/wiki/wiki/JavaScript-API", "title": "Web3", "desc": "Javascript API to interact with Ethereum", "date": 20170501 },
+          { "link": "https://github.com/Nethereum/Nethereum", "title": "Nethereum", "desc": ".Net integration library for Ethereum", "date": 20170501 },
+          { "link": "https://github.com/web3j/web3j", "title": "web3j", "desc": "Java and Android Ethereum library", "date": 20170501 },
+          { "link": "https://github.com/ethereum/pyethereum", "title": "pyethereum", "desc": "Python core library of the Ethereum project", "date": 20170501 },
+          { "link": "http://machinomy.com/", "title": "Machinomy", "desc": "JS library for micropayments in Ether over HTTP", "date": 20170501 }
+          { "link": "https://medium.com/zkcapital/a-primer-on-ethereum-blockchain-light-clients-f3cadde49137", "title": "Ethereum Blockchain Light Clients", "desc": "A primer", "date": 20170501 },                
+        ]
+      },
+      {
+        "headline": "Layer 2 Scaling Solutions",
         "paragraphs": [
           { "text": "???" }
         ],
@@ -242,50 +285,7 @@
           { "link": "https://github.com/elibensasson/libSTARK", "title": "libSTARK", "desc": "C++ library for ZK-STARK systems", "date": 20170501 },
         ]
       },
-      {
-        "headline": "Developer Tools",
-        "paragraphs": [
-          { "text": "Now that you have a wallet and maybe even installed Mist and/or Metamask, it’s time roll up your sleeves and get your hands dirty. There are tons of frameworks, tools and resources that you will help you create your very own first Ðapp." },
-          { "text": "Smart contracts are executed in the Ethereum Virtual Machine(EVM), which runs on every full Ethereum node. The most contracts are written in Solidity, and frameworks like Truffle, Embark or Dapple simplify the creation." }
-          { "text": "Frameworks" }        
-        ],
-        "links": [
-          { "link": "https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial", "title": "Ethereum wiki", "desc": "Development Tutorial", "date": 20171101 },
-          { "link": "http://www.ethdocs.org/en/latest/index.html", "title": "Homestead Documentation", "desc": "the current version of Ethereum", "date": 20170501 },
-          { "link": "http://ethereum.stackexchange.com", "title": "Ethereum StackExchange", "desc": "get answers for all your Ethereum questions", "date": 20170501 },
-          { "link": "https://github.com/ethereum/web3.js", "title": "Ethereum JavaScript API", "date": 20170501 },
-          { "link": "http://truffleframework.com/", "title": "Truffe", "desc": "Development framework for Ethereum", "date": 20170501 },
-          { "link": "https://github.com/iurimatias/embark-framework", "title": "Embark", "desc": "Framework to develop and deploy DApps", "date": 20170501 },
-          { "link": "http://dapple.readthedocs.io/en/master/", "title": "Dapple", "desc": "Development framework for Ethereum", "date": 20170501 },
-          { "link": "https://github.com/nexusdev/projectle", "title": "Projectle", "desc": "EVM contract system developer multi-tool", "date": 20170501 },
-          { "link": "https://github.com/blockapps/bloc", "title": "BlockApps", "desc": "REST API and Javascript and Mobile SDK to Ethereum blockchains.", "date": 20170501 },
-          { "link": "https://infura.io/", "title": "Infura", "desc": "APIs to Ethereum and IPFS nodes", "date": 20170501 },
-          { "link": "https://ethereum.github.io/browser-solidity/", "title": "Browser Solidity / Remix", "desc": "Solidity Realtime compiler and IDE", "date": 20171101 },
-          { "link": "https://github.com/ethereum/viper", "title": "Viper", "desc": "Experimental EVM programming language with several security features", "date": 20170501 },
-          { "link": "https://github.com/SilentCicero/wafr", "title": "Wafr", "desc": "A super simple Solidity test harness for Ethereum smart-contracts.", "date": 20170501 },
-          { "link": "https://www.reddit.com/r/ethereum/comments/5q4at2/psa_add_this_git_webhook_to_your_solidity/", "title": "git webhook to your solidity codebases", "desc": "for the Ethereum Function Signature Registry", "date": 20170501 },
-          { "link": "https://live.ether.camp/", "title": "Ether Camp", "desc": "Blockchain explorer", "date": 20170501 },
-          { "link": "https://etherscan.io/", "title": "Etherscan", "desc": "Blockchain explorer", "date": 20170501 }
-        ]
-      },
-      {
-        "headline": "Clients and Implementations",
-        "paragraphs": [
-          { "text": "Clients directly (node as part of the network) or indirectly (remote connection to a node) connect to the Ethereum network and are used by browsers and wallets to allow the user to interact with it." }
-        ],
-        "links": [
-          { "link": "https://geth.ethereum.org/", "title": "Geth Ethereum Client", "desc": "Ethereum client developed in Go", "date": 20170501 },
-          { "link": "https://ethcore.io/parity.html", "title": "Parity Ethereum Client", "desc": "Ethereum client developed in Rust", "date": 20170501 },
-          { "link": "http://ethereumjs.github.io/", "title": "ethereumJS", "desc": "Javascript gateway to Ethereum", "date": 20170501 },
-          { "link": "https://github.com/ethereum/wiki/wiki/JavaScript-API", "title": "Web3", "desc": "Javascript API to interact with Ethereum", "date": 20170501 },
-          { "link": "https://github.com/Nethereum/Nethereum", "title": "Nethereum", "desc": ".Net integration library for Ethereum", "date": 20170501 },
-          { "link": "https://github.com/web3j/web3j", "title": "web3j", "desc": "Java and Android Ethereum library", "date": 20170501 },
-          { "link": "https://github.com/ethereum/pyethereum", "title": "pyethereum", "desc": "Python core library of the Ethereum project", "date": 20170501 },
-          { "link": "http://machinomy.com/", "title": "Machinomy", "desc": "JS library for micropayments in Ether over HTTP", "date": 20170501 }
-          { "link": "https://medium.com/zkcapital/a-primer-on-ethereum-blockchain-light-clients-f3cadde49137", "title": "Ethereum Blockchain Light Clients", "desc": "A primer", "date": 20170501 },                
-        ]
-      },
-      {
+      {        
         "headline": "News and communities",
         "paragraphs": [
           { "text": "There are many quality news outlet reporting about Ethereum and the decentralization of the web. Check them out or follow us via the links in the footer for the most important news articles of the day." }
