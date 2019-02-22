@@ -147,7 +147,7 @@
           { "link": "https://hackernoon.com/how-to-create-a-token-factory-with-ethereum-part-1-85e84d1f38fc", "title": "How to create a Token Factory", "desc": "with Ethereum", "date": 20170501 },
           { "link": "http://decypher.tv/series/ethereum-development", "title": "Decypher Video Series", "desc": "for Ethereum Ðapp Development (paid)", "date": 20170501 },
           { "link": "https://academy.b9lab.com/", "title": "B9Lab Certified Online Course", "desc": "for Ethereum Developer (paid)", "date": 20170501 },
-          { "link": "http://exosphe.re/#blockchain", "title": "Exosphere 8 week immersive program", "desc": "for Blockchain App Dev (paid)", "date": 20170501 }
+          { "link": "http://ethereum.stackexchange.com", "title": "Ethereum StackExchange", "desc": "get answers for all your Ethereum questions", "date": 20170501 },        
         ]
       },
       {
@@ -195,26 +195,57 @@
       {
         "headline": "Developer Tools",
         "paragraphs": [
-          { "text": "Now that you have a wallet and maybe even installed Mist and/or Metamask, it’s time roll up your sleeves and get your hands dirty. There are tons of frameworks, tools and resources that you will help you create your very own first Ðapp." },
+          { "text": "Now that you have a wallet and maybe even installed Mist and/or Metamask, it’s time roll up your sleeves and get your hands dirty. There are tons of frameworks, tools and resources that will help you create your very own first Ðapp." },
           { "text": "Smart contracts are executed in the Ethereum Virtual Machine(EVM), which runs on every full Ethereum node. The most contracts are written in Solidity, and frameworks like Truffle, Embark or Dapple simplify the creation." }
           { "text": "Frameworks" }        
         ],
         "links": [
-          { "link": "https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial", "title": "Ethereum wiki", "desc": "Development Tutorial", "date": 20171101 },
-          { "link": "http://www.ethdocs.org/en/latest/index.html", "title": "Homestead Documentation", "desc": "the current version of Ethereum", "date": 20170501 },
-          { "link": "http://ethereum.stackexchange.com", "title": "Ethereum StackExchange", "desc": "get answers for all your Ethereum questions", "date": 20170501 },
-          { "link": "https://github.com/ethereum/web3.js", "title": "Ethereum JavaScript API", "date": 20170501 },
-          { "link": "http://truffleframework.com/", "title": "Truffe", "desc": "Development framework for Ethereum", "date": 20170501 },
-          { "link": "https://github.com/iurimatias/embark-framework", "title": "Embark", "desc": "Framework to develop and deploy DApps", "date": 20170501 },
-          { "link": "http://dapple.readthedocs.io/en/master/", "title": "Dapple", "desc": "Development framework for Ethereum", "date": 20170501 },
-          { "link": "https://github.com/nexusdev/projectle", "title": "Projectle", "desc": "EVM contract system developer multi-tool", "date": 20170501 },
-          { "link": "https://github.com/blockapps/bloc", "title": "BlockApps", "desc": "REST API and Javascript and Mobile SDK to Ethereum blockchains.", "date": 20170501 },
+          { "link": "http://truffleframework.com/", "title": "Truffe", "desc": "Smart contract development, testing, and deployment framework", "date": 20170501 },
+          { "link": "https://embark.status.im/", "title": "Embark", "desc": "Framework to develop and deploy DApps", "date": 20170501 },
+          { "link": "https://dapp.tools/dapp/", "title": "Dapp", "desc": "Framework for DApp development, successor to DApple", "date": 20170501 },
+          { "link": "https://getwaffle.io/", "title": "Waffle", "desc": "Framework for advanced smart contract development and testing (based on ethers.js)", "date": 20170501 },
+          { "link": "https://github.com/LimeChain/etherlime", "title": "Etherlime", "desc": "ethers.js based framework for Dapp deployment", "date": 20170501 },
+          { "link": "https://github.com/nomiclabs/buidler", "title": "Buidler", "desc": "Smart contract development tool to bring together the tools you want", "date": 20170501 },
+          { "link": "https://getparasol.io/", "title": "Parasol", "desc": "Smart contract development environment with testing, Infura deployment, automatic contract documentation and more": 20170501 },
+          { "link": "https://docs.0xcert.org/": "0xcert", "desc": "JavaScript framework for building decentralized applications": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "IDEs - Integrated Developer Environments" }
+        ],
+        "links": [         
+          { "https://remix.ethereum.org/", "title": "Remix", "desc": "Web IDE with built in static analysis, test blockchain VM", "date": 20171101 },
+          { "https://github.com/horizon-games/remix-app": "Remix-app", "desc": "Ethereum Remix Solidity IDE, electron edition", "date": 20171101 },
+          { "https://ethfiddle.com/": "EthFiddle", "desc": "IDE that allows you to write, compile and debug your smart contract", "date": 20171101 },
+          { "https://superblocks.com/lab/": "Superblocks Lab", "desc": "Web IDE to learn, build and deploy decentralized apps (DApps)", "date": 20171101 },
+          { "https://atom.io/": "Atom", "desc": "Atom editor with Atom Solidity Linter, Etheratom, autocomplete-solidity, and language-solidity packages", "date": 20171101 },
+          { "https://github.com/dominicwilliams/instant-dapp-ide": "Instant Dapp IDE", "desc": "Complete Dapp and Solidity development environment as docker image you can run from command line", "date": 20171101 },
+          { "https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity": "Visual Studio Code", "desc": "Visual Studio Code extension that adds support for Solidity", "date": 20171101 },
+          { "https://yakindu.github.io/solidity-ide/": "YAKINDU Solidity Tools", "desc": "Eclipse based IDE for Ethereum / Solidity based smart contracts", "date": 20171101 },        
+        ], 
+        "paragraphs": [
+          { "text": "Testing networks and tools" }
+        ],
+        "links": [            
+          { "link": "https://truffleframework.com/ganache", "title": "Ganache", "desc": "App for test Ethereum blockchain with visual UI and logs", "date": 20170501 },          
+          { "link": "https://github.com/f-o-a-m/cliquebait", "title": "Cliquebait", "desc": "Test your DApps in testing environment that closely resembles a real blockchain network", "date": 20170501 },          
+          { "link": "https://github.com/ConsenSys/Local-Raiden", "title": "Local Raiden", "desc": "Run a local Raiden network in docker containers for demo and testing purposes", "date": 20170501 },          
+          { "link": "https://kaleido.io/", "title": "Kaleido", "desc": "Spin up a consortium blockchain network for PoCs and testing purposes", "date": 20170501 },          
+          { "link": "https://docs.pantheon.pegasys.tech/en/latest/Getting-Started/Private-Network-Quickstart/", "title": "Pantheon Private Network", "desc": "Run a private network of Pantheon nodes in a Docker container", "date": 20170501 },          
+        
+        ], 
+        "paragraphs": [
+          { "text": "Security tools" }
+        ],
+        "links": [            
+          { "link": "https://truffle-box.github.io/", "title": "Truffle Box", "desc": " Set of Truffle + Webpack + React Boilerplates", "date": 20170501 },          
+        ], 
+        "paragraphs": [
+          { "text": "Other tools and utilities" }
+        ],
+        "links": [           
+          { "link": "https://truffle-box.github.io/", "title": "Truffle Box", "desc": "Set of Truffle + Webpack + React Boilerplates", "date": 20170501 },          
           { "link": "https://infura.io/", "title": "Infura", "desc": "APIs to Ethereum and IPFS nodes", "date": 20170501 },
-          { "link": "https://ethereum.github.io/browser-solidity/", "title": "Browser Solidity / Remix", "desc": "Solidity Realtime compiler and IDE", "date": 20171101 },
-          { "link": "https://github.com/ethereum/viper", "title": "Viper", "desc": "Experimental EVM programming language with several security features", "date": 20170501 },
-          { "link": "https://github.com/SilentCicero/wafr", "title": "Wafr", "desc": "A super simple Solidity test harness for Ethereum smart-contracts.", "date": 20170501 },
-          { "link": "https://www.reddit.com/r/ethereum/comments/5q4at2/psa_add_this_git_webhook_to_your_solidity/", "title": "git webhook to your solidity codebases", "desc": "for the Ethereum Function Signature Registry", "date": 20170501 },
-          { "link": "https://live.ether.camp/", "title": "Ether Camp", "desc": "Blockchain explorer", "date": 20170501 },
+          
           { "link": "https://etherscan.io/", "title": "Etherscan", "desc": "Blockchain explorer", "date": 20170501 }
         ]
       },
@@ -233,6 +264,7 @@
           { "link": "https://github.com/ethereum/pyethereum", "title": "pyethereum", "desc": "Python core library of the Ethereum project", "date": 20170501 },
           { "link": "http://machinomy.com/", "title": "Machinomy", "desc": "JS library for micropayments in Ether over HTTP", "date": 20170501 }
           { "link": "https://medium.com/zkcapital/a-primer-on-ethereum-blockchain-light-clients-f3cadde49137", "title": "Ethereum Blockchain Light Clients", "desc": "A primer", "date": 20170501 },                
+          { "link": "https://github.com/ethereum/web3.js", "title": "Ethereum JavaScript API", "date": 20170501 },                
         ]
       },
       {
