@@ -215,7 +215,7 @@
         "links": [         
           { "link": "https://remix.ethereum.org/", "title": "Remix", "desc": "Web IDE with built in static analysis, test blockchain VM", "date": 20171101 },
           { "link": "https://github.com/horizon-games/remix-app", "title": "Remix-app", "desc": "Ethereum Remix Solidity IDE, electron edition", "date": 20171101 },
-          { "link": "https://ethfiddle.com/", "title": "EthFiddle", "desc", "IDE that allows you to write, compile and debug your smart contract", "date": 20171101 },
+          { "link": "https://ethfiddle.com/", "title": "EthFiddle", "desc": "IDE that allows you to write, compile and debug your smart contract", "date": 20171101 },
           { "link": "https://superblocks.com/lab/", "title": "Superblocks Lab", "desc": "Web IDE to learn, build and deploy decentralized apps (DApps)", "date": 20171101 },
           { "link": "https://atom.io/", "title": "Atom", "desc": "Atom editor with Atom Solidity Linter, Etheratom, autocomplete-solidity, and language-solidity packages", "date": 20171101 },
           { "link": "https://github.com/dominicwilliams/instant-dapp-ide", "title": "Instant Dapp IDE", "desc": "Complete Dapp and Solidity development environment as docker image you can run from command line", "date": 20171101 },
@@ -263,14 +263,13 @@
           { "link": "https://github.com/trailofbits/slither", "title": "Slither", "desc": "A Solidity static analysis framework", "date": 20170501 },          
         ], 
         "paragraphs": [
-          { "text": "Other tools and utilities" }
+          { "text": "Other tools" }
         ],
         "links": [           
           { "link": "https://truffle-box.github.io/", "title": "Truffle Box", "desc": "Set of Truffle + Webpack + React Boilerplates", "date": 20170501 },          
           { "link": "https://infura.io/", "title": "Infura", "desc": "APIs to Ethereum and IPFS nodes", "date": 20170501 },
           { "link": "https://github.com/ethereum-ts/TypeChain", "title": "TypeChain", "desc": "Typescript bindings for Ethereum smart contracts", "date": 20170501 },
           { "link": "https://github.com/JoinColony/purser", "title": "Purser", "desc": "JavaScript universal wallet tool for Ethereum-based wallets", "date": 20170501 },      
-          { "link": "https://etherscan.io/", "title": "Etherscan", "desc": "Blockchain explorer", "date": 20170501 }        
         ], 
         "paragraphs": [
           { "text": "Resources" }
