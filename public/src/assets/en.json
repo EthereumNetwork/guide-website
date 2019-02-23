@@ -197,19 +197,6 @@
         "paragraphs": [
           { "text": "Now that you have a wallet and maybe even installed Mist and/or Metamask, it’s time roll up your sleeves and get your hands dirty. There are tons of frameworks, tools and resources that will help you create your very own first Ðapp." },
           { "text": "Smart contracts are executed in the Ethereum Virtual Machine(EVM), which runs on every full Ethereum node. The most contracts are written in Solidity, and frameworks like Truffle, Embark or Dapple simplify the creation." }
-          { "text": "IDEs - Integrated Developer Environments" }
-        ],
-        "links": [         
-          { "link": "https://remix.ethereum.org/", "title": "Remix", "desc": "Web IDE with built in static analysis, test blockchain VM", "date": 20171101 },
-          { "link": "https://github.com/horizon-games/remix-app", "title": "Remix-app", "desc": "Ethereum Remix Solidity IDE, electron edition", "date": 20171101 },
-          { "link": "https://ethfiddle.com/", "title": "EthFiddle", "desc": "IDE that allows you to write, compile and debug your smart contract", "date": 20171101 },
-          { "link": "https://superblocks.com/lab/", "title": "Superblocks Lab", "desc": "Web IDE to learn, build and deploy decentralized apps (DApps)", "date": 20171101 },
-          { "link": "https://atom.io/", "title": "Atom", "desc": "Atom editor with Atom Solidity Linter, Etheratom, autocomplete-solidity, and language-solidity packages", "date": 20171101 },
-          { "link": "https://github.com/dominicwilliams/instant-dapp-ide", "title": "Instant Dapp IDE", "desc": "Complete Dapp and Solidity development environment as docker image you can run from command line", "date": 20171101 },
-          { "link": "https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity", "title": "Visual Studio Code", "desc": "Visual Studio Code extension that adds support for Solidity", "date": 20171101 },
-          { "link": "https://yakindu.github.io/solidity-ide/", "title": "YAKINDU Solidity Tools", "desc": "Eclipse based IDE for Ethereum / Solidity based smart contracts", "date": 20171101 },        
-        ], 
-        "paragraphs": [
           { "text": "Frameworks" }
         ],
         "links": [
@@ -221,6 +208,19 @@
           { "link": "https://github.com/nomiclabs/buidler", "title": "Buidler", "desc": "Smart contract development tool to bring together the tools you want", "date": 20170501 },
           { "link": "https://getparasol.io/", "title": "Parasol", "desc": "Smart contract development environment with testing, Infura deployment, automatic contract documentation and more": 20170501 },
           { "link": "https://docs.0xcert.org/", "title": "0xcert", "desc": "JavaScript framework for building decentralized applications", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "IDEs - Integrated Developer Environments" }
+        ],
+        "links": [         
+          { "link": "https://remix.ethereum.org/", "title": "Remix", "desc": "Web IDE with built in static analysis, test blockchain VM", "date": 20171101 },
+          { "link": "https://github.com/horizon-games/remix-app", "title": "Remix-app", "desc": "Ethereum Remix Solidity IDE, electron edition", "date": 20171101 },
+          { "link": "https://ethfiddle.com/", "title": "EthFiddle", "desc": "IDE that allows you to write, compile and debug your smart contract", "date": 20171101 },
+          { "link": "https://superblocks.com/lab/", "title": "Superblocks Lab", "desc": "Web IDE to learn, build and deploy decentralized apps (DApps)", "date": 20171101 },
+          { "link": "https://atom.io/", "title": "Atom", "desc": "Atom editor with Atom Solidity Linter, Etheratom, autocomplete-solidity, and language-solidity packages", "date": 20171101 },
+          { "link": "https://github.com/dominicwilliams/instant-dapp-ide", "title": "Instant Dapp IDE", "desc": "Complete Dapp and Solidity development environment as docker image you can run from command line", "date": 20171101 },
+          { "link": "https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity", "title": "Visual Studio Code", "desc": "Visual Studio Code extension that adds support for Solidity", "date": 20171101 },
+          { "link": "https://yakindu.github.io/solidity-ide/", "title": "YAKINDU Solidity Tools", "desc": "Eclipse based IDE for Ethereum / Solidity based smart contracts", "date": 20171101 }, 
         ], 
         "paragraphs": [
           { "text": "Test networks" }
@@ -403,53 +403,69 @@
           { "text": "Subreddits" }
         ],
         "links": [
-            { "link": "https://www.reddit.com/r/ethereum/", "title": "/r/Ethereum", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
-            { "link": "https://www.reddit.com/r/ethtrader/", "title": "/r/EthTrader", "desc": "Ether price and trading discussions", "date": 20170501 },
-            { "link": "https://www.reddit.com/r/ethdev/", "title": "/r/EthDev", "desc": "Discussions about Ethereum development", "date": 20170501 },
-           ], 
-          "paragraphs": [
-            { "text": "Podcasts" }
-          ],
-          "links": [        
-            { "link": "https://epicenter.tv/", "title": "Epicenter", "date": 20170501 },
-            { "link": "https://podcast.ethhub.io/", "title": "Into the Ether", "date": 20170501 },
-            { "link": "https://unchainedpodcast.com/", "title": "Unchained", "date": 20170501 },
-            { "link": "https://thebitcoinpodcast.com/category/dose-of-ether/", "title": "Dose of Ether", "date": 20170501 },
-            { "link": "https://unconfirmed.libsyn.com/", "title": "Unconfirmed", "date": 20170501 },
-          ], 
-          "paragraphs": [
-            { "text": "Newsletters" }
-          ],
-          "links": [   
-            { "link": "http://www.weekinethereum.com/", "title": "Week In Ethereum", "desc": "Newsletter by Evan Van Ness", "date": 20170501 },
-            { "link": "https://tokeneconomy.co/", "title": "Token Economy", "desc": "News from distributed ledger technology space", "date": 20170501 },
-            { "link": "https://newsletter.ethhub.io/", "title": "EthHub Weekly Newsletter", "desc": "About Ethereum and the wider crypto ecosystem", "date": 20170501 },
-            { "link": "https://messari.io/", "title": "Messari", "desc": "Daily insights, market data, and research for crypto professionals", "date": 20170501 },
-            { "link": "http://nfty.news/", "title": "NFTY News", "desc": "Non-fungible token design, research, and analysis", "date": 20170501 },
-          ], 
-          "paragraphs": [
-            { "text": "Blogs" }
-          ],
-          "links": [   
-            { "link": "https://blog.ethereum.org/", "title": "Official Ethereum blog", "desc": "by the Ethereum Foundation", "date": 20170501 },
-            { "link": "https://vitalik.ca/", "title": "Vitalik Buterin", "desc": "Ethereum Founder", "date": 20170501 },
-
-            { "link": "https://www.ethnews.com/", "title": "ETHNews", "desc": "News Website", "date": 20170501 },
-            { "link": "https://cointelegraph.com/tags/ethereum", "title": "Cointelegraph", "desc": "News Website", "date": 20170501 },
-            { "link": "http://www.trustnodes.com/news/ethereum", "title": "Trustnodes", "desc": "Newws Website", "date": 20170501 },
-            { "link": "https://media.consensys.net/", "title": "ConsenSys Blog", "desc": "Blog of the Ethereum powerhouse ConsenSys", "date": 20170501 },
-            { "link": "https://www.cryptocoinsnews.com/ethereum-news/", "title": "CryptocoinsNews", "desc": "News Website", "date": 20170501 },
-            { "link": "https://bitcoinmagazine.com/sections/ethereum/", "title": "Bitcoin Magazine", "desc": "News Website", "date": 20170501 },
-            { "link": "http://www.coindesk.com/?s=ethereum", "title": "Coindesk", "desc": "News Website", "date": 20170501 },
-            { "link": "http://www.ibtimes.co.uk/topics/ethereum", "title": "International Business Times", "desc": "News Website", "date": 20170501 },
-            
-            
-            { "link": "https://docs.ethhub.io/", "title": "EthHub", "desc": "Independent and open-source initiative to provide a single source for essential Ethereum information", "date": 20170501 },
-        ]
-      },
-      {
-        "headline": "Exchanges",
+          { "link": "https://www.reddit.com/r/ethereum/", "title": "/r/Ethereum", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
+          { "link": "https://www.reddit.com/r/ethtrader/", "title": "/r/EthTrader", "desc": "Ether price and trading discussions", "date": 20170501 },
+          { "link": "https://www.reddit.com/r/ethdev/", "title": "/r/EthDev", "desc": "Discussions about Ethereum development", "date": 20170501 },
+        ], 
         "paragraphs": [
+          { "text": "Podcasts" }
+        ],
+       "links": [        
+          { "link": "https://epicenter.tv/", "title": "Epicenter", "date": 20170501 },
+          { "link": "https://podcast.ethhub.io/", "title": "Into the Ether", "date": 20170501 },
+          { "link": "https://unchainedpodcast.com/", "title": "Unchained", "date": 20170501 },
+          { "link": "https://thebitcoinpodcast.com/category/dose-of-ether/", "title": "Dose of Ether", "date": 20170501 },
+          { "link": "https://unconfirmed.libsyn.com/", "title": "Unconfirmed", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Newsletters" }
+        ],
+        "links": [   
+          { "link": "http://www.weekinethereum.com/", "title": "Week In Ethereum", "desc": "Newsletter by Evan Van Ness", "date": 20170501 },
+          { "link": "https://tokeneconomy.co/", "title": "Token Economy", "desc": "News from distributed ledger technology space", "date": 20170501 },
+          { "link": "https://ethhub.substack.com/", "title": "EthHub Weekly Newsletter", "desc": "About Ethereum and the wider crypto ecosystem", "date": 20170501 },
+          { "link": "https://ethhub.substack.com/", "title": "Chain Letter", "desc": "Blockchains, cryptocurrencies, and why they matter by MIT Technology", "date": 20170501 },          
+          { "link": "https://messari.io/", "title": "Messari", "desc": "Daily insights, market data, and research for crypto professionals", "date": 20170501 },
+          { "link": "http://nfty.news/", "title": "NFTY News", "desc": "Non-fungible token design, research, and analysis", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Social media and blogs" }
+        ],
+        "links": [   
+          { "link": "https://hive.one/ethereum", "title": "Who to follow on Twitter", "desc": "Lists of influential people in crypto communities", "date": 20170501 },
+          { "link": "https://media.consensys.net/i-read-crypto-twitter-for-hours-everyday-here-are-40-accounts-that-really-matter-cfecc681379d", "title": "40 Twitter Accounts That Really Matter", "desc": "CryptoTwitter as an arena for meaningful engagement", "date": 20170501 },          
+          { "link": "https://blog.ethereum.org/", "title": "Official Ethereum blog", "desc": "by the Ethereum Foundation", "date": 20170501 },
+          { "link": "https://vitalik.ca/", "title": "Vitalik Buterin", "desc": "Ethereum Founder", "date": 20170501 },
+          { "link": "https://medium.com/@Vlad_Zamfir", "title": "Vlad Zamfir", "desc": "Ethereum Core Developer", "date": 20170501 },
+          { "link": "https://medium.com/@lrettig", "title": "Lane Rettig", "desc": "Ethereum Core Developer", "date": 20170501 },
+          { "link": "https://media.consensys.net/", "title": "ConsenSys", "desc": "Blog of the Ethereum powerhouse ConsenSys", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "Communities" }
+        ],
+        "links": [ 
+          { "link": "https://docs.ethhub.io/", "title": "EthHub", "desc": "Independent and open-source initiative to provide a single source for essential Ethereum information", "date": 20170501 },
+          { "link": "https://ethereum-magicians.org/", "title": "Fellowship of Ethereum Magicians", "desc": "A self-organized Ethereum community to maximize technical opportunities, share ideas, and work together", "date": 20170501 },
+          { "link": "https://forum.etherean.org/", "title": "Etherean", "desc": "Community interested in the intersection of humanity and technology, social, political, and economic impact of a new technology and ideas", "date": 20170501 },
+          { "link": "https://ethresear.ch/", "title": "Ethereum Research Forum", "desc": "A semi-public forum for participating in Ethereum’s research efforts", "date": 20170501 },
+          { "link": "https://ethglobal.co/", "title": "ETHGlobal", "desc": "A community initiative, that helps run hackathons all over the world", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "News sites" }
+        ],
+        "links": [    
+          { "link": "https://kauri.io/", "title": "Kauri", "desc": "Articles, tutorials, documentation and best practices for Ethereum developers", "date": 20170501 },
+          { "link": "https://messari.io/", "title": "Messari", "desc": "Swiss Army Knife of digital asset markets", "date": 20170501 },
+          { "link": "https://decryptmedia.com/", "title": "Decrypt", "desc": "Essential journalism and analysis for the adoption of blockchain", "date": 20170501 },
+          { "link": "https://blockchainlibrary.org/", "title": "Blockchain Library", "desc": "Deep repository of open-source digital resources, source lists, and data for researchers and developers", "date": 20170501 },
+          { "link": "https://www.ethnews.com/", "title": "ETHNews", "desc": "News website", "date": 20170501 },
+          { "link": "https://cointelegraph.com/tags/ethereum", "title": "Cointelegraph", "desc": "News website", "date": 20170501 },
+          { "link": "http://www.trustnodes.com/news/ethereum", "title": "Trustnodes", "desc": "Newws website", "date": 20170501 },
+         ]
+       },
+       {
+         "headline": "Exchanges",
+         "paragraphs": [
           { "text": "Even though there are no borders in the Ethereum world, you would need some ether to use the services and decentralized apps there. Like exchanging into the local currency in a foreign country you're visiting. Exchanges provide a means to move in or out of ether by trading it for fiat money ($, €, ¥, £) or other crypto-currencies." },
           { "text": "Some of the exchanges directly offer fiat money trades via bank transfers, while others only handle trades between crypto-currencies. And then there are the decentralized ones. You'll need to run an Ethereum client, such as Mist or MetaMask, but they never hold costumer funds and generally have lower fees than the normal ones." },
           { "text": "Before getting in crypto-currencies, be sure to read the wallet and online security related parts in the section above." }
@@ -457,10 +473,7 @@
         "links": [
             { "link": "https://www.coinbase.com/", "title": "Coinbase", "desc": "Exchange based in the US", "date": 20170501 },
             { "link": "https://www.kraken.com/", "title": "Kraken", "desc": "Exchange base in the US", "date": 20170501 },
-            { "link": "https://www.bitfinex.com/", "title": "Bitfinex", "desc": "Exchange based in China", "date": 20170501 },
-            { "link": "https://yunbi.com/", "title": "Yunbi", "desc": "Exchange based in China", "date": 20170501 },
-            { "link": "http://www.poloniex.com/", "title": "Poloniex", "desc": "Cryptocurrency only Exchange", "date": 20170501 },
-            { "link": "https://www.bittrex.com/", "title": "Bittrex", "desc": "Cryptocurrency only Exchange", "date": 20170501 },
+            
             { "link": "https://mkr.market/", "title": "Maker Market", "desc": "Decentralized Cryptocurrency Exchange", "date": 20170501 }
         ]
       }
