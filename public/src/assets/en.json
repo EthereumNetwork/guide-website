@@ -184,7 +184,7 @@
           { "link": "https://ethereum.stackexchange.com/questions/tagged/security", "title": "Stack exhange security tag", "desc": "See what people ask about security", "date": 20170501 },        
         ], 
         "paragraphs": [
-          { "text": "Resources" }
+          { "text": "Further Education" }
         ],
         "links": [
           { "link": "https://github.com/trailofbits/awesome-ethereum-security/", "title": "Awesome Ethereum Security", "desc": "A curated list of awesome Ethereum security references, guidance, tools, and more", "date": 20170501 },
