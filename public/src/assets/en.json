@@ -469,12 +469,19 @@
           { "text": "Even though there are no borders in the Ethereum world, you would need some ether to use the services and decentralized apps there. Like exchanging into the local currency in a foreign country you're visiting. Exchanges provide a means to move in or out of ether by trading it for fiat money ($, €, ¥, £) or other crypto-currencies." },
           { "text": "Some of the exchanges directly offer fiat money trades via bank transfers, while others only handle trades between crypto-currencies. And then there are the decentralized ones. You'll need to run an Ethereum client, such as Mist or MetaMask, but they never hold costumer funds and generally have lower fees than the normal ones." },
           { "text": "Before getting in crypto-currencies, be sure to read the wallet and online security related parts in the section above." }
-        ],
+          { "text": "Centralized Exchanges" }        
+         ],
         "links": [
-            { "link": "https://www.coinbase.com/", "title": "Coinbase", "desc": "Exchange based in the US", "date": 20170501 },
-            { "link": "https://www.kraken.com/", "title": "Kraken", "desc": "Exchange base in the US", "date": 20170501 },
-            
-            { "link": "https://mkr.market/", "title": "Maker Market", "desc": "Decentralized Cryptocurrency Exchange", "date": 20170501 }
+          { "link": "https://coinmarketcap.com/exchanges/volume/24-hour/", "title": "24 Hour Volume Rankings", "desc": "on CoinMarketCap", "date": 20170501 },
+          { "link": "https://www.coinbase.com/", "title": "Coinbase", "desc": "Exchange based in the US", "date": 20170501 },
+          { "link": "https://www.kraken.com/", "title": "Kraken", "desc": "Exchange base in the US", "date": 20170501 },
+          { "link": "https://www.binance.com/", "title": "Binance", "desc": "Exchange based in the British Virgin Islands", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Decentralized Exchanges" }
+        ],
+        "links": [    
+          { "link": "https://mkr.market/", "title": "Maker Market", "desc": "Decentralized Cryptocurrency Exchange", "date": 20170501 }
         ]
       }
     ],
