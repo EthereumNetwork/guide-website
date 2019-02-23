@@ -184,7 +184,7 @@
           { "link": "https://ethereum.stackexchange.com/questions/tagged/security", "title": "Stack exhange security tag", "desc": "See what people ask about security", "date": 20170501 },        
         ], 
         "paragraphs": [
-          { "text": "Further Education" }
+          { "text": "Resources" }
         ],
         "links": [
           { "link": "https://github.com/trailofbits/awesome-ethereum-security/", "title": "Awesome Ethereum Security", "desc": "A curated list of awesome Ethereum security references, guidance, tools, and more", "date": 20170501 },
@@ -208,6 +208,18 @@
           { "link": "https://github.com/nomiclabs/buidler", "title": "Buidler", "desc": "Smart contract development tool to bring together the tools you want", "date": 20170501 },
           { "link": "https://getparasol.io/", "title": "Parasol", "desc": "Smart contract development environment with testing, Infura deployment, automatic contract documentation and more": 20170501 },
           { "link": "https://docs.0xcert.org/", "title": "0xcert", "desc": "JavaScript framework for building decentralized applications", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "Patterns and popular libraries" }
+        ],
+        "links": [  
+          { "link": "https://dapp.tools/dappsys/", "title": "Dappsys", "desc": "Composable building blocks for Ethereum contracts", "date": 20170501 },                
+          { "link": "https://openzeppelin.org/", "title": "OpenZeppelin", "desc": "An open framework of reusable and secure smart contracts in the Solidity language", "date": 20170501 },                
+          { "link": "https://zeppelinos.org/", "title": "ZeppelinOS", "desc": "Develop, deploy and operate any smart contract DApp", "date": 20170501 },                
+          { "link": "https://zepkit.zeppelinos.org/", "title": "ZepKit", "desc": "Develop easily your DApp by using React, ZeppelinOS, OpenZeppelin, Truffle and Infura tools in one box", "date": 20170501 },                
+          { "link": "https://hack.aragon.org/docs/aragonos-intro.html", "title": "AragonOS", "desc": "A smart contract framework for building DAOs, Dapps and protocols", "date": 20170501 },                
+          { "link": "https://github.com/daostack/arc", "title": "ARC", "desc": "An operating system for DAOs and the base layer of the DAO stack", "date": 20170501 },                                         
+          { "link": "https://github.com/cryptofinlabs/cryptofin-solidity", "title": "CryptoFin Solidity", "desc": "A collection of Solidity libraries for building secure and gas-efficient smart contracts", "date": 20170501 },  
         ], 
         "paragraphs": [
           { "text": "IDEs - Integrated Developer Environments" }
@@ -322,19 +334,7 @@
           { "link": "https://github.com/ethereum/pyethereum", "title": "pyethereum", "desc": "Python core library of the Ethereum project", "date": 20170501 },          
           { "link": "https://github.com/machinomy/machinomy", "title": "Machinomy", "desc": "Node.js library for micropayments in Ether and ERC20 tokens over HTTP", "date": 20170501 }
           { "link": "http://machinomy.com/", "title": "Machinomy", "desc": "Node.js library for micropayments in Ether and ERC20 tokens over HTTP", "date": 20170501 }
-          { "link": "https://github.com/ConsenSys/eventeum", "title": "Eventeum", "desc": "A bridge between Ethereum smart contract events and backend microservices, written in Java", "date": 20170501 }
-        ], 
-        "paragraphs": [
-          { "text": "Patterns and popular libraries" }
-        ],
-        "links": [  
-          { "link": "https://dapp.tools/dappsys/", "title": "Dappsys", "desc": "Composable building blocks for Ethereum contracts", "date": 20170501 },                
-          { "link": "https://openzeppelin.org/", "title": "OpenZeppelin", "desc": "An open framework of reusable and secure smart contracts in the Solidity language", "date": 20170501 },                
-          { "link": "https://zeppelinos.org/", "title": "ZeppelinOS", "desc": "Develop, deploy and operate any smart contract DApp", "date": 20170501 },                
-          { "link": "https://zepkit.zeppelinos.org/", "title": "ZepKit", "desc": "Develop easily your DApp by using React, ZeppelinOS, OpenZeppelin, Truffle and Infura tools in one box", "date": 20170501 },                
-          { "link": "https://hack.aragon.org/docs/aragonos-intro.html", "title": "AragonOS", "desc": "A smart contract framework for building DAOs, Dapps and protocols", "date": 20170501 },                
-          { "link": "https://github.com/daostack/arc", "title": "ARC", "desc": "An operating system for DAOs and the base layer of the DAO stack", "date": 20170501 },                                         
-          { "link": "https://github.com/cryptofinlabs/cryptofin-solidity", "title": "CryptoFin Solidity", "desc": "A collection of Solidity libraries for building secure and gas-efficient smart contracts", "date": 20170501 },                
+          { "link": "https://github.com/ConsenSys/eventeum", "title": "Eventeum", "desc": "A bridge between Ethereum smart contract events and backend microservices, written in Java", "date": 20170501 }            
         ], 
         "paragraphs": [
           { "text": "Resources" }
@@ -397,7 +397,17 @@
         ]
       },
       {        
-        "headline": "News and communities",
+        "headline": "Other Utilities and Resources",
+        "paragraphs": [
+          { "text": "???" }
+          { "text": "Explorers" }
+        ],
+        "links": [
+          { "link": "https://www.reddit.com/r/ethereum/", "title": "/r/Ethereum", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
+        ]
+      },
+      {        
+        "headline": "News and Communities",
         "paragraphs": [
           { "text": "There are many quality news outlet reporting about Ethereum and the decentralization of the web. Check them out or follow us via the links in the footer for the most important news articles of the day." }
           { "text": "Subreddits" }
