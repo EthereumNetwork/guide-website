@@ -450,7 +450,31 @@
           { "text": "Explorers" }
         ],
         "links": [
-          { "link": "https://www.reddit.com/r/ethereum/", "title": "/r/Ethereum", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
+          { "link": "https://etherscan.io/", "title": "Etherscan", "desc": "Block explorer and analytics platform ", "date": 20170501 },
+          { "link": "https://ethplorer.io/", "title": "Ethplorer", "desc": "Block explorer providing token information and analytics", "date": 20170501 },
+          { "link": "https://blockscout.com/eth/mainnet", "title": "BlockScout", "desc": "Blockchain explorer inspecting and analyzing EVM based blockchains", "date": 20170501 },
+          { "link": "https://trivial.co/", "title": "Trivial", "desc": "Analytics platform for Ethereum tokens", "date": 20170501 },
+          { "link": "https://loanscan.io/", "title": "Loanscan", "desc": "Ethereum loan explorer providing financial information and analytics for debt issued on the Ethereum", "date": 20170501 },
+          { "link": "https://www.stateofthedapps.com/", "title": "State of the dApps", "desc": "Curated directory of decentralized applications", "date": 20170501 },
+          { "link": "https://ethgasstation.info/", "title": "Ethereum Gas Station", "desc": "Explorer of a gas prices, transaction confirmation times, and miner policies on the Ethereum network", "date": 20170501 },
+          { "link": "https://gitcoin.co/gas/history?breakdown=weekly", "title": "Gitcoin Gas Station", "desc": "Gas price history chart", "date": 20170501 },
+          { "link": "https://ethstats.net/", "title": "EthStats", "desc": "Ethereum network statistics", "date": 20170501 },        
+          { "link": "https://observeth.net/main", "title": "ObservEth", "desc": "Fast visual access to the information available on the open Ethereum ledger", "date": 20170501 },                
+        ], 
+        "paragraphs": [
+          { "text": "Run an Ethereum Node" }
+        ],
+        "links": [  
+          { "link": "https://github.com/dappnode/dappnode", "title": "DAppNode", "date": 20170501 },        
+          { "link": "https://quiknode.io/", "title": "QuikNode", "date": 20170501 },        
+          { "link": "https://blockdaemon.com/", "title": "Blockdaemon", "date": 20170501 },        
+          { "link": "https://vipnode.org/", "title": "Vipnode", "date": 20170501 },                
+        ], 
+        "paragraphs": [
+          { "text": "Other Utilities" }
+        ],
+        "links": [  
+          { "link": "https://docs.google.com/spreadsheets/d/1Wg_eX-mYopvWT3LeHe4-FEHOtJoG28h8YcHl4PFTX5k/edit#gid=0", "title": "List of Ethereum Public Calls", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
         ], 
         "paragraphs": [
           { "text": "Resources" }
@@ -568,10 +592,26 @@
       {
         "headline": "Who uses Ethereum?",
         "paragraphs": [        
-          { "text": "???" }
+          { "text": "Enterprises" }
         ],
         "links": [
           { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
+          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
+          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
+         ], 
+        "paragraphs": [
+          { "text": "Governments" }
+        ],
+        "links": [ 
+          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
+          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
+          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
+        ], 
+        "paragraphs": [
+          { "text": "Organizations" }
+        ],
+        "links": [ 
+          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }                
         ]
       }
     ],
