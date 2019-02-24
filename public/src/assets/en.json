@@ -140,11 +140,16 @@
           { "link": "https://www.pubnub.com/blog/implementing-pubnub-dapp-with-ethereum-blockchain/amp/", "title": "Implementing PubNub", "desc": "Connect millions of clients and devices to your smart contracts  ", "date": 20171101 },
         ], 
         "paragraphs": [
-          { "text": "Guides, tutorials and learning materials" }
+          { "text": "Learning materials and other" }
         ],
         "links": [       
+          { "link": "https://solidity.readthedocs.io/en/develop/index.html#", "title": "Solidity", "desc": "The official learning material", "date": 20170501 },
+          { "link": "https://cryptozombies.io/", "title": "CryptoZombies", "desc": "Learn to code Ethereum DApps by coding your own game", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/ethereum-basics/development/ethereum-development-basics/", "title": "Development basics", "desc": "Included patterns, testing and tooling", "date": 20170501 },
+          { "link": "https://truffleframework.com/tutorials/", "title": "Tutorials", "desc": "For the Truffle framework", "date": 20170501 },
+          { "link": "https://github.com/ethereumbook/ethereumbook", "title": "Mastering Ethereum by Andreas M. Antonopoulos, Gavin Wood", "desc": "A book for developers, offering a guide to the operation and use of EVM-based open blockchains", "date": 20170501 },
           { "link": "https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html", "title": "Ethereumbuilders", "desc": "step-by-step Solidity tutorial", "date": 20171101 },
-          { "link": "https://medium.com/metamask/developing-ethereum-projects-with-truffle-and-metamask-aa8ad7e363ba", "title": "Developing Ethereum Projects", "desc": "with Truffle and MetaMask", "date": 20170501 },
+          
           { "link": "https://medium.com/@timothyjcoulter/truffle-tricks-for-ethereum-development-dispelling-8-myths-first-impressions-880f66bf3320", "title": "Truffle Tricks for Ethereum Development", "desc": "Dispelling Myths and First Impressions", "date": 20170501 },
           { "link": "https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02", "title": "The Anatomy of ERC20", "desc": "Ethereum’s Most Popular Contract", "date": 20170930 },
           { "link": "https://medium.com/blockchannel/state-specifiers-and-staticcall-d50d5b2e4920", "title": "Changes to Solidity and How They Function:", "desc": "State Specifiers and STATICCALLn", "date": 20170927 },
