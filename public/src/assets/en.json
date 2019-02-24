@@ -124,7 +124,8 @@
           { "link": "https://medium.com/coinmonks/learn-solidity-shark-of-the-pool-part-1-ac0f733eecdd", "title": "Build an Ethereum DApp", "desc": "4 part blog series with Solidity smart contracts, testing, NodeJS backend and React / MetaMask Web App", "date": 20170501 },
           { "link": "https://medium.com/@tapdev/latest", "title": "Your First Truffle DApp", "desc": "A beginners guide to the Truffle framework, part 1 - 4", "date": 20171101 },
           { "link": "https://medium.com/cryptronics/ethereum-development-guide-part-1-ad0c77c3683f", "title": "Ethereum Development Guide", "desc": "3 part guide to developing an Ethereum document certification contract", "date": 20171101 },
-          { "link": "https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2", "title": "Voting DApp Tutorial", "desc": "3 part series voting DApp development tutorial for beginners", "date": 20171101 },
+          { "link": "https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2", "title": "Voting Ethereum DApp Tutorial", "desc": "For web developer, in 3 parts", "date": 20170118 },        
+          { "link": "https://medium.com/@wslyvh/getting-started-with-ethereum-solidity-geth-part-2-d195144fe6c7", "title": "Getting started with Ethereum, Solidity & Geth", "desc": "on Windows, part 1 + 2", "date": 20171101 },          
         ], 
         "paragraphs": [
           { "text": "Blog posts - Advanced" }
@@ -135,7 +136,9 @@
           { "link": "https://truffleframework.com/tutorials/pet-shop", "title": "Pet Shop - your first DApp", "desc": "Build your first DApp with Truffle - an adoption tracking system for a pet shop", "date": 20171101 },
           { "link": "https://blog.amr-gawish.com/building-a-production-ready-ethereum-dapp-from-idea-to-final-product-first-section-the-3b9975a226c", "title": "Building a production-ready Ethereum DApp", "desc": "From idea to final product", "date": 20171101 },
           { "link": "https://hackernoon.com/full-stack-smart-contract-development-fccdfe5176ce", "title": "Full-stack smart contract development", "desc": "Writing, testing and deploying an Ethereum smart contract and its web interface", "date": 20171101 },          
-          { "link": "https://medium.com/@hayeah/diving-into-the-ethereum-vm-part-5-the-smart-contract-creation-process-cb7b6133b855", "title": "Diving Into The Ethereum VM", "desc": "Part 1 - 5", "date": 20171101 },          
+          { "link": "https://medium.com/@hayeah/diving-into-the-ethereum-vm-part-5-the-smart-contract-creation-process-cb7b6133b855", "title": "Diving Into The Ethereum VM", "desc": "Deconstruction of Solidity contracts in order to understand how it works as EVM bytecode, Part 1 - 5", "date": 20171101 },          
+          { "link": "https://blockgeeks.com/decentralized-applications-development-net-developers/", "title": "Decentralized applications development", "desc": "for .NET developers using Microsoft Visual Studio", "date": 20170501 },
+          { "link": "https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02", "title": "The Anatomy of ERC20", "desc": "Ethereum’s Most Popular Contract", "date": 20170930 },          
           { "link": "https://medium.com/decentcrypto/building-your-first-ethereum-oracle-1ab4cccf0b31", "title": "Building your first Ethereum Oracle", "desc": "How do blockchains get data?", "date": 20171101 },
           { "link": "https://www.pubnub.com/blog/implementing-pubnub-dapp-with-ethereum-blockchain/amp/", "title": "Implementing PubNub", "desc": "Connect millions of clients and devices to your smart contracts  ", "date": 20171101 },
         ], 
@@ -148,31 +151,46 @@
           { "link": "https://docs.ethhub.io/ethereum-basics/development/ethereum-development-basics/", "title": "Development basics", "desc": "Included patterns, testing and tooling", "date": 20170501 },
           { "link": "https://truffleframework.com/tutorials/", "title": "Tutorials", "desc": "For the Truffle framework", "date": 20170501 },
           { "link": "https://github.com/ethereumbook/ethereumbook", "title": "Mastering Ethereum by Andreas M. Antonopoulos, Gavin Wood", "desc": "A book for developers, offering a guide to the operation and use of EVM-based open blockchains", "date": 20170501 },
-          { "link": "https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html", "title": "Ethereumbuilders", "desc": "step-by-step Solidity tutorial", "date": 20171101 },
-          
-          { "link": "https://medium.com/@timothyjcoulter/truffle-tricks-for-ethereum-development-dispelling-8-myths-first-impressions-880f66bf3320", "title": "Truffle Tricks for Ethereum Development", "desc": "Dispelling Myths and First Impressions", "date": 20170501 },
-          { "link": "https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02", "title": "The Anatomy of ERC20", "desc": "Ethereum’s Most Popular Contract", "date": 20170930 },
-          { "link": "https://medium.com/blockchannel/state-specifiers-and-staticcall-d50d5b2e4920", "title": "Changes to Solidity and How They Function:", "desc": "State Specifiers and STATICCALLn", "date": 20170927 },
-          { "link": "https://medium.com/blockchannel/the-use-of-revert-assert-and-require-in-solidity-and-the-new-revert-opcode-in-the-evm-1a3a7990e06e", "title": "Changes to Solidity and How They Function:", "desc": "Revert(), Assert(), and Require() in Solidity, and the New REVERT Opcode in the EVM", "date": 20170927 },
-          { "link": "https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976", "title": "Understanding the Basic Fundamentals of “Cryptoeconomics”", "desc": "A Crash Course", "date": 20171017 },
-          { "link": "https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-3-331c2712c9df", "title": "Full Stack Hello World Voting Ethereum Dapp Tutorial ", "desc": "for web developer", "date": 20170118 },
-          { "link": "https://medium.com/@wslyvh/getting-started-with-ethereum-solidity-geth-part-2-d195144fe6c7", "title": "Getting started with Ethereum, Solidity & Geth ", "desc": "on Windows, part 1 + 2", "date": 20171101 },
-          { "link": "https://blockgeeks.com/decentralized-applications-development-net-developers/", "title": "Decentralized applications development", "desc": "for .NET developers using Microsoft Visual Studio", "date": 20170501 },
+          { "link": "https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html", "title": "Ethereumbuilders", "desc": "Step-by-step Solidity tutorial", "date": 20171101 },
+          { "link": "https://learnxinyminutes.com/docs/solidity/", "title": "Learn Solidity in y minutes", "desc": "Solidity tutorial", "date": 20171101 },          
+          { "link": "https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial#%C3%B0app-development", "title": "Ethereum Development Tutorial", "desc": "Introduction to the development basics of Ethereum", "date": 20171101 },
+          { "link": "https://topmonks.github.io/solidity_quick_ref/", "title": "Solidity Cheatsheet", "desc": "Quick overview of Solidity syntax", "date": 20171101 },          
+          { "link": "https://github.com/manojpramesh/solidity-cheatsheet", "title": "Solidity Cheatsheet and Best practices", "date": 20171101 },          
+          { "link": "https://github.com/miguelmota/solidity-idiosyncrasies", "title": "Solidity idiosyncrasies", "desc": "Solidity gotchas, pitfalls, limitations, and idiosyncrasies", "date": 20171101 },          
+          { "link": "https://delegatecall.com/", "title": "Delegate call", "desc": "Questions & answers site", "date": 20170501 },                         
+          { "link": "https://ethereum.stackexchange.com", "title": "Ethereum Stack Exchange", "desc": "Get answers for all your Ethereum questions", "date": 20170501 },               
+        ], 
+        "paragraphs": [
+          { "text": "Videos" }
+        ],
+        "links": [ 
+          { "link": "https://github.com/willitscale/learning-solidity", "title": "Learning Solidity", "desc": "The companion to the Youtube tutorials", "date": 20170501 },
+          { "link": "https://www.youtube.com/watch?v=qlJ3cs7o2DE", "title": "Ethereum Dapp with React JS, Webpack, Web3 & Truffle", "desc": "Video tutorial, repo in the comments", "date": 20170501 },
           { "link": "https://www.youtube.com/watch?v=2184nCGMxyQ", "title": "Building a DApp and write contracts", "desc": "video by Alex Van de Sande and Christian Reitwiessner", "date": 20170501 },
-          { "link": "https://www.youtube.com/watch?v=9_coM_g7Dbg&list=PLH4m2oS2ratdoHFEkGvwvd7TkeTv4sa7Z", "title": "Building an Ethereum dapp using Solidity", "desc": "video series by Shlomi Zeltsinger", "date": 20170501 },
-          { "link": "https://medium.com/@mvmurthy/ethereum-for-web-developers-890be23d1d0c", "title": "iEx.ec EDCON series", "desc": "10 blog posts to understand the technology behind the Ethereum decentralized cloud", "date": 20170501 },
-          { "link": "https://blog.ethereum.org/2016/07/12/build-server-less-applications-mist/", "title": "How to build severless applications", "desc": "for Mist", "date": 20170501 },
-          { "link": "https://blockchainers.org/index.php/2016/11/27/ethereum-usecase-claim-and-endorse", "title": " A generic “Claim and Endorse” Contract", "date": 20170501 },
-          { "link": "https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/private-chain.html", "title": "Set up a private chain", "desc": "for testing purposes", "date": 20170501 },
-          { "link": "https://medium.com/@ConsenSys/very-deep-dive-on-ethereum-reading-list-f5b1122e5990#.d9mtt32ic", "title": "Ethereum Reading List", "desc": "for more in depth learning", "date": 20170501 },
-          { "link": "https://zupzup.org/smart-contract-solidity/", "title": "Getting Started with Smart Contracts", "desc": "using Solidity", "date": 20170501 },
-          { "link": "https://monax.io/docs/tutorials/solidity/solidity_1_the_five_types_model/", "title": "Solidity series on Eris", "desc": "different blockchain, same smart contract language", "date": 20170501 },
-          { "link": "https://academy.b9lab.com/", "title": "B9Lab Certified Online Course", "desc": "for Ethereum Developer (paid)", "date": 20170501 },
-          { "link": "https://ethereum.stackexchange.com", "title": "Ethereum StackExchange", "desc": "get answers for all your Ethereum questions", "date": 20170501 },        
-          
-          { "link": "https://learnxinyminutes.com/docs/solidity/", "title": "Learn Solidity in y minutes", "desc": "step-by-step Solidity tutorial", "date": 20171101 },          
-          { "link": "https://dappsforbeginners.wordpress.com/", "title": "Dapps for Beginners", "desc": "Learning materials relating to development on Ethereum.", "date": 20171101 },
-        
+          { "link": "https://www.youtube.com/watch?v=9_coM_g7Dbg&list=PLH4m2oS2ratdoHFEkGvwvd7TkeTv4sa7Z", "title": "Building an Ethereum dapp using Solidity", "desc": "video series by Shlomi Zeltsinger", "date": 20170501 },       
+        ], 
+        "paragraphs": [
+          { "text": "Courses" }
+        ],
+        "links": [   
+          { "link": "https://www.chainshot.com/", "title": "Chainshot building blocks", "desc": "Project-based courses and challenges (free)", "date": 20170501 },
+          { "link": "https://academy.b9lab.com/", "title": "B9Lab", "desc": "Courses for beginners or developers (free and paid)", "date": 20170501 },
+          { "link": "https://courses.blockgeeks.com/", "title": "Blockgeeks", "desc": "Courses on Solidity/DApp development (paid)", "date": 20170501 },
+          { "link": "https://www.zastrin.com/", "title": "Zastrin", "desc": "Text and video courses (free and paid)", "date": 20170501 },         
+          { "link": "https://consensys.net/academy/", "title": "Consensys Academy", "desc": "In-person and online programs", "date": 20170501 },
+          { "link": "https://www.udemy.com/courses/search/?q=ethereum", "title": "Ethereum courses", "desc": "on Udemy (paid)", "date": 20170501 },
+          { "link": "https://www.coursera.org/courses?languages=en&query=ethereum", "title": "Ethereum courses", "desc": "on Coursera (paid)", "date": 20170501 },
+          { "link": "https://www.edx.org/course?search_query=blockchain", "title": "Blockchain courses", "desc": "on edX", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "Resources" }
+        ],
+        "links": [   
+          { "link": "https://kauri.io/", "title": "Learn to Build on Ethereum With Kauri", "desc": "Articles, tutorials, documentation and best practices", "date": 20171101 },
+          { "link": "https://media.consensys.net/an-definitive-list-of-ethereum-developer-tools-2159ce865974", "title": "A Definitive List of Ethereum Developer Tools", "desc": "A guide to available tools, components, frameworks, and platforms for developing applications on Ethereum", "date": 20171101 },
+          { "link": " https://github.com/bkrem/awesome-solidity", "title": "Awesome Solidity List", "desc": " A curated list of awesome Solidity resources, libraries, tools and more", "date": 20171101 },
+          { "link": "https://github.com/Scanate/EthList", "title": "EthList", "desc": "The crowdsourced Ethereum reading list", "date": 20171101 },          
+          { "link": "https://dappsforbeginners.wordpress.com/", "title": "Dapps for Beginners", "desc": "Learning materials relating to development on Ethereum", "date": 20171101 },  
         ]
       },
       {
