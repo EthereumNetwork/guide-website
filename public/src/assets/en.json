@@ -27,6 +27,7 @@
           { "link": "https://medium.com/loom-network/ethereum-will-be-the-backbone-of-the-new-internet-88718e08124f", "title": "Ethereum Will Be the Backbone of the New Internet", "desc": "Why will Ethereum become the fundamental base layer to built-on by Loom", "date": 20170501 },
           { "link": "https://medium.com/@lrettig/how-open-is-too-open-bfc412cf0d24", "title": "How open is too open?", "desc": "On transparency and governance of Ethereum", "date": 20170501 },
           { "link": "https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/", "title": "Running an Ethereum Node", "desc": "Introduction to how to run an Ethereum node", "date": 20170501 },
+          { "link": "https://media.consensys.net/joe-lubin-explains-why-the-ethereum-ecosystem-is-stronger-than-ever-in-20-tweets-7a09555760fd", "title": "Why the Ethereum Ecosystem Is Stronger Than Ever", "desc": "The ConsenSys founder gives a sweeping overview of the state of blockchain", "date": 20170501 },          
           { "link": "https://docs.ethhub.io/ethereum-roadmap/ethereum-1.x/", "title": "Ethereum roadmap", "desc": "Well-arranged summary - Ethereum 1.x, 2.0, layer 2 scaling, privacy and planned upgrades", "date": 20170501 },
           { "link": "https://docs.ethhub.io/other/ethereum-2.0-ama/", "title": "Ethereum 2.0 Reddit AMA", "desc": "TL;DR from AMA on Reddit", "date": 20170501 },
           { "link": "https://github.com/ethereum/wiki/wiki/White-Paper", "title": "White Paper", "desc": "The formal proposal of Ethereum", "date": 20170501 },
@@ -592,26 +593,27 @@
       {
         "headline": "Who uses Ethereum?",
         "paragraphs": [        
+          { "text": "???" }
           { "text": "Enterprises" }
         ],
         "links": [
-          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
-          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
-          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
+          { "link": "https://media.consensys.net/j-p-morgan-is-using-ethereum-to-launch-a-digital-u-s-dollar-heres-what-it-means-for-blockchain-64f0fe3e55bc", "J.P. Morgan": "Uses Ethereum to launch a ‘digital U.S. dollar’", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
+          { "link": "https://www.ey.com/en_gl/news/2018/10/ey-launches-the-world-s-first-secure-private-transactions-over-the-ethereu-public-blockchain", "title": "EY", "desc": "Puts zero-knowledge proofs on Ethereum", "date": 20170501 }        
+          { "link": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/ethereum.ethereum-studio", "Microsoft Azure": "What are Decentralized Exchanges?", "desc": "Kaleido plugs into Azure", "date": 20170501 }        
          ], 
         "paragraphs": [
           { "text": "Governments" }
         ],
         "links": [ 
-          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
-          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
-          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
+          { "link": "https://www.ethnews.com/israel-securities-authority-to-use-blockchain-to-secure-internal-messaging-system/", "Israel": "What are Decentralized Exchanges?", "desc": "Israel’s encrypted messaging system", "date": 20170501 }        
+          { "link": "https://e-estonia.com/solutions/healthcare/e-health-record/", "title": "Estonia", "desc": "Estonia’s electronic healthcare record trials", "date": 20170501 }        
+          { "link": "https://thenextweb.com/hardfork/2018/09/03/japan-city-blockchain-voting/", "title": "Japan", "desc": "Japan’s e-voting system", "date": 20170501 }        
         ], 
         "paragraphs": [
           { "text": "Organizations" }
         ],
         "links": [ 
-          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }                
+          { "link": "https://www.coindesk.com/un-food-program-to-expand-blockchain-testing-to-african-supply-chain", "title": "United Nations", "desc": "Expand blockchain testing to African supply chain", "date": 20170501 }                
         ]
       }
     ],
