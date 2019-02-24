@@ -188,7 +188,7 @@
         "links": [   
           { "link": "https://kauri.io/", "title": "Learn to Build on Ethereum With Kauri", "desc": "Articles, tutorials, documentation and best practices", "date": 20171101 },
           { "link": "https://media.consensys.net/an-definitive-list-of-ethereum-developer-tools-2159ce865974", "title": "A Definitive List of Ethereum Developer Tools", "desc": "A guide to available tools, components, frameworks, and platforms for developing applications on Ethereum", "date": 20171101 },
-          { "link": " https://github.com/bkrem/awesome-solidity", "title": "Awesome Solidity List", "desc": " A curated list of awesome Solidity resources, libraries, tools and more", "date": 20171101 },
+          { "link": "https://github.com/bkrem/awesome-solidity", "title": "Awesome Solidity List", "desc": " A curated list of awesome Solidity resources, libraries, tools and more", "date": 20171101 },
           { "link": "https://github.com/Scanate/EthList", "title": "EthList", "desc": "The crowdsourced Ethereum reading list", "date": 20171101 },          
           { "link": "https://dappsforbeginners.wordpress.com/", "title": "Dapps for Beginners", "desc": "Learning materials relating to development on Ethereum", "date": 20171101 },  
         ]
@@ -451,10 +451,31 @@
         ],
         "links": [
           { "link": "https://www.reddit.com/r/ethereum/", "title": "/r/Ethereum", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Resources" }
+        ],
+        "links": [        
+          { "link": "https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/README.md", "title": "Ethereum Developer Tools List", "desc": "A guide to available tools, components, patterns, and platforms for developing applications on Ethereum", "date": 20170501 },                    
+          { "link": "https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/EcosystemResources.md", "title": "Ecosystem Resources", "desc": "A guide to the available dapps, services, writings, and knowledge bases for learning and understanding the Ethereum ecosystem", "date": 20170501 },                    
+          { "link": "https://docs.ethhub.io/ethereum-basics/resources/", "title": "EthHub Resources", "desc": "A list of further Ethereum resources", "date": 20170501 },                             
+          { "link": "https://kauri.io/", "title": "Learn to Build on Ethereum With Kauri", "desc": "Articles, tutorials, documentation and best practices", "date": 20171101 },
+          { "link": "https://github.com/bkrem/awesome-solidity", "title": "Awesome Solidity List", "desc": " A curated list of awesome Solidity resources, libraries, tools and more", "date": 20171101 },
+          { "link": "https://github.com/spadebuilders/awesome-vyper", "title": "Awesome Vyper", "desc": "A curated list of resources for Vyper", "date": 20170501 },                    
+          { "link": "https://github.com/trailofbits/awesome-ethereum-security/", "title": "Awesome Ethereum Security", "desc": "A curated list of awesome Ethereum security references, guidance, tools, and more", "date": 20170501 },          
+          { "link": "https://github.com/jpantunes/awesome-cryptoeconomics", "title": "Awesome Cryptoeconomics", "desc": "A curated list of cryptoeconomic research and learning materials", "date": 20170501 },          
+          { "link": "https://github.com/pirapira/awesome-ethereum-virtual-machine", "title": "Awesome EVM", "desc": "Ethereum Virtual Machine awesome list", "date": 20170501 },          
+          { "link": "https://github.com/machinomy/awesome-state-channels", "title": "Awesome State-Channels", "desc": "Curated list of resources regarding state channels on Ethereum", "date": 20170501 },          
+          { "link": "https://github.com/ong/awesome-decentralized-finance", "title": "Awesome Decentralized-Finance", "desc": "A curated list of awesome decentralized finance projects, software, and resources", "date": 20170501 },                    
+          { "link": "https://github.com/Scanate/EthList", "title": "EthList", "desc": "The crowdsourced Ethereum reading list", "date": 20171101 },          
+          { "link": "https://dappsforbeginners.wordpress.com/", "title": "Dapps for Beginners", "desc": "Learning materials relating to development on Ethereum", "date": 20171101 },        
+          { "link": "https://github.com/ethereum/wiki/wiki/Safety", "title": "Safety wiki", "desc": "Ethereum Foundation wiki on safety", "date": 20170501 },
+          { "link": "https://github.com/evbots/dex-protocols", "title": "DEX protocols", "desc": "A list of protocols for decentralised exchange", "date": 20170501 },
+          { "link": "https://github.com/PhABC/ethereum-token-standards-list", "title": "Ethereum Token Standards", "desc": "An exhaustive list of Ethereum Token Standards", "date": 20170501 },        
         ]
       },
       {        
-        "headline": "News and Communities",
+        "headline": "News, Media and Communities",
         "paragraphs": [
           { "text": "There are many quality news outlet reporting about Ethereum and the decentralization of the web. Check them out or follow us via the links in the footer for the most important news articles of the day." }
           { "text": "Subreddits" }
@@ -516,16 +537,16 @@
           { "link": "https://blockchainlibrary.org/", "title": "Blockchain Library", "desc": "Deep repository of open-source digital resources, source lists, and data for researchers and developers", "date": 20170501 },
           { "link": "https://www.ethnews.com/", "title": "ETHNews", "desc": "News website", "date": 20170501 },
           { "link": "https://cointelegraph.com/tags/ethereum", "title": "Cointelegraph", "desc": "News website", "date": 20170501 },
-         ]
-       },
-       {
-         "headline": "Exchanges",
-         "paragraphs": [
+        ]
+      },
+      {
+        "headline": "Exchanges",
+        "paragraphs": [
           { "text": "Even though there are no borders in the Ethereum world, you would need some ether to use the services and decentralized apps there. Like exchanging into the local currency in a foreign country you're visiting. Exchanges provide a means to move in or out of ether by trading it for fiat money ($, €, ¥, £) or other crypto-currencies." },
           { "text": "Some of the exchanges directly offer fiat money trades via bank transfers, while others only handle trades between crypto-currencies. And then there are the decentralized ones. You'll need to run an Ethereum client, such as Mist or MetaMask, but they never hold costumer funds and generally have lower fees than the normal ones." },
           { "text": "Before getting in crypto-currencies, be sure to read the wallet and online security related parts in the section above." }
           { "text": "Centralized Exchanges" }        
-         ],
+        ],
         "links": [
           { "link": "https://coinmarketcap.com/exchanges/volume/24-hour/", "title": "24 Hour Volume Rankings", "desc": "on CoinMarketCap", "date": 20170501 },
           { "link": "https://www.coinbase.com/", "title": "Coinbase", "desc": "Exchange based in the US", "date": 20170501 },
@@ -542,6 +563,15 @@
           { "link": "https://0x.org/portal", "title": "0x", "desc": "Open protocol facilitating the decentralized exchange of tokens on off-chain order book Relayers", "date": 20170501 }
           { "link": "https://kyberswap.com/swap/eth_knc", "title": "Kyber Network", "desc": "Uses an on-chain matching system to instantly convert tokens into other tokens", "date": 20170501 }
           { "link": "https://uniswap.io/", "title": "Uniswap", "desc": "Protocol for automated token exchange that utilizes a constant product market maker model", "date": 20170501 }
+        ]
+      },
+      {
+        "headline": "Who uses Ethereum?",
+        "paragraphs": [        
+          { "text": "???" }
+        ],
+        "links": [
+          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
         ]
       }
     ],
