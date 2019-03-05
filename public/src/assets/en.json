@@ -8,22 +8,42 @@
           { "text": "The Ethereum project aims to do for human collaboration what the internet did for information. It is part of a world computer, where everyone can publish and access content, write and use applications, send value and make agreements. This is done through so called smart contracts and decentralized applications (dapps), open, tamper proof, opt-in, self executing applications that run exactly as programmed and all share one common, append-only 'truth', the Ethereum blockchain, while ensuring that there is no downtime, censorship, fraud or third party interference." },
           { "text": "This decentralized environment allows all people, programs, IoT devices, markets, registries and other things to collaborate without the need for explicit trust. That's why people also call it the trust machine, it is not just an upgrade to our databases or internet, but rather a tool to re-architect social, financial and political systems. The Vision is one where people are no longer the product, producer and property of content platforms but are instead the contributors, curators and communicators of value." },
           { "text": "While that all just sounds a lot of awesome buzzwords, it is very actively developed by tens of thousand of developers around the world and happening right now. Below you'll find many links to videos, tutorials and instruction guides which will help you to get started. Welcome to the future." }
+          { "text": "Blog posts, guides and learning materials" }
         ],
         "links": [
-          { "link": "http://blockgeeks.com/guides/what-is-ethereum/", "title": "What is Ethereum?", "desc": "A Step-by-Step Beginners Guide", "date": 20170501 },
-          { "link": "https://blog.coinbase.com/a-beginners-guide-to-ethereum-46dd486ceecf", "title": "A beginner’s guide to Ethereum", "desc": "by Coinbase", "date": 20170501 },
+          { "link": "https://blockgeeks.com/guides/what-is-ethereum/", "title": "What is Ethereum?", "desc": "A Step-by-Step Beginners Guide", "date": 20170501 },
+          { "link": "https://www.upfolio.com/ultimate-ethereum-guide", "title": "Ethereum Explained", "desc": "Illustrated beginner's guide", "date": 20170501 },
+          { "link": "https://ethereum.org/", "title": "Ethereum Website", "desc": "Official site", "date": 20171101 },          
+          { "link": "https://en.wikipedia.org/wiki/Ethereum", "title": "Ethereum Article", "desc": "on Wikipedia", "date": 20170501 },
+          { "link": "https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html", "title": "Beyond the Bitcoin Bubble", "desc": "simply articulated primer on blockchain and the greater promise these technologies and ideologies may bring to us", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/ethereum-basics/what-is-ethereum/", "title": "What is Ethereum?", "desc": "Crowdsourced overview of Ethereum", "date": 20170501 },
+          { "link": "https://medium.com/@mattcondon/getting-up-to-speed-on-ethereum-63ed28821bbe", "title": "Basic terminology for Ethereum", "desc": "From gas to DApps (Distributed Applications)", "date": 20170501 },
+          { "link": "https://decryptmedia.com/resources/ethereum", "title": "Litepaper - Ethereum", "desc": "Intro to Ethereum", "date": 20170501 },
+          { "link": "https://thenextweb.com/contributors/2017/11/28/ultimate-2000-word-plain-english-guide-ethereum/", "title": "Everything you’ve ever wanted to know about Ethereum", "desc": "Patiently explained", "date": 20170501 },
+          { "link": "https://cointelegraph.com/ethereum-for-beginners/what-is-ethereum#people-to-follow", "title": "Ethereum for beginners", "desc": "Guide on Cointelegraph", "date": 20170501 },
+          { "link": "https://novicedock.com/learn/cryptocurrency/ethereum", "title": "Ethereum syllabus", "desc": "Introduction for newcomers", "date": 20170501 },
+          { "link": "https://education.district0x.io/general-topics/understanding-ethereum/", "title": "Understanding Ethereum", "desc": "Educational portal of district0x ", "date": 20170501 },
+          { "link": "https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369", "title": "How does Ethereum work, anyway?", "desc": "How it functions at a technical level, without complex math", "date": 20170501 },
+          { "link": "https://medium.com/loom-network/ethereum-will-be-the-backbone-of-the-new-internet-88718e08124f", "title": "Ethereum Will Be the Backbone of the New Internet", "desc": "Why will Ethereum become the fundamental base layer to built-on by Loom", "date": 20170501 },
+          { "link": "https://medium.com/@lrettig/how-open-is-too-open-bfc412cf0d24", "title": "How open is too open?", "desc": "On transparency and governance of Ethereum", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/", "title": "Running an Ethereum Node", "desc": "Introduction to how to run an Ethereum node", "date": 20170501 },
+          { "link": "https://media.consensys.net/joe-lubin-explains-why-the-ethereum-ecosystem-is-stronger-than-ever-in-20-tweets-7a09555760fd", "title": "Why the Ethereum Ecosystem Is Stronger Than Ever", "desc": "The ConsenSys founder gives a sweeping overview of the state of blockchain", "date": 20170501 },          
+          { "link": "https://docs.ethhub.io/ethereum-roadmap/ethereum-1.x/", "title": "Ethereum roadmap", "desc": "Well-arranged summary - Ethereum 1.x, 2.0, layer 2 scaling, privacy and planned upgrades", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/other/ethereum-2.0-ama/", "title": "Ethereum 2.0 Reddit AMA", "desc": "TL;DR from AMA on Reddit", "date": 20170501 },
+          { "link": "https://github.com/ethereum/wiki/wiki/White-Paper", "title": "White Paper", "desc": "The formal proposal of Ethereum", "date": 20170501 },
+          { "link": "https://github.com/ethereum/yellowpaper", "title": "Yellow Paper", "desc": "The formal specification of the Ethereum protocol", "date": 20170501 },
+          { "link": "https://www.meetup.com/topics/ethereum/", "title": "Ethereum meetups around the world", "desc": "Every meetup is welcoming and happy to help, as you can read in our blog", "date": 20170501 },
+        ],
+        "paragraphs": [
+          { "text": "Videos" }
+        ],
+        "links": [
+          { "link": "https://youtu.be/Pl8OlkkwRpc", "title": "Video 'Why Ethereum Is Going to Change the World'", "desc": "by Joseph Lubin", "date": 20170501 },
+          { "link": "https://youtu.be/3xGLc-zz9cA", "title": "Video 'What is blockchain?'", "desc": "Simply explained", "date": 20170501 },
           { "link": "https://youtu.be/Pl8OlkkwRpc", "title": "Video 'How the blockchain is changing money and business'", "desc": "by Don Tapscott", "date": 20170501 },
           { "link": "https://youtu.be/j23HnORQXvs", "title": "Video 'Ethereum, the world computer'", "desc": "How the internet will work in the future", "date": 20170501 },
           { "link": "https://youtu.be/66SaEDzlmP4", "title": "Video 'Ethereum in 25 minutes'", "desc": "by Vitalik Buterin", "date": 20170501 },
-          { "link": "https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos", "title": "Videos from Ethereum DevCon 2", "desc": "Sep. 2016 in Shanghai", "date": 20170501 },
-          { "link": "https://medium.com/ethlance/using-the-decentralized-web-3936dc5daac1", "title": "Using the Decentralized Web", "desc": "Interact with decentralized applications without understanding Ethereum", "date": 20170501 },
-          { "link": "https://steemit.com/ethereum/@cryptomancer/ethereum-for-dummies-introducing-the-next-great-technological-leap-forward", "title": "Ethereum for Dummies", "desc": "introducing the next great technological leap forward", "date": 20170501 },
-          { "link": "https://www.youtube.com/watch?v=U_LK0t_qaPo", "title": "Ethereum for Dummies 2", "desc": "a less up-to-date version by Dr. Gavin Wood, still relevant", "date": 20170501 },
-          { "link": "https://media.consensys.net/introduction-to-ethereum-the-internets-government-35bdd25f572a", "title": "Introduction to Ethereum", "desc": "as the Internet’s Government", "date": 20170501 },
-          { "link": "https://blog.coinbase.com/app-coins-and-the-dawn-of-the-decentralized-business-model-8b8c951e734f", "title": "Blockchain Tokens", "desc": "and the dawn of the Decentralized Business Model", "date": 20170501 },
-          { "link": "https://bitsonblocks.net/2016/10/02/a-gentle-introduction-to-ethereum/", "title": "A gentle introduction to Ethereum", "date": 20170501 },
-          { "link": "https://bitsonblocks.net/2016/10/02/a-gentle-introduction-to-ethereum/", "title": "Blockchain stack #1", "desc": "Installing Ethereum Geth and your first smart contract", "date": 20170501 },
-          { "link": "https://www.meetup.com/topics/ethereum/", "title": "Ethereum meetups around the world", "desc": "Every meetup is welcoming and happy to help, as you can read in our blog", "date": 20170501 }
+          { "link": "https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos", "title": "Videos from Ethereum DevCon conferences, calls, meetings and other", "desc": "by Ethereum Foundation", "date": 20170501 },
         ]
       },
       {
@@ -31,16 +51,48 @@
         "paragraphs": [
           { "text": "Wallets and browsers are your windows to the Ethereum world. The former works just like your normal wallet, i.e. it allows you to store, add and spend money via different currencies and payment systems. It contains one or more Ethereum addresses (long hexadecimal strings that uniquely identifies them) and can receive and send ether (the underlying Ethereum currency) or other tokens running on top of Ethereum. Before taking the plunge and spending any money on ether, please read the information in the online security section." },
           { "text": "As we said already, Ethereum is much more than just a crypto-currency blockchain. The main purpose is hosting and running smart contracts, storing distributed data (swarm), decentralized communication (whisper) and much more. This begs the question: “How can I access all these cool features?”. This is where browser plugins such as Metamask and Ethereum browsers like Mist come in." }
+          { "text": "Desktop and web" }
         ],
         "links": [
-            { "link": "https://github.com/ethereum/mist/releases", "title": "Mist", "desc": "Official Ethereum browser and wallet", "date": 20170501 },
-            { "link": "https://metamask.io/", "title": "MetaMask", "desc": "Chrome plugin to access Ethereum dapps", "date": 20170501 },
-            { "link": "https://www.myetherwallet.com/", "title": "MyEtherWallet", "desc": "client-side Ethereum online wallet and smart contract execution", "date": 20170501 },
-            { "link": "https://github.com/ethcore/parity/wiki/Parity-Wallet", "title": "Parity Wallet", "desc": "Parity also includes a bundled wallet application", "date": 20170501 },
-            { "link": "https://jaxx.io/", "title": "Jaxx", "desc": "Wallet for multiple currencieson on multiple platforms", "date": 20170501 },
-            { "link": "https://status.im/", "title": "Status", "desc": "Ethereum browser/messenger/wallet for mobile phones", "date": 20170501 },
-            { "link": "https://www.inzhoop.com/", "title": "LETH", "desc": "A mobile Ethereum wallet with chat function", "date": 20170501 },
-            { "link": "https://token.im/", "title": "imToken", "desc": "A smart digital wallet for mobile phones", "date": 20170501 }
+          { "link": "https://github.com/ethereum/mist/releases", "title": "Mist", "desc": "Official Ethereum browser and wallet", "date": 20170501 },
+          { "link": "https://metamask.io/", "title": "MetaMask", "desc": "Chrome extension Ether wallet with ERC tokens support", "date": 20170501 },
+          { "link": "https://mycrypto.com/", "title": "MyCrypto", "desc": "Open-source, client-side tool for generating ether wallets, handling ERC-20 tokens, and interacting with the blockchain", "date": 20170501 },
+          { "link": "https://www.myetherwallet.com/", "title": "MyEtherWallet", "desc": "Open-source tool for interacting with the blockchains", "date": 20170501 },
+          { "link": "https://portis.io/", "title": "Portis", "desc": "Web-based wallet for easy user on-boarding to your DApp", "date": 20170501 },
+          { "link": "https://hellofetch.co/", "title": "Fetch", "desc": "Web-based (and desktop) wallet integrated with 20+ exchanges for real time trading rates and one-click trading", "date": 20170501 },
+          { "link": "https://www.opera.com/crypto", "title": "Opera Crypto Wallet", "desc": "Crypto wallet built in Opera browser supporting ERC-20 and ERC-721 tokens", "date": 20170501 },
+          { "link": "https://tokenary.io/macos/", "title": "Tokenary", "desc": "macOS Safari extension that enables interaction with DApps", "date": 20170501 },
+          { "link": "https://www.exodus.io/", "title": "Exodus", "desc": "Closed-source desktop wallet that allows for multi-currency interaction/transacting", "date": 20170501 },
+          { "link": "https://github.com/poanetwork/metamask-extension", "title": "Nifty Wallet", "desc": "Ethereum browser extension focused on usability of real world applications", "date": 20170501 },
+          { "link": "https://github.com/SpankChain/SpankCard", "title": "SpankCard", "desc": "An in-browser Ethereum wallet with support for payment channels", "date": 20170501 },
+          { "link": "https://zerion.io/", "title": "Zerion", "desc": "Web-based wallet interface with native DeFi integrations for trading borrowing and investing", "date": 20170501 },
+          { "link": "https://github.com/ConsenSys/eth-lightwallet", "title": "Eth Lightwallet", "desc": "Lightweight JavaScript wallet for node and the browser", "date": 20170501 },
+          { "link": "https://jaxx.io/", "title": "Jaxx", "desc": "Desktop and web multi-platform, multi-currency digital asset wallet", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Mobile" }
+        ],
+        "links": [
+          { "link": "https://status.im/", "title": "Status", "desc": "Ethereum browser/messenger/wallet for mobile phones", "date": 20170501 },
+          { "link": "https://wallet.coinbase.com/", "title": "Coinbase Wallet", "desc": "Ethereum browser/wallet for mobile phones", "date": 20170501 },
+          { "link": "https://trustwallet.com/", "title": "Trust", "desc": "Multi-currency browser/wallet for mobile phones", "date": 20170501 },
+          { "link": "https://token.im/", "title": "imToken", "desc": "Multi-currency browser/wallet for mobile phones", "date": 20170501 }
+          { "link": "https://safe.gnosis.io/", "title": "Gnosis Safe", "desc": "Ethereum Multi Signature mobile wallet", "date": 20170501 }
+          { "link": "https://www.argent.xyz/", "title": "Argent", "desc": "Ethereum mobile wallet", "date": 20170501 }
+          { "link": "https://balance.io/", "title": "Balance", "desc": "Ethereum mobile wallet", "date": 20170501 }
+          { "link": "https://dether.io/", "title": "Dether", "desc": "Ethereum exchange/wallet for mobile phones and crypto/cash marketplace", "date": 20170501 }
+          { "link": "https://www.coinomi.com/en/", "title": "Coinomi", "desc": "Multi-currency mobile wallet", "date": 20170501 }
+          { "link": "https://walleth.org/", "title": "WallETH", "desc": "Native Ethereum Android wallet", "date": 20170501 }
+          { "link": "https://jaxx.io/", "title": "Jaxx", "desc": "Mobile multi-platform, multi-currency digital asset wallet", "date": 20170501 },
+          { "link": "https://www.cipherbrowser.com/", "title": "Cipher", "desc": "Mobile DApp explorer", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Hardware" }
+        ],
+        "links": [
+          { "link": "https://trezor.io/", "title": "Trezor", "desc": "The original hardware wallet", "date": 20170501 },
+          { "link": "https://ledgerwallet.com/", "title": "Ledger", "desc": "Support for multiple cryptocurrencies and tokens", "date": 20170501 },
+          { "link": "https://keepkey.com/", "title": "KeepKey", "desc": "The simple hardware wallet", "date": 20170501 },
         ]
       },
       {
@@ -49,102 +101,244 @@
           { "text": "General online and wallet security are essential when dealing with cryptocurrencies. Please read and follow the the links below carefully. Your money might depend on it, because once it's gone, it's gone." }
         ],
         "links": [
+          { "link": "https://medium.com/mycrypto/mycryptos-security-guide-for-dummies-and-smart-people-too-ab178299c82e", "title": "MyCrypto's Security Guide", "desc": "How to be safe in the crypto world and the online world in general", "date": 20170501 },
           { "link": "https://medium.com/@pipermerriam/my-guide-to-solid-digital-security-fb76cb19c536#.cliexcgpg", "title": "Guide to securing your digital life", "desc": "necessary when dealing with cryptocurrencies", "date": 20170501 },
-          { "link": "https://ledger.groovehq.com/knowledge_base/topics/how-to-secure-your-eth-tokens-augur-rep-dot-dot-dot-with-your-nano-s", "title": "Ledger Nano", "desc": "Hardware wallet to store your ether and tokens", "date": 20170501 },
-          { "link": "http://doublenegative.com/ethereum-security-and-wallets/", "title": "Wallet Security", "desc": "and how to secure them", "date": 20170501 }
+          { "link": "https://blockgeeks.com/guides/cryptocurrency-wallet-guide/", "title": "Hardware wallet guide", "desc": "A step-by-step tutorial", "date": 20170501 }
+          { "link": "https://blockgeeks.com/guides/paper-wallet-guide/", "title": "Paper wallet guide", "desc": "How to protect your cryptocurrency", "date": 20170501 }        
         ]
       },
       {
         "headline": "Development Guides: Smart Contracts with Solidity",
         "paragraphs": [
           { "text": "Every day there are new blog posts, tutorials, research article and discussions about how to develop smart contracts and decentralized applications. I try to keep the best and most up-to-date ones here, please let me know about new ones I should add or old ones to remove." }
+          { "text": "Blog posts - Beginners" }
         ],
         "links": [
+          { "link": "https://ethereum.org/", "title": "Ethereum Website", "desc": "Browser and first tutorials from the Ethereum Foundation", "date": 20171101 },
           { "link": "https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4#.tcmcvxugj", "title": "101 Noob Intro", "desc": "to Programming Smart Contracts", "date": 20170501 },
-          { "link": "http://blockgeeks.com/guides/smart-contracts-the-blockchain-technology-that-will-replace-lawyers/", "title": "Smart Contracts", "desc": "Beginner’s Guide", "date": 20161101 },
+          { "link": "https://blockgeeks.com/guides/smart-contracts-the-blockchain-technology-that-will-replace-lawyers/", "title": "Smart Contracts", "desc": "Beginner’s Guide", "date": 20161101 },
           { "link": "https://blockgeeks.com/guides/how-to-learn-solidity/", "title": "How To Learn Solidity", "desc": "The Ultimate Ethereum Coding Guide", "date": 20170501 },
-          { "link": "https://dappsforbeginners.wordpress.com/", "title": "Dapps for Beginners", "desc": "Learning materials relating to development on Ethereum.", "date": 20171101 },
-          { "link": "https://hackernoon.com/11-best-ethereum-development-tools-to-grow-your-stack-e782fd7156ab", "title": "11 Best Ethereum Development Tools", "desc": "to Grow Your Stack", "date": 20170225 },
-          { "link": "https://learnxinyminutes.com/docs/solidity/", "title": "Learn Solidity in y minutes", "desc": "step-by-step Solidity tutorial", "date": 20171101 },
-          { "link": "https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html", "title": "Ethereumbuilders", "desc": "step-by-step Solidity tutorial", "date": 20171101 },
-          { "link": "https://truffle-box.github.io/", "title": "Truffle Box", "desc": " Set of Truffle + Webpack + React Boilerplates", "date": 20170501 },
-          { "link": "https://medium.com/metamask/developing-ethereum-projects-with-truffle-and-metamask-aa8ad7e363ba", "title": "Developing Ethereum Projects", "desc": "with Truffle and MetaMask", "date": 20170501 },
-          { "link": "https://medium.com/@timothyjcoulter/truffle-tricks-for-ethereum-development-dispelling-8-myths-first-impressions-880f66bf3320", "title": "Truffle Tricks for Ethereum Development", "desc": "Dispelling Myths and First Impressions", "date": 20170501 },
-          { "link": "http://blog.nexusdev.us/dapple-tutorial/", "title": "Creating an Upgradeable Token", "desc": "With Dapple and Dappsys", "date": 20170501 },
-          { "link": "https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02", "title": "The Anatomy of ERC20", "desc": "Ethereum’s Most Popular Contract", "date": 20170930 },
-          { "link": "https://medium.com/blockchannel/state-specifiers-and-staticcall-d50d5b2e4920", "title": "Changes to Solidity and How They Function:", "desc": "State Specifiers and STATICCALLn", "date": 20170927 },
-          { "link": "https://medium.com/blockchannel/the-use-of-revert-assert-and-require-in-solidity-and-the-new-revert-opcode-in-the-evm-1a3a7990e06e", "title": "Changes to Solidity and How They Function:", "desc": "Revert(), Assert(), and Require() in Solidity, and the New REVERT Opcode in the EVM", "date": 20170927 },
-          { "link": "https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976", "title": "Understanding the Basic Fundamentals of “Cryptoeconomics”", "desc": "A Crash Course", "date": 20171017 },
-          { "link": "http://blog.nexusdev.us/saving-time-and-sanity-using-the-next-generation-of-dapple-testing-tools/", "title": "Dapple’s Next-Generation Testing Tools", "desc": "Saving Time and Sanity", "date": 20170501 },
-          { "link": "https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-3-331c2712c9df", "title": "Full Stack Hello World Voting Ethereum Dapp Tutorial ", "desc": "for web developer", "date": 20170118 },
-          { "link": "https://medium.com/@hayeah/diving-into-the-ethereum-vm-part-5-the-smart-contract-creation-process-cb7b6133b855", "title": "Diving Into The Ethereum VM ", "desc": "part 1 - 5", "date": 20171101 },
-          { "link": "https://medium.com/@wslyvh/getting-started-with-ethereum-solidity-geth-part-2-d195144fe6c7", "title": "Getting started with Ethereum, Solidity & Geth ", "desc": "on Windows, part 1 + 2", "date": 20171101 },
-          { "link": "https://medium.com/@tapdev/latest", "title": "Your First Truffle Dapp ", "desc": "A beginners guide to the Truffle Framework, part 1 - 4", "date": 20171101 },
-          { "link": "http://blockgeeks.com/decentralized-applications-development-net-developers/", "title": "Decentralized applications development", "desc": "for .NET developers using Microsoft Visual Studio", "date": 20170501 },
+          { "link": "https://blockgeeks.com/guides/decentralized-applications/", "title": "How To Code", "desc": "Decentralized Applications or DApps", "date": 20170501 },
+          { "link": "https://blog.zeppelin.solutions/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05", "title": "The Hitchhiker’s Guide to Smart Contracts in Ethereum", "desc": "Short guide to smart contracts development", "date": 20170501 },
+          { "link": "https://blog.zeppelin.solutions/a-gentle-introduction-to-ethereum-programming-part-1-783cc7796094", "title": "A Gentle Introduction to Ethereum Programming", "desc": "Learn to build a fully-fledged smart-contract-enabled web application in 3 part series", "date": 20170501 },                              
+          { "link": "https://hackernoon.com/ethereum-development-walkthrough-part-1-smart-contracts-b3979e6e573e", "title": "Ethereum Development Walkthrough", "desc": "5 part development guide to smart contracts, security, tokens and DApps", "date": 20170501 },
+          { "link": "https://medium.com/coinmonks/learn-solidity-shark-of-the-pool-part-1-ac0f733eecdd", "title": "Build an Ethereum DApp", "desc": "4 part blog series with Solidity smart contracts, testing, NodeJS backend and React / MetaMask Web App", "date": 20170501 },
+          { "link": "https://medium.com/@tapdev/latest", "title": "Your First Truffle DApp", "desc": "A beginners guide to the Truffle framework, part 1 - 4", "date": 20171101 },
+          { "link": "https://medium.com/cryptronics/ethereum-development-guide-part-1-ad0c77c3683f", "title": "Ethereum Development Guide", "desc": "3 part guide to developing an Ethereum document certification contract", "date": 20171101 },
+          { "link": "https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2", "title": "Voting Ethereum DApp Tutorial", "desc": "For web developer, in 3 parts", "date": 20170118 },        
+          { "link": "https://medium.com/@wslyvh/getting-started-with-ethereum-solidity-geth-part-2-d195144fe6c7", "title": "Getting started with Ethereum, Solidity & Geth", "desc": "on Windows, part 1 + 2", "date": 20171101 },          
+        ], 
+        "paragraphs": [
+          { "text": "Blog posts - Advanced" }
+        ],
+        "links": [          
+          { "link": "https://blog.zeppelin.solutions/deconstructing-a-solidity-contract-part-i-introduction-832efd2d7737", "title": "Deconstructing a Solidity Contract", "desc": "By the end of the 6 part series, you should feel comfortable when looking at or debugging EVM bytecode", "date": 20171101 },
+          { "link": "https://medium.com/@merunasgrincalaitis/the-ultimate-end-to-end-tutorial-to-create-and-deploy-a-fully-descentralized-dapp-in-ethereum-18f0cf6d7e0e", "title": "The ultimate end-to-end tutorial", "desc": "To create and deploy a fully decentralized DApp", "date": 20171101 },
+          { "link": "https://truffleframework.com/tutorials/pet-shop", "title": "Pet Shop - your first DApp", "desc": "Build your first DApp with Truffle - an adoption tracking system for a pet shop", "date": 20171101 },
+          { "link": "https://blog.amr-gawish.com/building-a-production-ready-ethereum-dapp-from-idea-to-final-product-first-section-the-3b9975a226c", "title": "Building a production-ready Ethereum DApp", "desc": "From idea to final product", "date": 20171101 },
+          { "link": "https://hackernoon.com/full-stack-smart-contract-development-fccdfe5176ce", "title": "Full-stack smart contract development", "desc": "Writing, testing and deploying an Ethereum smart contract and its web interface", "date": 20171101 },          
+          { "link": "https://medium.com/@hayeah/diving-into-the-ethereum-vm-part-5-the-smart-contract-creation-process-cb7b6133b855", "title": "Diving Into The Ethereum VM", "desc": "Deconstruction of Solidity contracts in order to understand how it works as EVM bytecode, Part 1 - 5", "date": 20171101 },          
+          { "link": "https://blockgeeks.com/decentralized-applications-development-net-developers/", "title": "Decentralized applications development", "desc": "for .NET developers using Microsoft Visual Studio", "date": 20170501 },
+          { "link": "https://medium.com/blockchannel/the-anatomy-of-erc20-c9e5c5ff1d02", "title": "The Anatomy of ERC20", "desc": "Ethereum’s Most Popular Contract", "date": 20170930 },          
+          { "link": "https://medium.com/decentcrypto/building-your-first-ethereum-oracle-1ab4cccf0b31", "title": "Building your first Ethereum Oracle", "desc": "How do blockchains get data?", "date": 20171101 },
+          { "link": "https://www.pubnub.com/blog/implementing-pubnub-dapp-with-ethereum-blockchain/amp/", "title": "Implementing PubNub", "desc": "Connect millions of clients and devices to your smart contracts  ", "date": 20171101 },
+        ], 
+        "paragraphs": [
+          { "text": "Learning materials and other" }
+        ],
+        "links": [       
+          { "link": "https://solidity.readthedocs.io/en/develop/index.html#", "title": "Solidity", "desc": "The official learning material", "date": 20170501 },
+          { "link": "https://cryptozombies.io/", "title": "CryptoZombies", "desc": "Learn to code Ethereum DApps by coding your own game", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/ethereum-basics/development/ethereum-development-basics/", "title": "Development basics", "desc": "Included patterns, testing and tooling", "date": 20170501 },
+          { "link": "https://truffleframework.com/tutorials/", "title": "Tutorials", "desc": "For the Truffle framework", "date": 20170501 },
+          { "link": "https://github.com/ethereumbook/ethereumbook", "title": "Mastering Ethereum by Andreas M. Antonopoulos, Gavin Wood", "desc": "A book for developers, offering a guide to the operation and use of EVM-based open blockchains", "date": 20170501 },
+          { "link": "https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html", "title": "Ethereumbuilders", "desc": "Step-by-step Solidity tutorial", "date": 20171101 },
+          { "link": "https://learnxinyminutes.com/docs/solidity/", "title": "Learn Solidity in y minutes", "desc": "Solidity tutorial", "date": 20171101 },          
+          { "link": "https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial#%C3%B0app-development", "title": "Ethereum Development Tutorial", "desc": "Introduction to the development basics of Ethereum", "date": 20171101 },
+          { "link": "https://topmonks.github.io/solidity_quick_ref/", "title": "Solidity Cheatsheet", "desc": "Quick overview of Solidity syntax", "date": 20171101 },          
+          { "link": "https://github.com/manojpramesh/solidity-cheatsheet", "title": "Solidity Cheatsheet and Best practices", "date": 20171101 },          
+          { "link": "https://github.com/miguelmota/solidity-idiosyncrasies", "title": "Solidity idiosyncrasies", "desc": "Solidity gotchas, pitfalls, limitations, and idiosyncrasies", "date": 20171101 },          
+          { "link": "https://delegatecall.com/", "title": "Delegate call", "desc": "Questions & answers site", "date": 20170501 },                         
+          { "link": "https://ethereum.stackexchange.com", "title": "Ethereum Stack Exchange", "desc": "Get answers for all your Ethereum questions", "date": 20170501 },               
+        ], 
+        "paragraphs": [
+          { "text": "Videos" }
+        ],
+        "links": [ 
+          { "link": "https://github.com/willitscale/learning-solidity", "title": "Learning Solidity", "desc": "The companion to the Youtube tutorials", "date": 20170501 },
+          { "link": "https://www.youtube.com/watch?v=qlJ3cs7o2DE", "title": "Ethereum Dapp with React JS, Webpack, Web3 & Truffle", "desc": "Video tutorial, repo in the comments", "date": 20170501 },
           { "link": "https://www.youtube.com/watch?v=2184nCGMxyQ", "title": "Building a DApp and write contracts", "desc": "video by Alex Van de Sande and Christian Reitwiessner", "date": 20170501 },
-          { "link": "https://www.youtube.com/watch?v=9_coM_g7Dbg&list=PLH4m2oS2ratdoHFEkGvwvd7TkeTv4sa7Z", "title": "Building an Ethereum dapp using Solidity", "desc": "video series by Shlomi Zeltsinger", "date": 20170501 },
-          { "link": "https://medium.com/@mvmurthy/ethereum-for-web-developers-890be23d1d0c", "title": "iEx.ec EDCON series", "desc": "10 blog posts to understand the technology behind the Ethereum decentralized cloud", "date": 20170501 },
-          { "link": "https://blog.ethereum.org/2016/07/12/build-server-less-applications-mist/", "title": "How to build severless applications", "desc": "for Mist", "date": 20170501 },
-          { "link": "http://blockchainers.org/index.php/2016/11/27/ethereum-usecase-claim-and-endorse", "title": " A generic “Claim and Endorse” Contract", "date": 20170501 },
-          { "link": "https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/private-chain.html", "title": "Set up a private chain", "desc": "for testing purposes", "date": 20170501 },
-          { "link": "https://medium.com/@ConsenSys/very-deep-dive-on-ethereum-reading-list-f5b1122e5990#.d9mtt32ic", "title": "Ethereum Reading List", "desc": "for more in depth learning", "date": 20170501 },
-          { "link": "https://zupzup.org/smart-contract-solidity/", "title": "Getting Started with Smart Contracts", "desc": "using Solidity", "date": 20170501 },
-          { "link": "https://monax.io/docs/tutorials/solidity/solidity_1_the_five_types_model/", "title": "Solidity series on Eris", "desc": "different blockchain, same smart contract language", "date": 20170501 },
-          { "link": "https://medium.com/@codetractio/try-out-ethereum-using-only-nodejs-and-npm-eabaaaf97c80", "title": "Try out Ethereum", "desc": "using only nodejs and npm", "date": 20170501 },
-          { "link": "https://hackernoon.com/how-to-create-a-token-factory-with-ethereum-part-1-85e84d1f38fc", "title": "How to create a Token Factory", "desc": "with Ethereum", "date": 20170501 },
-          { "link": "http://decypher.tv/series/ethereum-development", "title": "Decypher Video Series", "desc": "for Ethereum Ðapp Development (paid)", "date": 20170501 },
-          { "link": "https://academy.b9lab.com/", "title": "B9Lab Certified Online Course", "desc": "for Ethereum Developer (paid)", "date": 20170501 },
-          { "link": "http://exosphe.re/#blockchain", "title": "Exosphere 8 week immersive program", "desc": "for Blockchain App Dev (paid)", "date": 20170501 }
+          { "link": "https://www.youtube.com/watch?v=9_coM_g7Dbg&list=PLH4m2oS2ratdoHFEkGvwvd7TkeTv4sa7Z", "title": "Building an Ethereum dapp using Solidity", "desc": "video series by Shlomi Zeltsinger", "date": 20170501 },       
+        ], 
+        "paragraphs": [
+          { "text": "Courses" }
+        ],
+        "links": [   
+          { "link": "https://www.chainshot.com/", "title": "Chainshot building blocks", "desc": "Project-based courses and challenges (free)", "date": 20170501 },
+          { "link": "https://academy.b9lab.com/", "title": "B9Lab", "desc": "Courses for beginners or developers (free and paid)", "date": 20170501 },
+          { "link": "https://courses.blockgeeks.com/", "title": "Blockgeeks", "desc": "Courses on Solidity/DApp development (paid)", "date": 20170501 },
+          { "link": "https://www.zastrin.com/", "title": "Zastrin", "desc": "Text and video courses (free and paid)", "date": 20170501 },         
+          { "link": "https://consensys.net/academy/", "title": "Consensys Academy", "desc": "In-person and online programs", "date": 20170501 },
+          { "link": "https://www.udemy.com/courses/search/?q=ethereum", "title": "Ethereum courses", "desc": "on Udemy (paid)", "date": 20170501 },
+          { "link": "https://www.coursera.org/courses?languages=en&query=ethereum", "title": "Ethereum courses", "desc": "on Coursera (paid)", "date": 20170501 },
+          { "link": "https://www.edx.org/course?search_query=blockchain", "title": "Blockchain courses", "desc": "on edX", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "Resources" }
+        ],
+        "links": [   
+          { "link": "https://kauri.io/", "title": "Learn to Build on Ethereum With Kauri", "desc": "Articles, tutorials, documentation and best practices", "date": 20171101 },
+          { "link": "https://media.consensys.net/an-definitive-list-of-ethereum-developer-tools-2159ce865974", "title": "A Definitive List of Ethereum Developer Tools", "desc": "A guide to available tools, components, frameworks, and platforms for developing applications on Ethereum", "date": 20171101 },
+          { "link": "https://github.com/bkrem/awesome-solidity", "title": "Awesome Solidity List", "desc": " A curated list of awesome Solidity resources, libraries, tools and more", "date": 20171101 },
+          { "link": "https://github.com/Scanate/EthList", "title": "EthList", "desc": "The crowdsourced Ethereum reading list", "date": 20171101 },          
+          { "link": "https://dappsforbeginners.wordpress.com/", "title": "Dapps for Beginners", "desc": "Learning materials relating to development on Ethereum", "date": 20171101 },  
         ]
       },
       {
-        "headline": "Development Guides: Smart Contract Security and programming with LLL, Viper or Bamboo",
+        "headline": "Development Guides: other EVM languages",
         "paragraphs": [
-          { "text": "After learning the first steps with Solidity, dive deeper into smart contract programming with LLL, Viper or Bamboo and learn important security aspects as well as more fine-grained control with Inline Assembly" }
+          { "text": "After learning the first steps with Solidity, dive deeper into smart contract programming with LLL, Viper or Bamboo and Inline Assembly" }
         ],
         "links": [
           { "link": "https://media.consensys.net/an-introduction-to-lll-for-ethereum-smart-contract-development-e26e38ea6c23", "title": "An Introduction to LLL for Ethereum", "desc": "Smart Contract Development", "date": 20170501 },
-          { "link": "https://github.com/ethereum/viper", "title": "Viper", "desc": "New experimental programming language", "date": 20171101 },
-          { "link": "https://github.com/pirapira/bamboo", "title": "Bamboo", "desc": "a morphing smart contract language", "date": 20171101 },
-          { "link": "https://github.com/ConsenSys/smart-contract-best-practices", "title": "Smart contract best practices", "desc": "by ConsenSys", "date": 20170501 },
-          { "link": "https://ethereum.stackexchange.com/questions/tagged/security", "title": "Stack exhange security tag", "desc": "see what people ask about security", "date": 20170501 },
-          { "link": "https://openzeppelin.org/", "title": "OpenZeppelin", "desc": "a framework to build secure smart contracts on Ethereum", "date": 20171101 },
-          { "link": "https://www.kingoftheether.com/contract-safety-checklist.html", "title": "Contract Safety and Security Checklist", "desc": "by King of the Ether", "date": 20170501 },
-          { "link": "http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/", "title": "Analysis of theDAO exploit", "desc": "How a bug caused a theft of $50 million", "date": 20170501 },
-          { "link": "http://vessenes.com/deconstructing-thedao-attack-a-brief-code-tour/", "title": "Deconstructing theDAO Attack", "desc": "The bug that caused the theft", "date": 20170501 },
-          { "link": "https://github.com/raineorshine/solgraph", "title": "Solgraph", "desc": "Visualize Solidity control flow for smart contract security analysis.", "date": 20170501 },
-          { "link": "https://www.reddit.com/r/ethereum/comments/4uu9fb/formal_verification_for_solidity/?st=irj5anka&sh=c23052c7", "title": "Formal Verification For Solidity", "date": 20170501 },
-          { "link": "http://solidity.readthedocs.io/en/develop/assembly.html", "title": "Solidity Assembly", "desc": "For more fine-grained control ", "date": 20170501 },
+          { "link": "https://github.com/ethereum/vyper", "title": "Vyper", "desc": "New experimental programming language", "date": 20171101 },
+          { "link": "https://github.com/spadebuilders/awesome-vyper", "title": "Awesome Vyper", "desc": "A curated list of resources for Vyper", "date": 20171101 },
+          { "link": "https://github.com/pirapira/bamboo", "title": "Bamboo", "desc": "A morphing smart contract language", "date": 20171101 },
+          { "link": "https://solidity.readthedocs.io/en/develop/assembly.html", "title": "Solidity Assembly", "desc": "For more fine-grained control ", "date": 20170501 },
           { "link": "https://github.com/androlo/solidity-workshop/blob/master/tutorials/2016-04-04-solidity-inline-assembly-I.md", "title": "Solidity Assembly Workshop", "desc": "with tutorial", "date": 20170501 }
         ]
       },
       {
-        "headline": "Developer Resources and Tools",
+        "headline": "Development Guides: Smart Contract Security and Formal Verification",
         "paragraphs": [
-          { "text": "Now that you have a wallet and maybe even installed Mist and/or Metamask, it’s time roll up your sleeves and get your hands dirty. There are tons of frameworks, tools and resources that you will help you create your very own first Ðapp." },
+          { "text": "Even though things are still quite experimental, real money always is on the line, so learning about smart contract security and testing is outmost important" }
+          { "text": "Blog posts, guides and learning materials" }
+        ],
+        "links": [
+          { "link": "https://github.com/ConsenSys/smart-contract-best-practices", "title": "Smart contract best practices", "desc": "by ConsenSys", "date": 20170501 },
+          { "link": "https://blog.sigmaprime.io/solidity-security.html", "title": "Comprehensive list of known attack vectors for Solidity", "desc": "And common anti-patterns", "date": 20170501 },
+          { "link": "https://solidity.readthedocs.io/en/latest/security-considerations.html", "title": "Solidity Documentation Security Considerations", "desc": "Security considerations in the Solidity official learning material", "date": 20170501 },
+          { "link": "https://ethernaut.zeppelin.solutions/", "title": "Ethernaut", "desc": "A game in which you hack smart contracts to learn about security", "date": 20170501 },
+          { "link": "https://medium.com/loom-network/how-to-secure-your-smart-contracts-6-solidity-vulnerabilities-and-how-to-avoid-them-part-2-730db0aa4834", "title": "Securing smart contracts", "desc": "6 Solidity vulnerabilities and how to avoid them", "date": 20170501 },
+          { "link": "https://blog.zeppelin.solutions/onward-with-ethereum-smart-contract-security-97a827e47702", "title": "Open Zeppelin / Onward with Ethereum Smart Contract Security", "desc": "Some recommended strategies to improve smart contract security", "date": 20170501 },
+          { "link": "https://vessenes.com/deconstructing-thedao-attack-a-brief-code-tour/", "title": "Deconstructing the DAO Attack", "desc": "The bug that caused the $50 million theft", "date": 20170501 },
+          { "link": "https://medium.com/@borisdinkevich/hacking-an-ethereum-contract-3181cd93589f", "title": "Hacking an Ethereum contract", "desc": "Reconstruct the $1,000,000 hack of PoWHCoin", "date": 20170501 },
+          { "link": "https://media.consensys.net/how-formal-verification-can-ensure-flawless-smart-contracts-cbda8ad99bd1", "title": "How Formal Verification Can Ensure Flawless Smart Contracts", "desc": "How to eradicate errors in the Ethereum bytecode", "date": 20170501 },
+          { "link": "https://www.reddit.com/r/ethereum/comments/4uu9fb/formal_verification_for_solidity/?st=irj5anka&sh=c23052c7", "title": "Formal Verification For Solidity", "date": 20170501 },
+          { "link": "https://ethereum.stackexchange.com/questions/tagged/security", "title": "Stack exhange security tag", "desc": "See what people ask about security", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "Resources" }
+        ],
+        "links": [
+          { "link": "https://github.com/trailofbits/awesome-ethereum-security/", "title": "Awesome Ethereum Security", "desc": "A curated list of awesome Ethereum security references, guidance, tools, and more", "date": 20170501 },
+          { "link": "https://media.consensys.net/an-definitive-list-of-ethereum-developer-tools-2159ce865974", "title": "Safety wiki", "desc": "Ethereum Foundation wiki on safety", "date": 20170501 },
+          { "link": "https://github.com/ethereum/wiki/wiki/Safety", "title": "A Definitive List of Ethereum Developer Tools", "desc": "Includes a security tools", "date": 20170501 },
+        ]
+      },
+      {
+        "headline": "Developer Tools",
+        "paragraphs": [
+          { "text": "Now that you have a wallet and maybe even installed Mist and/or Metamask, it’s time roll up your sleeves and get your hands dirty. There are tons of frameworks, tools and resources that will help you create your very own first Ðapp." },
           { "text": "Smart contracts are executed in the Ethereum Virtual Machine(EVM), which runs on every full Ethereum node. The most contracts are written in Solidity, and frameworks like Truffle, Embark or Dapple simplify the creation." }
         ],
         "links": [
-          { "link": "https://ethereum.org/", "title": "Ethereum Website", "desc": "Browser and first tutorials from the Ethereum Foundation", "date": 20171101 },
-          { "link": "https://github.com/ethereum/wiki/wiki/White-Paper", "title": "White Paper", "desc": "The formal proposal of Ethereum", "date": 20170501 },
-          { "link": "https://github.com/ethereum/yellowpaper", "title": "Yellow Paper", "desc": "The formal specification of the Ethereum protocol", "date": 20170501 },
-          { "link": "https://solidity.readthedocs.io/en/latest/", "title": "Solidity Docs", "desc": "learn the contract-oriented, high-level language for the Ethereum Virtual Machine", "date": 20170501 },
-          { "link": "https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial", "title": "Ethereum wiki", "desc": "Development Tutorial", "date": 20171101 },
-          { "link": "http://www.ethdocs.org/en/latest/index.html", "title": "Homestead Documentation", "desc": "the current version of Ethereum", "date": 20170501 },
-          { "link": "http://ethereum.stackexchange.com", "title": "Ethereum StackExchange", "desc": "get answers for all your Ethereum questions", "date": 20170501 },
-          { "link": "https://github.com/ethereum/web3.js", "title": "Ethereum JavaScript API", "date": 20170501 },
-          { "link": "http://truffleframework.com/", "title": "Truffe", "desc": "Development framework for Ethereum", "date": 20170501 },
-          { "link": "https://github.com/iurimatias/embark-framework", "title": "Embark", "desc": "Framework to develop and deploy DApps", "date": 20170501 },
-          { "link": "http://dapple.readthedocs.io/en/master/", "title": "Dapple", "desc": "Development framework for Ethereum", "date": 20170501 },
-          { "link": "https://github.com/nexusdev/projectle", "title": "Projectle", "desc": "EVM contract system developer multi-tool", "date": 20170501 },
-          { "link": "https://github.com/blockapps/bloc", "title": "BlockApps", "desc": "REST API and Javascript and Mobile SDK to Ethereum blockchains.", "date": 20170501 },
+          { "link": "https://hackernoon.com/the-ultimate-guide-to-ethereum-developer-tools-7feb53f9d953", "title": "The Ultimate Guide to Ethereum Developer Tools", "desc": "A guide of leading software tools and packages with a brief overview of the function", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Frameworks" }
+        ],
+        "links": [
+          { "link": "https://truffleframework.com/", "title": "Truffe", "desc": "Smart contract development, testing, and deployment framework", "date": 20170501 },        
+          { "link": "https://embark.status.im/", "title": "Embark", "desc": "Framework to develop and deploy DApps", "date": 20170501 },
+          { "link": "https://dapp.tools/dapp/", "title": "Dapp", "desc": "Framework for DApp development, successor to DApple", "date": 20170501 },
+          { "link": "https://getwaffle.io/", "title": "Waffle", "desc": "Framework for advanced smart contract development and testing (based on ethers.js)", "date": 20170501 },
+          { "link": "https://github.com/LimeChain/etherlime", "title": "Etherlime", "desc": "ethers.js based framework for Dapp deployment", "date": 20170501 },
+          { "link": "https://github.com/nomiclabs/buidler", "title": "Buidler", "desc": "Smart contract development tool to bring together the tools you want", "date": 20170501 },
+          { "link": "https://getparasol.io/", "title": "Parasol", "desc": "Smart contract development environment with testing, Infura deployment, automatic contract documentation and more", "date": 20170501 },
+          { "link": "https://docs.0xcert.org/", "title": "0xcert", "desc": "JavaScript framework for building decentralized applications", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "Patterns and popular libraries" }
+        ],
+        "links": [  
+          { "link": "https://dapp.tools/dappsys/", "title": "Dappsys", "desc": "Composable building blocks for Ethereum contracts", "date": 20170501 },                
+          { "link": "https://openzeppelin.org/", "title": "OpenZeppelin", "desc": "An open framework of reusable and secure smart contracts in the Solidity language", "date": 20170501 },                
+          { "link": "https://zeppelinos.org/", "title": "ZeppelinOS", "desc": "Develop, deploy and operate any smart contract DApp", "date": 20170501 },                
+          { "link": "https://zepkit.zeppelinos.org/", "title": "ZepKit", "desc": "Develop easily your DApp by using React, ZeppelinOS, OpenZeppelin, Truffle and Infura tools in one box", "date": 20170501 },                
+          { "link": "https://hack.aragon.org/docs/aragonos-intro.html", "title": "AragonOS", "desc": "A smart contract framework for building DAOs, Dapps and protocols", "date": 20170501 },                
+          { "link": "https://github.com/daostack/arc", "title": "ARC", "desc": "An operating system for DAOs and the base layer of the DAO stack", "date": 20170501 },                                         
+          { "link": "https://github.com/cryptofinlabs/cryptofin-solidity", "title": "CryptoFin Solidity", "desc": "A collection of Solidity libraries for building secure and gas-efficient smart contracts", "date": 20170501 },  
+        ], 
+        "paragraphs": [
+          { "text": "IDEs - Integrated Developer Environments" }
+        ],
+        "links": [         
+          { "link": "https://remix.ethereum.org/", "title": "Remix", "desc": "Web IDE with built in static analysis, test blockchain VM", "date": 20171101 },
+          { "link": "https://github.com/horizon-games/remix-app", "title": "Remix-app", "desc": "Ethereum Remix Solidity IDE, electron edition", "date": 20171101 },
+          { "link": "https://ethfiddle.com/", "title": "EthFiddle", "desc": "IDE that allows you to write, compile and debug your smart contract", "date": 20171101 },
+          { "link": "https://superblocks.com/lab/", "title": "Superblocks Lab", "desc": "Web IDE to learn, build and deploy decentralized apps (DApps)", "date": 20171101 },
+          { "link": "https://atom.io/", "title": "Atom", "desc": "Atom editor with Atom Solidity Linter, Etheratom, autocomplete-solidity, and language-solidity packages", "date": 20171101 },
+          { "link": "https://github.com/dominicwilliams/instant-dapp-ide", "title": "Instant Dapp IDE", "desc": "Complete Dapp and Solidity development environment as docker image you can run from command line", "date": 20171101 },
+          { "link": "https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity", "title": "Visual Studio Code", "desc": "Visual Studio Code extension that adds support for Solidity", "date": 20171101 },
+          { "link": "https://yakindu.github.io/solidity-ide/", "title": "YAKINDU Solidity Tools", "desc": "Eclipse based IDE for Ethereum / Solidity based smart contracts", "date": 20171101 }, 
+        ], 
+        "paragraphs": [
+          { "text": "Test networks" }
+        ],
+        "links": [            
+          { "link": "https://truffleframework.com/ganache", "title": "Ganache", "desc": "App for test Ethereum blockchain with visual UI and logs", "date": 20170501 },          
+          { "link": "https://github.com/f-o-a-m/cliquebait", "title": "Cliquebait", "desc": "Test your DApps in testing environment that closely resembles a real blockchain network", "date": 20170501 },          
+          { "link": "https://github.com/ConsenSys/Local-Raiden", "title": "Local Raiden", "desc": "Run a local Raiden network in docker containers for demo and testing purposes", "date": 20170501 },          
+          { "link": "https://kaleido.io/", "title": "Kaleido", "desc": "Spin up a consortium blockchain network for PoCs and testing purposes", "date": 20170501 },          
+          { "link": "https://docs.pantheon.pegasys.tech/en/latest/Getting-Started/Private-Network-Quickstart/", "title": "Pantheon Private Network", "desc": "Run a private network of Pantheon nodes in a Docker container", "date": 20170501 },          
+          { "link": "https://docs.microsoft.com/en-us/azure/blockchain-workbench/ethereum-poa-deployment", "title": "Ethereum on Azure", "desc": "Deployment and governance of consortium Ethereum PoA networks", "date": 20171101 },
+          { "link": "https://getho.io/", "title": "getho", "desc": "DApp development platform including PoA private blockchain and smart contract testing tool", "date": 20171101 },
+        ], 
+        "paragraphs": [
+          { "text": "Testing tools" }
+        ],
+        "links": [
+          { "link": "https://github.com/0xProject/0x-monorepo/tree/v2-prototype/packages/sol-cov", "title": "Solidity code coverage", "desc": "Solidity code coverage tool", "date": 20170501 },            
+          { "link": "https://github.com/EricR/sol-function-profiler", "title": "Solidity function profiler", "desc": "Solidity contract function profiler", "date": 20170501 },            
+          { "link": "https://github.com/Aniket-Engg/sol-profiler", "title": "Sol-profiler", "desc": "Alternative and updated Solidity smart contract profiler", "date": 20170501 },            
+          { "link": "https://github.com/hillstreetlabs/espresso", "title": "Espresso", "desc": "Speedy, parallelised, hot-reloading solidity test framework", "date": 20170501 },            
+          { "link": "https://github.com/ethereum/eth-tester", "title": "Eth tester", "desc": "Tool suite for testing Ethereum applications", "date": 20170501 },            
+          { "link": "https://github.com/dapphub/dapptools/tree/master/src/hevm", "title": "Hevm", "desc": "an implementation of the EVM made for unit testing and debugging smart contracts", "date": 20170501 },            
+          { "link": "https://github.com/fergarrui/ethereum-graph-debugger", "title": "Ethereum graph debugger", "desc": "Solidity graphical debugger", "date": 20170501 },            
+          { "link": "https://github.com/Tenderly/tenderly-cli", "title": "Tenderly CLI", "desc": "Speed up your development with human readable stack traces", "date": 20170501 },            
+          { "link": "https://getdoppelganger.io/", "title": "Doppelgänger", "desc": "A library for mocking smart contract dependencies during unit testing", "date": 20170501 },            
+          { "link": "https://github.com/wighawag/rocketh", "title": "rocketh", "desc": "A simple lib to test smart contract that allows to use whatever web3 lib and test runner you choose", "date": 20170501 },            
+        ], 
+        "paragraphs": [
+          { "text": "Security tools" }
+        ],
+        "links": [            
+          { "link": "https://mythx.io/", "title": "MythX", "desc": "Security verification platform and tools ecosystem for Ethereum developers", "date": 20170501 },          
+          { "link": "https://securify.chainsecurity.com/", "title": "Securify", "desc": "Security scanner for Ethereum smart contracts", "date": 20170501 },          
+          { "link": "https://github.com/melonproject/oyente", "title": "Oyente", "desc": "Alternative static smart contract security analysis", "date": 20170501 },          
+          { "link": "https://github.com/IC3Hydra/Hydra", "title": "Hydra", "desc": "Framework for cryptoeconomic contract security, decentralised security bounties", "date": 20170501 },          
+          { "link": "https://github.com/raineorshine/solgraph", "title": "Solgraph", "desc": "Visualise Solidity control flow for smart contract security analysis", "date": 20170501 },          
+          { "link": "https://tool.smartdec.net/", "title": "SmartCheck", "desc": "Static smart contract security analyzer", "date": 20170501 },          
+          { "link": "https://github.com/trailofbits/manticore", "title": "Manticore", "desc": "Symbolic execution tool on smart contracts and binaries", "date": 20170501 },          
+          { "link": "https://github.com/trailofbits/slither", "title": "Slither", "desc": "A Solidity static analysis framework", "date": 20170501 },          
+        ], 
+        "paragraphs": [
+          { "text": "Other tools" }
+        ],
+        "links": [           
+          { "link": "https://truffle-box.github.io/", "title": "Truffle Box", "desc": "Set of Truffle + Webpack + React Boilerplates", "date": 20170501 },          
           { "link": "https://infura.io/", "title": "Infura", "desc": "APIs to Ethereum and IPFS nodes", "date": 20170501 },
-          { "link": "https://ethereum.github.io/browser-solidity/", "title": "Browser Solidity / Remix", "desc": "Solidity Realtime compiler and IDE", "date": 20171101 },
-          { "link": "https://github.com/ethereum/viper", "title": "Viper", "desc": "Experimental EVM programming language with several security features", "date": 20170501 },
-          { "link": "https://github.com/SilentCicero/wafr", "title": "Wafr", "desc": "A super simple Solidity test harness for Ethereum smart-contracts.", "date": 20170501 },
-          { "link": "https://www.reddit.com/r/ethereum/comments/5q4at2/psa_add_this_git_webhook_to_your_solidity/", "title": "git webhook to your solidity codebases", "desc": "for the Ethereum Function Signature Registry", "date": 20170501 },
-          { "link": "https://live.ether.camp/", "title": "Ether Camp", "desc": "Blockchain explorer", "date": 20170501 },
-          { "link": "https://etherscan.io/", "title": "Etherscan", "desc": "Blockchain explorer", "date": 20170501 }
+          { "link": "https://github.com/ethereum-ts/TypeChain", "title": "TypeChain", "desc": "Typescript bindings for Ethereum smart contracts", "date": 20170501 },
+          { "link": "https://github.com/JoinColony/purser", "title": "Purser", "desc": "JavaScript universal wallet tool for Ethereum-based wallets", "date": 20170501 },      
+        ], 
+        "paragraphs": [
+          { "text": "Resources" }
+        ],
+        "links": [
+          { "link": "https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/README.md", "title": "Ethereum Developer Tools List", "desc": "A guide to available tools, components, patterns, and platforms for developing applications on Ethereum", "date": 20170501 },          
+          { "link": "https://github.com/bkrem/awesome-solidity", "title": "Awesome Solidity List", "desc": "A curated list of awesome Solidity resources, libraries, tools and more", "date": 20170501 },          
+          { "link": "https://github.com/spadebuilders/awesome-vyper", "title": "Awesome Vyper", "desc": "A curated list of resources for Vyper", "date": 20170501 },          
         ]
       },
       {
@@ -153,38 +347,221 @@
           { "text": "Clients directly (node as part of the network) or indirectly (remote connection to a node) connect to the Ethereum network and are used by browsers and wallets to allow the user to interact with it." }
         ],
         "links": [
-          { "link": "https://geth.ethereum.org/", "title": "Geth Ethereum Client", "desc": "Ethereum client developed in Go", "date": 20170501 },
-          { "link": "https://ethcore.io/parity.html", "title": "Parity Ethereum Client", "desc": "Ethereum client developed in Rust", "date": 20170501 },
-          { "link": "http://ethereumjs.github.io/", "title": "ethereumJS", "desc": "Javascript gateway to Ethereum", "date": 20170501 },
-          { "link": "https://github.com/ethereum/wiki/wiki/JavaScript-API", "title": "Web3", "desc": "Javascript API to interact with Ethereum", "date": 20170501 },
-          { "link": "https://github.com/Nethereum/Nethereum", "title": "Nethereum", "desc": ".Net integration library for Ethereum", "date": 20170501 },
-          { "link": "https://github.com/web3j/web3j", "title": "web3j", "desc": "Java and Android Ethereum library", "date": 20170501 },
-          { "link": "https://github.com/ethereum/pyethereum", "title": "pyethereum", "desc": "Python core library of the Ethereum project", "date": 20170501 },
-          { "link": "http://machinomy.com/", "title": "Machinomy", "desc": "JS library for micropayments in Ether over HTTP", "date": 20170501 }
+          { "link": "https://github.com/ethereum/go-ethereum/wiki/geth", "title": "Geth", "desc": "Ethereum client developed in Go", "date": 20170501 },
+          { "link": "https://www.parity.io/", "title": "Parity", "desc": "Rust client", "date": 20170501 },
+          { "link": "https://github.com/ethereumjs/ethereumjs-client", "title": "ethereumJS", "desc": "Javascript client using ethereumjs-vm", "date": 20170501 },
+          { "link": "https://github.com/ethereum/ethereumj", "title": "Ethereumj", "desc": "Java client by the Ethereum Foundation", "date": 20170501 },
+          { "link": "https://docs.pantheon.pegasys.tech/en/latest/", "title": "Pantheon", "desc": "Java client by PegaSys", "date": 20170501 },
+          { "link": "https://github.com/ethereum/pyethapp", "title": "Pyethapp", "desc": "Python client using pyethereum", "date": 20170501 },
+          { "link": "https://github.com/ethereum/trinity", "title": "Trinity", "desc": "Python client using py-evm", "date": 20170501 },
+          { "link": "https://github.com/ethereum/aleth", "title": "Aleth", "desc": "C++ client", "date": 20170501 },
+          { "link": "https://github.com/musteka-la/mustekala", "title": "Mustekala", "desc": "Ethereum Light Client project of Metamask", "date": 20170501 },
+          { "link": "https://medium.com/zkcapital/a-primer-on-ethereum-blockchain-light-clients-f3cadde49137", "title": "Ethereum Blockchain Light Clients", "desc": "A primer", "date": 20170501 },                
+        ], 
+        "paragraphs": [
+          { "text": "APIs - Frontend" }
+        ],
+        "links": [  
+          { "link": "https://github.com/ethereum/web3.js/", "title": "Web3.js", "desc": "Javascript Web3", "date": 20170501 },
+          { "link": "https://github.com/ethjs", "title": "Eth.js", "desc": "Javascript Web3 alternative", "date": 20170501 },
+          { "link": "https://github.com/ethers-io/ethers.js/", "title": "Eth.js", "desc": "Javascript (and TypeScript) Web3 alternative, useful utilities and wallet features", "date": 20170501 },
+          { "link": "https://github.com/0xProject/0x-monorepo/tree/v2-prototype/packages/web3-wrapper", "title": "Web3Wrapper", "desc": "Typescript Web3 alternative", "date": 20170501 },
+          { "link": "https://github.com/ethereumjs/", "title": "Ethereumjs", "desc": "A collection of utility functions for Ethereum like ethereumjs-util and ethereumjs-tx", "date": 20170501 },
+          { "link": "https://github.com/0xProject/0x-monorepo/tree/v2-prototype/packages/web3-wrapper", "title": "Web3Wrapper", "desc": "Typescript Web3 alternative", "date": 20170501 },         
+          { "link": "https://nethereum.com/", "title": "Nethereum", "desc": "Cross-platform Ethereum development framework", "date": 20170501 },
+          { "link": "https://github.com/truffle-box/drizzle-box", "title": "Drizzle", "desc": "Redux library to connect a frontend to a blockchain", "date": 20170501 },
+          { "link": "https://github.com/tasitlabs/tasitsdk", "title": "Tasit SDK", "desc": "A JavaScript SDK for making native mobile Ethereum dapps using React Native", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "APIs - Backend" }
+        ],
+        "links": [  
+          { "link": "https://github.com/web3j/web3j", "title": "Web3j", "desc": "Java Web3", "date": 20170501 },
+          { "link": "https://nethereum.com/", "title": "Nethereum", "desc": ".Net Web3", "date": 20170501 },
+          { "link": "https://github.com/ethereum/web3.py", "title": "Web3.py", "desc": "Python Web3", "date": 20170501 },          
+          { "link": "https://github.com/ethereum/pyethereum", "title": "pyethereum", "desc": "Python core library of the Ethereum project", "date": 20170501 },          
+          { "link": "https://github.com/machinomy/machinomy", "title": "Machinomy", "desc": "Node.js library for micropayments in Ether and ERC20 tokens over HTTP", "date": 20170501 }
+          { "link": "https://machinomy.com/", "title": "Machinomy", "desc": "Node.js library for micropayments in Ether and ERC20 tokens over HTTP", "date": 20170501 }
+          { "link": "https://github.com/ConsenSys/eventeum", "title": "Eventeum", "desc": "A bridge between Ethereum smart contract events and backend microservices, written in Java", "date": 20170501 }            
+        ], 
+        "paragraphs": [
+          { "text": "Resources" }
+        ],
+        "links": [
+          { "link": "https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/README.md", "title": "Ethereum Developer Tools List", "desc": "A guide to available tools, components, patterns, and platforms for developing applications on Ethereum", "date": 20170501 },          
+          { "link": "https://github.com/bkrem/awesome-solidity", "title": "Awesome Solidity List", "desc": "A curated list of awesome Solidity resources, libraries, tools and more", "date": 20170501 },          
+          { "link": "https://github.com/spadebuilders/awesome-vyper", "title": "Awesome Vyper", "desc": "A curated list of resources for Vyper", "date": 20170501 },
         ]
       },
       {
-        "headline": "News and communities",
+        "headline": "Layer 2 Scaling Solutions",
         "paragraphs": [
-          { "text": "There are many quality news outlet reporting about Ethereum and the decentralization of the web. Check them out or follow us via the links in the footer for the most important news articles of the day." }
+          { "text": "???" }
         ],
         "links": [
-            { "link": "https://blog.ethereum.org/", "title": "Official Ethereum blog", "desc": "by the Ethereum Foundation", "date": 20170501 },
-            { "link": "https://www.ethnews.com/", "title": "ETHNews", "desc": "News Website", "date": 20170501 },
-            { "link": "https://cointelegraph.com/tags/ethereum", "title": "Cointelegraph", "desc": "News Website", "date": 20170501 },
-            { "link": "http://www.trustnodes.com/news/ethereum", "title": "Trustnodes", "desc": "Newws Website", "date": 20170501 },
-            { "link": "https://media.consensys.net/", "title": "ConsenSys Blog", "desc": "Blog of the Ethereum powerhouse ConsenSys", "date": 20170501 },
-            { "link": "https://www.cryptocoinsnews.com/ethereum-news/", "title": "CryptocoinsNews", "desc": "News Website", "date": 20170501 },
-            { "link": "https://bitcoinmagazine.com/sections/ethereum/", "title": "Bitcoin Magazine", "desc": "News Website", "date": 20170501 },
-            { "link": "http://www.coindesk.com/?s=ethereum", "title": "Coindesk", "desc": "News Website", "date": 20170501 },
-            { "link": "http://www.ibtimes.co.uk/topics/ethereum", "title": "International Business Times", "desc": "News Website", "date": 20170501 },
-            { "link": "http://www.weekinethereum.com/", "title": "The week in Ethereum", "desc": "Newsletter by Evan Van Ness", "date": 20170501 },
-            { "link": "https://www.reddit.com/r/ethereum/", "title": "Ethereum subreddit", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
-            { "link": "https://www.reddit.com/r/ethtrader/", "title": "Ethtrader subreddit", "desc": "Ether price and trading discussions", "date": 20170501 },
-            { "link": "https://www.reddit.com/r/ethdev/", "title": "EthDev subreddit", "desc": "Discussions about Ethereum development", "date": 20170501 },
-            { "link": "http://ethfans.org/", "title": "EthFans", "desc": "Chinese Ethereum Community", "date": 20170501 },
-            { "link": "https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/videos", "title": "Devcon2 videos", "date": 20170501 },
-            { "link": "https://ethereumfoundation.org/devcon/?page_id=14", "title": "Devcon2 slides", "date": 20170501 }
+          { "link": "https://medium.com/web3foundation/scalingnow-scaling-solution-summit-summary-be30047047bf", "title": "ScalingNOW!", "desc": "Scaling Solution Summit Summary", "date": 20170501 },
+          { "link": "https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8/htmlview#", "title": "Scaling solutions", "desc": "Spreadsheet summary", "date": 20170501 },
+          { "link": "https://www.ethnews.com/a-survey-of-second-layer-solutions-for-blockchain-scaling-part-3", "title": "Second Layer Solutions For Blockchain Scaling", "desc": "3 part blog series y ETHNews", "date": 20170501 },
+          { "link": "https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4", "title": "Making Sense of Ethereum’s Layer 2 Scaling Solutions", "desc": "Deep dive into off-chain or layer 2 solutions - state channels, Plasma, and Truebit", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "State and Payment Channels" }
+        ],
+        "links": [
+          { "link": "https://www.learnchannels.org/", "title": "LearnChannels", "desc": "Learning site dedicated to state channels", "date": 20170501 },
+          { "link": "https://blog.coinfund.io/the-state-of-state-channels-2018-edition-f5492134ab96", "title": "The state of state channels: 2018 edition", "desc": "Overview, projects and further readings", "date": 20170501 },
+          { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/payment-channels/", "title": "Payment Channels", "desc": "Brief summary", "date": 20170501 },          
+          { "link": "https://medium.com/@matthewdif/ethereum-payment-channel-in-50-lines-of-code-a94fad2704bc", "title": "Ethereum Payment Channel", "desc": "Ethereum Payment Channel in 50 lines of code", "date": 20170501 },
+          { "link": "https://microraiden.readthedocs.io/", "title": "µRaiden Documentation", "desc": "Guides and samples for µRaiden sender/receiver use cases", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Plasma" }
+        ],
+        "links": [        
+          { "link": "https://www.learnplasma.org/en/", "title": "Learn Plasma", "desc": "Learn all about Plasma", "date": 20170501 },
+          { "link": "https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333", "title": "Plasma World Map - the hitchhiker’s guide to the plasma", "desc": "Large picture of numerous studies and a good cheat sheet for doing own research", "date": 20170501 },
+          { "link": "https://github.com/omisego/plasma-mvp", "title": "Plasma MVP", "desc": "OmiseGO's research implementation of Minimal Viable Plasma", "date": 20170501 },
+          { "link": "https://github.com/kyokan/plasma", "title": "Plasma MVP Golang", "desc": "Golang implementation and extension of the Minimum Viable Plasma specification", "date": 20170501 },
+          { "link": "https://github.com/omisego/plasma-cash", "title": "Plasma Cash", "desc": "Simple Plasma Cash implementation", "date": 20170501 },        
+          { "link": "https://leapdao.org/", "title": "Plasma Leap", "desc": "Plasma chain to increase the capacity of Ethereum and widen the scope of possible DApps", "date": 20170501 },                
+        ], 
+        "paragraphs": [
+          { "text": "Sidechains" }
+        ],
+        "links": [        
+          { "link": "https://hackernoon.com/difference-between-sidechains-and-state-channels-2f5dfbd10707", "title": "Difference Between SideChains and State Channels", "desc": "An explanation and a complete comparison of the two scaling methods", "date": 20170501 },        
+          { "link": "https://poa.net/", "title": "POA Network", "desc": "Open Ethereum sidechain with Proof of Authority consensus", "date": 20170501 },        
+          { "link": "https://bridge.poa.net/", "title": "POA Bridge", "desc": "POA <-> Ethereum bridge for self transfers of POA native token to POA20 (ERC20 representation)", "date": 20170501 },        
+          { "link": "https://poa.net/xdai", "title": "xDai Chain", "desc": "Ethereum-based blockchain that uses USD-stable xDai (a representation of DAI token) as the native coin", "date": 20170501 },                
+          { "link": "https://loomx.io/", "title": "Loom Network", "desc": "A network of DPoS sidechains for games and DApps", "date": 20170501 },                        
+          { "link": "https://skalelabs.com/", "title": "SKALE", "desc": "Ethereum sidechain test network", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "ZK-STARKs" }
+        ],
+        "links": [        
+          { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-starks/", "title": "ZK-STARKs", "desc": "Summary, projects and further readings", "date": 20170501 },
+          { "link": "https://github.com/elibensasson/libSTARK", "title": "libSTARK", "desc": "C++ library for ZK-STARK systems", "date": 20170501 },
+        ]
+      },
+      {        
+        "headline": "Other Utilities and Resources",
+        "paragraphs": [
+          { "text": "???" }
+          { "text": "Explorers" }
+        ],
+        "links": [
+          { "link": "https://etherscan.io/", "title": "Etherscan", "desc": "Block explorer and analytics platform ", "date": 20170501 },
+          { "link": "https://ethplorer.io/", "title": "Ethplorer", "desc": "Block explorer providing token information and analytics", "date": 20170501 },
+          { "link": "https://blockscout.com/eth/mainnet", "title": "BlockScout", "desc": "Blockchain explorer inspecting and analyzing EVM based blockchains", "date": 20170501 },
+          { "link": "https://trivial.co/", "title": "Trivial", "desc": "Analytics platform for Ethereum tokens", "date": 20170501 },
+          { "link": "https://loanscan.io/", "title": "Loanscan", "desc": "Ethereum loan explorer providing financial information and analytics for debt issued on the Ethereum", "date": 20170501 },
+          { "link": "https://www.stateofthedapps.com/", "title": "State of the dApps", "desc": "Curated directory of decentralized applications", "date": 20170501 },
+          { "link": "https://ethgasstation.info/", "title": "Ethereum Gas Station", "desc": "Explorer of a gas prices, transaction confirmation times, and miner policies on the Ethereum network", "date": 20170501 },
+          { "link": "https://gitcoin.co/gas/history?breakdown=weekly", "title": "Gitcoin Gas Station", "desc": "Gas price history chart", "date": 20170501 },
+          { "link": "https://ethstats.net/", "title": "EthStats", "desc": "Ethereum network statistics", "date": 20170501 },        
+          { "link": "https://observeth.net/main", "title": "ObservEth", "desc": "Fast visual access to the information available on the open Ethereum ledger", "date": 20170501 },                
+        ], 
+        "paragraphs": [
+          { "text": "Run an Ethereum Node" }
+        ],
+        "links": [  
+          { "link": "https://github.com/dappnode/dappnode", "title": "DAppNode", "date": 20170501 },        
+          { "link": "https://quiknode.io/", "title": "QuikNode", "date": 20170501 },        
+          { "link": "https://blockdaemon.com/", "title": "Blockdaemon", "date": 20170501 },        
+          { "link": "https://vipnode.org/", "title": "Vipnode", "date": 20170501 },                
+        ], 
+        "paragraphs": [
+          { "text": "Other Utilities" }
+        ],
+        "links": [  
+          { "link": "https://docs.google.com/spreadsheets/d/1Wg_eX-mYopvWT3LeHe4-FEHOtJoG28h8YcHl4PFTX5k/edit#gid=0", "title": "List of Ethereum Public Calls", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Resources" }
+        ],
+        "links": [        
+          { "link": "https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/README.md", "title": "Ethereum Developer Tools List", "desc": "A guide to available tools, components, patterns, and platforms for developing applications on Ethereum", "date": 20170501 },                    
+          { "link": "https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/EcosystemResources.md", "title": "Ecosystem Resources", "desc": "A guide to the available dapps, services, writings, and knowledge bases for learning and understanding the Ethereum ecosystem", "date": 20170501 },                    
+          { "link": "https://docs.ethhub.io/ethereum-basics/resources/", "title": "EthHub Resources", "desc": "A list of further Ethereum resources", "date": 20170501 },                             
+          { "link": "https://kauri.io/", "title": "Learn to Build on Ethereum With Kauri", "desc": "Articles, tutorials, documentation and best practices", "date": 20171101 },
+          { "link": "https://github.com/bkrem/awesome-solidity", "title": "Awesome Solidity List", "desc": " A curated list of awesome Solidity resources, libraries, tools and more", "date": 20171101 },
+          { "link": "https://github.com/spadebuilders/awesome-vyper", "title": "Awesome Vyper", "desc": "A curated list of resources for Vyper", "date": 20170501 },                    
+          { "link": "https://github.com/trailofbits/awesome-ethereum-security/", "title": "Awesome Ethereum Security", "desc": "A curated list of awesome Ethereum security references, guidance, tools, and more", "date": 20170501 },          
+          { "link": "https://github.com/jpantunes/awesome-cryptoeconomics", "title": "Awesome Cryptoeconomics", "desc": "A curated list of cryptoeconomic research and learning materials", "date": 20170501 },          
+          { "link": "https://github.com/pirapira/awesome-ethereum-virtual-machine", "title": "Awesome EVM", "desc": "Ethereum Virtual Machine awesome list", "date": 20170501 },          
+          { "link": "https://github.com/machinomy/awesome-state-channels", "title": "Awesome State-Channels", "desc": "Curated list of resources regarding state channels on Ethereum", "date": 20170501 },          
+          { "link": "https://github.com/ong/awesome-decentralized-finance", "title": "Awesome Decentralized-Finance", "desc": "A curated list of awesome decentralized finance projects, software, and resources", "date": 20170501 },                    
+          { "link": "https://github.com/Scanate/EthList", "title": "EthList", "desc": "The crowdsourced Ethereum reading list", "date": 20171101 },          
+          { "link": "https://dappsforbeginners.wordpress.com/", "title": "Dapps for Beginners", "desc": "Learning materials relating to development on Ethereum", "date": 20171101 },        
+          { "link": "https://github.com/ethereum/wiki/wiki/Safety", "title": "Safety wiki", "desc": "Ethereum Foundation wiki on safety", "date": 20170501 },
+          { "link": "https://github.com/evbots/dex-protocols", "title": "DEX protocols", "desc": "A list of protocols for decentralised exchange", "date": 20170501 },
+          { "link": "https://github.com/PhABC/ethereum-token-standards-list", "title": "Ethereum Token Standards", "desc": "An exhaustive list of Ethereum Token Standards", "date": 20170501 },        
+        ]
+      },
+      {        
+        "headline": "News, Media and Communities",
+        "paragraphs": [
+          { "text": "There are many quality news outlet reporting about Ethereum and the decentralization of the web. Check them out or follow us via the links in the footer for the most important news articles of the day." }
+          { "text": "Subreddits" }
+        ],
+        "links": [
+          { "link": "https://www.reddit.com/r/ethereum/", "title": "/r/Ethereum", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
+          { "link": "https://www.reddit.com/r/ethtrader/", "title": "/r/EthTrader", "desc": "Ether price and trading discussions", "date": 20170501 },
+          { "link": "https://www.reddit.com/r/ethdev/", "title": "/r/EthDev", "desc": "Discussions about Ethereum development", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Podcasts" }
+        ],
+       "links": [        
+          { "link": "https://epicenter.tv/", "title": "Epicenter", "date": 20170501 },
+          { "link": "https://podcast.ethhub.io/", "title": "Into the Ether", "date": 20170501 },
+          { "link": "https://unchainedpodcast.com/", "title": "Unchained", "date": 20170501 },
+          { "link": "https://thebitcoinpodcast.com/category/dose-of-ether/", "title": "Dose of Ether", "date": 20170501 },
+          { "link": "https://unconfirmed.libsyn.com/", "title": "Unconfirmed", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Newsletters" }
+        ],
+        "links": [   
+          { "link": "http://www.weekinethereum.com/", "title": "Week In Ethereum", "desc": "Newsletter by Evan Van Ness", "date": 20170501 },
+          { "link": "https://tokeneconomy.co/", "title": "Token Economy", "desc": "News from distributed ledger technology space", "date": 20170501 },
+          { "link": "https://ethhub.substack.com/", "title": "EthHub Weekly Newsletter", "desc": "About Ethereum and the wider crypto ecosystem", "date": 20170501 },
+          { "link": "https://ethhub.substack.com/", "title": "Chain Letter", "desc": "Blockchains, cryptocurrencies, and why they matter by MIT Technology", "date": 20170501 },          
+          { "link": "https://messari.io/", "title": "Messari", "desc": "Daily insights, market data, and research for crypto professionals", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Social media and blogs" }
+        ],
+        "links": [   
+          { "link": "https://hive.one/ethereum", "title": "Who to follow on Twitter", "desc": "Lists of influential people in crypto communities", "date": 20170501 },
+          { "link": "https://media.consensys.net/i-read-crypto-twitter-for-hours-everyday-here-are-40-accounts-that-really-matter-cfecc681379d", "title": "40 Twitter Accounts That Really Matter", "desc": "CryptoTwitter as an arena for meaningful engagement", "date": 20170501 },          
+          { "link": "https://blog.ethereum.org/", "title": "Official Ethereum blog", "desc": "by the Ethereum Foundation", "date": 20170501 },
+          { "link": "https://vitalik.ca/", "title": "Vitalik Buterin", "desc": "Ethereum Founder", "date": 20170501 },
+          { "link": "https://medium.com/@Vlad_Zamfir", "title": "Vlad Zamfir", "desc": "Ethereum Core Developer", "date": 20170501 },
+          { "link": "https://medium.com/@lrettig", "title": "Lane Rettig", "desc": "Ethereum Core Developer", "date": 20170501 },
+          { "link": "https://media.consensys.net/", "title": "ConsenSys", "desc": "Blog of the Ethereum powerhouse ConsenSys", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "Communities" }
+        ],
+        "links": [ 
+          { "link": "https://docs.ethhub.io/", "title": "EthHub", "desc": "Independent and open-source initiative to provide a single source for essential Ethereum information", "date": 20170501 },
+          { "link": "https://ethereum-magicians.org/", "title": "Fellowship of Ethereum Magicians", "desc": "A self-organized Ethereum community to maximize technical opportunities, share ideas, and work together", "date": 20170501 },
+          { "link": "https://forum.etherean.org/", "title": "Etherean", "desc": "Community interested in the intersection of humanity and technology, social, political, and economic impact of a new technology and ideas", "date": 20170501 },
+          { "link": "https://ethresear.ch/", "title": "Ethereum Research Forum", "desc": "A semi-public forum for participating in Ethereum’s research efforts", "date": 20170501 },
+          { "link": "https://ethglobal.co/", "title": "ETHGlobal", "desc": "A community initiative, that helps run hackathons all over the world", "date": 20170501 },        
+        ], 
+        "paragraphs": [
+          { "text": "News sites" }
+        ],
+        "links": [    
+          { "link": "https://kauri.io/", "title": "Kauri", "desc": "Articles, tutorials, documentation and best practices for Ethereum developers", "date": 20170501 },
+          { "link": "https://messari.io/", "title": "Messari", "desc": "Swiss Army Knife of digital asset markets", "date": 20170501 },
+          { "link": "https://decryptmedia.com/", "title": "Decrypt", "desc": "Essential journalism and analysis for the adoption of blockchain", "date": 20170501 },
+          { "link": "https://blockchainlibrary.org/", "title": "Blockchain Library", "desc": "Deep repository of open-source digital resources, source lists, and data for researchers and developers", "date": 20170501 },
+          { "link": "https://www.ethnews.com/", "title": "ETHNews", "desc": "News website", "date": 20170501 },
+          { "link": "https://cointelegraph.com/tags/ethereum", "title": "Cointelegraph", "desc": "News website", "date": 20170501 },
         ]
       },
       {
@@ -193,15 +570,50 @@
           { "text": "Even though there are no borders in the Ethereum world, you would need some ether to use the services and decentralized apps there. Like exchanging into the local currency in a foreign country you're visiting. Exchanges provide a means to move in or out of ether by trading it for fiat money ($, €, ¥, £) or other crypto-currencies." },
           { "text": "Some of the exchanges directly offer fiat money trades via bank transfers, while others only handle trades between crypto-currencies. And then there are the decentralized ones. You'll need to run an Ethereum client, such as Mist or MetaMask, but they never hold costumer funds and generally have lower fees than the normal ones." },
           { "text": "Before getting in crypto-currencies, be sure to read the wallet and online security related parts in the section above." }
+          { "text": "Centralized Exchanges" }        
         ],
         "links": [
-            { "link": "https://www.coinbase.com/", "title": "Coinbase", "desc": "Exchange based in the US", "date": 20170501 },
-            { "link": "https://www.kraken.com/", "title": "Kraken", "desc": "Exchange base in the US", "date": 20170501 },
-            { "link": "https://www.bitfinex.com/", "title": "Bitfinex", "desc": "Exchange based in China", "date": 20170501 },
-            { "link": "https://yunbi.com/", "title": "Yunbi", "desc": "Exchange based in China", "date": 20170501 },
-            { "link": "http://www.poloniex.com/", "title": "Poloniex", "desc": "Cryptocurrency only Exchange", "date": 20170501 },
-            { "link": "https://www.bittrex.com/", "title": "Bittrex", "desc": "Cryptocurrency only Exchange", "date": 20170501 },
-            { "link": "https://mkr.market/", "title": "Maker Market", "desc": "Decentralized Cryptocurrency Exchange", "date": 20170501 }
+          { "link": "https://coinmarketcap.com/exchanges/volume/24-hour/", "title": "24 Hour Volume Rankings", "desc": "on CoinMarketCap", "date": 20170501 },
+          { "link": "https://www.coinbase.com/", "title": "Coinbase", "desc": "Exchange based in the US", "date": 20170501 },
+          { "link": "https://www.kraken.com/", "title": "Kraken", "desc": "Exchange base in the US", "date": 20170501 },
+          { "link": "https://www.binance.com/", "title": "Binance", "desc": "Exchange based in the British Virgin Islands", "date": 20170501 },
+        ], 
+        "paragraphs": [
+          { "text": "Decentralized Exchanges" }
+        ],
+        "links": [    
+          { "link": "https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/", "title": "What are Decentralized Exchanges?", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }
+          { "link": "https://media.consensys.net/state-of-decentralized-exchanges-2018-276dad340c79", "title": "State of Decentralized Exchanges, 2018", "desc": "Cryptocurrency numbers, centralized exchanges and a study of current DEX tech", "date": 20170501 }
+          { "link": "https://www.airswap.io/", "title": "Airswap", "desc": "Uses an off chain matching system called the Swap Protocol which allows users to easily swap tokens", "date": 20170501 }
+          { "link": "https://0x.org/portal", "title": "0x", "desc": "Open protocol facilitating the decentralized exchange of tokens on off-chain order book Relayers", "date": 20170501 }
+          { "link": "https://kyberswap.com/swap/eth_knc", "title": "Kyber Network", "desc": "Uses an on-chain matching system to instantly convert tokens into other tokens", "date": 20170501 }
+          { "link": "https://uniswap.io/", "title": "Uniswap", "desc": "Protocol for automated token exchange that utilizes a constant product market maker model", "date": 20170501 }
+        ]
+      },
+      {
+        "headline": "Who uses Ethereum?",
+        "paragraphs": [        
+          { "text": "???" }
+          { "text": "Enterprises" }
+        ],
+        "links": [
+          { "link": "https://media.consensys.net/j-p-morgan-is-using-ethereum-to-launch-a-digital-u-s-dollar-heres-what-it-means-for-blockchain-64f0fe3e55bc", "J.P. Morgan": "Uses Ethereum to launch a ‘digital U.S. dollar’", "desc": "Summary, types of DEXs and further readings", "date": 20170501 }        
+          { "link": "https://www.ey.com/en_gl/news/2018/10/ey-launches-the-world-s-first-secure-private-transactions-over-the-ethereu-public-blockchain", "title": "EY", "desc": "Puts zero-knowledge proofs on Ethereum", "date": 20170501 }        
+          { "link": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/ethereum.ethereum-studio", "Microsoft Azure": "What are Decentralized Exchanges?", "desc": "Kaleido plugs into Azure", "date": 20170501 }        
+         ], 
+        "paragraphs": [
+          { "text": "Governments" }
+        ],
+        "links": [ 
+          { "link": "https://www.ethnews.com/israel-securities-authority-to-use-blockchain-to-secure-internal-messaging-system/", "Israel": "What are Decentralized Exchanges?", "desc": "Israel’s encrypted messaging system", "date": 20170501 }        
+          { "link": "https://e-estonia.com/solutions/healthcare/e-health-record/", "title": "Estonia", "desc": "Estonia’s electronic healthcare record trials", "date": 20170501 }        
+          { "link": "https://thenextweb.com/hardfork/2018/09/03/japan-city-blockchain-voting/", "title": "Japan", "desc": "Japan’s e-voting system", "date": 20170501 }        
+        ], 
+        "paragraphs": [
+          { "text": "Organizations" }
+        ],
+        "links": [ 
+          { "link": "https://www.coindesk.com/un-food-program-to-expand-blockchain-testing-to-african-supply-chain", "title": "United Nations", "desc": "Expand blockchain testing to African supply chain", "date": 20170501 }                
         ]
       }
     ],
