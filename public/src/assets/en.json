@@ -7,7 +7,7 @@
         "paragraphs": [
           { "text": "The Ethereum project aims to do for human collaboration what the internet did for information. It is part of a world computer, where everyone can publish and access content, write and use applications, send value and make agreements. This is done through so called smart contracts and decentralized applications (dapps), open, tamper proof, opt-in, self executing applications that run exactly as programmed and all share one common, append-only 'truth', the Ethereum blockchain, while ensuring that there is no downtime, censorship, fraud or third party interference." },
           { "text": "This decentralized environment allows all people, programs, IoT devices, markets, registries and other things to collaborate without the need for explicit trust. That's why people also call it the trust machine, it is not just an upgrade to our databases or internet, but rather a tool to re-architect social, financial and political systems. The Vision is one where people are no longer the product, producer and property of content platforms but are instead the contributors, curators and communicators of value." },
-          { "text": "While that all just sounds a lot of awesome buzzwords, it is very actively developed by tens of thousand of developers around the world and happening right now. Below you'll find many links to videos, tutorials and instruction guides which will help you to get started. Welcome to the future." },
+          { "text": "While that all just sounds a lot of awesome buzzwords, it is very actively developed by tens of thousand of developers around the world and happening right now. Below you'll find many links to videos, tutorials and instruction guides which will help you to get started. Welcome to the future." }
         ],
         "links": [
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Blog posts, guides and learning materials ------------------------------------", "date": 20180401 },
@@ -49,7 +49,7 @@
         "headline": "Wallets and Browsers",
         "paragraphs": [
           { "text": "Wallets and browsers are your windows to the Ethereum world. The former works just like your normal wallet, i.e. it allows you to store, add and spend money via different currencies and payment systems. It contains one or more Ethereum addresses (long hexadecimal strings that uniquely identifies them) and can receive and send ether (the underlying Ethereum currency) or other tokens running on top of Ethereum. Before taking the plunge and spending any money on ether, please read the information in the online security section." },
-          { "text": "As we said already, Ethereum is much more than just a crypto-currency blockchain. The main purpose is hosting and running smart contracts, storing distributed data (swarm), decentralized communication (whisper) and much more. This begs the question: “How can I access all these cool features?”. This is where browser plugins such as Metamask and Ethereum browsers like Mist come in." },
+          { "text": "As we said already, Ethereum is much more than just a crypto-currency blockchain. The main purpose is hosting and running smart contracts, storing distributed data (swarm), decentralized communication (whisper) and much more. This begs the question: “How can I access all these cool features?”. This is where browser plugins such as Metamask and Ethereum browsers like Mist come in." }
         ],
         "links": [
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Desktop and web ------------------------------------", "date": 20180401 },
@@ -109,7 +109,7 @@
       {
         "headline": "Development Guides: Smart Contracts with Solidity",
         "paragraphs": [
-          { "text": "Every day there are new blog posts, tutorials, research article and discussions about how to develop smart contracts and decentralized applications. I try to keep the best and most up-to-date ones here, please let me know about new ones I should add or old ones to remove." },
+          { "text": "Every day there are new blog posts, tutorials, research article and discussions about how to develop smart contracts and decentralized applications. I try to keep the best and most up-to-date ones here, please let me know about new ones I should add or old ones to remove." }
         ],
         "links": [
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Blog posts - Beginners ------------------------------------", "date": 20180401 },
@@ -205,7 +205,7 @@
       {
         "headline": "Development Guides: Smart Contract Security and Formal Verification",
         "paragraphs": [
-          { "text": "Even though things are still quite experimental, real money always is on the line, so learning about smart contract security and testing is outmost important" },
+          { "text": "Even though things are still quite experimental, real money always is on the line, so learning about smart contract security and testing is outmost important" }
         ],
         "links": [
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Blog posts, guides and learning materials ------------------------------------", "date": 20180401 },
@@ -413,7 +413,7 @@
       {
         "headline": "Other Utilities and Resources",
         "paragraphs": [
-          { "text": "" },
+          { "text": "" }
         ],
         "links": [
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Explorers ------------------------------------", "date": 20180401 },
@@ -440,7 +440,7 @@
 
           { "link": "https://docs.google.com/spreadsheets/d/1Wg_eX-mYopvWT3LeHe4-FEHOtJoG28h8YcHl4PFTX5k/edit#gid=0", "title": "List of Ethereum Public Calls", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
           { "link": "https://quickblocks.io/", "title": "QuickBlocks", "desc": "Fully-decentralized way to access data from any Ethereum address or smart contract", "date": 20170501 },          
-          { "link": "https://www.stateofthedapps.com/": "State of the DApps", "desc": "Curated directory of decentralized applications, which run on various several blockchains", "date": 20170501 },          
+          { "link": "https://www.stateofthedapps.com/", "title": "State of the DApps", "desc": "Curated directory of decentralized applications, which run on various several blockchains", "date": 20170501 },          
           { "link": "https://quickblocks.io/", "title": "DappRadar", "desc": "Ranked list of blockchain DApps", "date": 20170501 },          
           { "link": "https://messari.io/onchainfx", "title": "OnChainFX", "desc": "Cryptoasset network value, market cap, rankings and metrics", "date": 20170501 },
 
@@ -461,11 +461,11 @@
           { "link": "https://dappsforbeginners.wordpress.com/", "title": "Dapps for Beginners", "desc": "Learning materials relating to development on Ethereum", "date": 20171101 },
           { "link": "https://github.com/ethereum/wiki/wiki/Safety", "title": "Safety wiki", "desc": "Ethereum Foundation wiki on safety", "date": 20170501 },
           { "link": "https://github.com/evbots/dex-protocols", "title": "DEX protocols", "desc": "A list of protocols for decentralised exchange", "date": 20170501 },
-          { "link": "https://github.com/PhABC/ethereum-token-standards-list", "title": "Ethereum Token Standards", "desc": "An exhaustive list of Ethereum token standards", "date": 20170501 }
-          { "link": "https://github.com/denisnazarov/awesome-crypto-trackers", "title": "Awesome Crypto Tracker", "desc": "A curated list of crypto project trackers and analytics dashboards", "date": 20170501 }
-          { "link": "https://ethresear.ch/t/zero-knowledge-proofs-starter-pack/4519", "title": "Zero-Knowledge Proofs Starter Pack", "desc": "Understand the core technical layers of zero-knowledge-whatever", "date": 20170501 }
-          { "link": "https://thecontrol.co/crypto-reading-list-c54da8cab26a", "title": "Crypto Reading List", "desc": "Readings about cryptocurrencies and blockchain technology", "date": 20170501 }
-          { "link": "https://a16z.com/2018/02/10/crypto-readings-resources/", "title": "Crypto Canon", "desc": "List of crypto readings and resources", "date": 20170501 }
+          { "link": "https://github.com/PhABC/ethereum-token-standards-list", "title": "Ethereum Token Standards", "desc": "An exhaustive list of Ethereum token standards", "date": 20170501 },
+          { "link": "https://github.com/denisnazarov/awesome-crypto-trackers", "title": "Awesome Crypto Tracker", "desc": "A curated list of crypto project trackers and analytics dashboards", "date": 20170501 },
+          { "link": "https://ethresear.ch/t/zero-knowledge-proofs-starter-pack/4519", "title": "Zero-Knowledge Proofs Starter Pack", "desc": "Understand the core technical layers of zero-knowledge-whatever", "date": 20170501 },
+          { "link": "https://thecontrol.co/crypto-reading-list-c54da8cab26a", "title": "Crypto Reading List", "desc": "Readings about cryptocurrencies and blockchain technology", "date": 20170501 },
+          { "link": "https://a16z.com/2018/02/10/crypto-readings-resources/", "title": "Crypto Canon", "desc": "List of crypto readings and resources", "date": 20170501 },
           { "link": "https://paper.dropbox.com/doc/NFT-Reading-List-WIP-8YKK903rKYUBKPFFC8dHU", "title": "NFT Reading List", "desc": "Resources for learning about and building ERC-721 non-fungible tokens", "date": 20170501 }      
         ]
       },
@@ -532,7 +532,7 @@
         "paragraphs": [
           { "text": "Even though there are no borders in the Ethereum world, you would need some ether to use the services and decentralized apps there. Like exchanging into the local currency in a foreign country you're visiting. Exchanges provide a means to move in or out of ether by trading it for fiat money ($, €, ¥, £) or other crypto-currencies." },
           { "text": "Some of the exchanges directly offer fiat money trades via bank transfers, while others only handle trades between crypto-currencies. And then there are the decentralized ones. You'll need to run an Ethereum client, such as Mist or MetaMask, but they never hold costumer funds and generally have lower fees than the normal ones." },
-          { "text": "Before getting in crypto-currencies, be sure to read the wallet and online security related parts in the section above." },
+          { "text": "Before getting in crypto-currencies, be sure to read the wallet and online security related parts in the section above." }
         ],
         "links": [
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Centralized Exchanges ------------------------------------", "date": 20180401 },
