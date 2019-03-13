@@ -472,7 +472,7 @@
       {
         "headline": "News, Media and Communities",
         "paragraphs": [
-          { "text": "There are many quality news outlet reporting about Ethereum and the decentralization of the web. Check them out or follow us via the links in the footer for the most important news articles of the day." }
+          { "text": "There are many quality news outlet reporting about Ethereum and the decentralization of the web. Check them out or follow us on the social page for the most important news articles of the day." }
         ],
         "links": [
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Subreddits ------------------------------------", "date": 20180401 },
