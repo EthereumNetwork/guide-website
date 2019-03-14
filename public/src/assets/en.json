@@ -559,9 +559,9 @@
           { "link": "https://www.airswap.io/", "title": "Airswap", "desc": "Uses an off chain matching system called the Swap Protocol which allows users to easily swap tokens", "date": 20170501 },
           { "link": "https://0x.org/portal", "title": "0x", "desc": "Open protocol facilitating the decentralized exchange of tokens on off-chain order book Relayers", "date": 20170501 },
           { "link": "https://kyberswap.com/swap/eth_knc", "title": "Kyber Network", "desc": "Uses an on-chain matching system to instantly convert tokens into other tokens", "date": 20170501 },
-          { "link": "https://uniswap.io/", "title": "Uniswap", "desc": "Protocol for automated token exchange that utilizes a constant product market maker model", "date": 20170501 }
-          { "link": "https://idex.market/", "title": "IDEX", "desc": "Processes orders in a centralized order book and settles the trades on chain", "date": 20170501 }
-          { "link": "https://etherdelta.com/", "title": "EtherDelta", "desc": "Processes both orders and trade settlements on chain", "date": 20170501 }
+          { "link": "https://uniswap.io/", "title": "Uniswap", "desc": "Protocol for automated token exchange that utilizes a constant product market maker model", "date": 20170501 },
+          { "link": "https://idex.market/", "title": "IDEX", "desc": "Processes orders in a centralized order book and settles the trades on chain", "date": 20170501 },
+          { "link": "https://etherdelta.com/", "title": "EtherDelta", "desc": "Processes both orders and trade settlements on chain", "date": 20170501 },
           { "link": "https://www.bancor.network/", "title": "Bancor", "desc": "protocol for the algorithmic market making exchange with on-chain liquidity", "date": 20170501 }
         ]
       },
