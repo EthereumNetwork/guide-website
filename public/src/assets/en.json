@@ -611,7 +611,7 @@
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Organizations ------------------------------------", "date": 20180401 },
 
-          { "link": "https://qz.com/1118743/world-food-programmes-ethereum-based-blockchain-for-syrian-refugees-in-jordan/", "title": "United Nations", "desc": "Expand blockchain testing to African supply chain", "date": 20170501 }
+          { "link": "https://qz.com/1118743/world-food-programmes-ethereum-based-blockchain-for-syrian-refugees-in-jordan/", "title": "United Nations", "desc": "Expand blockchain testing to African supply chain", "date": 20170501 },
           { "link": "https://www.unicef.org/innovation/blockchain", "title": "UNICEF", "desc": "Exploring blockchain applications for children", "date": 20170501 }
         ]
       }
