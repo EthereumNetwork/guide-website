@@ -94,7 +94,7 @@
 
           { "link": "https://trezor.io/", "title": "Trezor", "desc": "The original hardware wallet", "date": 20170501 },
           { "link": "https://ledgerwallet.com/", "title": "Ledger", "desc": "Support for multiple cryptocurrencies and tokens", "date": 20170501 },
-          { "link": "https://keepkey.com/", "title": "KeepKey", "desc": "The simple hardware wallet", "date": 20170501 }
+          { "link": "https://keepkey.com/", "title": "KeepKey", "desc": "The simple hardware wallet", "date": 20170501 },
           { "link": "https://keycard.status.im/", "title": "Keycard", "desc": "Smartcard built with an open API for simple integration with crypto wallets and hardware", "date": 20170501 }  
         ]
       },
