@@ -402,8 +402,8 @@
       {
         "headline": "Layer 2 Scaling Solutions",
         "paragraphs": [
-          { "text": "Today Ethereum still isn’t scalable yet. But it’s worth remembering, it was designed this way, the same way as all decentralization-focused blockchain protocols. Every full-node stores all the state data while processing transactions which include smart contact code, account balances, and storage. This ensures a high level of security, but scalability is compromised. Fortunately, the scaffolding required to scale Ethereum is under construction." }
-          { "text": "The main solutions that are ready for use today (until sharding will be implemented) are layer 2 solutions. They are built “on top of” the Ethereum main-chain, but do not require changes to the base level protocol — rather, they exist simply as smart contracts on Ethereum that interact with off-chain software." }
+          { "text": "Today Ethereum still isn’t scalable yet. But it’s worth remembering, it was designed this way, the same way as all decentralization-focused blockchain protocols. Every full-node stores all the state data while processing transactions which include smart contact code, account balances, and storage. This ensures a high level of security, but scalability is compromised. Fortunately, the scaffolding required to scale Ethereum is under construction." },
+          { "text": "The main solutions that are ready for use today (until sharding will be implemented) are layer 2 solutions. They are built “on top of” the Ethereum main-chain, but do not require changes to the base level protocol — rather, they exist simply as smart contracts on Ethereum that interact with off-chain software." },
           { "text": "Here you can learn more about these solutions and start using them." }
         ],
         "links": [
@@ -449,8 +449,8 @@
       {
         "headline": "Other Utilities and Resources",
         "paragraphs": [
-          { "text": "Whether you choose to become a developer or just a user of Ethereum, various explorers and utilities will provide you useful ecosystem informations and services." }
-          { "text": "As anyone is able to run an Ethereum node on their computer, you can also decide to participate in validating transactions and blocks on the Ethereum blockchain." }
+          { "text": "Whether you choose to become a developer or just a user of Ethereum, various explorers and utilities will provide you useful ecosystem informations and services." },
+          { "text": "As anyone is able to run an Ethereum node on their computer, you can also decide to participate in validating transactions and blocks on the Ethereum blockchain." },
           { "text": "Dive deeper using further resources and readings." }
         ],
         "links": [
