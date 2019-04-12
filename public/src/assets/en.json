@@ -238,7 +238,7 @@
 
           { "link": "https://github.com/trailofbits/awesome-ethereum-security/", "title": "Awesome Ethereum Security", "desc": "A curated list of awesome Ethereum security references, guidance, tools, and more", "date": 20170501 },
           { "link": "https://github.com/ethereum/wiki/wiki/Safety", "title": "Safety wiki", "desc": "Ethereum Foundation wiki on safety", "date": 20170501 },
-          { "link": "https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/README.md", "title": "Ethereum Developer Tools List", "desc": "Includes a security tools", "date": 20170501 }
+          { "link": "https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/README.md#security-tools", "title": "Ethereum Developer Tools List", "desc": "Section security tools", "date": 20170501 }
         ]
       },
       {
@@ -447,7 +447,7 @@
           { "link": "https://medium.com/@yi.sun/privacy-in-cryptocurrencies-d4b268157f6c", "title": "Privacy in Cryptocurrencies", "desc": "Overview, approaches and zero-knowledge proofs", "date": 20170501 },
           { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-starks/", "title": "ZK-STARKs", "desc": "Summary, projects and further readings", "date": 20170501 },
           { "link": "https://liamz.co/blog/building-the-first-ever-zkdao-at-ethparis/", "title": "Building the first-ever zero-knowledge DAO proof-of-concept", "desc": "Design considerations and potential implications", "date": 20170501 },
-          { "link": "https://github.com/elibensasson/libSTARK", "title": "libSTARK", "desc": "C++ library for ZK-STARK systems", "date": 20170501 }
+          { "link": "https://github.com/elibensasson/libSTARK", "title": "libSTARK", "desc": "C++ library for ZK-STARK systems", "date": 20170501 },
           { "link": "https://github.com/scipr-lab/zexe", "title": "ZEXE", "desc": "Rust library for decentralized private computation", "date": 20170501 }
         ]
       },
@@ -669,12 +669,12 @@
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Organizations ------------------------------------", "date": 20180401 },
 
           { "link": "https://qz.com/1118743/world-food-programmes-ethereum-based-blockchain-for-syrian-refugees-in-jordan/", "title": "United Nations", "desc": "Expand blockchain testing to African supply chain", "date": 20170501 },
-          { "link": "https://www.unicef.org/innovation/blockchain", "title": "UNICEF", "desc": "Exploring blockchain applications for children", "date": 20170501 }
+          { "link": "https://www.unicef.org/innovation/blockchain", "title": "UNICEF", "desc": "Exploring blockchain applications for children", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other use cases ------------------------------------", "date": 20180401 },
 
           { "link": "https://blog.gridplus.io/gridplus-explores-international-expansion-8f97ec84b014", "title": "Grid+", "desc": "Selling electricity in Texas and Singapore", "date": 20170501 },
-          { "link": "https://www.cryptonewsguy.com/first-tokenized-property-in-europe-has-been-sold/", "title": "Brickblock", "desc": "Tokenized and sold a first property in Europe", "date": 20170501 },      
+          { "link": "https://www.cryptonewsguy.com/first-tokenized-property-in-europe-has-been-sold/", "title": "Brickblock", "desc": "Tokenized and sold a first property in Europe", "date": 20170501 }
         ]
       }
     ],
