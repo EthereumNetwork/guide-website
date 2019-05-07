@@ -123,7 +123,7 @@
         "headline": "Wallets, Browsers and Security",
         "paragraphs": [
           { "text": "Wallets and browsers are your windows to the Ethereum world. The former works just like your normal wallet, i.e. it allows you to store, add and spend money via different currencies and payment systems. It contains one or more Ethereum addresses (most likely long hexadecimal strings that uniquely identifies them) and can receive and send ether (the underlying Ethereum currency) or other tokens running on top of Ethereum." },
-          { "text": "As we said already, Ethereum is much more than just a crypto-currency blockchain. The main purpose is hosting and running smart contracts, storing distributed data, decentralized communication and much more. This begs the question: “How can I access all these cool features?”. This is where browser plugins such as Metamask and mobile browsers like Status come in." }
+          { "text": "As we said already, Ethereum is much more than just a crypto-currency blockchain. The main purpose is hosting and running smart contracts, storing distributed data, decentralized communication and much more. This begs the question: “How can I access all these cool features?”. This is where browser plugins such as Metamask and mobile browsers like Status come in." },
           { "text": "General online and wallet security are essential when dealing with cryptocurrencies. Before taking the plunge and spending any money on ether, please take a time to read security informations carefully. Your money might depend on it, because once it's gone, it's gone." }
         ],
         "links": [
@@ -132,7 +132,7 @@
           { "link": "https://medium.com/mycrypto/mycryptos-security-guide-for-dummies-and-smart-people-too-ab178299c82e", "title": "MyCrypto's Security Guide", "desc": "How to be safe in the crypto world and the online world in general", "date": 20170501 },
           { "link": "https://medium.com/@pipermerriam/my-guide-to-solid-digital-security-fb76cb19c536#.cliexcgpg", "title": "Guide to securing your digital life", "desc": "Necessary when dealing with cryptocurrencies", "date": 20170501 },
           { "link": "https://blockgeeks.com/guides/cryptocurrency-wallet-guide/", "title": "Hardware wallet guide", "desc": "A step-by-step tutorial", "date": 20170501 },
-          { "link": "https://blockgeeks.com/guides/paper-wallet-guide/", "title": "Paper wallet guide", "desc": "How to protect your cryptocurrency", "date": 20170501 }
+          { "link": "https://blockgeeks.com/guides/paper-wallet-guide/", "title": "Paper wallet guide", "desc": "How to protect your cryptocurrency", "date": 20170501 },
           
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Desktop and web ------------------------------------", "date": 20180401 },
 
