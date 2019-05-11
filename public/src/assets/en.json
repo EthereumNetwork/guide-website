@@ -222,12 +222,12 @@
           { "link": "https://idex.market/", "title": "IDEX", "desc": "Processes orders in a centralized order book and settles the trades on-chain", "date": 20170501 },
           { "link": "https://etherdelta.com/", "title": "EtherDelta", "desc": "Processes both orders and trade settlements on-chain", "date": 20170501 },
           { "link": "https://www.bancor.network/", "title": "Bancor", "desc": "Protocol for the algorithmic market making exchange with on-chain liquidity", "date": 20170501 },          
-          { "link": "https://token.store/", "title": "Token Store", "desc": "All the trading/settlement logic lives on chain in the smart contract and orders are stored off-chain on a private server", "date": 20170501 }
+          { "link": "https://token.store/", "title": "Token Store", "desc": "All the trading/settlement logic lives on chain in the smart contract and orders are stored off-chain on a private server", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
           { "link": "https://dether.io/", "title": "Dether", "desc": "Global, peer-to-peer marketplace for buying and selling ETH in person with cash", "date": 20170501 },
-          { "link": "https://localethereum.com/", "title": "LocalEthereum", "desc": "Global, peer-to-peer marketplace for buying and selling ETH with over 30 supported payment methods, including in-person cash trades", "date": 20170501 },          
+          { "link": "https://localethereum.com/", "title": "LocalEthereum", "desc": "Global, peer-to-peer marketplace for buying and selling ETH with over 30 supported payment methods, including in-person cash trades", "date": 20170501 }          
         ]
       },
       {
