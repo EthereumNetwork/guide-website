@@ -126,9 +126,9 @@
 
           { "link": "https://blog.gridplus.io/gridplus-explores-international-expansion-8f97ec84b014", "title": "Grid+", "desc": "Selling electricity in Texas and Singapore", "date": 20170501 },
           { "link": "https://www.cryptonewsguy.com/first-tokenized-property-in-europe-has-been-sold/", "title": "Brickblock", "desc": "Tokenized and sold a first property in Europe", "date": 20170501 },
-          { "link": "https://www.cryptonewsguy.com/nasdaq-powered-dx-exchange-lists-tokenised-etfs/", "title": "NASDAQ", "desc": "Tokenization of stocks and ETFs", "date": 20170501 }
-          { "link": "http://www.bbc.com/future/story/20190425-making-sure-fish-is-safe-to-eat", "title": "Viant", "desc": "Seafood supply chain end-to-end traceability", "date": 20170501 }
-          { "link": "https://ethereumworldnews.com/grammy-winning-artist-launches-a-company-that-will-use-blockchain-to-distribute-music/", "title": "RAC", "desc": "Grammy-winning artist launch music distribution platform", "date": 20170501 }
+          { "link": "https://www.cryptonewsguy.com/nasdaq-powered-dx-exchange-lists-tokenised-etfs/", "title": "NASDAQ", "desc": "Tokenization of stocks and ETFs", "date": 20170501 },
+          { "link": "http://www.bbc.com/future/story/20190425-making-sure-fish-is-safe-to-eat", "title": "Viant", "desc": "Seafood supply chain end-to-end traceability", "date": 20170501 },
+          { "link": "https://ethereumworldnews.com/grammy-winning-artist-launches-a-company-that-will-use-blockchain-to-distribute-music/", "title": "RAC", "desc": "Grammy-winning artist launch music distribution platform", "date": 20170501 },
           { "link": "https://blocktribune.com/winding-tree-executes-first-hotel-booking-transaction-on-public-blockchain/", "title": "Winding Tree", "desc": "Executed the first hotel booking on a public blockchain", "date": 20170501 }
         
         ]
@@ -798,11 +798,11 @@
           { "link": "https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe", "title": "A Framework for Efficient STARKs", "desc": "5 posts serie explaining the theory behind STARKs and StarkWare's implementation of it", "date": 20170501 },
           { "link": "https://liamz.co/blog/building-the-first-ever-zkdao-at-ethparis/", "title": "Building the first-ever zero-knowledge DAO proof-of-concept", "desc": "Design considerations and potential implications", "date": 20170501 },
           { "link": "https://github.com/elibensasson/libSTARK", "title": "libSTARK", "desc": "C++ library for ZK-STARK systems", "date": 20170501 },
-          { "link": "https://github.com/scipr-lab/zexe", "title": "ZEXE", "desc": "Rust library for decentralized private computation", "date": 20170501 }
-          { "link": "https://github.com/AztecProtocol/AZTEC", "title": "AZTEC Protocol", "desc": "Zero-knowledge privacy protocoln", "date": 20170501 }
-          { "link": "https://github.com/Zokrates/ZoKrates", "title": "ZoKrates", "desc": "Toolbox for zkSNARKS on Ethereum", "date": 20170501 }
-          { "link": "https://github.com/iden3/websnark", "title": "websnark", "desc": "zkSNARK proof generator written in native Web Assembly", "date": 20170501 }
-          { "link": "https://github.com/iden3/circom", "title": "circom", "desc": "Circuit compiler for zkSNARKs", "date": 20170501 }
+          { "link": "https://github.com/scipr-lab/zexe", "title": "ZEXE", "desc": "Rust library for decentralized private computation", "date": 20170501 },
+          { "link": "https://github.com/AztecProtocol/AZTEC", "title": "AZTEC Protocol", "desc": "Zero-knowledge privacy protocoln", "date": 20170501 },
+          { "link": "https://github.com/Zokrates/ZoKrates", "title": "ZoKrates", "desc": "Toolbox for zkSNARKS on Ethereum", "date": 20170501 },
+          { "link": "https://github.com/iden3/websnark", "title": "websnark", "desc": "zkSNARK proof generator written in native Web Assembly", "date": 20170501 },
+          { "link": "https://github.com/iden3/circom", "title": "circom", "desc": "Circuit compiler for zkSNARKs", "date": 20170501 },
           { "link": "https://github.com/iden3/snarkjs", "title": "snarkjs", "desc": "zkSNARK implementation in JavaScript", "date": 20170501 }        
         ]
       }
