@@ -130,11 +130,11 @@
           { "link": "https://blog.gridplus.io/gridplus-explores-international-expansion-8f97ec84b014", "title": "Grid+", "desc": "Selling electricity in Texas and Singapore", "date": 20170501 },          
           { "link": "http://www.bbc.com/future/story/20190425-making-sure-fish-is-safe-to-eat", "title": "Viant", "desc": "Seafood supply chain end-to-end traceability", "date": 20170501 },
           { "link": "https://ethereumworldnews.com/grammy-winning-artist-launches-a-company-that-will-use-blockchain-to-distribute-music/", "title": "RAC", "desc": "Grammy-winning artist launch music distribution platform", "date": 20170501 },
-          { "link": "https://blocktribune.com/winding-tree-executes-first-hotel-booking-transaction-on-public-blockchain/", "title": "Winding Tree", "desc": "Executed the first hotel booking on a public blockchain", "date": 20170501 }          
+          { "link": "https://blocktribune.com/winding-tree-executes-first-hotel-booking-transaction-on-public-blockchain/", "title": "Winding Tree", "desc": "Executed the first hotel booking on a public blockchain", "date": 20170501 },          
           { "link": "https://www.cryptonewsguy.com/first-tokenized-property-in-europe-has-been-sold/", "title": "Brickblock", "desc": "Tokenized and sold a first property in Europe", "date": 20170501 },
           { "link": "https://www.cryptonewsguy.com/nasdaq-powered-dx-exchange-lists-tokenised-etfs/", "title": "NASDAQ", "desc": "Tokenization of stocks and ETFs", "date": 20170501 },
           { "link": "http://fortune.com/2019/03/11/gold-cryptocurrency-stocks-blockchain/", "title": "Paxos", "desc": "Tokenization of gold", "date": 20170501 },
-          { "link": "https://www.cryptonewsguy.com/cedex-launches-tokenized-diamond-trading/", "title": "CEDEX", "desc": "Tokenization of diamonds", "date": 20170501 },         
+          { "link": "https://www.cryptonewsguy.com/cedex-launches-tokenized-diamond-trading/", "title": "CEDEX", "desc": "Tokenization of diamonds", "date": 20170501 }         
         ]
       },
       {
@@ -264,9 +264,9 @@
           { "link": "https://www.coinbase.com/card", "title": "Coinbase Card", "desc": "Visa debit card, funded by your Coinbase balance, allows you to spend your crypto worldwide", "date": 20170501 },
           { "link": "https://0x.org/instant", "title": "0x Instant", "desc": "Simple crypto purchasing in any app or website", "date": 20170501 },          
           { "link": "https://commerce.coinbase.com/", "title": "Coinbase Commerce", "desc": "Accept cryptocurrency payments for your business", "date": 20170501 },
-          { "link": "https://www.etherglade.com/", "title": "Etherglade", "desc": "Accept Ethereum on your site in minutes", "date": 20170501 }          
+          { "link": "https://www.etherglade.com/", "title": "Etherglade", "desc": "Accept Ethereum on your site in minutes", "date": 20170501 },          
           { "link": "https://groundhog.network/", "title": "Groundhog", "desc": "Payment gateway between merchants and customers to facilitate crypto subscriptions", "date": 20170501 },
-          { "link": "https://sablier.app/", "title": "Sablier", "desc": "Pay your employees continuously", "date": 20170501 },        
+          { "link": "https://sablier.app/", "title": "Sablier", "desc": "Pay your employees continuously", "date": 20170501 }        
         ]
       },
       {
@@ -860,7 +860,7 @@
           { "link": "https://github.com/iden3/websnark", "title": "websnark", "desc": "zkSNARK proof generator written in native Web Assembly", "date": 20170501 },
           { "link": "https://github.com/iden3/circom", "title": "circom", "desc": "Circuit compiler for zkSNARKs", "date": 20170501 },
           { "link": "https://github.com/iden3/snarkjs", "title": "snarkjs", "desc": "zkSNARK implementation in JavaScript", "date": 20170501 },        
-          { "link": "https://github.com/arnaucube/go-snark", "title": "Go-SNARK", "desc": "zkSNARK library implementation in Go", "date": 20170501 }                
+          { "link": "https://github.com/arnaucube/go-snark", "title": "Go-SNARK", "desc": "zkSNARK library implementation in Go", "date": 20170501 },                
           { "link": "https://github.com/EYBlockchain/nightfall", "title": "Nightfall", "desc": "EY's protocols for private transactions on the Ethereum public blockchain using zk-SNARKs", "date": 20170501 }                       
         ]
       }
