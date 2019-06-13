@@ -35,9 +35,10 @@
           { "link": "https://medium.com/@jjmstark/the-year-in-ethereum-87a17d6f8276", "title": "A Short History of Ethereum", "desc": "An overview of the upgrades and hard forks of Ethereum’s past, with an eye towards what lies ahead", "date": 20170501 },      
           { "link": "https://media.consensys.net/joe-lubin-explains-why-the-ethereum-ecosystem-is-stronger-than-ever-in-20-tweets-7a09555760fd", "title": "Why the Ethereum Ecosystem Is Stronger Than Ever", "desc": "The ConsenSys founder gives a sweeping overview of the state of blockchain", "date": 20170501 },          
           { "link": "https://media.consensys.net/40-ethereum-apps-you-can-use-right-now-d643333769f7", "title": "90+ Ethereum Apps You Can Use Right Now", "desc": "List of Ethereum DApps you can use right now", "date": 20170501 },
-          { "link": "https://media.consensys.net/the-100-projects-pioneering-decentralized-finance-717478ddcdf2", "title": "The 100+ Projects Pioneering Decentralized Finance", "desc": "List of the projects pioneering decentralized finance, broken down by category", "date": 20170501 },        
+          { "link": "https://media.consensys.net/the-100-projects-pioneering-decentralized-finance-717478ddcdf2", "title": "The 100+ Projects Pioneering Decentralized Finance", "desc": "List of the projects pioneering decentralized finance, broken down by category", "date": 20170501 },                          
           { "link": "https://media.consensys.net/the-roadmap-to-serenity-bc25d5807268", "title": "The Roadmap to Serenity", "desc": "Briefly about what is Serenity (Ethereum 2.0), what are the plans for it, and when will it happen?", "date": 20170501 },             
           { "link": "https://docs.ethhub.io/ethereum-roadmap/ethereum-1.x/", "title": "Ethereum roadmap", "desc": "Well-arranged summary - Ethereum 1.x, 2.0, layer 2 scaling, privacy and planned upgrades", "date": 20170501 },
+          { "link": "https://blog.ethereum.org/2019/05/21/ethereum-foundation-spring-2019-update/", "title": "Ethereum Foundation spring 2019 update", "desc": "Plan for the next year", "date": 20170501 },                          
           { "link": "https://media.consensys.net/joe-lubin-at-sxsw-ethereum-will-handle-millions-of-transactions-per-second-within-two-years-699268985227", "title": "Ethereum Will Handle Millions of Transactions Per Second Within Two Years", "desc": "Joe Lubin on crypto markets, interoperability and future", "date": 20170501 },          
           { "link": "https://medium.com/loom-network/ethereum-will-be-the-backbone-of-the-new-internet-88718e08124f", "title": "Ethereum Will Be the Backbone of the New Internet", "desc": "Why will Ethereum become the fundamental base layer to built-on by Loom", "date": 20170501 },
           { "link": "https://decryptmedia.com/6343/an-overview-of-the-state-of-the-blockchain-ecosystem", "title": "An Overview of the State of the Blockchain Ecosystem", "desc": "Why Ethereum will become the global settlement layer", "date": 20170501 },
@@ -68,7 +69,7 @@
           { "link": "https://finance.yahoo.com/news/three-huge-names-making-ethereum-140010121.html", "title": "Three huge names that are making Ethereum their platform of choice", "desc": "The network is becoming the backbone of a series of blockchain-based billion-dollar projects", "date": 20170501 },          
           { "link": "https://media.consensys.net/what-the-eea-and-hyperledger-collaboration-means-for-enterprise-blockchain-development-31580012cb2", "title": "Hyperledger", "desc": "Join forces with Enterprise Ethereum Alliance", "date": 20170501 },
           { "link": "https://www.coindesk.com/jpmorgan-expanding-blockchain-project-with-220-banks-to-include-payments", "title": "J.P. Morgan", "desc": "Revealed massive Ethereum based banking network and uses Ethereum to launch a ‘digital U.S. dollar’", "date": 20170501 },
-          { "link": "https://www.coindesk.com/ey-nightfall-ethereum-enterprise-public-blockchain", "title": "Ernst & Young", "desc": "Developed and released a project designed to help corporate clients on Ethereum public network using zero knowledge proofs & ERC-721 standard", "date": 20170501 },
+          { "link": "https://www.linkedin.com/pulse/say-hello-nightfall-paul-brody-1f/", "title": "Ernst & Young", "desc": "Developed and released a project designed to help corporate clients on Ethereum public network using zero knowledge proofs & ERC-721 standard", "date": 20170501 },
           { "link": "https://marketplace.visualstudio.com/items", "title": "Microsoft", "desc": "Launched token-building kit to help businesses design and create the right sort of crypto tokens for their particular needs", "date": 20170501 },
           { "link": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/ethereum.ethereum-studio", "title": "Microsoft", "desc": "Kaleido plugs into Azure", "date": 20170501 },
           { "link": "https://aws.amazon.com/marketplace/pp/B07CSLDS7R", "title": "Amazon", "desc": "Kaleido plugs also to the AWS Marketplace", "date": 20170501 },
@@ -89,15 +90,16 @@
           { "link": "https://www.coindesk.com/spanish-telecom-giant-to-trial-blockchain-consumer-data-marketplace", "title": "Telefonica", "desc": "Trial consumer data verification", "date": 20170501 },
           { "link": "https://www.coindesk.com/new-wordpress-publishing-platform-will-offer-blockchain-features", "title": "WordPress", "desc": "Is launching a new publishing platform that will offer blockchain features", "date": 20170501 },
           { "link": "https://www.forbes.com/sites/michaeldelcastillo/2018/12/04/signature-launches-institutional-payments-using-permissioned-ethereum-blockchain/#5e1ee1a43eff", "title": "Signature Bank", "desc": "Launches a payments platform for institutional clients", "date": 20170501 },
-          { "link": "https://www.coindesk.com/louis-vuitton-owner-lvmh-is-launching-a-blockchain-to-track-luxury-goods", "title": "Louis Vuitton's LVMH", "desc": "Tracks the authenticity of high-priced goods", "date": 20170501 },
+          { "link": "https://finance.yahoo.com/news/lvmh-consensys-microsoft-announce-aura-100008984.html", "title": "Aura", "desc": "Product tracking consortium chain for the luxury industry from LVMH, ConsenSys and Microsoft", "date": 20170501 },
           { "link": "https://twitter.com/DavidBurela/status/1105967661085650944", "title": "Cargo Community Network", "desc": "Air cargo billing, costing and reconciliation system in Singapore", "date": 20170501 },
           { "link": "https://www.levistrauss.com/unzipped-blog/2019/01/24/new-way-measure-worker-well/", "title": "Levi Strauss", "desc": "Workers well being pilot program at a factory in Mexico", "date": 20170501 },
           { "link": "https://www.emaar.com/en/press-release-listing/2019/march/emaar-engages-blockchain-industry-veteran-lykke-ag", "title": "Emaar Group", "desc": "Aims to offer a community token for customers and partners", "date": 20170501 },
-          { "link": "https://breakermag.com/in-indonesia-blockchain-powered-farming-blossoms/", "title": "HARA", "desc": "Indonesian farming platform on a private chain", "date": 20170501 },
+          { "link": "https://fora.ie/bank-of-ireland-aib-blockchain-4659758-May2019/", "title": "Bank of Ireland and AIB", "desc": "Pilot program for regulatory credential tracking", "date": 20170501 },
           { "link": "http://www.nationmultimedia.com/detail/Corporate/30366906", "title": "Krungthai Bank and Shwe Bank", "desc": "Thailand-Myanmar cross-border money transfer services for Myanmar workers", "date": 20170501 },
           { "link": "https://cryptoslate.com/la-times-begins-accepting-crypto-tips-as-a-verified-brave-browser-publisher/", "title": "The Los Angeles Times", "desc": "Signed-up as a verified Brave browser publisher", "date": 20170501 },
           { "link": "https://www.coindesk.com/the-worlds-fifth-largest-electrical-company-is-using-an-ethereum-dapp", "title": "EDF", "desc": "The fifth-largest electrical company is using an Ethereum DApp", "date": 20170501 },         
           { "link": "https://www.trustnodes.com/2019/03/15/ikea-creates-a-blockchain-solar-powered-miniature-village-prototype", "title": "IKEA", "desc": "Creates a blockchain solar powered miniature village prototype", "date": 20170501 },
+          { "link": "https://decrypt.co/7135/why-bosch-ethereum-blockchain-iot", "title": "Bosch", "desc": "Wants to connect millions of cars, machines, buildings and things - and get them to pay each other", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Governments ------------------------------------", "date": 20180401 },
 
@@ -125,13 +127,14 @@
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other use cases ------------------------------------", "date": 20180401 },
 
-          { "link": "https://blog.gridplus.io/gridplus-explores-international-expansion-8f97ec84b014", "title": "Grid+", "desc": "Selling electricity in Texas and Singapore", "date": 20170501 },
-          { "link": "https://www.cryptonewsguy.com/first-tokenized-property-in-europe-has-been-sold/", "title": "Brickblock", "desc": "Tokenized and sold a first property in Europe", "date": 20170501 },
-          { "link": "https://www.cryptonewsguy.com/nasdaq-powered-dx-exchange-lists-tokenised-etfs/", "title": "NASDAQ", "desc": "Tokenization of stocks and ETFs", "date": 20170501 },
+          { "link": "https://blog.gridplus.io/gridplus-explores-international-expansion-8f97ec84b014", "title": "Grid+", "desc": "Selling electricity in Texas and Singapore", "date": 20170501 },          
           { "link": "http://www.bbc.com/future/story/20190425-making-sure-fish-is-safe-to-eat", "title": "Viant", "desc": "Seafood supply chain end-to-end traceability", "date": 20170501 },
           { "link": "https://ethereumworldnews.com/grammy-winning-artist-launches-a-company-that-will-use-blockchain-to-distribute-music/", "title": "RAC", "desc": "Grammy-winning artist launch music distribution platform", "date": 20170501 },
-          { "link": "https://blocktribune.com/winding-tree-executes-first-hotel-booking-transaction-on-public-blockchain/", "title": "Winding Tree", "desc": "Executed the first hotel booking on a public blockchain", "date": 20170501 }
-        
+          { "link": "https://blocktribune.com/winding-tree-executes-first-hotel-booking-transaction-on-public-blockchain/", "title": "Winding Tree", "desc": "Executed the first hotel booking on a public blockchain", "date": 20170501 },          
+          { "link": "https://www.cryptonewsguy.com/first-tokenized-property-in-europe-has-been-sold/", "title": "Brickblock", "desc": "Tokenized and sold a first property in Europe", "date": 20170501 },
+          { "link": "https://www.cryptonewsguy.com/nasdaq-powered-dx-exchange-lists-tokenised-etfs/", "title": "NASDAQ", "desc": "Tokenization of stocks and ETFs", "date": 20170501 },
+          { "link": "http://fortune.com/2019/03/11/gold-cryptocurrency-stocks-blockchain/", "title": "Paxos", "desc": "Tokenization of gold", "date": 20170501 },
+          { "link": "https://www.cryptonewsguy.com/cedex-launches-tokenized-diamond-trading/", "title": "CEDEX", "desc": "Tokenization of diamonds", "date": 20170501 }         
         ]
       },
       {
@@ -204,6 +207,7 @@
           { "link": "https://trezor.io/", "title": "Trezor", "desc": "The original hardware wallet", "date": 20170501 },
           { "link": "https://ledgerwallet.com/", "title": "Ledger", "desc": "Support for multiple cryptocurrencies and tokens", "date": 20170501 },
           { "link": "https://keepkey.com/", "title": "KeepKey", "desc": "The simple hardware wallet", "date": 20170501 },
+          { "link": "https://keycard.status.im/", "title": "Keycard", "desc": "Smartcard built with an open API for simple integration with crypto wallets and hardware", "date": 20170501 },
         
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
@@ -239,8 +243,13 @@
           { "link": "https://idex.market/", "title": "IDEX", "desc": "Processes orders in a centralized order book and settles the trades on-chain", "date": 20170501 },
           { "link": "https://etherdelta.com/", "title": "EtherDelta", "desc": "Processes both orders and trade settlements on-chain", "date": 20170501 },
           { "link": "https://www.bancor.network/", "title": "Bancor", "desc": "Protocol for the algorithmic market making exchange with on-chain liquidity", "date": 20170501 },          
-          { "link": "https://token.store/", "title": "Token Store", "desc": "All the trading/settlement logic lives on chain in the smart contract and orders are stored off-chain on a private server", "date": 20170501 },
           { "link": "https://fairdex.net", "title": "FairDEX", "desc": "Trading platform for ERC20 tokens built on the DutchX, that allows users to place bids on auctions running on the DutchX", "date": 20170501 },
+          { "link": "https://slow.trade/", "title": "Slow.trade", "desc": "Sellers trading interface to interact with the DutchX", "date": 20170501 },
+          { "link": "https://summa.one/auction/", "title": "Summa Auctions", "desc": "Cross-chain auctions featuring fast on-chain settlement, trustless and non-custodial transactions", "date": 20170501 },
+          { "link": "https://token.store/", "title": "Token Store", "desc": "All the trading/settlement logic lives on chain in the smart contract and orders are stored off-chain on a private server", "date": 20170501 },
+          { "link": "https://www.totle.com/", "title": "Totle", "desc": "Non-custodial platform for managing digital assets, that provides aggregation of decentralized exchange orderbooks", "date": 20170501 },          
+          { "link": "https://ddex.io/", "title": "DDEX", "desc": "Decentralized exchange built on Hydro Protocol technology, offering instant, real-time order matching with on-chain settlement", "date": 20170501 },
+          { "link": "https://ren.exchange/", "title": "RenEx", "desc": "RenEx is a dark pool (OTC) exchange, where orders between buyers and sellers are private from each other, facilitated by a ‘hidden order book’", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
@@ -253,11 +262,11 @@
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Payment services ------------------------------------", "date": 20180401 },
 
           { "link": "https://www.coinbase.com/card", "title": "Coinbase Card", "desc": "Visa debit card, funded by your Coinbase balance, allows you to spend your crypto worldwide", "date": 20170501 },
-          { "link": "https://keycard.status.im/", "title": "Keycard", "desc": "Smartcard built with an open API for simple integration with crypto wallets and hardware", "date": 20170501 },
           { "link": "https://0x.org/instant", "title": "0x Instant", "desc": "Simple crypto purchasing in any app or website", "date": 20170501 },          
           { "link": "https://commerce.coinbase.com/", "title": "Coinbase Commerce", "desc": "Accept cryptocurrency payments for your business", "date": 20170501 },
+          { "link": "https://www.etherglade.com/", "title": "Etherglade", "desc": "Accept Ethereum on your site in minutes", "date": 20170501 },          
           { "link": "https://groundhog.network/", "title": "Groundhog", "desc": "Payment gateway between merchants and customers to facilitate crypto subscriptions", "date": 20170501 },
-          { "link": "https://www.etherglade.com/", "title": "Etherglade", "desc": "Accept Ethereum on your site in minutes", "date": 20170501 }          
+          { "link": "https://sablier.app/", "title": "Sablier", "desc": "Pay your employees continuously", "date": 20170501 }        
         ]
       },
       {
@@ -286,6 +295,7 @@
           { "link": "https://dex.watch/", "title": "DEXWatch", "desc": "Decentralized exchanges explorer", "date": 20170501 },
           { "link": "https://dexindex.io/", "title": "DexIndex", "desc": "Tool that searches Ethereum decentralized exchanges to find the best token prices", "date": 20170501 },          
           { "link": "http://frontrun.me/", "title": "Frontrun me", "desc": "Visualization of Ethereum gas auctions", "date": 20170501 },
+          { "link": "https://defipulse.com/", "title": "DeFi Pulse", "desc": "Decentralized finance's tools tracked and ranked by value locked", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Run an Ethereum node ------------------------------------", "date": 20180401 },
 
@@ -310,7 +320,7 @@
           { "link": "https://ens.domains/", "title": "Ethereum Name Service", "desc": "Human-readable names instead of long addresses", "date": 20170501 },
           { "link": "https://www.ethereum-alarm-clock.com/", "title": "Ethereum Alarm Clock", "desc": "Scheduling of transactions for delayed execution in the future", "date": 20170501 },
           { "link": "https://github.com/status-im/status-chat-widget", "title": "Status Chat Widget", "desc": "Easily embed a Status chat room in your website", "date": 20170501 },
-          { "link": "https://beta.cent.co/", "title": "Cent", "desc": "The income-generating social network, enabling anyone to earn money by sharing their wisdom and creativity", "date": 20170501 },
+          { "link": "https://beta.cent.co/", "title": "Cent", "desc": "The income-generating social network, enabling anyone to earn money by sharing their wisdom and creativity", "date": 20170501 },                 
           { "link": "https://ethmail.cc", "title": "ETHMail", "desc": "Allows anyone to email anyone who has used Ethereum", "date": 20170501 },
           { "link": "https://ipfs.io/ipns/messagetransport.turmsanonymous.io/", "title": "Turms", "desc": "Expensive and slow encrypted messaging between Eth addresses", "date": 20170501 },
           { "link": "https://matic.network/dagger/", "title": "Dagger", "desc": "Engine to get realtime Ethereum events", "date": 20170501 },
@@ -390,9 +400,12 @@
           { "link": "https://molochdao.com/", "title": "MolochDAO", "desc": "Experimental, decentralized grant-making organization seeking to overcome the tragedy of the commons afflicting core protocol development", "date": 20170501 },
           { "link": "https://www.metacartel.org/", "title": "MetaCartel", "desc": "Community alliance that coordinates together to solve shared product development problems on the Ethereum application layer", "date": 20170501 },
           { "link": "https://www.humanitydao.org/", "title": "Humanity DAO", "desc": "Experiment in unique identity, governance, and Universal Basic Income", "date": 20170501 },       
+          { "link": "https://dxdao.daostack.io/", "title": "dxDAO", "desc": "Community-governed experimental decentralized autonomous organization for community governance of software protocols", "date": 20170501 },                 
           { "link": "https://concourseopen.com/", "title": "Concourse Open Community", "desc": "An open community of builders, enthusiasts and researchers working towards a free, bountiful and decentralized future for all humans", "date": 20170501 },
           { "link": "https://dapphub.com/", "title": "DappHub", "desc": "Self-organizing network of logicians, researchers, designers and developers spread out across the globe", "date": 20170501 },
+          { "link": "https://beta.giveth.io/", "title": "Giveth", "desc": "Open-source platform for building decentralized altruistic communities", "date": 20170501 },         
           { "link": "https://ethglobal.co/", "title": "ETHGlobal", "desc": "A community initiative, that helps run hackathons all over the world", "date": 20170501 },
+          { "link": "https://www.buidlnetwork.net", "title": "BUIDL Network", "desc": "A chain of global meetups, hosted by BUIDL Ambassadors that focus on blockchain education, DApp & infrastructure development", "date": 20170501 },          
           { "link": "https://www.meetup.com/topics/ethereum/", "title": "Ethereum meetups around the world", "desc": "Every meetup is welcoming and happy to help, as you can read in our blog", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- News sites ------------------------------------", "date": 20180401 },
@@ -448,6 +461,7 @@
           { "link": "https://github.com/nongiach/awesome-cryptocurrency-security", "title": "Awesome Cryptocurrency security", "desc": "Curated list about cryptocurrency security", "date": 20170501 },
           { "link": "https://github.com/Awesome-Layer-2/awesome-layer-2", "title": "Awesome Layer 2", "desc": "Curated list of all layer 2 projects", "date": 20170501 },
           { "link": "https://github.com/machinomy/awesome-state-channels", "title": "Awesome State-Channels", "desc": "Curated list of resources regarding state channels on Ethereum", "date": 20170501 },
+          { "link": "https://github.com/matter-labs/awesome-zero-knowledge-proofs", "title": "Awesome zero knowledge proofs", "desc": "Curated list of awesome things related to learning zero knowledge proofs", "date": 20170501 },         
           { "link": "https://github.com/jpantunes/awesome-cryptoeconomics", "title": "Awesome Cryptoeconomics", "desc": "A curated list of cryptoeconomic research and learning materials", "date": 20170501 },
           { "link": "https://github.com/ong/awesome-decentralized-finance", "title": "Awesome Decentralized-Finance", "desc": "A curated list of awesome decentralized finance projects, software, and resources", "date": 20170501 },
           { "link": "https://github.com/denisnazarov/awesome-crypto-trackers", "title": "Awesome Crypto Tracker", "desc": "A curated list of crypto project trackers and analytics dashboards", "date": 20170501 },
@@ -516,11 +530,15 @@
           { "link": "https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html", "title": "Ethereumbuilders", "desc": "Step-by-step Solidity tutorial", "date": 20171101 },
           { "link": "https://learnxinyminutes.com/docs/solidity/", "title": "Learn Solidity in y minutes", "desc": "Solidity tutorial", "date": 20171101 },
           { "link": "https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial#%C3%B0app-development", "title": "Ethereum Development Tutorial", "desc": "Introduction to the development basics of Ethereum", "date": 20171101 },
+          { "link": "https://www.zastrin.com/flash-cards/learn-ethereum-concepts", "title": "Learn Ethereum concepts", "desc": "Go to place for developers new to Ethereum", "date": 20171101 },          
           { "link": "https://topmonks.github.io/solidity_quick_ref/", "title": "Solidity Cheatsheet", "desc": "Quick overview of Solidity syntax", "date": 20171101 },
           { "link": "https://github.com/manojpramesh/solidity-cheatsheet", "title": "Solidity Cheatsheet and Best practices", "date": 20171101 },
           { "link": "https://github.com/miguelmota/solidity-idiosyncrasies", "title": "Solidity idiosyncrasies", "desc": "Solidity gotchas, pitfalls, limitations, and idiosyncrasies", "date": 20171101 },
           { "link": "https://delegatecall.com/", "title": "Delegate call", "desc": "Questions & answers site", "date": 20170501 },
           { "link": "https://ethereum.stackexchange.com", "title": "Ethereum Stack Exchange", "desc": "Get answers for all your Ethereum questions", "date": 20170501 },
+          { "link": "https://media.consensys.net/solidity-is-twice-as-popular-as-the-next-blockchain-coding-language-9330af9aeaa3", "title": "Solidity is Twice as Popular as the Next Blockchain Coding Language", "desc": "Will eWASM change the game?", "date": 20171101 },          
+          { "link": "https://buidl-explorer.herokuapp.com/", "title": "#BUIDL Explorer", "desc": "Help you get started and find the right open-source Ethereum projects to contribute to", "date": 20171101 },                    
+          { "link": "https://media.consensys.net/the-blockchain-jobs-report-2019-b2b911426c34", "title": "Ethereum Blockchain and Dapp Developer Job Kit", "desc": "Jobs in blockchain and crypto are booming — get involved", "date": 20170501 },        
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Videos ------------------------------------", "date": 20180401 },
 
@@ -638,6 +656,8 @@
           { "link": "https://hack.aragon.org/", "title": "AragonSDK", "desc": "A smart contract framework for building DAOs, DApps and protocols, including UI and API", "date": 20170501 },
           { "link": "https://github.com/daostack/arc", "title": "ARC", "desc": "An operating system for DAOs and the base layer of the DAO stack", "date": 20170501 },
           { "link": "https://github.com/0xProject", "title": "0x", "desc": "DEX protocol", "date": 20170501 },
+          { "link": "https://0x.org/launch-kit", "title": "0x Launch Kit", "desc": "Launch your own exchange or marketplace in minutes", "date": 20170501 },          
+          { "link": "https://hydroprotocol.io/", "title": "Hydro SDK", "desc": "Launch your own decentralized exchange in minutes", "date": 20170501 },             
           { "link": "https://github.com/cryptofinlabs/cryptofin-solidity", "title": "CryptoFin Solidity", "desc": "A collection of Solidity libraries for building secure and gas-efficient smart contracts", "date": 20170501 },
           { "link": "https://github.com/Modular-Network/ethereum-libraries", "title": "Modular Libraries", "desc": "A group of packages built for use on blockchains utilizing the Ethereum Virtual Machine", "date": 20170501 },
           { "link": "https://github.com/TrustWallet/wallet-core", "title": "Trust Wallet Core", "desc": "An open-source cross-platform cross-blockchain wallet library", "date": 20170501 },
@@ -694,6 +714,7 @@
           { "link": "https://github.com/trailofbits/echidna", "title": "Echidna", "desc": "Fuzzer for Ethereum software,that uses property testing to generate malicious inputs that break smart contracts", "date": 20170501 },
           { "link": "https://github.com/MAIAN-tool/MAIAN", "title": "Maian", "desc": "Automatic tool for finding trace vulnerabilities in smart contracts", "date": 20170501 },
           { "link": "https://github.com/dapphub/klab", "title": "KLab", "desc": "Tool for generating and debugging K-framework reachability proofs, tailored for formal verification of ethereum smart contracts", "date": 20170501 },
+          { "link": "https://verx.ch/", "title": "VerX", "desc": "Full functional verification for Ethereum smart contracts", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other tools ------------------------------------", "date": 20180401 },
 
@@ -702,18 +723,21 @@
           { "link": "https://github.com/ConsenSys/surya", "title": "Sūrya", "desc": "Utility tool for smart contract systems, offering a number of visual outputs and information about the contract's structure", "date": 20170501 },
           { "link": "https://github.com/ethereum-ts/TypeChain", "title": "TypeChain", "desc": "Typescript bindings for Ethereum smart contracts", "date": 20170501 },
           { "link": "https://github.com/JoinColony/purser", "title": "Purser", "desc": "JavaScript universal wallet tool for Ethereum-based wallets", "date": 20170501 },
+          { "link": "https://walletconnect.org/", "title": "WalletConnect", "desc": "Open protocol for connecting desktop DApps to mobile wallets using end-to-end encryption by scanning a QR code", "date": 20170501 },                    
           { "link": "https://quickblocks.io/", "title": "QuickBlocks", "desc": "Collection of software libraries, applications, and command-line tools designed to give you quick access to the data provided by an Ethereum node", "date": 20170501 },
           { "link": "https://rimble.consensys.design/", "title": "Rimble Design System", "desc": "Adaptable components and design standards for decentralized applications", "date": 20170501 },
           { "link": "https://lorikeet.design/", "title": "Lorikeet", "desc": "Design system with React components, UI/UX guidelines and motion tools for building interfaces", "date": 20170501 },
           { "link": "https://www.blocknative.com/", "title": "Blocknative", "desc": "Embeddable widgets to enhance your DApp’s user experience", "date": 20170501 },
           { "link": "https://github.com/austintgriffith/dapparatus", "title": "Dapparatus", "desc": "Reusable DApp components in React: contract loader, metamask, gas, transaction ui, event parers, etc", "date": 20170501 },
-          { "link": "https://walletconnect.org/", "title": "WalletConnect", "desc": "Open protocol for connecting desktop DApps to mobile wallets using end-to-end encryption by scanning a QR code", "date": 20170501 },          
           { "link": "https://github.com/horyus/ethvtx", "title": "Ethvtx", "desc": "All the tools to build an efficient Redux store for your DApp", "date": 20170501 },
           { "link": "https://github.com/openst/mosaic-contracts", "title": "Mosaic", "desc": "Set of meta-blockchains on top of Ethereum to scale DApps", "date": 20170501 },
-          { "link": "https://github.com/BlocknetDX/blocknet/releases/tag/v3.13.0", "title": "XRouter", "desc": "Allows DApps to interact with other blockchains", "date": 20170501 },
+          { "link": "https://chain.link/", "title": "Chainlink", "desc": "Connect your smart contracts to real world data, events and payments", "date": 20170501 },   
+          { "link": "https://www.fabrx.io/", "title": "Fabrx", "desc": "Connect your platform to the decentralized web", "date": 20170501 },
+          { "link": "https://github.com/BlocknetDX/blocknet/releases/tag/v3.13.0", "title": "XRouter", "desc": "Allows DApps to interact with other blockchains", "date": 20170501 },         
           { "link": "https://fortmatic.com/", "title": "Fortmatic", "desc": "Build web3 DApps without extensions or downloads", "date": 20170501 },
           { "link": "https://universallogin.io/", "title": "Universal Login", "desc": "Design pattern for storing funds and connecting to Ethereum applications", "date": 20170501 },
           { "link": "https://www.sbt-ethereum.io", "title": "sbt-ethereum", "desc": "Deployment and development tool for Scala tools and apps", "date": 20170501 },
+          { "link": "http://radicle.xyz/", "title": "Radicle", "desc": "Peer-to-peer stack for code collaboration, decentralized alternative to Github built on IPFS", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Resources ------------------------------------", "date": 20180401 },
 
@@ -828,6 +852,7 @@
           { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-starks/", "title": "ZK-STARKs", "desc": "Summary, projects and further readings", "date": 20170501 },
           { "link": "https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe", "title": "A Framework for Efficient STARKs", "desc": "5 posts serie explaining the theory behind STARKs and StarkWare's implementation of it", "date": 20170501 },
           { "link": "https://liamz.co/blog/building-the-first-ever-zkdao-at-ethparis/", "title": "Building the first-ever zero-knowledge DAO proof-of-concept", "desc": "Design considerations and potential implications", "date": 20170501 },
+          { "link": "https://github.com/matter-labs/awesome-zero-knowledge-proofs", "title": "Awesome zero knowledge proofs", "desc": "Curated list of awesome things related to learning zero knowledge proofs", "date": 20170501 },          
           { "link": "https://github.com/elibensasson/libSTARK", "title": "libSTARK", "desc": "C++ library for ZK-STARK systems", "date": 20170501 },
           { "link": "https://github.com/scipr-lab/zexe", "title": "ZEXE", "desc": "Rust library for decentralized private computation", "date": 20170501 },
           { "link": "https://github.com/AztecProtocol/AZTEC", "title": "AZTEC Protocol", "desc": "Zero-knowledge privacy protocoln", "date": 20170501 },
@@ -835,7 +860,8 @@
           { "link": "https://github.com/iden3/websnark", "title": "websnark", "desc": "zkSNARK proof generator written in native Web Assembly", "date": 20170501 },
           { "link": "https://github.com/iden3/circom", "title": "circom", "desc": "Circuit compiler for zkSNARKs", "date": 20170501 },
           { "link": "https://github.com/iden3/snarkjs", "title": "snarkjs", "desc": "zkSNARK implementation in JavaScript", "date": 20170501 },        
-          { "link": "https://github.com/arnaucube/go-snark", "title": "Go-SNARK", "desc": "zkSNARK library implementation in Go", "date": 20170501 }                
+          { "link": "https://github.com/arnaucube/go-snark", "title": "Go-SNARK", "desc": "zkSNARK library implementation in Go", "date": 20170501 },                
+          { "link": "https://github.com/EYBlockchain/nightfall", "title": "Nightfall", "desc": "EY's protocols for private transactions on the Ethereum public blockchain using zk-SNARKs", "date": 20170501 }                       
         ]
       }
     ],
