@@ -141,7 +141,7 @@
           { "link": "https://www.cryptonewsguy.com/first-tokenized-property-in-europe-has-been-sold/", "title": "Brickblock", "desc": "Tokenized and sold a first property in Europe", "date": 20170501 },
           { "link": "https://www.cryptonewsguy.com/nasdaq-powered-dx-exchange-lists-tokenised-etfs/", "title": "NASDAQ", "desc": "Tokenization of stocks and ETFs", "date": 20170501 },
           { "link": "http://fortune.com/2019/03/11/gold-cryptocurrency-stocks-blockchain/", "title": "Paxos", "desc": "Tokenization of gold", "date": 20170501 },
-          { "link": "https://www.cryptonewsguy.com/cedex-launches-tokenized-diamond-trading/", "title": "CEDEX", "desc": "Tokenization of diamonds", "date": 20170501 }         
+          { "link": "https://www.cryptonewsguy.com/cedex-launches-tokenized-diamond-trading/", "title": "CEDEX", "desc": "Tokenization of diamonds", "date": 20170501 },         
           { "link": "https://medium.com/crypto-space-commander/star-trek-coming-to-the-eth-blockchain-first-bitcoin-then-ethereum-now-gold-pressed-latinum-56924a126c85", "title": "Star Trek", "desc": "Open-universe PC/Mac game Crypto Space Commander utilizes the Ethereum blockchain to secure and validate ownership of all in-game items and their governance", "date": 20170501 }         
         ]
       },
@@ -280,8 +280,8 @@
           { "link": "https://commerce.coinbase.com/", "title": "Coinbase Commerce", "desc": "Accept cryptocurrency payments for your business", "date": 20170501 },
           { "link": "https://www.etherglade.com/", "title": "Etherglade", "desc": "Accept Ethereum on your site in minutes", "date": 20170501 },          
           { "link": "https://groundhog.network/", "title": "Groundhog", "desc": "Payment gateway between merchants and customers to facilitate crypto subscriptions", "date": 20170501 },
-          { "link": "https://sablier.app/", "title": "Sablier", "desc": "Pay your employees continuously", "date": 20170501 }        
-          { "link": "https://www.bitwage.com/", "title": "BitWage", "desc": "Pay salaries in Ether", "date": 20170501 }
+          { "link": "https://sablier.app/", "title": "Sablier", "desc": "Pay your employees continuously", "date": 20170501 },        
+          { "link": "https://www.bitwage.com/", "title": "BitWage", "desc": "Pay salaries in Ether", "date": 20170501 },
           { "link": "https://whisp.money/", "title": "Whisp", "desc": "Pay remote or on-site workers in crypto", "date": 20170501 }        
         ]
       },
