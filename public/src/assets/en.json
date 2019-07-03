@@ -353,8 +353,8 @@
           { "link": "https://docs.ethhub.io/other/ethereum-branding-kit/", "title": "Ethereum Branding Kit", "desc": "Show off that your products and services are built on Ethereum", "date": 20170501 },          
           { "link": "https://buidl.it/", "title": "Build it", "desc": "A small selection of inspiring projects that come out of ETHGlobal hackathons", "date": 20170501 },
           { "link": "https://consensys.net/convertible-note/", "title": "Automated Convertible Note", "desc": "OpenLaw-based document generator to help startups raise capital with customizable market standard terms and optional digital token provisions", "date": 20170501 },          
-          { "link": "https://concourseq.io/", "title": "ConcourseQ", "desc": "Community-sourced due diligence for token sales", "date": 20170501 }
-          { "link": "https://www.pooltogether.us/", "title": "PoolTogether", "desc": "No loss lottery - randomly chosen person gets all the interest that accrued on all the lent out locked Dai", "date": 20170501 }          
+          { "link": "https://concourseq.io/", "title": "ConcourseQ", "desc": "Community-sourced due diligence for token sales", "date": 20170501 },
+          { "link": "https://www.pooltogether.us/", "title": "PoolTogether", "desc": "No loss lottery - randomly chosen person gets all the interest that accrued on all the lent out locked Dai", "date": 20170501 },          
           { "link": "https://www.coinbase.com/earn", "title": "Coinbase Earn", "desc": "Earn crypto while learning about crypto", "date": 20170501 }        
         ]
       },
