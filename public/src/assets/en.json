@@ -762,6 +762,7 @@
 
           { "link": "https://truffle-box.github.io/", "title": "Truffle Box", "desc": "Set of Truffle + Webpack + React Boilerplates", "date": 20170501 },
           { "link": "https://infura.io/", "title": "Infura", "desc": "APIs to Ethereum and IPFS nodes", "date": 20170501 },
+          { "link": "https://chainstack.com/", "title": "Chainstack", "desc": "Ethereum mainnet and Ropsten node deployment", "date": 20170501 },
           { "link": "https://github.com/ConsenSys/surya", "title": "Sūrya", "desc": "Utility tool for smart contract systems, offering a number of visual outputs and information about the contract's structure", "date": 20170501 },
           { "link": "https://github.com/ethereum-ts/TypeChain", "title": "TypeChain", "desc": "Typescript bindings for Ethereum smart contracts", "date": 20170501 },
           { "link": "https://github.com/JoinColony/purser", "title": "Purser", "desc": "JavaScript universal wallet tool for Ethereum-based wallets", "date": 20170501 },
