@@ -25,6 +25,7 @@
           { "link": "https://novicedock.com/learn/cryptocurrency/ethereum", "title": "Ethereum syllabus", "desc": "Introduction for newcomers", "date": 20170501 },
           { "link": "https://education.district0x.io/general-topics/understanding-ethereum/", "title": "Understanding Ethereum", "desc": "Educational portal of district0x ", "date": 20170501 },
           { "link": "https://kauri.io/collection/5bb65f0f4f34080001731dc2", "title": "Ethereum 101", "desc": "Overview of all things Ethereum", "date": 20170501 },          
+          { "link": "https://litepaper.com/", "title": "Litepaper", "desc": "A mini guide to crypto", "date": 20170501 },                    
           { "link": "https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369", "title": "How does Ethereum work, anyway?", "desc": "How it functions at a technical level, without complex math", "date": 20170501 },
           { "link": "https://medium.com/@virgilgr/ethereum-is-game-changing-technology-literally-d67e01a01cf8", "title": "Ethereum is game-changing technology, literally", "desc": "Ethereum enables powerful economic vehicles we don’t yet understand", "date": 20170501 },
           { "link": "https://blog.bmannconsulting.com/ethereum-governance/", "title": "Ethereum Governance", "desc": "Overview of the different layers of governance that applies to Ethereum", "date": 20170501 },
@@ -105,6 +106,8 @@
           { "link": "https://decrypt.co/7135/why-bosch-ethereum-blockchain-iot", "title": "Bosch", "desc": "Wants to connect millions of cars, machines, buildings and things - and get them to pay each other", "date": 20170501 },
           { "link": "https://crypto.post.at/onchainshop", "title": "Österreichische Post", "desc": "Austrian post offices now sell crypto-stamps", "date": 20170501 },
           { "link": "https://www.forbes.com/sites/stevenehrlich/2019/06/19/metlife-plans-to-disrupt-2-7-trillion-life-insurance-industry-using-ethereum-blockchain/#41781fc22770", "title": "MetLife", "desc": "Claims process of life insurance on public Ethereum", "date": 20170501 },
+          { "link": "https://www.theblockcrypto.com/tiny/internet-giant-reddit-set-to-allow-cryptocurrency-tipping/", "title": "Reddit", "desc": "Allow users tipping in cryptocurrency a content creators", "date": 20170501 },
+          { "link": "https://markets.businessinsider.com/news/stocks/ey-helps-bofrost-italia-to-build-one-of-the-first-blockchain-platforms-to-trace-frozen-foods-in-supply-chains-1028312315", "title": "Bofrost Italia", "desc": "Tracing frozen foods in supply chain", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Governments ------------------------------------", "date": 20180401 },
 
@@ -125,7 +128,7 @@
 
           { "link": "https://qz.com/1118743/world-food-programmes-ethereum-based-blockchain-for-syrian-refugees-in-jordan/", "title": "United Nations", "desc": "Expand blockchain testing to African supply chain", "date": 20170501 },
           { "link": "https://www.unicef.org/innovation/blockchain", "title": "UNICEF", "desc": "Exploring blockchain applications for children", "date": 20170501 },
-          { "link": "https://www.linkedin.com/feed/update/urn:li:activity:6546696515849605120/", "title": "Oxfam", "desc": "Crop insurance for Sri Lankan farmers", "date": 20170501 },
+          { "link": "http://aon.mediaroom.com/2019-07-01-Aon-Oxfam-and-Etherisc-launch-first-blockchain-based-agricultural-insurance-policies-for-smallholder-farmers-in-Sri-Lanka", "title": "Oxfam", "desc": "Crop insurance for Sri Lankan farmers", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Social impact ------------------------------------", "date": 20180401 },
 
@@ -224,6 +227,7 @@
 
           { "link": "https://manager.balance.io/", "title": "Balance Manager", "desc": "An interface that connects to MetaMask, Ledger, Trezor or mobile wallet, allowing you to view and send your ERC-20 tokens", "date": 20170501 },
           { "link": "https://frame.sh/", "title": "Frame", "desc": "OS-level Ethereum interface that lets you use standalone signers, such as a Ledger or Trezor, to interact with DApps and the Ethereum network", "date": 20170501 }          
+          { "link": "https://wallet.loomx.io/", "title": "Loom Wallet", "desc": "Plasmachain staking and validator dashboard", "date": 20170501 }          
         ]
       },
       {
@@ -272,6 +276,7 @@
           { "link": "https://swaps.ramp.network/", "title": "Ramp", "desc": "Decentralized peer-to-peer fiat to crypto trades", "date": 20170501 },          
           { "link": "https://wirexapp.com/", "title": "Wirex", "desc": "Payment platform, that allows you to spend and exchange crypto & fiat currency", "date": 20170501 },          
           { "link": "https://coinswitch.co/", "title": "CoinSwitch", "desc": "Trade hundreds of coins at best rates without creating an account on any exchange (include Binance, KuCoin, Bittrex, HitBTC, IDEX, Cryptopia and more)", "date": 20170501 },                  
+          { "link": "https://liquality.io/", "title": "Liquality", "desc": "Cross-chain atomic swaps between Bitcoin, Dai and Ether", "date": 20170501 },                            
           { "link": "https://1inch.exchange/", "title": "1inch.exchange", "desc": "Split the order to several decentralized exchanges like UniswapExchange, KyberNetwork, Bancor and RadarRelay to avoid high price slippage", "date": 20170501 },                            
           { "link": "https://shiftly.finance/", "title": "Shiftly", "desc": "Find best prices among DEXs, compare and swap your cryptocurrencies instantly", "date": 20170501 },                  
        
@@ -356,6 +361,7 @@
           { "link": "https://concourseq.io/", "title": "ConcourseQ", "desc": "Community-sourced due diligence for token sales", "date": 20170501 },
           { "link": "https://www.pooltogether.us/", "title": "PoolTogether", "desc": "No loss lottery - randomly chosen person gets all the interest that accrued on all the lent out locked Dai", "date": 20170501 },          
           { "link": "https://www.coinbase.com/earn", "title": "Coinbase Earn", "desc": "Earn crypto while learning about crypto", "date": 20170501 }        
+          { "link": "https://wrappedkitties.com/", "title": "Wrapped Kitties", "desc": "Make your ERC-721 into ERC-20", "date": 20170501 }        
         ]
       },
       {
@@ -377,11 +383,12 @@
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Podcasts ------------------------------------", "date": 20180401 },
 
-          { "link": "https://epicenter.tv/", "title": "Epicenter", "date": 20170501 },
-          { "link": "https://podcast.ethhub.io/", "title": "Into the Ether", "date": 20170501 },
-          { "link": "https://unchainedpodcast.com/", "title": "Unchained", "date": 20170501 },
-          { "link": "https://thebitcoinpodcast.com/category/dose-of-ether/", "title": "Dose of Ether", "date": 20170501 },
-          { "link": "https://unconfirmed.libsyn.com/", "title": "Unconfirmed", "date": 20170501 },
+          { "link": "https://epicenter.tv/", "title": "Epicenter", "desc": "Bitcoin and cryptocurrency news stories", "date": 20170501 },
+          { "link": "https://podcast.ethhub.io/", "title": "Into the Ether", "desc": "EthHub weekly recap covering topics from their newsletter", "date": 20170501 },
+          { "link": "https://unchainedpodcast.com/", "title": "Unchained", "desc": "No-hype resource for all things crypto", "date": 20170501 },
+          { "link": "https://thebitcoinpodcast.com/category/dose-of-ether/", "title": "Dose of Ether", "desc": "Ethereum news podcast on The Bitcoin Podcast Network", "date": 20170501 },
+          { "link": "https://unconfirmed.libsyn.com/", "title": "Unconfirmed", "desc": "Insights and analysis from the top minds in crypto", "date": 20170501 },
+          { "link": "https://in-flight.simplecast.com/", "title": "In Flight by Aragon One", "desc": "Touches the topics of governance, empowering individual freedom and avoiding global dystopia", "date": 20170501 },
 
           {   "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Newsletters ------------------------------------", "date": 20180401 },
 
@@ -430,6 +437,7 @@
           { "link": "https://beta.giveth.io/", "title": "Giveth", "desc": "Open-source platform for building decentralized altruistic communities", "date": 20170501 },         
           { "link": "https://daolist.io/", "title": "Aragon DAO explorer", "desc": "Explore and search Aragon DAOs", "date": 20170501 },         
           { "link": "https://alchemy.daostack.io/", "title": "Alchemy", "desc": "Interface for DAOs built on DAOstack", "date": 20170501 },                  
+          { "link": "https://www.ethcs.org/", "title": "Ethereum Community Series", "desc": "Place where people share their stories, opinions, and contributions to the Ethereum ecosystem", "date": 20170501 },                           
           { "link": "https://ethglobal.co/", "title": "ETHGlobal", "desc": "A community initiative, that helps run hackathons all over the world", "date": 20170501 },
           { "link": "https://www.buidlnetwork.net", "title": "BUIDL Network", "desc": "A chain of global meetups, hosted by BUIDL Ambassadors that focus on blockchain education, DApp & infrastructure development", "date": 20170501 },          
           { "link": "https://www.meetup.com/topics/ethereum/", "title": "Ethereum meetups around the world", "desc": "Every meetup is welcoming and happy to help, as you can read in our blog", "date": 20170501 },
@@ -459,6 +467,7 @@
           { "link": "https://cryptoeconomics.study/", "title": "Cryptoeconomics", "desc": "An introduction", "date": 20170501 },
           { "link": "https://tokeneconomy.co/mapping-the-decentralized-financial-system-7c5af65e0335", "title": "Decentralized Finance", "desc": "More transparent, open, and programmable financial services", "date": 20170501 },
           { "link": "https://itbrief.co.nz/story/seven-mistakes-to-avoid-in-blockchain-projects-gartner", "title": "Run a a blockchain project", "desc": "Seven mistakes to avoid in blockchain projects", "date": 20170501 },          
+          { "link": "https://medium.com/@triptananda/blockchains-enterprise-and-real-c94548e811a0", "title": "Enterprises", "desc": "How to choose an enterprise blockchain platform", "date": 20170501 },                    
           { "link": "https://kaleido.io/public-vs-private-blockchains-what-you-need-to-know/", "title": "Public vs private blockchains", "desc": "What you need to know", "date": 20170501 },
           { "link": "https://consensys.net/research/the-maximally-decentralized-settlement-layer/", "title": "Interoperability", "desc": "The dangers of blockchain maximalism and the importance of building an interoperable blockchain ecosystem", "date": 20170501 },                    
           { "link": "https://www.theverge.com/2018/12/20/18129020/china-internet-great-firewall-censorship-blockchain-metoo-vaccines-2018", "title": "Censorship", "desc": "2018 was the year Chinese internet users evaded censorship", "date": 20170501 },
@@ -893,24 +902,50 @@
           { "link": "https://github.com/paritytech/parity-bridge", "title": "Parity bridge", "desc": "Bridge between any two Ethereum-based networks", "date": 20170501 },          
           { "link": "https://skalelabs.com/", "title": "SKALE", "desc": "Ethereum sidechain test network", "date": 20170501 },
 
-          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- ZK-STARKs ------------------------------------", "date": 20180401 },
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- ZK-STARKs (see also the 'Privacy' section) ------------------------------------", "date": 20180401 },
 
-          { "link": "https://hackernoon.com/eli5-zero-knowledge-proof-78a276db9eff", "title": "Zero Knowledge Proof", "desc": "Explained like you are 5", "date": 20170501 },
-          { "link": "https://medium.com/@yi.sun/privacy-in-cryptocurrencies-d4b268157f6c", "title": "Privacy in Cryptocurrencies", "desc": "Overview, approaches and zero-knowledge proofs", "date": 20170501 },
           { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-starks/", "title": "ZK-STARKs", "desc": "Summary, projects and further readings", "date": 20170501 },
-          { "link": "https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe", "title": "A Framework for Efficient STARKs", "desc": "5 posts serie explaining the theory behind STARKs and StarkWare's implementation of it", "date": 20170501 },
+          { "link": "https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe", "title": "A Framework for Efficient STARKs", "desc": "5 posts serie explaining the theory behind STARKs and StarkWare's implementation of it", "date": 20170501 },                   
+        ]
+      },
+      {
+        "headline": "Privacy",
+        "paragraphs": [
+          { "text": "Ethereum blockchain is transparent to the core. That's why it may seem contradictory, that an open-ledger, open-source technology like it would attempt to disguise itself with anonymous transactions. However, it’s more like a data security in order of protection the anonymity of cryptocurrency users - all while maintaining the integrity of public ledger." }
+          { "text": "The key implemented privacy solutions in Ethereum until now are mixing and zero-knowledge based approaches." }
+        ],
+        "links": [
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Overview ------------------------------------", "date": 20180401 },
+
+          { "link": "https://medium.com/@yi.sun/privacy-in-cryptocurrencies-d4b268157f6c", "title": "Privacy in Cryptocurrencies", "desc": "Overview, approaches and zero-knowledge proofs", "date": 20170501 },
+          { "link": "https://hackernoon.com/eli5-zero-knowledge-proof-78a276db9eff", "title": "Zero Knowledge Proof", "desc": "Explained like you are 5", "date": 20170501 },          
+          { "link": "https://docs.ethhub.io/ethereum-roadmap/privacy/", "title": "Privacy on Ethereum", "desc": "Summary of used technologies and working teams", "date": 20170501 },
           { "link": "https://liamz.co/blog/building-the-first-ever-zkdao-at-ethparis/", "title": "Building the first-ever zero-knowledge DAO proof-of-concept", "desc": "Design considerations and potential implications", "date": 20170501 },
-          { "link": "https://github.com/matter-labs/awesome-zero-knowledge-proofs", "title": "Awesome zero knowledge proofs", "desc": "Curated list of awesome things related to learning zero knowledge proofs", "date": 20170501 },          
+          
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Utilities ------------------------------------", "date": 20180401 },
+
+          { "link": "https://kndrck.co/posts/introducing_heiswap/", "title": "Heiswap", "desc": "Mixer that allows users to ‘wash’ their ETH in a confidential manner (i.e. who the sender sends money to is hidden)", "date": 20170501 },          
+          { "link": "https://www.zeroknowledge.fm/", "title": "Zero Knowledge", "desc": "Podcast made for developers and people looking to learn about ZK tech", "date": 20170501 },
+        
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Tools ------------------------------------", "date": 20180401 },
+
           { "link": "https://github.com/elibensasson/libSTARK", "title": "libSTARK", "desc": "C++ library for ZK-STARK systems", "date": 20170501 },
           { "link": "https://github.com/scipr-lab/zexe", "title": "ZEXE", "desc": "Rust library for decentralized private computation", "date": 20170501 },
-          { "link": "https://github.com/AztecProtocol/AZTEC", "title": "AZTEC Protocol", "desc": "Zero-knowledge privacy protocoln", "date": 20170501 },
+          { "link": "https://github.com/AztecProtocol/AZTEC", "title": "AZTEC Protocol", "desc": "Zero-knowledge privacy protocol", "date": 20170501 },
           { "link": "https://github.com/Zokrates/ZoKrates", "title": "ZoKrates", "desc": "Toolbox for zkSNARKS on Ethereum", "date": 20170501 },
           { "link": "https://github.com/iden3/websnark", "title": "websnark", "desc": "zkSNARK proof generator written in native Web Assembly", "date": 20170501 },
           { "link": "https://github.com/iden3/circom", "title": "circom", "desc": "Circuit compiler for zkSNARKs", "date": 20170501 },
           { "link": "https://github.com/iden3/snarkjs", "title": "snarkjs", "desc": "zkSNARK implementation in JavaScript", "date": 20170501 },        
           { "link": "https://github.com/arnaucube/go-snark", "title": "Go-SNARK", "desc": "zkSNARK library implementation in Go", "date": 20170501 },                
           { "link": "https://github.com/GuildOfWeavers/genSTARK", "title": "genSTARK", "desc": "Library for generating zk-STARKs", "date": 20170501 },                
-          { "link": "https://github.com/EYBlockchain/nightfall", "title": "Nightfall", "desc": "EY's protocols for private transactions on the Ethereum public blockchain using zk-SNARKs", "date": 20170501 }                       
+          { "link": "https://github.com/EYBlockchain/nightfall", "title": "Nightfall", "desc": "Protocols for private transactions on the Ethereum public blockchain using zk-SNARKs, developed by EY", "date": 20170501 }            
+          { "link": "https://github.com/jpmorganchase/anonymous-zether", "title": "Zether", "desc": "Private payment system for Ethereum-based blockchains, developed by JP Morgan", "date": 20170501 }            
+          { "link": "https://github.com/argentlabs/hopper", "title": "Hopper", "desc": "Open-source mixer, that allows the private transfer of value from one Ethereum account to another, via an iOS client", "date": 20170501 }            
+          
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Resources ------------------------------------", "date": 20180401 },
+
+          { "link": "https://github.com/matter-labs/awesome-zero-knowledge-proofs", "title": "Awesome zero knowledge proofs", "desc": "Curated list of awesome things related to learning zero knowledge proofs", "date": 20170501 },          
+          { "link": "https://kauri.io/collection/5cb71d136b976600014a78ad/privacy", "title": "Privacy collection on Kauri", "desc": "Learn privacy in blockchain, curated set of articles and guides, an entry point for beginners who wish to learn about all things privacy in blockchain", "date": 20170501 },                  
         ]
       }
     ],
