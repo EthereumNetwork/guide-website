@@ -938,9 +938,9 @@
           { "link": "https://github.com/iden3/snarkjs", "title": "snarkjs", "desc": "zkSNARK implementation in JavaScript", "date": 20170501 },        
           { "link": "https://github.com/arnaucube/go-snark", "title": "Go-SNARK", "desc": "zkSNARK library implementation in Go", "date": 20170501 },                
           { "link": "https://github.com/GuildOfWeavers/genSTARK", "title": "genSTARK", "desc": "Library for generating zk-STARKs", "date": 20170501 },                
-          { "link": "https://github.com/EYBlockchain/nightfall", "title": "Nightfall", "desc": "Protocols for private transactions on the Ethereum public blockchain using zk-SNARKs, developed by EY", "date": 20170501 }            
-          { "link": "https://github.com/jpmorganchase/anonymous-zether", "title": "Zether", "desc": "Private payment system for Ethereum-based blockchains, developed by JP Morgan", "date": 20170501 }            
-          { "link": "https://github.com/argentlabs/hopper", "title": "Hopper", "desc": "Open-source mixer, that allows the private transfer of value from one Ethereum account to another, via an iOS client", "date": 20170501 }            
+          { "link": "https://github.com/EYBlockchain/nightfall", "title": "Nightfall", "desc": "Protocols for private transactions on the Ethereum public blockchain using zk-SNARKs, developed by EY", "date": 20170501 },            
+          { "link": "https://github.com/jpmorganchase/anonymous-zether", "title": "Zether", "desc": "Private payment system for Ethereum-based blockchains, developed by JP Morgan", "date": 20170501 },            
+          { "link": "https://github.com/argentlabs/hopper", "title": "Hopper", "desc": "Open-source mixer, that allows the private transfer of value from one Ethereum account to another, via an iOS client", "date": 20170501 },            
           
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Resources ------------------------------------", "date": 20180401 },
 
