@@ -226,7 +226,7 @@
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
           { "link": "https://manager.balance.io/", "title": "Balance Manager", "desc": "An interface that connects to MetaMask, Ledger, Trezor or mobile wallet, allowing you to view and send your ERC-20 tokens", "date": 20170501 },
-          { "link": "https://frame.sh/", "title": "Frame", "desc": "OS-level Ethereum interface that lets you use standalone signers, such as a Ledger or Trezor, to interact with DApps and the Ethereum network", "date": 20170501 }          
+          { "link": "https://frame.sh/", "title": "Frame", "desc": "OS-level Ethereum interface that lets you use standalone signers, such as a Ledger or Trezor, to interact with DApps and the Ethereum network", "date": 20170501 },          
           { "link": "https://wallet.loomx.io/", "title": "Loom Wallet", "desc": "Plasmachain staking and validator dashboard", "date": 20170501 }          
         ]
       },
@@ -360,7 +360,7 @@
           { "link": "https://consensys.net/convertible-note/", "title": "Automated Convertible Note", "desc": "OpenLaw-based document generator to help startups raise capital with customizable market standard terms and optional digital token provisions", "date": 20170501 },          
           { "link": "https://concourseq.io/", "title": "ConcourseQ", "desc": "Community-sourced due diligence for token sales", "date": 20170501 },
           { "link": "https://www.pooltogether.us/", "title": "PoolTogether", "desc": "No loss lottery - randomly chosen person gets all the interest that accrued on all the lent out locked Dai", "date": 20170501 },          
-          { "link": "https://www.coinbase.com/earn", "title": "Coinbase Earn", "desc": "Earn crypto while learning about crypto", "date": 20170501 }        
+          { "link": "https://www.coinbase.com/earn", "title": "Coinbase Earn", "desc": "Earn crypto while learning about crypto", "date": 20170501 },        
           { "link": "https://wrappedkitties.com/", "title": "Wrapped Kitties", "desc": "Make your ERC-721 into ERC-20", "date": 20170501 }        
         ]
       },
@@ -905,13 +905,13 @@
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- ZK-STARKs (see also the 'Privacy' section) ------------------------------------", "date": 20180401 },
 
           { "link": "https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-starks/", "title": "ZK-STARKs", "desc": "Summary, projects and further readings", "date": 20170501 },
-          { "link": "https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe", "title": "A Framework for Efficient STARKs", "desc": "5 posts serie explaining the theory behind STARKs and StarkWare's implementation of it", "date": 20170501 },                   
+          { "link": "https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe", "title": "A Framework for Efficient STARKs", "desc": "5 posts serie explaining the theory behind STARKs and StarkWare's implementation of it", "date": 20170501 }                   
         ]
       },
       {
         "headline": "Privacy",
         "paragraphs": [
-          { "text": "Ethereum blockchain is transparent to the core. That's why it may seem contradictory, that an open-ledger, open-source technology like it would attempt to disguise itself with anonymous transactions. However, it’s more like a data security in order of protection the anonymity of cryptocurrency users - all while maintaining the integrity of public ledger." }
+          { "text": "Ethereum blockchain is transparent to the core. That's why it may seem contradictory, that an open-ledger, open-source technology like it would attempt to disguise itself with anonymous transactions. However, it’s more like a data security in order of protection the anonymity of cryptocurrency users - all while maintaining the integrity of public ledger." },
           { "text": "The key implemented privacy solutions in Ethereum until now are mixing and zero-knowledge based approaches." }
         ],
         "links": [
@@ -945,7 +945,7 @@
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Resources ------------------------------------", "date": 20180401 },
 
           { "link": "https://github.com/matter-labs/awesome-zero-knowledge-proofs", "title": "Awesome zero knowledge proofs", "desc": "Curated list of awesome things related to learning zero knowledge proofs", "date": 20170501 },          
-          { "link": "https://kauri.io/collection/5cb71d136b976600014a78ad/privacy", "title": "Privacy collection on Kauri", "desc": "Learn privacy in blockchain, curated set of articles and guides, an entry point for beginners who wish to learn about all things privacy in blockchain", "date": 20170501 },                  
+          { "link": "https://kauri.io/collection/5cb71d136b976600014a78ad/privacy", "title": "Privacy collection on Kauri", "desc": "Learn privacy in blockchain, curated set of articles and guides, an entry point for beginners who wish to learn about all things privacy in blockchain", "date": 20170501 }                  
         ]
       }
     ],
