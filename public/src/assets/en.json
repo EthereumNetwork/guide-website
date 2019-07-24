@@ -32,8 +32,8 @@
           
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Current state and roadmap ------------------------------------", "date": 20180401 },
 
-          { "link": "https://media.consensys.net/a-short-history-of-ethereum-a8fdc5b4362c", "title": "The Year in Ethereum", "desc": "A comprehensive look at the year 2018 in Ethereum", "date": 20170501 },             
-          { "link": "https://medium.com/@jjmstark/the-year-in-ethereum-87a17d6f8276", "title": "A Short History of Ethereum", "desc": "An overview of the upgrades and hard forks of Ethereum’s past, with an eye towards what lies ahead", "date": 20170501 },      
+          { "link": "https://medium.com/@jjmstark/the-year-in-ethereum-87a17d6f8276", "title": "The Year in Ethereum", "desc": "A comprehensive look at the year 2018 in Ethereum", "date": 20170501 },             
+          { "link": "https://media.consensys.net/a-short-history-of-ethereum-a8fdc5b4362c", "title": "A Short History of Ethereum", "desc": "An overview of the upgrades and hard forks of Ethereum’s past, with an eye towards what lies ahead", "date": 20170501 },      
           { "link": "https://media.consensys.net/joe-lubin-explains-why-the-ethereum-ecosystem-is-stronger-than-ever-in-20-tweets-7a09555760fd", "title": "Why the Ethereum Ecosystem Is Stronger Than Ever", "desc": "The ConsenSys founder gives a sweeping overview of the state of blockchain", "date": 20170501 },          
           { "link": "https://media.consensys.net/40-ethereum-apps-you-can-use-right-now-d643333769f7", "title": "90+ Ethereum Apps You Can Use Right Now", "desc": "List of Ethereum DApps you can use right now", "date": 20170501 },
           { "link": "https://media.consensys.net/the-100-projects-pioneering-decentralized-finance-717478ddcdf2", "title": "The 100+ Projects Pioneering Decentralized Finance", "desc": "List of the projects pioneering decentralized finance, broken down by category", "date": 20170501 },                          
@@ -924,8 +924,7 @@
         
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
           
-          { "link": "https://hackernoon.com/how-meta-transactions-will-scale-ethereum-e98c848f7719", "title": "MetaTransactions to scale Ethereum", "desc": "Gas Stations Network could allow transactions from addresses that hold no ETH", "date": 20170501 }          
-        
+          { "link": "https://hackernoon.com/how-meta-transactions-will-scale-ethereum-e98c848f7719", "title": "MetaTransactions to scale Ethereum", "desc": "Gas Stations Network could allow transactions from addresses that hold no ETH", "date": 20170501 }                 
         ]
       },
       {
@@ -967,17 +966,52 @@
           { "link": "https://github.com/matter-labs/awesome-zero-knowledge-proofs", "title": "Awesome zero knowledge proofs", "desc": "Curated list of awesome things related to learning zero knowledge proofs", "date": 20170501 },          
           { "link": "https://kauri.io/collection/5cb71d136b976600014a78ad/privacy", "title": "Privacy collection on Kauri", "desc": "Learn privacy in blockchain, curated set of articles and guides, an entry point for beginners who wish to learn about all things privacy in blockchain", "date": 20170501 }                  
         ]
+      },
+      {
+        "headline": "FAQ",
+        "paragraphs": [
+          { "text": "Cheat sheet to the most frequent critical questions." },
+        ],
+        "links": [
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Decentralization of Ethereum ------------------------------------", "date": 20180401 },
+
+          { "link": "https://blog.bmannconsulting.com/ethereum-governance/", "title": "Ethereum Governance", "desc": "Overview of the different layers of governance that applies to Ethereum", "date": 20170501 },
+          { "link": "https://research.circle.com/insights/degrees-of-architectural-decentralization-to-infura-and-beyond", "title": "Degrees of architectural (de)centralization", "desc": "To Infura and beyond", "date": 20170501 },          
+          
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Value of Ether ------------------------------------", "date": 20180401 },
+
+          { "link": "https://medium.com/ethhub/why-ether-is-valuable-2b4e39e01eb3", "title": "Why Ether is Valuable", "desc": "Why Ether has value for substantially more reasons than just being used to pay transaction fees on the Ethereum", "date": 20170501 },          
+          { "link": "https://docs.ethhub.io/questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises/", "title": "Is Ethereum more expensive to use as price rises?", "desc": "An explanation why Ethereum fee market is independent of fiat prices", "date": 20170501 },        
+
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Utilization of Ethereum ------------------------------------", "date": 20180401 },
+
+          { "link": "https://medium.com/@jjmstark/the-year-in-ethereum-87a17d6f8276", "title": "The Year in Ethereum", "desc": "A comprehensive look at the year 2018 in Ethereum", "date": 20170501 },             
+        
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- DAO hard fork ------------------------------------", "date": 20180401 },
+
+          { "link": "https://medium.com/swlh/the-story-of-the-dao-its-history-and-consequences-71e6a8a551ee", "title": "The Story of the DAO", "desc": "Its history and consequences", "date": 20170501 },          
+          { "link": "https://coinjournal.net/ethereum-creator-vitalik-buterin-reflects-lessons-dao/", "title": "Reflects on Lessons from The DAO", "desc": "by Vitalik Buterin", "date": 20170501 },                
+
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Transition to Ethereum 2.0 ------------------------------------", "date": 20180401 },
+
+          { "link": "https://medium.com/ethereum-magicians/q-a-on-eth-2-0-ab1d5d3ac133", "title": "Q + A on ETH 2.0", "desc": "From Serenity session at ETHMagicians: Paris 2019", "date": 20170501 },          
+          { "link": "https://docs.ethhub.io/other/ethereum-2.0-ama/#part-2", "title": "Ethereum 2.0 Reddit AMA", "desc": "A few of the Ethereum 2.0 researchers answered questions about Eth2.0", "date": 20170501 },                
+
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Nodes ------------------------------------", "date": 20180401 },
+
+          { "link": "https://docs.ethhub.io/questions-about-ethereum/is-ethereum-over-1tb-in-size/", "title": "Is Ethereum over 1TB in size?", "desc": "Explained confusion around running a full Ethereum node", "date": 20170501 },          
+
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Competition ------------------------------------", "date": 20180401 },
+
+          { "link": "https://decryptmedia.com/6343/an-overview-of-the-state-of-the-blockchain-ecosystem", "title": "An Overview of the State of the Blockchain Ecosystem", "desc": "Why Ethereum will become the global settlement layer", "date": 20170501 },
+          { "link": "https://decrypt.co/6136/vulcanize-rick-dudley-ethereum-roadmap-makerdao-polkadot", "title": "Ethereum’s roadmap isn’t ambitious enough", "desc": "Doubts and believes of Rick Dudley", "date": 20170501 },                
+
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
+
+          { "link": "https://docs.ethhub.io/questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum/", "title": "Ethereum FAQ", "desc": "on EthHub", "date": 20170501 },          
+          { "link": "https://medium.com/@MattBLucas/there-are-still-a-few-good-reasons-to-trust-blockchain-d618512642d5", "title": "There Are Still a Few Good Reasons to Trust Blockchain", "desc": "Why cryptocurrencies are usefull", "date": 20170501 }                
+        ]
       }
-    ],
-    "FAQs": {
-      "headline": "FAQs",
-      "description": "Answers to some of the questions you might encounter while getting to know Ethereum. More questions and answers can be found at the Ethereum StackExchange at http://ethereum.stackexchange.com/",
-      "questions": [
-        { "question": "Where do I start?", "answer": "The Ethereum network can be very overwhelming, so that is a good question and completely depends what you're looking for. If you are a developer looking into blockchain programming and the creation of decentralized apps, most of the sections here are directed towards you. Let me know if you run into any trouble or out-dated info. As a curious user, on the projects page use any decentralized app that you find interesting. Then complain to the developers about any user experience difficulties that you encounter, and otherwise give helpful feedback. Generally be curious and engage in the communities mentioned in the section above", "links": [{"link": "https://ethereum.network/", "title": "project page" }]},
-        { "question": "What is the current roadmap?", "answer": "Both the Ethereum Foundation and the Enterprise Ethereum Alliance are working on it", "links": [{"link": "https://www.ethnews.com/ethereums-road-map-for-2017", "title": "Ethereum Foundation" }, {"link": "https://www.reddit.com/r/ethereum/comments/5wo6hy/ethereum_enterprise_alliance_live_updates/", "title": "Enterprise Ethereum Alliance" }]},
-        { "question": "Can ether be used as a currency?", "answer": "Bitcoin tried to create the perfect 'coin', with a lot of focus  itself (how much are there, what is the increase schedule, etc...). It tries to compete with the Dollar, the Euro, the Yuan, gold, etc to buy things and thus make it valuable. Ethereum's focus is, rather on the monetary properties, on creating a whole ecosystem that has never existed before. Why use it for things you can buy with Dollars, Euro or Yuan? It is too volatile for merchants and service provider with bills to pay. A better solution would are be stable coins which track the value of one or more fiat currencies and will probably end up being the primary payment mechanism on Ethereum. Ether's function is more seen as investment in the network itself (used for all transactions, generating a return though staking, very low inflation), as technical payments between devices or as collateral deposits.", "links": [{"link": "https://ethereum.network/?q=stable coin", "title": "stable coins" }]},
-        { "question": "What is Ethereum Classic, SOILcoin, Expanse or any of the other Ethereum forks?", "answer": "Ethereum is completely open-source, so anyone can just run their own version with all kind of variations. The mentioned projects either moved away for some changes or stayed behind when the community moved on. They are all legit efforts with more or less noble causes, just be aware what you want to use. All the projects shown on the projects page use the real Ethereum, which you can check on /explorer.", "links": [{"link": "https://ethereum.network/", "title": "project page" }, {"link": "https://ethereum.network/explorer", "title": "explorer" }]}
-      ]
-    }
+    ]
   }
 }
