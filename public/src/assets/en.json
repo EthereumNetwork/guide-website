@@ -1009,19 +1009,9 @@
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
           { "link": "https://docs.ethhub.io/questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum/", "title": "Ethereum FAQ", "desc": "on EthHub", "date": 20170501 },          
-          { "link": "https://medium.com/@MattBLucas/there-are-still-a-few-good-reasons-to-trust-blockchain-d618512642d5", "title": "There Are Still a Few Good Reasons to Trust Blockchain", "desc": "Why cryptocurrencies are usefull", "date": 20170501 },                
+          { "link": "https://medium.com/@MattBLucas/there-are-still-a-few-good-reasons-to-trust-blockchain-d618512642d5", "title": "There Are Still a Few Good Reasons to Trust Blockchain", "desc": "Why cryptocurrencies are usefull", "date": 20170501 }                
         ]
       }
-    ],
-    "FAQs": {
-      "headline": "FAQs",
-      "description": "Answers to some of the questions you might encounter while getting to know Ethereum. More questions and answers can be found at the Ethereum StackExchange at http://ethereum.stackexchange.com/",
-      "questions": [
-        { "question": "Where do I start?", "answer": "The Ethereum network can be very overwhelming, so that is a good question and completely depends what you're looking for. If you are a developer looking into blockchain programming and the creation of decentralized apps, most of the sections here are directed towards you. Let me know if you run into any trouble or out-dated info. As a curious user, on the projects page use any decentralized app that you find interesting. Then complain to the developers about any user experience difficulties that you encounter, and otherwise give helpful feedback. Generally be curious and engage in the communities mentioned in the section above", "links": [{"link": "https://ethereum.network/", "title": "project page" }]},
-        { "question": "What is the current roadmap?", "answer": "Both the Ethereum Foundation and the Enterprise Ethereum Alliance are working on it", "links": [{"link": "https://www.ethnews.com/ethereums-road-map-for-2017", "title": "Ethereum Foundation" }, {"link": "https://www.reddit.com/r/ethereum/comments/5wo6hy/ethereum_enterprise_alliance_live_updates/", "title": "Enterprise Ethereum Alliance" }]},
-        { "question": "Can ether be used as a currency?", "answer": "Bitcoin tried to create the perfect 'coin', with a lot of focus  itself (how much are there, what is the increase schedule, etc...). It tries to compete with the Dollar, the Euro, the Yuan, gold, etc to buy things and thus make it valuable. Ethereum's focus is, rather on the monetary properties, on creating a whole ecosystem that has never existed before. Why use it for things you can buy with Dollars, Euro or Yuan? It is too volatile for merchants and service provider with bills to pay. A better solution would are be stable coins which track the value of one or more fiat currencies and will probably end up being the primary payment mechanism on Ethereum. Ether's function is more seen as investment in the network itself (used for all transactions, generating a return though staking, very low inflation), as technical payments between devices or as collateral deposits.", "links": [{"link": "https://ethereum.network/?q=stable coin", "title": "stable coins" }]},
-        { "question": "What is Ethereum Classic, SOILcoin, Expanse or any of the other Ethereum forks?", "answer": "Ethereum is completely open-source, so anyone can just run their own version with all kind of variations. The mentioned projects either moved away for some changes or stayed behind when the community moved on. They are all legit efforts with more or less noble causes, just be aware what you want to use. All the projects shown on the projects page use the real Ethereum, which you can check on /explorer.", "links": [{"link": "https://ethereum.network/", "title": "project page" }, {"link": "https://ethereum.network/explorer", "title": "explorer" }]}
-      ]
-    }
+    ]
   }
 }
