@@ -218,7 +218,7 @@
           { "link": "https://groundhog.network/", "title": "Groundhog", "desc": "Payment gateway between merchants and customers to facilitate crypto subscriptions", "date": 20170501 },
           { "link": "https://sablier.app/", "title": "Sablier", "desc": "Pay your employees continuously", "date": 20170501 },
           { "link": "https://www.bitwage.com/", "title": "BitWage", "desc": "Pay salaries in Ether", "date": 20170501 },
-          { "link": "https://whisp.money/", "title": "Whisp", "desc": "Pay remote or on-site workers in crypto", "date": 20170501 }        
+          { "link": "https://whisp.money/", "title": "Whisp", "desc": "Pay remote or on-site workers in crypto", "date": 20170501 },        
           { "link": "https://stablepay.io/", "title": "StablePay", "desc": "Send and receive cryptocurrency payments converted to DAI", "date": 20170501 }                
         ]
       },
@@ -308,7 +308,7 @@
       {        
         "headline": "What can you do with Ethereum?",
         "paragraphs": [
-          { "text": "There are many Ethereum-based applications that you can use today." },
+          { "text": "There are many Ethereum-based applications that you can use today." }
         ],
         "links": [
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Decentralized Finance ------------------------------------", "date": 20180401 },
@@ -340,7 +340,7 @@
           { "link": "https://beta.cent.co/", "title": "Cent", "desc": "Participate on a social network where you earn money by posting", "date": 20170501 },
           { "link": "https://livepeer.org/", "title": "Livepeer", "desc": "Stream video, gaming, coding, entertainment, educational courses, and other types of content", "date": 20170501 }
           { "link": "https://gitcoin.co/", "title": "Gitcoin", "desc": "Get paid for solving open source bounties or place a bounty to build your project", "date": 20170501 },
-          { "link": "https://www.pooltogether.us/", "title": "PoolTogether", "desc": "Join a no-loss lottery for a chance to win a prize", "date": 20170501 },
+          { "link": "https://www.pooltogether.us/", "title": "PoolTogether", "desc": "Join a no-loss lottery for a chance to win a prize", "date": 20170501 }
         ]
       },
       {        
