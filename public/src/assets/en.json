@@ -354,12 +354,12 @@
           { "link": "https://livepeer.org/primer/", "title": "Livepeer", "desc": "Stream video, gaming, coding, entertainment, educational courses, and other types of content", "date": 20170501 },
           { "link": "https://bounties.network/", "title": "Bounties Network", "desc": "Get paid for doing work in any sphere of activity or get accelerate your own project", "date": 20170501 },          
           { "link": "https://gitcoin.co/", "title": "Gitcoin", "desc": "Join a network of incentivized open-source developers to get paid for solving bounties or place a bounty to build your own project", "date": 20170501 },
-          { "link": "https://www.pooltogether.us/", "title": "PoolTogether", "desc": "Join a no-loss lottery for a chance to win a prize", "date": 20170501 }
+          { "link": "https://www.pooltogether.us/", "title": "PoolTogether", "desc": "Join a no-loss lottery for a chance to win a prize", "date": 20170501 },
         
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Resources ------------------------------------", "date": 20180401 },
 
           { "link": "https://defiprime.com/defi-lending-vs-traditional-assets", "title": "How Lending with DeFi Compares with Traditional Asset Classes", "desc": "Comparison of returns and link to a deep study of decentralized cryptoasset lending industry", "date": 20170501 },                  
-          { "link": "https://loanscan.io/interest-rates", "title": "LoanScan", "desc": "Explore interest rates to lend and borrow cryptocurrency", "date": 20170501 },                  
+          { "link": "https://loanscan.io/interest-rates", "title": "LoanScan", "desc": "Explore interest rates to lend and borrow cryptocurrency", "date": 20170501 }                  
         ]
       },
       {
@@ -427,13 +427,13 @@
           { "link": "https://findeth.io/", "title": "FindEth", "desc": "Find your lost Ether or address", "date": 20170501 },
           { "link": "https://ethsites.io/", "title": "EthSites", "desc": "Upload your website to a censorship-resistant registry of websites stored on the Ethereum blockchain", "date": 20170501 },
           { "link": "https://github.com/ZeframLou/pooled-cdai", "title": "Pooled cDai", "desc": "Pool your Dai together, send to Compound, send the interest to a beneficiary", "date": 20170501 },
-          { "link": "https://wrappedkitties.com/", "title": "Wrapped Kitties", "desc": "Make your ERC-721 into ERC-20", "date": 20170501 }          
+          { "link": "https://wrappedkitties.com/", "title": "Wrapped Kitties", "desc": "Make your ERC-721 into ERC-20", "date": 20170501 },          
           { "link": "https://codefund.io/", "title": "CodeFund", "desc": "Display ethical ads on developer websites to fund contributors of the open source ecosystem", "date": 20170501 },          
           { "link": "https://docs.ethhub.io/other/ethereum-branding-kit/", "title": "Ethereum Branding Kit", "desc": "Show off that your products and services are built on Ethereum", "date": 20170501 },
           { "link": "https://buidl.it/", "title": "Build it", "desc": "A small selection of inspiring projects that come out of ETHGlobal hackathons", "date": 20170501 },
           { "link": "https://consensys.net/convertible-note/", "title": "Automated Convertible Note", "desc": "OpenLaw-based document generator to help startups raise capital with customizable market standard terms and optional digital token provisions", "date": 20170501 },
           { "link": "https://concourseq.io/", "title": "ConcourseQ", "desc": "Community-sourced due diligence for token sales", "date": 20170501 },
-          { "link": "https://www.coinbase.com/earn", "title": "Coinbase Earn", "desc": "Earn crypto while learning about crypto", "date": 20170501 },
+          { "link": "https://www.coinbase.com/earn", "title": "Coinbase Earn", "desc": "Earn crypto while learning about crypto", "date": 20170501 }
         ]
       },
       {
@@ -1037,8 +1037,8 @@
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Resources ------------------------------------", "date": 20180401 },
 
           { "link": "https://github.com/matter-labs/awesome-zero-knowledge-proofs", "title": "Awesome zero knowledge proofs", "desc": "Curated list of awesome things related to learning zero knowledge proofs", "date": 20170501 },          
-          { "link": "https://kauri.io/collection/5cb71d136b976600014a78ad/privacy", "title": "Privacy collection on Kauri", "desc": "Learn privacy in blockchain, curated set of articles and guides, an entry point for beginners who wish to learn about all things privacy in blockchain", "date": 20170501 }
-          { "link": "https://hackmd.io/fPHG3SHRQvWDYvynRh3s1Q", "title": "Eth mixer list", "desc": "Curated list of awesome things related to learning zero knowledge proofs", "date": 20170501 },        
+          { "link": "https://kauri.io/collection/5cb71d136b976600014a78ad/privacy", "title": "Privacy collection on Kauri", "desc": "Learn privacy in blockchain, curated set of articles and guides, an entry point for beginners who wish to learn about all things privacy in blockchain", "date": 20170501 },
+          { "link": "https://hackmd.io/fPHG3SHRQvWDYvynRh3s1Q", "title": "Eth mixer list", "desc": "Curated list of awesome things related to learning zero knowledge proofs", "date": 20170501 }        
         ]
       },
       {
