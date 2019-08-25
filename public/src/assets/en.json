@@ -120,6 +120,7 @@
           { "link": "https://markets.businessinsider.com/news/stocks/ey-helps-bofrost-italia-to-build-one-of-the-first-blockchain-platforms-to-trace-frozen-foods-in-supply-chains-1028312315", "title": "Bofrost Italia", "desc": "Tracing frozen foods in supply chain", "date": 20170501 },
           { "link": "https://www.forbes.com/sites/michaeldelcastillo/2019/07/09/uber-subsidiary-grants-ethereum-startup-access-to-entire-american-fleet/", "title": "Uber Health", "desc": "Grants Ethereum startup access to entire American fleet", "date": 20170501 },
           { "link": "https://www.reuters.com/article/us-blockchain-airlines-etihad-idUSKCN1UY2A9", "title": "Etihad Airways", "desc": "Explore using blockchain to distribute products and services", "date": 20170501 },
+          { "link": "https://www.worldbank.org/en/news/press-release/2019/08/16/world-bank-issues-second-tranche-of-blockchain-bond-via-bond-i", "title": "World Bank", "desc": "Sells $50m AUD (~35m USD) in bonds on private Ethereum chain", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Governments ------------------------------------", "date": 20180401 },
 
@@ -368,6 +369,7 @@
 
           { "link": "https://defiprime.com/defi-lending-vs-traditional-assets", "title": "How Lending with DeFi Compares with Traditional Asset Classes", "desc": "Comparison of returns and link to a deep study of decentralized cryptoasset lending industry", "date": 20170501 },                  
           { "link": "https://loanscan.io/interest-rates", "title": "LoanScan", "desc": "Explore interest rates to lend and borrow cryptocurrency", "date": 20170501 }                  
+          { "link": "https://medium.com/totle/building-with-money-legos-ab63a58ae764", "title": "Building with Money Legos", "desc": "Mixing and matching the tools in decentralized finance to make new products and services", "date": 20170501 },                                    
         ]
       },
       {
@@ -454,6 +456,7 @@
 
           { "link": "https://www.reddit.com/r/ethereum/", "title": "/r/Ethereum", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
           { "link": "https://www.reddit.com/r/ethtrader/", "title": "/r/EthTrader", "desc": "Ether price and trading discussions", "date": 20170501 },
+          { "link": "https://www.reddit.com/r/ethfinance/", "title": "/r/EthFinance", "desc": "Forked community for daily general discussions", "date": 20170501 }  
           { "link": "https://www.reddit.com/r/ethdev/", "title": "/r/EthDev", "desc": "Discussions about Ethereum development", "date": 20170501 },
           { "link": "https://www.reddit.com/r/EthereumNoobies/", "title": "/r/EthereumNoobies", "desc": "Educational subreddit for all your questions about the basics of Ethereum, Ether trading, and other related topics", "date": 20170501 },
           { "link": "https://www.reddit.com/r/EtherMining/", "title": "/r/EtherMining", "desc": "Discussion of mining the cryptocurrency Ethereum", "date": 20170501 },
@@ -646,6 +649,7 @@
           { "link": "https://forum.zeppelin.solutions/t/test-smart-contracts-like-a-rockstar/1001", "title": "Test smart contracts like a rockstar", "desc": "Automated testing tutorial", "date": 20171101 },
           { "link": "https://kauri.io/collection/5ce41ea1fc95970001c89ba0/decentralized-storage", "title": "Decentralized Storage", "desc": "Decentralized data storage compatible with Layer 1 and Layer 2 blockchains like Ethereum", "date": 20170501 },
           { "link": "https://skalelabs.com/blog/skale_decentralized_storage/", "title": "SKALE Decentralized Storage", "desc": "Cost-effective storage layer within Ethereum capable of handling files up to 100MB", "date": 20170930 },
+          { "link": "https://aadhi.rocks/benchmarking-ipfs-gateways/", "title": "Benchmarking IPFS gateways", "desc": "Which one is the best for your day-to-day use?", "date": 20170930 },         
           { "link": "https://medium.com/the-ethereum-name-service/how-to-host-your-dapp-with-ipfs-ens-and-access-it-via-ethdns-c96046059d87", "title": "How to host your DApp with IPFS+ENS and access it via EthDNS", "desc": "Access your decentralized website on non-web3 browsers using ENS link", "date": 20170930 },
           { "link": "https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e", "title": "Implementing a Blockchain Oracle on Ethereum", "desc": "Learn to create an oracle service that can query JSON APIs and retrieve a single value from the API response", "date": 20170930 },
           { "link": "https://medium.com/decentcrypto/building-your-first-ethereum-oracle-1ab4cccf0b31", "title": "Building your first Ethereum Oracle", "desc": "How do blockchains get data?", "date": 20171101 },
@@ -662,6 +666,7 @@
           { "link": "https://www.bitdegree.org/learn/learn-solidity", "title": "Learn Solidity", "desc": "Complete tutorial with examples", "date": 20170501 },
           { "link": "https://www.sbt-ethereum.io", "title": "sbt-ethereum", "desc": "Interactive text-based learning platform", "date": 20170501 },
           { "link": "https://github.com/ethereumbook/ethereumbook", "title": "Mastering Ethereum", "desc": "A book for developers, offering a guide to the operation and use of EVM-based open blockchains", "date": 20170501 },
+          { "link": "https://www.apress.com/us/book/9781484252772", "title": "Ethereum for Web Developers", "desc": "A book of Zeppelin’s Santi Palladino", "date": 20170501 },         
           { "link": "https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html", "title": "Ethereumbuilders", "desc": "Step-by-step Solidity tutorial", "date": 20171101 },
           { "link": "https://learnxinyminutes.com/docs/solidity/", "title": "Learn Solidity in y minutes", "desc": "Solidity tutorial", "date": 20171101 },
           { "link": "https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial#%C3%B0app-development", "title": "Ethereum Development Tutorial", "desc": "Introduction to the development basics of Ethereum", "date": 20171101 },
@@ -891,6 +896,7 @@
           { "link": "https://www.bitski.com/", "title": "Bitski", "desc": "Let access users to your DApp just by using an email and password", "date": 20170501 },
           { "link": "https://universallogin.io/", "title": "Universal Login", "desc": "Design pattern for storing funds and connecting to Ethereum applications", "date": 20170501 },
           { "link": "https://gsn.ethereum.org/", "title": "Gas Station Network", "desc": "Onboarding solution for your DApp, allowing that users are no longer required to install browser extensions, or buy Ether in order to use your DApp", "date": 20170501 },          
+          { "link": "https://linkdrop.io/", "title": "Linkdrop", "desc": "Onboard a crypto noobs with a link or QR code that gives them the asset after they download a wallet", "date": 20170501 },                    
           { "link": "https://www.sbt-ethereum.io/", "title": "sbt-ethereum", "desc": "Deployment and development tool for Scala tools and apps", "date": 20170501 },
           { "link": "https://github.com/kayagoban/shadowlands/", "title": "Shadowlands", "desc": "DApp platform and Ethereum terminal, that allows you to create CLI DApps without the web", "date": 20170501 },
           { "link": "http://radicle.xyz/", "title": "Radicle", "desc": "Peer-to-peer stack for code collaboration, decentralized alternative to Github built on IPFS", "date": 20170501 },
@@ -1070,6 +1076,7 @@
           { "link": "https://twitter.com/cyber_hokie/status/1112305608047427584", "title": "How EIP process works?", "desc": "Who makes what decisions when, and the path from idea to network wide consensus on Ethereum", "date": 20170501 },          
           { "link": "https://research.circle.com/insights/degrees-of-architectural-decentralization-to-infura-and-beyond", "title": "Degrees of architectural (de)centralization", "desc": "To Infura and beyond", "date": 20170501 },
           { "link": "https://medium.com/universal-ethereum/where-ethereum-is-going-ef4dad35d748", "title": "Where Ethereum Is Going", "desc": "Changes on Ethereum Foundation and ecosystem from an insider’s perspective", "date": 20170501 },         
+          { "link": "https://twitter.com/andrej_muzevic/status/1163869670069473281", "title": "Leadership", "desc": "Istanbul hard fork happened without his involvement of Vitalik Buterin", "date": 20170501 },                 
           { "link": "https://twitter.com/alexsunnarborg/status/1107639467781820418", "title": "Who’s holding all the Ether?", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Value of Ether ------------------------------------", "date": 20180401 },
@@ -1099,11 +1106,13 @@
 
           { "link": "https://docs.ethhub.io/questions-about-ethereum/is-ethereum-over-1tb-in-size/", "title": "Is Ethereum over 1TB in size?", "desc": "Explained confusion around running a full Ethereum node", "date": 20170501 },
           { "link": "https://twitter.com/marcandu/status/1116807660882530305", "title": "Are Ethereum Full Nodes Really Full?", "desc": "An experiment", "date": 20170501 },
+          { "link": "https://arxiv.org/abs/1905.00553", "title": "Empirically Analyzing Ethereum's Gas Mechanism", "desc": "Paper analyzing Eth’s gas prices, which largely mirrors the upcoming Istanbul gas repricing", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Competition ------------------------------------", "date": 20180401 },
 
           { "link": "https://decryptmedia.com/6343/an-overview-of-the-state-of-the-blockchain-ecosystem", "title": "An Overview of the State of the Blockchain Ecosystem", "desc": "Why Ethereum will become the global settlement layer", "date": 20170501 },
           { "link": "https://decrypt.co/6136/vulcanize-rick-dudley-ethereum-roadmap-makerdao-polkadot", "title": "Ethereum’s roadmap isn’t ambitious enough", "desc": "Doubts and believes of Rick Dudley", "date": 20170501 },
+          { "link": "https://medium.com/@ElectricCapital/electric-capital-developer-report-h1-2019-7d836d68fecb", "title": "Crypto developer report", "desc": "Ethereum has 4x the developers of Bitcoin at the protocol level, not even counting Ethereum’s magnitudes of lead at the app level", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Hashrate ------------------------------------", "date": 20180401 },
 
