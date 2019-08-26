@@ -368,8 +368,8 @@
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Resources ------------------------------------", "date": 20180401 },
 
           { "link": "https://defiprime.com/defi-lending-vs-traditional-assets", "title": "How Lending with DeFi Compares with Traditional Asset Classes", "desc": "Comparison of returns and link to a deep study of decentralized cryptoasset lending industry", "date": 20170501 },                  
-          { "link": "https://loanscan.io/interest-rates", "title": "LoanScan", "desc": "Explore interest rates to lend and borrow cryptocurrency", "date": 20170501 }                  
-          { "link": "https://medium.com/totle/building-with-money-legos-ab63a58ae764", "title": "Building with Money Legos", "desc": "Mixing and matching the tools in decentralized finance to make new products and services", "date": 20170501 },                                    
+          { "link": "https://loanscan.io/interest-rates", "title": "LoanScan", "desc": "Explore interest rates to lend and borrow cryptocurrency", "date": 20170501 },                  
+          { "link": "https://medium.com/totle/building-with-money-legos-ab63a58ae764", "title": "Building with Money Legos", "desc": "Mixing and matching the tools in decentralized finance to make new products and services", "date": 20170501 }
         ]
       },
       {
@@ -456,7 +456,7 @@
 
           { "link": "https://www.reddit.com/r/ethereum/", "title": "/r/Ethereum", "desc": "Most news about Ethereum can be found here daily", "date": 20170501 },
           { "link": "https://www.reddit.com/r/ethtrader/", "title": "/r/EthTrader", "desc": "Ether price and trading discussions", "date": 20170501 },
-          { "link": "https://www.reddit.com/r/ethfinance/", "title": "/r/EthFinance", "desc": "Forked community for daily general discussions", "date": 20170501 }  
+          { "link": "https://www.reddit.com/r/ethfinance/", "title": "/r/EthFinance", "desc": "Forked community for daily general discussions", "date": 20170501 },  
           { "link": "https://www.reddit.com/r/ethdev/", "title": "/r/EthDev", "desc": "Discussions about Ethereum development", "date": 20170501 },
           { "link": "https://www.reddit.com/r/EthereumNoobies/", "title": "/r/EthereumNoobies", "desc": "Educational subreddit for all your questions about the basics of Ethereum, Ether trading, and other related topics", "date": 20170501 },
           { "link": "https://www.reddit.com/r/EtherMining/", "title": "/r/EtherMining", "desc": "Discussion of mining the cryptocurrency Ethereum", "date": 20170501 },
