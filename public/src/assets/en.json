@@ -223,6 +223,7 @@
           { "link": "https://commerce.coinbase.com/", "title": "Coinbase Commerce", "desc": "Accept cryptocurrency payments for your business", "date": 20170501 },
           { "link": "https://www.etherglade.com/", "title": "Etherglade", "desc": "Accept Ethereum on your site in minutes", "date": 20170501 },
           { "link": "https://groundhog.network/", "title": "Groundhog", "desc": "Payment gateway between merchants and customers to facilitate crypto subscriptions", "date": 20170501 },
+          { "link": "https://www.daisypayments.com/", "title": "Daisy", "desc": "Enables anyone to accept cryptocurrency for purchases, subscriptions, usage fees and other payments trust utilities", "date": 20170501 },        
           { "link": "https://sablier.app/", "title": "Sablier", "desc": "Pay your employees continuously", "date": 20170501 },
           { "link": "https://www.bitwage.com/", "title": "BitWage", "desc": "Pay salaries in Ether", "date": 20170501 },
           { "link": "https://whisp.money/", "title": "Whisp", "desc": "Pay remote or on-site workers in crypto", "date": 20170501 },
@@ -328,6 +329,7 @@
           { "link": "https://makerdao.com/en/", "title": "DAI", "desc": "Buy a stable cryptocurrency that holds value at $1 USD", "date": 20170501 },
           { "link": "https://gitcoin.co/blog/how-to-host-a-burner-wallet-event/", "title": "Burner Wallet", "desc": "Use a crypto point of sale system on your event", "date": 20170501 },
           { "link": "https://instadapp.io/", "title": "InstaDApp", "desc": "Access decentralized finance to lend and earn algorithmic collateralized interest, borrow, leverage or swap crypto assets", "date": 20170501 },
+          { "link": "https://redeem.money/", "title": "rDAI", "desc": "Generate interest off your DAI using DeFi protocols and direct this interest to the accounts of your choice", "date": 20170501 },          
           { "link": "https://www.augur.net/", "title": "Augur", "desc": "Speculate on the outcome of future events and win money in case of correct forecast", "date": 20170501 },
           { "link": "https://devpost.com/software/defisurance", "title": "Defisurance", "desc": "Protect the cryptocurrency you hold in DeFi protocols by betting on Augur prediction market", "date": 20170501 },          
           { "link": "https://www.nexusmutual.io/", "title": "Nexus Mutual", "desc": "Cover yourself against hacks and bugs in smart contracts", "date": 20170501 },
@@ -361,8 +363,9 @@
 
           { "link": "https://brave.com/tips/", "title": "Brave browser", "desc": "Earn by viewing privacy-respecting ads and reward your favourite content creators", "date": 20170501 },            
           { "link": "https://livepeer.org/primer/", "title": "Livepeer", "desc": "Stream video, gaming, coding, entertainment, educational courses, and other types of content", "date": 20170501 },
+          { "link": "https://medium.com/unlock-protocol/introducing-tickets-cb1f907a9cb3", "title": "Unlock", "desc": "Buy tickets to real-world events", "date": 20170501 },         
           { "link": "https://bounties.network/", "title": "Bounties Network", "desc": "Get paid for doing work in any sphere of activity or get accelerate your own project", "date": 20170501 },          
-          { "link": "https://gitcoin.co/", "title": "Gitcoin", "desc": "Join a network of incentivized open-source developers to get paid for solving bounties or place a bounty to build your own project", "date": 20170501 },
+          { "link": "https://gitcoin.co/", "title": "Gitcoin", "desc": "Join a network of incentivized open-source developers to get paid for solving bounties or place a bounty to build your own project", "date": 20170501 },          
           { "link": "https://www.pooltogether.us/", "title": "PoolTogether", "desc": "Join a no-loss lottery for a chance to win a prize", "date": 20170501 },
         
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Resources ------------------------------------", "date": 20180401 },
@@ -437,10 +440,12 @@
           { "link": "https://findeth.io/", "title": "FindEth", "desc": "Find your lost Ether or address", "date": 20170501 },
           { "link": "https://ethsites.io/", "title": "EthSites", "desc": "Upload your website to a censorship-resistant registry of websites stored on the Ethereum blockchain", "date": 20170501 },
           { "link": "https://github.com/ZeframLou/pooled-cdai", "title": "Pooled cDai", "desc": "Pool your Dai together, send to Compound, send the interest to a beneficiary", "date": 20170501 },
+          { "link": "https://tbtc.network/", "title": "tBTC", "desc": "Deposit your Bitcoin and mint Bitcoin tokens on Ethereum without a middleman or KYC", "date": 20170501 },          
           { "link": "https://wrappedkitties.com/", "title": "Wrapped Kitties", "desc": "Make your ERC-721 into ERC-20", "date": 20170501 },          
           { "link": "https://codefund.io/", "title": "CodeFund", "desc": "Display ethical ads on developer websites to fund contributors of the open source ecosystem", "date": 20170501 },          
           { "link": "https://docs.ethhub.io/other/ethereum-branding-kit/", "title": "Ethereum Branding Kit", "desc": "Show off that your products and services are built on Ethereum", "date": 20170501 },
           { "link": "https://buidl.it/", "title": "Build it", "desc": "A small selection of inspiring projects that come out of ETHGlobal hackathons", "date": 20170501 },
+          { "link": "https://devpost.com/hackathons?utf8=%E2%9C%93&search=ethereum&challenge_type=all&sort_by=Recently+Added", "title": "Submissions from Ethereum hackathons", "desc": "Browse projects submissions from Ethereum hackathons", "date": 20170501 },          
           { "link": "https://consensys.net/convertible-note/", "title": "Automated Convertible Note", "desc": "OpenLaw-based document generator to help startups raise capital with customizable market standard terms and optional digital token provisions", "date": 20170501 },
           { "link": "https://concourseq.io/", "title": "ConcourseQ", "desc": "Community-sourced due diligence for token sales", "date": 20170501 },
           { "link": "https://www.coinbase.com/earn", "title": "Coinbase Earn", "desc": "Earn crypto while learning about crypto", "date": 20170501 }
@@ -551,6 +556,7 @@
           { "link": "https://medium.com/amentum/the-year-of-the-dao-comeback-9c888b44980", "title": "DAO", "desc": "The year of the DAO comeback", "date": 20170501 },
           { "link": "https://cryptoeconomics.study/", "title": "Cryptoeconomics", "desc": "An introduction", "date": 20170501 },
           { "link": "https://tokeneconomy.co/mapping-the-decentralized-financial-system-7c5af65e0335", "title": "Decentralized Finance", "desc": "More transparent, open, and programmable financial services", "date": 20170501 },
+          { "link": "https://lindajxie.com/2019/08/23/where-stablecoins-are-headed/", "title": "Stablecoins", "desc": "Where stablecoins are headed", "date": 20170501 },          
           { "link": "https://coinrivet.com/what-is-the-blockchain-gaming-multiverse/", "title": "Gaming multiverse", "desc": "What is the blockchain gaming multiverse and how could it redefine gaming as we know it?", "date": 20170501 },          
           { "link": "https://itbrief.co.nz/story/seven-mistakes-to-avoid-in-blockchain-projects-gartner", "title": "Run a a blockchain project", "desc": "Seven mistakes to avoid in blockchain projects", "date": 20170501 },
           { "link": "https://medium.com/@triptananda/blockchains-enterprise-and-real-c94548e811a0", "title": "Enterprises", "desc": "How to choose an enterprise blockchain platform", "date": 20170501 },
@@ -653,7 +659,7 @@
           { "link": "https://medium.com/the-ethereum-name-service/how-to-host-your-dapp-with-ipfs-ens-and-access-it-via-ethdns-c96046059d87", "title": "How to host your DApp with IPFS+ENS and access it via EthDNS", "desc": "Access your decentralized website on non-web3 browsers using ENS link", "date": 20170930 },
           { "link": "https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e", "title": "Implementing a Blockchain Oracle on Ethereum", "desc": "Learn to create an oracle service that can query JSON APIs and retrieve a single value from the API response", "date": 20170930 },
           { "link": "https://medium.com/decentcrypto/building-your-first-ethereum-oracle-1ab4cccf0b31", "title": "Building your first Ethereum Oracle", "desc": "How do blockchains get data?", "date": 20171101 },
-          { "link": "https://www.pubnub.com/blog/implementing-pubnub-dapp-with-ethereum-blockchain/amp/", "title": "Implementing PubNub", "desc": "Connect millions of clients and devices to your smart contracts", "date": 20171101 },
+          { "link": "https://medium.com/flex-dapps/building-the-best-damn-crypto-experience-we-could-a-short-story-about-engaging-your-users-2-a3a08d70beb2", "title": "Building The Best Damn Crypto Experience We Could", "desc": "A short story about engaging your users", "date": 20171101 },
           { "link": "https://hackernoon.com/what-to-expect-when-eths-expecting-80cb4951afcd", "title": "An engineer’s guide to ETH2.0", "desc": "What will mean for developers a planned replacement of Ethereum 1.x for 2.0?", "date": 20171101 },
           { "link": "https://www.reddit.com/r/ethereum/comments/agcrcb/what_to_expect_when_eths_expecting_hacker_noon/ee64r3n/", "title": "An engineer’s guide to ETH2.0", "desc": "Vitalik Buterin's annotations", "date": 20171101 },
 
@@ -882,6 +888,7 @@
           { "link": "https://github.com/ethereum-ts/TypeChain", "title": "TypeChain", "desc": "Typescript bindings for Ethereum smart contracts", "date": 20170501 },
           { "link": "https://github.com/JoinColony/purser", "title": "Purser", "desc": "JavaScript universal wallet tool for Ethereum-based wallets", "date": 20170501 },
           { "link": "https://walletconnect.org/", "title": "WalletConnect", "desc": "Open protocol for connecting desktop DApps to mobile wallets using end-to-end encryption by scanning a QR code", "date": 20170501 },
+          { "link": "https://lililashka.github.io/Abridged/home.html", "title": "Abridged", "desc": "Allows you to easily add Web 3 components into an existing app - from crypto payments to blockchain-secured game state and everything in between", "date": 20170501 },          
           { "link": "https://quickblocks.io/", "title": "QuickBlocks", "desc": "Collection of software libraries, applications, and command-line tools designed to give you quick access to the data provided by an Ethereum node", "date": 20170501 },
           { "link": "https://rimble.consensys.design/", "title": "Rimble Design System", "desc": "Adaptable components and design standards for decentralized applications", "date": 20170501 },
           { "link": "https://lorikeet.design/", "title": "Lorikeet", "desc": "Design system with React components, UI/UX guidelines and motion tools for building interfaces", "date": 20170501 },
@@ -1019,6 +1026,7 @@
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
           { "link": "https://hackernoon.com/how-meta-transactions-will-scale-ethereum-e98c848f7719", "title": "MetaTransactions to scale Ethereum", "desc": "Gas Stations Network could allow transactions from addresses that hold no ETH", "date": 20170501 }
+          { "link": "https://lililashka.github.io/Abridged/home.html", "title": "Abridged", "desc": "Allows you to easily add Web 3 components into an existing app including counterfactual account contracts, state channels, and meta-transactions", "date": 20170501 },          
         ]
       },
       {
@@ -1032,8 +1040,10 @@
 
           { "link": "https://medium.com/@yi.sun/privacy-in-cryptocurrencies-d4b268157f6c", "title": "Privacy in Cryptocurrencies", "desc": "Overview, approaches and zero-knowledge proofs", "date": 20170501 },
           { "link": "https://hackernoon.com/eli5-zero-knowledge-proof-78a276db9eff", "title": "Zero Knowledge Proof", "desc": "Explained like you are 5", "date": 20170501 },
+          { "link": "https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/", "title": "Zero Knowledge Proofs", "desc": "An illustrated primer", "date": 20170501 },          
           { "link": "https://docs.google.com/presentation/d/1-QB6DAHliQRAUW5rdCqSRQ_w6W2yGTidB61UWzq_p20/edit#slide=id.p", "title": "Zero Knowledge Proofs & Ethereum", "desc": "What it is and how it works, use cases and limitations, tools and projects", "date": 20170501 },          
           { "link": "https://docs.ethhub.io/ethereum-roadmap/privacy/", "title": "Privacy on Ethereum", "desc": "Summary of used technologies and working teams", "date": 20170501 },
+          { "link": "https://medium.com/centrifuge/bringing-privacy-to-non-fungible-tokens-a-recap-from-the-zokrates-workshop-at-zcon1-6d9ea8a74b7f", "title": "Bringing Privacy to Non-Fungible Tokens", "desc": "Proof-of-concept for building a tightly integrated zero-knowledge proof using the ZoKrates language and toolchain", "date": 20170501 },         
           { "link": "https://liamz.co/blog/building-the-first-ever-zkdao-at-ethparis/", "title": "Building the first-ever zero-knowledge DAO proof-of-concept", "desc": "Design considerations and potential implications", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Utilities ------------------------------------", "date": 20180401 },
@@ -1083,7 +1093,7 @@
 
           { "link": "https://medium.com/ethhub/why-ether-is-valuable-2b4e39e01eb3", "title": "Why Ether is Valuable", "desc": "Why Ether has value for substantially more reasons than just being used to pay transaction fees on the Ethereum", "date": 20170501 },
           { "link": "https://docs.ethhub.io/questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises/", "title": "Is Ethereum more expensive to use as price rises?", "desc": "An explanation why Ethereum fee market is independent of fiat prices", "date": 20170501 },
-          { "link": "https://www.reddit.com/r/ethereum/comments/cjepnm/eth_is_money/", "title": "Ether is money", "desc": "Reasons why Ether is valuable", "date": 20170501 },
+          { "link": "https://thedefiant.substack.com/p/ethereum-only-wins-if-eth-is-money", "title": "Ether is money", "desc": "Reasons why Ether is valuable", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Utilization of Ethereum ------------------------------------", "date": 20180401 },
 
