@@ -660,6 +660,7 @@
           { "link": "https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e", "title": "Implementing a Blockchain Oracle on Ethereum", "desc": "Learn to create an oracle service that can query JSON APIs and retrieve a single value from the API response", "date": 20170930 },
           { "link": "https://medium.com/decentcrypto/building-your-first-ethereum-oracle-1ab4cccf0b31", "title": "Building your first Ethereum Oracle", "desc": "How do blockchains get data?", "date": 20171101 },
           { "link": "https://medium.com/flex-dapps/building-the-best-damn-crypto-experience-we-could-a-short-story-about-engaging-your-users-2-a3a08d70beb2", "title": "Building The Best Damn Crypto Experience We Could", "desc": "A short story about engaging your users", "date": 20171101 },
+          { "link": "https://www.pubnub.com/blog/implementing-pubnub-dapp-with-ethereum-blockchain/amp/", "title": "Implementing PubNub", "desc": "Connect millions of clients and devices to your smart contracts", "date": 20171101 },
           { "link": "https://hackernoon.com/what-to-expect-when-eths-expecting-80cb4951afcd", "title": "An engineer’s guide to ETH2.0", "desc": "What will mean for developers a planned replacement of Ethereum 1.x for 2.0?", "date": 20171101 },
           { "link": "https://www.reddit.com/r/ethereum/comments/agcrcb/what_to_expect_when_eths_expecting_hacker_noon/ee64r3n/", "title": "An engineer’s guide to ETH2.0", "desc": "Vitalik Buterin's annotations", "date": 20171101 },
 
@@ -1025,8 +1026,8 @@
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
-          { "link": "https://hackernoon.com/how-meta-transactions-will-scale-ethereum-e98c848f7719", "title": "MetaTransactions to scale Ethereum", "desc": "Gas Stations Network could allow transactions from addresses that hold no ETH", "date": 20170501 }
-          { "link": "https://lililashka.github.io/Abridged/home.html", "title": "Abridged", "desc": "Allows you to easily add Web 3 components into an existing app including counterfactual account contracts, state channels, and meta-transactions", "date": 20170501 },          
+          { "link": "https://hackernoon.com/how-meta-transactions-will-scale-ethereum-e98c848f7719", "title": "MetaTransactions to scale Ethereum", "desc": "Gas Stations Network could allow transactions from addresses that hold no ETH", "date": 20170501 },
+          { "link": "https://lililashka.github.io/Abridged/home.html", "title": "Abridged", "desc": "Allows you to easily add Web 3 components into an existing app including counterfactual account contracts, state channels, and meta-transactions", "date": 20170501 }          
         ]
       },
       {
