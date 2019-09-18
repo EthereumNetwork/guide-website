@@ -546,7 +546,7 @@
           { "link": "https://apiary.1hive.org/", "title": "Aragon DAO explorer", "desc": "Explore and search Aragon DAOs", "date": 20170501 },
           { "link": "https://alchemy.daostack.io/", "title": "Alchemy", "desc": "Interface for DAOs built on DAOstack", "date": 20170501 },
           { "link": "https://daotalk.org/", "title": "DAOtalk", "desc": "Discussions about DAOs", "date": 20170501 },                    
-          { "link": "https://molochdao.discourse.group/t/how-to-launch-a-dao/82", "title": "How to launch a DAO", "desc": "What it takes to launch a (Moloch forked) DAO?", "date": 20170501 }              
+          { "link": "https://molochdao.discourse.group/t/how-to-launch-a-dao/82", "title": "How to launch a DAO", "desc": "What it takes to launch a (Moloch forked) DAO?", "date": 20170501 },              
           
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- News sites ------------------------------------", "date": 20180401 },
 
