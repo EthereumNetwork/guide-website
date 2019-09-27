@@ -762,7 +762,7 @@
           { "link": "https://github.com/pirapira/bamboo", "title": "Bamboo", "desc": "A morphing smart contract language", "date": 20171101 },
           { "link": "https://pegasys.tech/sandcastle-brings-sql-to-ethereum-smart-contracts/", "title": "Sandcastle", "desc": "Ethereum SQL smart contract language", "date": 20171101 },
           { "link": "https://solidity.readthedocs.io/en/develop/assembly.html", "title": "Solidity Assembly", "desc": "For more fine-grained control ", "date": 20170501 },
-          { "link": "https://github.com/androlo/solidity-workshop/blob/master/tutorials/2016-04-04-solidity-inline-assembly-I.md", "title": "Solidity Assembly Workshop", "desc": "with tutorial", "date": 20170501 }
+          { "link": "https://github.com/androlo/solidity-workshop/blob/master/tutorials/2016-04-04-solidity-inline-assembly-I.md", "title": "Solidity Assembly Workshop", "desc": "with tutorial", "date": 20170501 },
           { "link": "https://medium.com/ethworks/tranquility-a-better-smart-contract-programming-language-3038678ba34d", "title": "Tranquility", "desc": "Idea of creating a new programming language, that learns from Solidity’s mistakes and improves on all fronts", "date": 20170501 }        
         ]
       },
@@ -1037,7 +1037,7 @@
           { "link": "https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/sharding/", "title": "Sharding", "desc": "Overview", "date": 20170501 },
           { "link": "https://medium.com/chainsafe-systems/ethereum-2-0-a-complete-guide-scaling-ethereum-part-two-sharding-902370ac3be", "title": "Scaling Ethereum: Sharding", "desc": "How will it actually work?", "date": 20170501 },
           { "link": "https://medium.com/scalar-capital/crossing-shards-e03aed0c39d1", "title": "Crossing shards", "desc": "Intro to sharding and cross-shard trust", "date": 20170501 },          
-          { "link": "https://vitalik.ca/general/2019/06/12/plasma_vs_sharding.html", "title": "Sidechains vs Plasma vs Sharding", "desc": "How exactly is sharding different from sidechains or Plasma?", "date": 20170501 }
+          { "link": "https://vitalik.ca/general/2019/06/12/plasma_vs_sharding.html", "title": "Sidechains vs Plasma vs Sharding", "desc": "How exactly is sharding different from sidechains or Plasma?", "date": 20170501 },
           
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- State and Payment Channels ------------------------------------", "date": 20180401 },
 
@@ -1183,6 +1183,7 @@
           { "link": "https://decryptmedia.com/6343/an-overview-of-the-state-of-the-blockchain-ecosystem", "title": "An Overview of the State of the Blockchain Ecosystem", "desc": "Why Ethereum will become the global settlement layer", "date": 20170501 },
           { "link": "https://decrypt.co/6136/vulcanize-rick-dudley-ethereum-roadmap-makerdao-polkadot", "title": "Ethereum’s roadmap isn’t ambitious enough", "desc": "Doubts and believes of Rick Dudley", "date": 20170501 },
           { "link": "https://medium.com/@ElectricCapital/electric-capital-developer-report-h1-2019-7d836d68fecb", "title": "Crypto developer report", "desc": "Ethereum has 4x the developers of Bitcoin at the protocol level, not even counting Ethereum’s magnitudes of lead at the app level", "date": 20170501 },
+          { "link": "https://thedefiant.substack.com/p/ether-is-the-best-model-for-money", "title": "Ether is the Best Model for Money the World has Ever Seen", "desc": "Ethereum as Internet of value and how each piece fits together,by David Hoffman", "date": 20170501 },
           
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Nodes ------------------------------------", "date": 20180401 },
 
