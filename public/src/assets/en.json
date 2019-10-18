@@ -395,7 +395,6 @@
           { "link": "https://defitutorials.substack.com/about", "title": "DeFi Tutorials", "desc": "Highlight new opportunities & risks involved in Open Finance", "date": 20170501 },                                     
           { "link": "https://medium.com/totle/building-with-money-legos-ab63a58ae764", "title": "Building with Money Legos", "desc": "Mixing and matching the tools in decentralized finance to make new products and services", "date": 20170501 }
           { "link": "https://medium.com/bzxnetwork/a-tour-of-the-varieties-of-dai-9ff155f7666c", "title": "DAI", "desc": "A tour of the varieties of DAI", "date": 20170501 }
-
         ]
       },
       {
@@ -514,7 +513,7 @@
           { "link": "https://in-flight.simplecast.com/", "title": "In Flight by Aragon One", "desc": "Touches the topics of governance, empowering individual freedom and avoiding global dystopia", "date": 20170501 },
           { "link": "https://humansofethereum.simplecast.com/", "title": "Humans of Ethereum", "desc": "It primarily highlights people and projects that are doing important work in the ecosystem that's less well known, underappreciated, and/or underfunded", "date": 20170501 },
 
-          {   "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Newsletters ------------------------------------", "date": 20180401 },
+          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Newsletters ------------------------------------", "date": 20180401 },
 
           { "link": "https://weekinethereum.substack.com/", "title": "Week In Ethereum", "desc": "Newsletter by Evan Van Ness", "date": 20170501 },
           { "link": "https://tokeneconomy.co/", "title": "Token Economy", "desc": "News from distributed ledger technology space", "date": 20170501 },
