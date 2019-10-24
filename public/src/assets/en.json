@@ -397,8 +397,8 @@
 
           { "link": "https://defiprime.com/defi-lending-vs-traditional-assets", "title": "How Lending with DeFi Compares with Traditional Asset Classes", "desc": "Comparison of returns and link to a deep study of decentralized cryptoasset lending industry", "date": 20170501 },                  
           { "link": "https://defitutorials.substack.com/about", "title": "DeFi Tutorials", "desc": "Highlight new opportunities & risks involved in Open Finance", "date": 20170501 },                                     
-          { "link": "https://medium.com/totle/building-with-money-legos-ab63a58ae764", "title": "Building with Money Legos", "desc": "Mixing and matching the tools in decentralized finance to make new products and services", "date": 20170501 }          
-          { "link": "https://medium.com/bzxnetwork/a-tour-of-the-varieties-of-dai-9ff155f7666c", "title": "DAI", "desc": "A tour of the varieties of DAI", "date": 20170501 }
+          { "link": "https://medium.com/totle/building-with-money-legos-ab63a58ae764", "title": "Building with Money Legos", "desc": "Mixing and matching the tools in decentralized finance to make new products and services", "date": 20170501 },          
+          { "link": "https://medium.com/bzxnetwork/a-tour-of-the-varieties-of-dai-9ff155f7666c", "title": "DAI", "desc": "A tour of the varieties of DAI", "date": 20170501 },
           { "link": "https://twitter.com/UBIpromoter/status/1182840874545373184?s=19", "title": "DeFi", "desc": "One usecase what can you do in less then 15 minutes", "date": 20170501 }        
         ]
       },
@@ -490,7 +490,7 @@
           { "link": "https://buidl.it/", "title": "Build it", "desc": "A small selection of inspiring projects that come out of ETHGlobal hackathons", "date": 20170501 },
           { "link": "https://devpost.com/hackathons?utf8=%E2%9C%93&search=ethereum&challenge_type=all&sort_by=Recently+Added", "title": "Ethereum hackathons", "desc": "Browse projects submissions from Ethereum hackathons", "date": 20170501 },          
           { "link": "https://concourseq.io/", "title": "ConcourseQ", "desc": "Community-sourced due diligence for token sales", "date": 20170501 },
-          { "link": "https://www.coinbase.com/earn", "title": "Coinbase Earn", "desc": "Earn crypto while learning about crypto", "date": 20170501 }
+          { "link": "https://www.coinbase.com/earn", "title": "Coinbase Earn", "desc": "Earn crypto while learning about crypto", "date": 20170501 },
           { "link": "https://ulyssescontract.com/", "title": "Ulysses", "desc": "Lose weight or your ETH deposit gets burned", "date": 20170501 }        
         ]
       },
@@ -679,7 +679,7 @@
       {
         "headline": "Development Guides: Smart Contracts with Solidity and other EVM languages",
         "paragraphs": [
-          { "text": "Every day there are new blog posts, tutorials, research article and discussions about how to develop smart contracts and decentralized applications. We try to keep the best and most up-to-date ones here, please let us know about new ones we should add or old ones to remove." }
+          { "text": "Every day there are new blog posts, tutorials, research article and discussions about how to develop smart contracts and decentralized applications. We try to keep the best and most up-to-date ones here, please let us know about new ones we should add or old ones to remove." },
           { "text": "After learning the first steps with Solidity, dive deeper into smart contract programming with Vyper, LLL, Bamboo or Inline Assembly." }        
         ],
         "links": [
@@ -1134,9 +1134,9 @@
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
-          { "link": "https://decrypt.co/10030/plasma-group-and-uniswap-release-new-ethereum-scaling-solution-at-devcon", "title": "Optimistic Rollup", "desc": "New Ethereum scaling solution was released at Devcon", "date": 20170501 }                    
+          { "link": "https://decrypt.co/10030/plasma-group-and-uniswap-release-new-ethereum-scaling-solution-at-devcon", "title": "Optimistic Rollup", "desc": "New Ethereum scaling solution was released at Devcon", "date": 20170501 },                    
           { "link": "https://hackernoon.com/how-meta-transactions-will-scale-ethereum-e98c848f7719", "title": "MetaTransactions to scale Ethereum", "desc": "Gas Stations Network could allow transactions from addresses that hold no ETH", "date": 20170501 },
-          { "link": "https://lililashka.github.io/Abridged/home.html", "title": "Abridged", "desc": "Allows you to easily add Web 3 components into an existing app including counterfactual account contracts, state channels, and meta-transactions", "date": 20170501 }          
+          { "link": "https://lililashka.github.io/Abridged/home.html", "title": "Abridged", "desc": "Allows you to easily add Web 3 components into an existing app including counterfactual account contracts, state channels, and meta-transactions", "date": 20170501 },          
           { "link": "https://www.pisa.watch/", "title": "PISA", "desc": "Real scalability of crypto, by alleviating the assumption, 99% of transactions can remain local amongst the parties instead of the global network", "date": 20170501 }                  
         ]
       },
@@ -1266,14 +1266,14 @@
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Regulation ------------------------------------", "date": 20180401 },
 
-          { "link": "https://cointelegraph.com/news/a-clear-path-for-ethereum", "title": "A clear path for Ethereum", "desc": "Analysing Ethereum’s timeline from business and legal perspectives", "date": 20170501 }                    
-          { "link": "https://www.cftc.gov/PressRoom/PressReleases/8051-19", "title": "U.S. Commodity Futures Trading Commission", "desc": "Chairman of the CFTC said, that Ether is a commodity", "date": 20170501 }          
-          { "link": "https://media.consensys.net/report-the-legal-and-regulatory-framework-of-blockchains-and-smart-contracts-8f397eaf0b1f", "title": "The Legal and Regulatory Framework of Blockchains and Smart Contracts", "desc": "Article that recaps the EU Blockchain Observatory & Forum’s most recent paper", "date": 20170501 }          
+          { "link": "https://cointelegraph.com/news/a-clear-path-for-ethereum", "title": "A clear path for Ethereum", "desc": "Analysing Ethereum’s timeline from business and legal perspectives", "date": 20170501 },                    
+          { "link": "https://www.cftc.gov/PressRoom/PressReleases/8051-19", "title": "U.S. Commodity Futures Trading Commission", "desc": "Chairman of the CFTC said, that Ether is a commodity", "date": 20170501 },          
+          { "link": "https://media.consensys.net/report-the-legal-and-regulatory-framework-of-blockchains-and-smart-contracts-8f397eaf0b1f", "title": "The Legal and Regulatory Framework of Blockchains and Smart Contracts", "desc": "Article that recaps the EU Blockchain Observatory & Forum’s most recent paper", "date": 20170501 },          
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
           { "link": "https://docs.ethhub.io/questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum/", "title": "Ethereum FAQ", "desc": "on EthHub", "date": 20170501 },
-          { "link": "https://media.consensys.net/5-sibos-takeaways-the-future-of-finance-according-to-banks-and-institutions-a45fd53298fe", "title": "Adoption", "desc": "The future of finance according to banks and institutions", "date": 20170501 }          
+          { "link": "https://media.consensys.net/5-sibos-takeaways-the-future-of-finance-according-to-banks-and-institutions-a45fd53298fe", "title": "Adoption", "desc": "The future of finance according to banks and institutions", "date": 20170501 },          
           { "link": "https://medium.com/@MattBLucas/there-are-still-a-few-good-reasons-to-trust-blockchain-d618512642d5", "title": "There Are Still a Few Good Reasons to Trust Blockchain", "desc": "Why cryptocurrencies are usefull", "date": 20170501 }        
         ]
       }
