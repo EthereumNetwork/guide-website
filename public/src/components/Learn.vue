@@ -30,9 +30,6 @@
     </v-expansion-panel-content> -->
   </v-expansion-panel>
   </br>
-  <div class="comments">
-    <VueDisqus shortname="ethereumnetwork" :identifier="$route.path" :url="'https://ethereum.network' + $route.path"></VueDisqus>
-  </div>
 </v-container>
 </template>
 

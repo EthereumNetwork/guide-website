@@ -20,7 +20,7 @@
     </v-navigation-drawer>
     <v-toolbar app fixed dark clipped-left>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title>Ethereum Network</v-toolbar-title>
+      <v-toolbar-title>ethereum.network</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-menu>
         <v-btn dark icon slot="activator">
@@ -58,12 +58,7 @@
         drawer: true,
         items: [
           {title: 'Home', path: '/'},
-          {title: 'Projects', path: '/projects'},
-          {title: 'Learn', path: '/learn'},
-          {title: 'Explorer', path: '/explorer'},
-          {title: 'Map', path: '/map'},
-          {title: 'About', path: '/about'},
-          {title: 'Social', path: '/social'}
+          {title: 'About', path: '/about'}
         ]
       }
     },

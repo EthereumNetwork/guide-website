@@ -21,8 +21,8 @@ import OpenMap from './components/OpenMap.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/learn', component: Learn },
+  { path: '/', component: Learn },
+  { path: '/learn', redirect: '/' },
   { path: '/explorer', component: Explorer },
   { path: '/projects',component: ProjectList },
   { path: '/suggestions', component: SuggestionList },
