@@ -468,7 +468,7 @@
           { "link": "https://www.ethereum-alarm-clock.com/", "title": "Ethereum Alarm Clock", "desc": "Scheduling of transactions for delayed execution in the future", "date": 20170501 },
           { "link": "https://info.eth2.io/", "title": "Eth2", "desc": "Send Ether to anyone simply by phone number or special link", "date": 20170501 },
           { "link": "https://quid.li/", "title": "Quidli", "desc": "Enables you to issue real equity on security tokens to use as incentives to your employees and community members", "date": 20170501 },
-          { "link": "https://github.com/MetaMask/metamask-plugin-beta/wiki", "title": "MetaMask Plugin", "desc": "Add crypto-based functionality to normal websites", "date": 20170501 },
+          { "link": "https://medium.com/metamask/introducing-the-next-evolution-of-the-web3-wallet-4abdf801a4ee", "title": "MetaMask Plugin", "desc": "Add crypto-based functionality to normal websites", "date": 20170501 },
           { "link": "https://github.com/status-im/status-chat-widget", "title": "Status Chat Widget", "desc": "Easily embed a Status chat room in your website", "date": 20170501 },
           { "link": "https://vac.dev/", "title": "Vac", "desc": "Modular peer-to-peer messaging stack, with a focus on secure messaging", "date": 20170501 },
           { "link": "https://enzypt.io/", "title": "Enzypt", "desc": "Buy and sell files through Ethereum and IPFS", "date": 20170501 },
@@ -489,7 +489,8 @@
           { "link": "https://codefund.io/", "title": "CodeFund", "desc": "Display ethical ads on developer websites to fund contributors of the open source ecosystem", "date": 20170501 },
           { "link": "https://buidl.it/", "title": "Build it", "desc": "A small selection of inspiring projects that come out of ETHGlobal hackathons", "date": 20170501 },
           { "link": "https://devpost.com/hackathons?utf8=%E2%9C%93&search=ethereum&challenge_type=all&sort_by=Recently+Added", "title": "Ethereum hackathons", "desc": "Browse projects submissions from Ethereum hackathons", "date": 20170501 },
-          { "link": "https://concourseq.io/", "title": "ConcourseQ", "desc": "Community-sourced due diligence for token sales", "date": 20170501 },
+          { "link": "https://concourseq.io/", "title": "ConcourseQ", "desc": "Community-sourced due diligence for token sales", "date": 20170501 },          
+          { "link": "https://gitcoin.co/quests/", "title": "Gitcoin Quests", "desc": "Gamified web3 learning", "date": 20170501 },         
           { "link": "https://www.coinbase.com/earn", "title": "Coinbase Earn", "desc": "Earn crypto while learning about crypto", "date": 20170501 },
           { "link": "https://ulyssescontract.com/", "title": "Ulysses", "desc": "Lose weight or your ETH deposit gets burned", "date": 20170501 }
         ]
@@ -722,6 +723,7 @@
           { "link": "https://medium.com/decentcrypto/building-your-first-ethereum-oracle-1ab4cccf0b31", "title": "Building your first Ethereum Oracle", "desc": "How do blockchains get data?", "date": 20171101 },
           { "link": "https://www.pubnub.com/blog/a-complete-tutorial-on-building-pubnub-driven-smart-contract-app-with-ethereum/", "title": "How to Build a PubNub-Driven Smart Contract", "desc": "App with Ethereum Expand your Ethereum projects to connect millions of clients and devices to your contracts", "date": 20171101 },
           { "link": "https://medium.com/flex-dapps/building-the-best-damn-crypto-experience-we-could-a-short-story-about-engaging-your-users-2-a3a08d70beb2", "title": "Building The Best Damn Crypto Experience We Could", "desc": "A short story about engaging your users", "date": 20171101 },
+          { "link": "https://github.com/makerdao/developerguides/blob/master/dai/dai-in-smart-contracts/README.md", "title": "Dai in Smart Contracts", "desc": "Guide to using Dai in your code", "date": 20171101 },         
           { "link": "https://hackernoon.com/what-to-expect-when-eths-expecting-80cb4951afcd", "title": "An engineer’s guide to ETH2.0", "desc": "What will mean for developers a planned replacement of Ethereum 1.x for 2.0?", "date": 20171101 },
           { "link": "https://www.reddit.com/r/ethereum/comments/agcrcb/what_to_expect_when_eths_expecting_hacker_noon/ee64r3n/", "title": "An engineer’s guide to ETH2.0", "desc": "Vitalik Buterin's annotations", "date": 20171101 },
 
@@ -746,6 +748,7 @@
           { "link": "https://delegatecall.com/", "title": "Delegate call", "desc": "Questions & answers site", "date": 20170501 },
           { "link": "https://ethereum.stackexchange.com", "title": "Ethereum Stack Exchange", "desc": "Get answers for all your Ethereum questions", "date": 20170501 },
           { "link": "https://media.consensys.net/solidity-is-twice-as-popular-as-the-next-blockchain-coding-language-9330af9aeaa3", "title": "Solidity is Twice as Popular as the Next Blockchain Coding Language", "desc": "Will eWASM change the game?", "date": 20171101 },
+          { "link": "https://eth.build/", "title": "Eth.build", "desc": "Austin Griffith’s series of tutorials with a dev sandbox", "date": 20171101 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Videos ------------------------------------", "date": 20180401 },
 
@@ -835,6 +838,7 @@
           { "link": "https://media.consensys.net/how-formal-verification-can-ensure-flawless-smart-contracts-cbda8ad99bd1", "title": "How Formal Verification Can Ensure Flawless Smart Contracts", "desc": "How to eradicate errors in the Ethereum bytecode", "date": 20170501 },
           { "link": "https://runtimeverification.com/blog/how-formal-verification-could-help-to-prevent-gridlock-bug/", "title": "How Formal Verification Could Help to Prevent Gridlock Bug", "desc": "Review of the Gridlock bug and how formal verification can help to prevent this type of bugs", "date": 20170501 },
           { "link": "https://github.com/leonardoalt/ethereum_formal_verification_overview", "title": "Ethereum Formal Verification", "desc": "Overview of the formal verification projects", "date": 20170501 },
+          { "link": "https://medium.com/coinmonks/a-formal-model-in-k-of-the-beacon-chain-ethereum-2-0s-primary-proof-of-stake-blockchain-429883e316b9", "title": "A Formal Model in K of the Beacon Chain", "desc": "Ethereum 2.0’s primary proof-of-stake blockchain", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Resources ------------------------------------", "date": 20180401 },
 
@@ -996,6 +1000,7 @@
           { "link": "https://consensys.net/convertible-note/", "title": "Automated Convertible Note", "desc": "OpenLaw-based document generator to help startups raise capital with customizable market standard terms and optional digital token provisions", "date": 20170501 },
           { "link": "https://buidl-explorer.herokuapp.com/", "title": "#BUIDL Explorer", "desc": "Help you get started and find the right open-source Ethereum projects to contribute to", "date": 20171101 },
           { "link": "https://docs.ethhub.io/other/ethereum-branding-kit/", "title": "Ethereum Branding Kit", "desc": "Show off that your products and services are built on Ethereum", "date": 20170501 },
+          { "link": "https://onemilliondevs.com/", "title": "1 Million Developers", "desc": "Ecosystem initiative to inspire one million blockchain developers, technologists, and hackers to see how their skills can be applied to writing smart contracts and developing applications on the Ethereum network", "date": 20170501 },         
           { "link": "https://delegatecall.com/", "title": "Delegate call", "desc": "Questions & answers site", "date": 20170501 },
           { "link": "https://ethereum.stackexchange.com", "title": "Ethereum Stack Exchange", "desc": "Get answers for all your Ethereum questions", "date": 20170501 },
           { "link": "https://medium.com/@ahoff/web3-business-models-in-the-wild-fdbc93f9713b", "title": "Web3 Business Models in the Wild", "desc": "Few top business models currently used among DApps to help you get started on a path to monetization and sustainability", "date": 20170501 },
@@ -1126,6 +1131,7 @@
           { "link": "https://github.com/paritytech/parity-bridge", "title": "Parity bridge", "desc": "Bridge between any two Ethereum-based networks", "date": 20170501 },
           { "link": "https://skalelabs.com/", "title": "SKALE", "desc": "Ethereum sidechain test network", "date": 20170501 },
           { "link": "https://trustlines.foundation/", "title": "Trustlines Network", "desc": "Minimal viable Proof-of-Stake (mPoS) Ethereum sidechain based on Parity’s Aura consensus algorithm", "date": 20170501 },
+          { "link": "https://fuel.sh/", "title": "Fuel", "desc": "Sidechain that uses call data and vanilla on-chain Merkleization to solve mass data availability without main chain state accesses", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- ZK-STARKs (see more in 'Privacy' section) ------------------------------------", "date": 20180401 },
 
@@ -1133,8 +1139,9 @@
           { "link": "https://medium.com/starkware/a-framework-for-efficient-starks-19608ba06fbe", "title": "A Framework for Efficient STARKs", "desc": "5 posts serie explaining the theory behind STARKs and StarkWare's implementation of it", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
-
-          { "link": "https://decrypt.co/10030/plasma-group-and-uniswap-release-new-ethereum-scaling-solution-at-devcon", "title": "Optimistic Rollup", "desc": "New Ethereum scaling solution was released at Devcon", "date": 20170501 },
+          
+          { "link": "https://medium.com/coinmonks/zk-rollup-optimistic-rollup-70c01295231b", "title": "An overview of rollup", "desc": "Both ZK and optimistic", "date": 20170501 },
+          { "link": "https://decrypt.co/10030/plasma-group-and-uniswap-release-new-ethereum-scaling-solution-at-devcon", "title": "Optimistic Rollup", "desc": "New Ethereum scaling solution was released at Devcon", "date": 20170501 },          
           { "link": "https://hackernoon.com/how-meta-transactions-will-scale-ethereum-e98c848f7719", "title": "MetaTransactions to scale Ethereum", "desc": "Gas Stations Network could allow transactions from addresses that hold no ETH", "date": 20170501 },
           { "link": "https://lililashka.github.io/Abridged/home.html", "title": "Abridged", "desc": "Allows you to easily add Web 3 components into an existing app including counterfactual account contracts, state channels, and meta-transactions", "date": 20170501 },
           { "link": "https://www.pisa.watch/", "title": "PISA", "desc": "Real scalability of crypto, by alleviating the assumption, 99% of transactions can remain local amongst the parties instead of the global network", "date": 20170501 }
@@ -1161,6 +1168,7 @@
           { "link": "https://vitalik.ca/general/2019/09/22/plonk.html", "title": "Understanding PLONK", "desc": "General-purpose zero-knowledge proof scheme", "date": 20170501 },
           { "link": "https://eprint.iacr.org/2019/1076", "title": "Fractal", "desc": "Efficient post-quantum transparent SNARKs", "date": 20170501 },
           { "link": "https://drive.google.com/file/d/1Rrr7G7wQ0WI1hmB4slZDZPjKcVexVNNj/view", "title": "Complete Knowledge proofs", "desc": "Allow a user to demonstrate that they really have control of secret data, and the data isn't shackled by SGX or MPC", "date": 20170501 },
+          { "link": "https://eprint.iacr.org/2019/1229.pdf", "title": "Transparent SNARKs from DARK compilers", "desc": "Transparent zk-SNARK that has both a practical prover time as well as asymptotically logarithmic proof size and verification time", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Mixers ------------------------------------", "date": 20180401 },
 
