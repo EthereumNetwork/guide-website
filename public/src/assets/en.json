@@ -152,7 +152,7 @@
 
           { "link": "https://qz.com/1118743/world-food-programmes-ethereum-based-blockchain-for-syrian-refugees-in-jordan/", "title": "United Nations", "desc": "Expand blockchain testing to African supply chain", "date": 20170501 },
           { "link": "https://www.unicef.org/press-releases/unicef-launches-cryptocurrency-fund", "title": "UNICEF", "desc": "Launches cryptocurrency fund for open source solutions for children", "date": 20170501 },
-          { "link": "http://aon.mediaroom.com/2019-07-01-Aon-Oxfam-and-Etherisc-launch-first-blockchain-based-agricultural-insurance-policies-for-smallholder-farmers-in-Sri-Lanka", "title": "Oxfam", "desc": "Crop insurance for Sri Lankan farmers", "date": 20170501 },
+          { "link": "https://www.prnewswire.com/news-releases/oxfam-etherisc-and-aon-deliver-pay-outs-with-first-blockchain-based-agricultural-insurance-policies-for-smallholder-farmers-in-sri-lanka-300949728.html", "title": "Oxfam", "desc": "Crop insurance for Sri Lankan farmers", "date": 20170501 },
           { "link": "https://media.consensys.net/blockchain-for-social-impact-project-unblocked-cash-case-study-58a38fe23ba1", "title": "Blockchain for Social Impact", "desc": "Oxfam, Sempo and ConsenSys join together in Vanuatu for direct transfers of humanitarian aid to citizens, rather than indirectly through leaky governments", "date": 20170501 },
           { "link": "https://media.consensys.net/consensys-and-wwf-team-up-to-launch-impactio-f9780d168d6e", "title": "WWF", "desc": "Team up ConsenSys to launch Impactio, a nonprofit funding platform", "date": 20170501 },
 
@@ -225,6 +225,8 @@
           { "link": "https://ren.exchange/", "title": "RenEx", "desc": "Dark pool (OTC) exchange, where orders between buyers and sellers are private from each other, also provides decentralized cross-chain interoperability", "date": 20170501 },
           { "link": "https://loopring.org/", "title": "Loopring", "desc": "Decentralized exchange protocol with a hybrid order model with a focus on liquidity", "date": 20170501 },
           { "link": "https://www.deversifi.com/", "title": "DeversiFi", "desc": "Hybrid decentralized exchange, allowing users to trade ERC20 tokens against ETH or USD", "date": 20170501 },
+          { "link": "https://shapeshift.com/", "title": "Shapeshift", "desc": "Offers crypto to crypto trading functionality and is primarily intended to be used as an API integration, also offers to buy crypto with USD", "date": 20170501 },          
+          { "link": "https://tex.liquidity.network/", "title": "TEX", "desc": "Layer 2 commit-chain based decentralized exchange, built on top of the NOCUST commit-chain by the Liquidity Network", "date": 20170501 },          
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
@@ -241,14 +243,15 @@
           { "link": "https://www.coinbase.com/card", "title": "Coinbase Card", "desc": "Visa debit card, funded by your Coinbase balance, allows you to spend your crypto worldwide", "date": 20170501 },
           { "link": "https://0x.org/instant", "title": "0x Instant", "desc": "Simple crypto purchasing in any app or website", "date": 20170501 },
           { "link": "https://commerce.coinbase.com/", "title": "Coinbase Commerce", "desc": "Accept cryptocurrency payments for your business", "date": 20170501 },
-          { "link": "https://www.etherglade.com/", "title": "Etherglade", "desc": "Accept Ethereum on your site in minutes", "date": 20170501 },
+          { "link": "https://dexpay.me/", "title": "Dexpay", "desc": "Point-of-sale for physical stores and online shops that accepts Ethereum and many other coins and instantly converts them to Dai stablecoin", "date": 20170501 },
+          { "link": "https://stablepay.io/", "title": "StablePay", "desc": "Send and receive cryptocurrency payments converted to DAI", "date": 20170501 }
+          { "link": "https://bitpay.com/", "title": "BitPay", "desc": "Accept Ethereum (or Bitcoin) for online payments", "date": 20170501 }          
+          { "link": "https://www.etherglade.com/", "title": "Etherglade", "desc": "Accept Ethereum on your site in minutes", "date": 20170501 },          
           { "link": "https://groundhog.network/", "title": "Groundhog", "desc": "Payment gateway between merchants and customers to facilitate crypto subscriptions", "date": 20170501 },
           { "link": "https://www.daisypayments.com/", "title": "Daisy", "desc": "Enables anyone to accept cryptocurrency for purchases, subscriptions, usage fees and other payments trust utilities", "date": 20170501 },
-          { "link": "https://dexpay.me/", "title": "Dexpay", "desc": "Point-of-sale for physical stores and online shops that accepts Ethereum and many other coins and instantly converts them to Dai stablecoin", "date": 20170501 },
           { "link": "https://sablier.app/", "title": "Sablier", "desc": "Pay your employees continuously", "date": 20170501 },
           { "link": "https://www.bitwage.com/", "title": "BitWage", "desc": "Pay salaries in Ether", "date": 20170501 },
           { "link": "https://whisp.money/", "title": "Whisp", "desc": "Pay remote or on-site workers in crypto", "date": 20170501 },
-          { "link": "https://stablepay.io/", "title": "StablePay", "desc": "Send and receive cryptocurrency payments converted to DAI", "date": 20170501 }
         ]
       },
       {
@@ -454,8 +457,9 @@
           { "link": "https://quiknode.io/", "title": "QuikNode", "date": 20170501 },
           { "link": "https://blockdaemon.com/", "title": "Blockdaemon", "date": 20170501 },
           { "link": "https://vipnode.org/", "title": "Vipnode", "date": 20170501 },
+          { "link": "https://ava.do/", "title": "AVADO", "date": 20170501 },
+          { "link": "https://blockandmortar.io/ ", "title": "NanoPC-T4 plug-and-play", "date": 20170501 },          
           { "link": "https://github.com/vrde/ethnode", "title": "Ethnode", "date": 20170501 },
-          { "link": "https://medium.com/mercuryprotocol/how-to-run-an-ethereum-node-on-aws-a8774ed3acf6", "title": "On AWS", "date": 20170501 },
           { "link": "https://grid.ethereum.org/", "title": "Ethereum Grid", "desc": "Download, configure and run Ethereum nodes", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Mining ------------------------------------", "date": 20180401 },
@@ -504,6 +508,7 @@
           { "link": "https://concourseq.io/", "title": "ConcourseQ", "desc": "Community-sourced due diligence for token sales", "date": 20170501 },          
           { "link": "https://gitcoin.co/quests/", "title": "Gitcoin Quests", "desc": "Gamified web3 learning", "date": 20170501 },         
           { "link": "https://www.coinbase.com/earn", "title": "Coinbase Earn", "desc": "Earn crypto while learning about crypto", "date": 20170501 },
+          { "link": "https://swashapp.io/", "title": "Swash", "desc": "Browser extension that enables you to sell your browser data and earn Streamr’s DATA token", "date": 20170501 },         
           { "link": "https://ulyssescontract.com/", "title": "Ulysses", "desc": "Lose weight or your ETH deposit gets burned", "date": 20170501 }
         ]
       },
@@ -601,6 +606,8 @@
           { "link": "https://daometrics.com/", "title": "DAO Metrics", "desc": "Tracks various metrics for DAOs", "date": 20170501 },        
           { "link": "https://daotalk.org/", "title": "DAOtalk", "desc": "Discussions about DAOs", "date": 20170501 },
           { "link": "https://daocast.io/", "title": "DAOcast", "desc": "Series of podcast-style interviews with DAO researchers, developers and enthusiasts", "date": 20170501 },
+          { "link": "https://www.daofest.io/", "title": "DAOfest", "desc": "Event series focused on advancing the technology and adoption of decentralized governance globally", "date": 20170501 },
+          
           { "link": "https://molochdao.discourse.group/t/how-to-launch-a-dao/82", "title": "How to launch a DAO", "desc": "What it takes to launch a (Moloch forked) DAO?", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- News sites ------------------------------------", "date": 20180401 },
@@ -681,6 +688,7 @@
           { "link": "https://github.com/ethereum/wiki/wiki/Safety", "title": "Safety wiki", "desc": "Ethereum Foundation wiki on safety", "date": 20170501 },
           { "link": "https://github.com/evbots/dex-protocols", "title": "DEX protocols", "desc": "A list of protocols for decentralised exchange", "date": 20170501 },
           { "link": "https://github.com/distribuyed/index/blob/master/README.md", "title": "inDEX", "desc": "A comprehensive list of decentralized exchanges", "date": 20170501 },
+          { "link": "https://defi.school/", "title": "DeFi School", "desc": "Learn everything about decentralized finance in one place", "date": 20170501 },          
           { "link": "https://defiprime.com", "title": "DeFiprime", "desc": "List of the decentralized finance products", "date": 20170501 },
           { "link": "https://defipulse.com/defi-list", "title": "DeFi List", "desc": "Collection of the DeFi resources", "date": 20170501 },
           { "link": "https://defirate.com/", "title": "DeFi Rate", "desc": "Helps users learn about Decentralized Finance (DeFi) without the need for a technical background", "date": 20170501 },
@@ -994,6 +1002,7 @@
           { "link": "https://github.com/horyus/ethvtx", "title": "Ethvtx", "desc": "All the tools to build an efficient Redux store for your DApp", "date": 20170501 },
           { "link": "https://github.com/openst/mosaic-contracts", "title": "Mosaic", "desc": "Set of meta-blockchains on top of Ethereum to scale DApps", "date": 20170501 },
           { "link": "https://www.fabrx.io/", "title": "Fabrx", "desc": "Connect your platform to the decentralized web", "date": 20170501 },
+          { "link": "https://pokt.network/", "title": "Pocket", "desc": "Provides a trustless API Layer, allowing easy access to any blockchain", "date": 20170501 },          
           { "link": "https://github.com/BlocknetDX/blocknet/releases/tag/v3.13.0", "title": "XRouter", "desc": "Allows DApps to interact with other blockchains", "date": 20170501 },
           { "link": "https://github.com/JoinColony/purser", "title": "Purser", "desc": "JavaScript universal wallet tool for Ethereum-based wallets", "date": 20170501 },
           { "link": "https://walletconnect.org/", "title": "WalletConnect", "desc": "Open protocol for connecting desktop DApps to mobile wallets using end-to-end encryption by scanning a QR code", "date": 20170501 },
@@ -1085,6 +1094,7 @@
           { "link": "https://github.com/ethereum/pyethereum", "title": "pyethereum", "desc": "Python core library of the Ethereum project", "date": 20170501 },
           { "link": "https://machinomy.com/", "title": "Machinomy", "desc": "Node.js library for micropayments in Ether and ERC20 tokens over HTTP", "date": 20170501 },
           { "link": "https://github.com/ConsenSys/eventeum", "title": "Eventeum", "desc": "A bridge between Ethereum smart contract events and backend microservices, written in Java", "date": 20170501 },
+          { "link": "https://github.com/ewasm/ewasm-rust-api", "title": "Ewasm Rust API", "desc": "Ewasm API for Rust", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Storage ------------------------------------", "date": 20180401 },
 
@@ -1170,6 +1180,7 @@
           { "link": "https://hackernoon.com/how-meta-transactions-will-scale-ethereum-e98c848f7719", "title": "MetaTransactions to scale Ethereum", "desc": "Gas Stations Network could allow transactions from addresses that hold no ETH", "date": 20170501 },
           { "link": "https://lililashka.github.io/Abridged/home.html", "title": "Abridged", "desc": "Allows you to easily add Web 3 components into an existing app including counterfactual account contracts, state channels, and meta-transactions", "date": 20170501 },
           { "link": "https://www.pisa.watch/", "title": "PISA", "desc": "Real scalability of crypto, by alleviating the assumption, 99% of transactions can remain local amongst the parties instead of the global network", "date": 20170501 }
+          { "link": "https://ethresear.ch/t/the-optimal-snark-less-on-chain-scaling-solution/4790", "title": "BLS rollup", "desc": "The optimal SNARK-less on-chain scaling solution", "date": 20170501 }        
         ]
       },
       {
@@ -1288,10 +1299,6 @@
           { "link": "https://arxiv.org/abs/1905.00553", "title": "Empirically Analyzing Ethereum's Gas Mechanism", "desc": "Paper analyzing Eth’s gas prices, which largely mirrors the upcoming Istanbul gas repricing", "date": 20170501 },
           { "link": "https://docs.google.com/spreadsheets/d/1vQjpXjAsa5ZVefbWxridnrMZu8QR2yrD7of5UI9Y7OA/edit#gid=0", "title": "Active Nodes", "desc": "Global rankings of 33 live blockchains", "date": 20170501 },
 
-          { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Hashrate ------------------------------------", "date": 20180401 },
-
-          { "link": "https://finance.yahoo.com/news/ethereum-faltering-hashrate-makes-susceptible-144030987.html", "title": "Mining hashrate of Ethereum in 2019", "desc": "Misleadings of a faltering Ethereum’s hashrate", "date": 20170501 },
-
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Decentralized Finance ------------------------------------", "date": 20180401 },
 
           { "link": "https://medium.com/@jjmstark/brief-responses-to-two-usv-ethereum-critiques-4f0ca7bd3066", "title": "DeFi dependencies and how hard it is to build on Ethereum", "desc": "Brief responses to the critiques", "date": 20170501 },
@@ -1308,6 +1315,8 @@
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
           { "link": "https://docs.ethhub.io/questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum/", "title": "Ethereum FAQ", "desc": "on EthHub", "date": 20170501 },
+          { "link": "https://vitalik.ca/general/2019/11/22/progress.html", "title": "Hard Problems in Cryptocurrency", "desc": "Summary by Vitalik Buterin, 2019", "date": 20170501 },
+          { "link": "https://finance.yahoo.com/news/ethereum-faltering-hashrate-makes-susceptible-144030987.html", "title": "Mining hashrate of Ethereum in 2019", "desc": "Misleadings of a faltering Ethereum’s hashrate", "date": 20170501 },          
           { "link": "https://media.consensys.net/5-sibos-takeaways-the-future-of-finance-according-to-banks-and-institutions-a45fd53298fe", "title": "Adoption", "desc": "The future of finance according to banks and institutions", "date": 20170501 },
           { "link": "https://medium.com/@MattBLucas/there-are-still-a-few-good-reasons-to-trust-blockchain-d618512642d5", "title": "There Are Still a Few Good Reasons to Trust Blockchain", "desc": "Why cryptocurrencies are usefull", "date": 20170501 }
         ]
