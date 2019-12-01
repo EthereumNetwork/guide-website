@@ -34,9 +34,8 @@
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Current state and roadmap ------------------------------------", "date": 20180401 },
 
-          { "link": "https://consensys.net/blog/news/ethereum-by-the-numbers-october-2019/", "title": "The Year in Ethereum", "desc": "A comprehensive look at the year 2018 in Ethereum", "date": 20170501 },
-          
-          { "link": "https://medium.com/@jjmstark/the-year-in-ethereum-87a17d6f8276", "title": "Ethereum by the Numbers", "desc": "October 2019", "date": 20170501 },
+          { "link": "https://medium.com/@jjmstark/the-year-in-ethereum-87a17d6f8276", "title": "The Year in Ethereum", "desc": "A comprehensive look at the year 2018 in Ethereum", "date": 20170501 },          
+          { "link": "https://consensys.net/blog/news/ethereum-by-the-numbers-november-2019/", "title": "Ethereum by the Numbers", "desc": "November 2019", "date": 20170501 },
           { "link": "https://media.consensys.net/the-state-of-the-ethereum-network-2019-8a21d57c1895", "title": "The State of the Ethereum Network: 2019", "desc": "A look at the Ethereum network and crypto community in 2019", "date": 20170501 },
           { "link": "https://media.consensys.net/a-short-history-of-ethereum-a8fdc5b4362c", "title": "A Short History of Ethereum", "desc": "An overview of the upgrades and hard forks of Ethereum’s past, with an eye towards what lies ahead", "date": 20170501 },
           { "link": "https://media.consensys.net/joe-lubin-explains-why-the-ethereum-ecosystem-is-stronger-than-ever-in-20-tweets-7a09555760fd", "title": "Why the Ethereum Ecosystem Is Stronger Than Ever", "desc": "The ConsenSys founder gives a sweeping overview of the state of blockchain", "date": 20170501 },
@@ -82,14 +81,17 @@
           { "link": "https://media.consensys.net/what-the-eea-and-hyperledger-collaboration-means-for-enterprise-blockchain-development-31580012cb2", "title": "Hyperledger", "desc": "Join forces with Enterprise Ethereum Alliance", "date": 20170501 },
           { "link": "https://www.hyperledger.org/blog/2019/08/29/announcing-hyperledger-besu", "title": "Hyperledger", "desc": "Pantheon becomes Hyperledger Besu - the first public chain client in Hyperledger", "date": 20170501 },
           { "link": "https://www.coindesk.com/jpmorgan-expanding-blockchain-project-with-220-banks-to-include-payments", "title": "J.P. Morgan", "desc": "Revealed massive Ethereum based banking network and uses Ethereum to launch a ‘digital U.S. dollar’", "date": 20170501 },
+          { "link": "https://www.coindesk.com/jpmorgan-tests-private-blockchain-to-track-auto-dealer-inventory", "title": "J.P. Morgan", "desc": "Tracks inventory for auto dealers", "date": 20170501 },
           { "link": "https://www.linkedin.com/pulse/say-hello-nightfall-paul-brody-1f/", "title": "Ernst & Young", "desc": "Developed and released a project designed to help corporate clients on Ethereum public network using zero knowledge proofs & ERC-721 standard", "date": 20170501 },
           { "link": "https://marketplace.visualstudio.com/items", "title": "Microsoft", "desc": "Launched token-building kit to help businesses design and create the right sort of crypto tokens for their particular needs", "date": 20170501 },
           { "link": "https://www.microsoft.com/en-us/research/blog/leveraging-blockchain-to-make-machine-learning-models-more-accessible/", "title": "Microsoft", "desc": "Leverage the public Ethereum chain to make machine learning models more accessible", "date": 20170501 },
+          { "link": "https://github.com/Microsoft/eEVM", "title": "Microsoft", "desc": "Built Enclave ready EVM (eEVM) - an open-source, standalone, embeddable, C++ implementation of the Ethereum Virtual Machine", "date": 20170501 },
           { "link": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/ethereum.ethereum-studio", "title": "Microsoft", "desc": "Kaleido plugs into Azure", "date": 20170501 },
           { "link": "https://aws.amazon.com/marketplace/pp/B07CSLDS7R", "title": "Amazon", "desc": "Kaleido plugs also to the AWS Marketplace", "date": 20170501 },
           { "link": "https://aws.amazon.com/managed-blockchain/", "title": "Amazon", "desc": "Provide a service to create and manage scalable blockchain networks", "date": 20170501 },
           { "link": "https://btcmanager.com/ethereum-made-easy-cloudflares-ethereum-gateway/", "title": "Cloudfare", "desc": "Released Ethereum Gateway to help users make the jump from general web-user to cryptocurrency native", "date": 20170501 },
           { "link": "https://www.bloomberg.com/amp/news/articles/2019-01-29/fidelity-is-said-to-plan-march-launch-of-bitcoin-custody-service", "title": "Fidelity Investments", "desc": "Starts crypto unit to serve Wall Street customers", "date": 20170501 },
+          { "link": "https://dailyhodl.com/2019/11/29/trillion-dollar-asset-manager-fidelity-tests-ethereum-based-token-to-reward-employees/", "title": "Fidelity Investments", "desc": "Tests Ethereum-based token to reward employees", "date": 20170501 },
           { "link": "https://developer.samsung.com/blockchain", "title": "Samsung", "desc": "Released a blockchain SDK for interacting with Ethereum", "date": 20170501 },
           { "link": "https://www.coindesk.com/samsung-developing-ethereum-based-blockchain-may-issue-own-token", "title": "Samsung", "desc": "Samsung S10 wallet supports Ethereum, ERC-20 tokens and 4 DApps, also they are developing an Ethereum-based blockchain", "date": 20170501 },
           { "link": "https://decentraland.org/blog/announcements/decentraland-partners-with-htc", "title": "HTC", "desc": "Decentraland to debut on HTC EXODUS 1", "date": 20170501 },
@@ -231,7 +233,7 @@
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
           { "link": "https://dether.io/", "title": "Dether", "desc": "Global, peer-to-peer marketplace for buying and selling ETH in person with cash", "date": 20170501 },
-          { "link": "https://localethereum.com/", "title": "LocalEthereum", "desc": "Global, peer-to-peer marketplace for buying and selling ETH with over 30 supported payment methods, including in-person cash trades", "date": 20170501 },
+          { "link": "https://localcryptos.com/", "title": "LocalCryptos", "desc": "Global, peer-to-peer marketplace for buying and selling ETH with over 30 supported payment methods, including in-person cash trades", "date": 20170501 },
           { "link": "https://daihardhome.wpcomstaging.com/", "title": "DAIHard", "desc": "Peer to peer crypto-fiat onramp that is unkillable, uncensorable, and globally accessible", "date": 20170501 },
           { "link": "https://www.sendwyre.com/", "title": "Wyre", "desc": "Exchange that offers crypto to fiat and compliance solutions via API and dashboard, also by using Apple or Google pay", "date": 20170501 },
           { "link": "https://swaps.ramp.network/", "title": "Ramp", "desc": "Decentralized peer-to-peer fiat to crypto trades", "date": 20170501 },
@@ -442,6 +444,7 @@
           { "link": "https://messari.io/onchainfx", "title": "OnChainFX", "desc": "Cryptoasset network value, market cap, rankings and metrics", "date": 20170501 },
           { "link": "http://frontrun.me/", "title": "Frontrun me", "desc": "Visualization of Ethereum gas auctions", "date": 20170501 },
           { "link": "https://ethsimple.com/explorer", "title": "ETHSimple", "desc": "View and renew .eth domains", "date": 20170501 },
+          { "link": "https://beaconcha.in/", "title": "Ethereum 2.0 Beacon Chain Explorer", "desc": "Using Prysmatic’s client", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Run an Ethereum node ------------------------------------", "date": 20180401 },
 
@@ -597,6 +600,7 @@
           { "link": "https://molochdao.com/", "title": "MolochDAO", "desc": "Experimental, decentralized grant-making organization seeking to overcome the tragedy of the commons afflicting core protocol development", "date": 20170501 },
           { "link": "https://dxdao.daostack.io/", "title": "dxDAO", "desc": "Community-governed experimental decentralized autonomous organization for community governance of software protocols", "date": 20170501 },
           { "link": "https://www.humanitydao.org/", "title": "Humanity DAO", "desc": "Experiment in unique identity, governance, and Universal Basic Income", "date": 20170501 },
+          { "link": "https://marketingdao.org/", "title": "Marketing DAO", "desc": "DAO that aims to surface, fund, and execute the right marketing efforts to benefit Ethereum and its thriving ecosystem", "date": 20170501 },         
           { "link": "https://1hive.org/", "title": "1Hive", "desc": "DAO working to grow the open source commons by contributing to research, development, and documentation related to open source sustainability", "date": 20170501 },
           { "link": "https://www.thelao.io/", "title": "LAO", "desc": "Limited liability for-profit DAO, that enables members to invest in Ethereum new ventures and generate a profit", "date": 20170501 },
           { "link": "https://dao.openlaw.io/", "title": "OpenLaw DAO", "desc": "Enable the creation and deployment of legally compliant 'limited liability DAO' in minutes", "date": 20170501 },
@@ -1025,8 +1029,9 @@
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Utilities ------------------------------------", "date": 20180401 },
 
-          { "link": "https://unlock-protocol.com/blog/unlock-donations/", "title": "Unlock Donations", "desc": "Easily add a sponsorship button to your Github repository", "date": 20170501 },
+          { "link": "https://ecosystem.support/", "title": "Ethereum Ecosystem Support Program", "desc": "Provide both financial and non-financial support to projects and entities within the greater Ethereum community, in order to accelerate the growth of the ecosystem", "date": 20170501 },
           { "link": "https://gitcoin.co/grants/", "title": "Gitcoin Grants", "desc": "Get recurring cashflow for your project", "date": 20170501 },
+          { "link": "https://unlock-protocol.com/blog/unlock-donations/", "title": "Unlock Donations", "desc": "Easily add a sponsorship button to your Github repository", "date": 20170501 },          
           { "link": "https://cryptounlocked.wetrust.io/", "title": "CryptoUnlocked", "desc": "Share your project idea with the world and receive the funding needed for your idea", "date": 20170501 },
           { "link": "https://consensys.net/convertible-note/", "title": "Automated Convertible Note", "desc": "OpenLaw-based document generator to help startups raise capital with customizable market standard terms and optional digital token provisions", "date": 20170501 },          
           { "link": "https://buidl-explorer.herokuapp.com/", "title": "#BUIDL Explorer", "desc": "Help you get started and find the right open-source Ethereum projects to contribute to", "date": 20171101 },
@@ -1066,7 +1071,7 @@
           { "link": "https://github.com/musteka-la/mustekala", "title": "Mustekala", "desc": "Ethereum Light Client project of Metamask", "date": 20170501 },
           { "link": "https://medium.com/zkcapital/a-primer-on-ethereum-blockchain-light-clients-f3cadde49137", "title": "Ethereum Blockchain Light Clients", "desc": "A primer", "date": 20170501 },
           { "link": "https://our.status.im/the-nimbus-mvp-testnet-is-here/", "title": "Nimbus", "desc": "Ethereum 2.0 sharding client - a public testnet", "date": 20170501 },
-          { "link": "https://alpha.prylabs.net/", "title": "Prysm", "desc": "Public testnet release for Ethereum 2.0 phase 0", "date": 20170501 },
+          { "link": "https://prylabs.net/", "title": "Prysm", "desc": "Public testnet release for Ethereum 2.0 phase 0", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- APIs - Frontend ------------------------------------", "date": 20180401 },
 
@@ -1197,6 +1202,7 @@
           { "link": "https://hackernoon.com/eli5-zero-knowledge-proof-78a276db9eff", "title": "Zero Knowledge Proof", "desc": "Explained like you are 5", "date": 20170501 },
           { "link": "https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/", "title": "Zero Knowledge Proofs", "desc": "An illustrated primer", "date": 20170501 },
           { "link": "https://docs.google.com/presentation/d/1-QB6DAHliQRAUW5rdCqSRQ_w6W2yGTidB61UWzq_p20/edit#slide=id.p", "title": "Zero Knowledge Proofs & Ethereum", "desc": "What it is and how it works, use cases and limitations, tools and projects", "date": 20170501 },
+          { "link": "https://medium.com/coinmonks/comparing-general-purpose-zk-snarks-51ce124c60bd", "title": "Comparing General Purpose zk-SNARKs", "desc": "Comparison of the most recent constructs", "date": 20170501 },         
           { "link": "https://docs.ethhub.io/ethereum-roadmap/privacy/", "title": "Privacy on Ethereum", "desc": "Summary of used technologies and working teams", "date": 20170501 },
           { "link": "https://medium.com/centrifuge/bringing-privacy-to-non-fungible-tokens-a-recap-from-the-zokrates-workshop-at-zcon1-6d9ea8a74b7f", "title": "Bringing Privacy to Non-Fungible Tokens", "desc": "Proof-of-concept for building a tightly integrated zero-knowledge proof using the ZoKrates language and toolchain", "date": 20170501 },
           { "link": "https://liamz.co/blog/building-the-first-ever-zkdao-at-ethparis/", "title": "Building the first-ever zero-knowledge DAO proof-of-concept", "desc": "Design considerations and potential implications", "date": 20170501 },
