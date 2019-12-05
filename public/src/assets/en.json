@@ -246,14 +246,14 @@
           { "link": "https://0x.org/instant", "title": "0x Instant", "desc": "Simple crypto purchasing in any app or website", "date": 20170501 },
           { "link": "https://commerce.coinbase.com/", "title": "Coinbase Commerce", "desc": "Accept cryptocurrency payments for your business", "date": 20170501 },
           { "link": "https://dexpay.me/", "title": "Dexpay", "desc": "Point-of-sale for physical stores and online shops that accepts Ethereum and many other coins and instantly converts them to Dai stablecoin", "date": 20170501 },
-          { "link": "https://stablepay.io/", "title": "StablePay", "desc": "Send and receive cryptocurrency payments converted to DAI", "date": 20170501 }
-          { "link": "https://bitpay.com/", "title": "BitPay", "desc": "Accept Ethereum (or Bitcoin) for online payments", "date": 20170501 }          
+          { "link": "https://stablepay.io/", "title": "StablePay", "desc": "Send and receive cryptocurrency payments converted to DAI", "date": 20170501 },
+          { "link": "https://bitpay.com/", "title": "BitPay", "desc": "Accept Ethereum (or Bitcoin) for online payments", "date": 20170501 },          
           { "link": "https://www.etherglade.com/", "title": "Etherglade", "desc": "Accept Ethereum on your site in minutes", "date": 20170501 },          
           { "link": "https://groundhog.network/", "title": "Groundhog", "desc": "Payment gateway between merchants and customers to facilitate crypto subscriptions", "date": 20170501 },
           { "link": "https://www.daisypayments.com/", "title": "Daisy", "desc": "Enables anyone to accept cryptocurrency for purchases, subscriptions, usage fees and other payments trust utilities", "date": 20170501 },
           { "link": "https://sablier.app/", "title": "Sablier", "desc": "Pay your employees continuously", "date": 20170501 },
           { "link": "https://www.bitwage.com/", "title": "BitWage", "desc": "Pay salaries in Ether", "date": 20170501 },
-          { "link": "https://whisp.money/", "title": "Whisp", "desc": "Pay remote or on-site workers in crypto", "date": 20170501 },
+          { "link": "https://whisp.money/", "title": "Whisp", "desc": "Pay remote or on-site workers in crypto", "date": 20170501 }
         ]
       },
       {
@@ -1184,7 +1184,7 @@
           { "link": "https://medium.com/lazyledger/lazyledger-a-scalable-general-purpose-data-availability-layer-for-trust-minimized-sidechains-and-82d901963de9", "title": "Lazy Ledger", "desc": "Scalable general-purpose data availability layer, for decentralized apps and trust-minimized sidechains (including optimistic rollups)", "date": 20170501 },                    
           { "link": "https://hackernoon.com/how-meta-transactions-will-scale-ethereum-e98c848f7719", "title": "MetaTransactions to scale Ethereum", "desc": "Gas Stations Network could allow transactions from addresses that hold no ETH", "date": 20170501 },
           { "link": "https://lililashka.github.io/Abridged/home.html", "title": "Abridged", "desc": "Allows you to easily add Web 3 components into an existing app including counterfactual account contracts, state channels, and meta-transactions", "date": 20170501 },
-          { "link": "https://www.pisa.watch/", "title": "PISA", "desc": "Real scalability of crypto, by alleviating the assumption, 99% of transactions can remain local amongst the parties instead of the global network", "date": 20170501 }
+          { "link": "https://www.pisa.watch/", "title": "PISA", "desc": "Real scalability of crypto, by alleviating the assumption, 99% of transactions can remain local amongst the parties instead of the global network", "date": 20170501 },
           { "link": "https://ethresear.ch/t/the-optimal-snark-less-on-chain-scaling-solution/4790", "title": "BLS rollup", "desc": "The optimal SNARK-less on-chain scaling solution", "date": 20170501 }        
         ]
       },
