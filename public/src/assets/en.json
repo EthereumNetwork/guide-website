@@ -149,6 +149,7 @@
           { "link": "https://www.channelnewsasia.com/news/singapore/students-graduating-tamper-resistant-digital-certificates-11499166", "title": "Singapore", "desc": "Graduates from local schools will receive Ethereum-based digital certificates", "date": 20170501 },
           { "link": "https://twitter.com/monerium/status/1154353245298601984", "title": "Iceland", "desc": "It’s currency will be traded as e-money", "date": 20170501 },
           { "link": "https://thenextweb.com/hardfork/2019/10/10/perth-mint-australia-government-blockchain-ethereum-gold-backed-cryptocurrency/", "title": "Australia", "desc": "It's government launched a gold-backed Ethereum token", "date": 20170501 },
+          { "link": "https://decrypt.co/12603/new-law-makes-germany-crypto-heaven", "title": "Germany", "desc": "German banks may sell and store crypto, and existing exchanges must get licenses", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Organizations ------------------------------------", "date": 20180401 },
 
@@ -319,6 +320,7 @@
           { "link": "https://rainbow.me/", "title": "Rainbow", "desc": "Mobile wallet that makes exploring Ethereum fun and accessible", "date": 20170501 },
           { "link": "https://ambo.io", "title": "Ambo", "desc": "Mobile wallet and investment app of MyCrypto", "date": 20170501 },
           { "link": "https://www.alicedapp.com/", "title": "Alice", "desc": "Mobile DApp wallet, that enables you to directly interface with the smart contracts via the mini App", "date": 20170501 },
+          { "link": "https://frontierwallet.com/", "title": "Frontier", "desc": "Wallet for accessing DeFi that will tie in info of all of your addresses, wallets and data, associated with DeFi and ERC20 tokens into one mobile app", "date": 20170501 },
           { "link": "https://enjinwallet.io/", "title": "Enjin Crypto Wallet", "desc": "Multicurrency desktop/mobile wallet, that supports BTC, ETH, LTC, ENJ and ERC20, ERC721, ERC1155 tokens", "date": 20170501 },
           { "link": "https://medium.com/lamarkaz/dai-in-the-hands-of-all-8ed335879ae9", "title": "Metacash ", "desc": "Gasless noncustodial Dai mobile wallet", "date": 20170501 },
           { "link": "https://poketto.cash/", "title": "Pocketto", "desc": "Simple xDai mobile payment wallet for iOS", "date": 20170501 },
@@ -339,8 +341,9 @@
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
 
+          { "link": "https://docs.google.com/spreadsheets/d/1SlJqRT3ii9GCA5UCcrHmUeAd_e7nb2qiPG_nw2etNRA/edit#gid=0", "title": "Eth Wallets", "desc": "Spreadsheet comparing ~40 features of Ethereum wallets", "date": 20170501 },          
+          { "link": "https://github.com/shanefontaine/ethereum-wallet-comparison", "title": "Ethereum Wallet Comparison", "desc": "Comparison of Ethereum login-based wallets", "date": 20170501 },          
           { "link": "https://unlock-protocol.com/blog/unlock-user-accounts/", "title": "Unlock User Accounts", "desc": "Allows people with no knowledge of crypto to use Unlock DApp on selected locks - once they're ready, they can 'eject' their accounts and import them into the wallet of their choice", "date": 20170501 },
-          { "link": "https://github.com/shanefontaine/ethereum-wallet-comparison", "title": "Ethereum Wallet Comparison", "desc": "Comparison of Ethereum login-based wallets", "date": 20170501 },
           { "link": "https://balance.io/", "title": "Balance", "desc": "Add all of your Ethereum wallets and keep track of your tokens, loans and investments", "date": 20170501 },
           { "link": "https://manager.balance.io/", "title": "Balance Manager", "desc": "An interface that connects to MetaMask, Ledger, Trezor or mobile wallet, allowing you to view and send your ERC-20 tokens", "date": 20170501 },
           { "link": "https://docs.ethsigner.pegasys.tech/", "title": "EthSigner", "desc": "Ethereum transaction signer, that provides private key signing to separate key management from transaction validation", "date": 20170501 },
@@ -477,7 +480,12 @@
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Staking ------------------------------------", "date": 20180401 },
 
+          { "link": "https://blog.ethereum.org/2019/11/27/Validated-Staking-on-eth2-0/", "title": "Validated: Staking on eth2", "desc": "Overview of eth2 which will form the basis for a series on all aspects of eth2 relevant to validators", "date": 20170501 },
           { "link": "https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-economics/", "title": "Ethereum 2.0 Economics", "desc": "Economics of staking - paying validators to secure the network", "date": 20170501 },
+          { "link": "https://medium.com/@SamuelBenLewis/the-economics-of-ethereum-staking-pools-5a9cd0811226", "title": "Staking Pools", "desc": "The economics of Ethereum staking pools", "date": 20170501 },
+          { "link": "https://twitter.com/econoar/status/1200443077573242880", "title": "Phase 0 staking facts", "desc": "Some eth2 phase 0 staking facts", "date": 20170501 },
+          { "link": "https://twitter.com/iamDCinvestor/status/1202340583672602625?s=19", "title": "Ethereum 2.0 staking capable hardware", "desc": "What are the most viable setups for ease of use?", "date": 20170501 },
+          { "link": "https://twitter.com/ryansadams/status/1177594012703825922?s=21", "title": "Staking", "desc": "Why to be excited about the launch of staking on Ethereum", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other utilities ------------------------------------", "date": 20180401 },
 
@@ -642,7 +650,7 @@
           { "link": "https://medium.com/amentum/the-year-of-the-dao-comeback-9c888b44980", "title": "DAO", "desc": "The year of the DAO comeback", "date": 20170501 },
           { "link": "https://medium.com/swlh/our-economy-is-out-of-date-37370e8ba9bf", "title": "Economy", "desc": "Our economy is out of date", "date": 20170501 },
           { "link": "https://cryptoeconomics.study/", "title": "Cryptoeconomics", "desc": "An introduction", "date": 20170501 },
-          { "link": "https://tokeneconomy.co/mapping-the-decentralized-financial-system-7c5af65e0335", "title": "Decentralized Finance (DeFi)", "desc": "More transparent, open, and programmable financial services", "date": 20170501 },
+          { "link": "https://medium.com/@0xKiwi/network-effects-in-an-open-financial-world-251152b9467d", "title": "Decentralized Finance (DeFi)", "desc": "Network effects in an open financial world", "date": 20170501 },
           { "link": "https://thedefiant.substack.com/p/open-gardens-are-reshaping-business", "title": "Open Finance (DeFi)", "desc": "Open gardens are reshaping business and the internet", "date": 20170501 },
           { "link": "https://lindajxie.com/2019/08/23/where-stablecoins-are-headed/", "title": "Stablecoins", "desc": "Where stablecoins are headed", "date": 20170501 },
           { "link": "https://beta.cent.co/+qmx0nw", "title": "Non-fungible tokens", "desc": "What are ERC-721 (NFT) and what is their potential?", "date": 20170501 },
@@ -868,6 +876,7 @@
           { "link": "https://runtimeverification.com/blog/how-formal-verification-could-help-to-prevent-gridlock-bug/", "title": "How Formal Verification Could Help to Prevent Gridlock Bug", "desc": "Review of the Gridlock bug and how formal verification can help to prevent this type of bugs", "date": 20170501 },
           { "link": "https://github.com/leonardoalt/ethereum_formal_verification_overview", "title": "Ethereum Formal Verification", "desc": "Overview of the formal verification projects", "date": 20170501 },
           { "link": "https://medium.com/coinmonks/a-formal-model-in-k-of-the-beacon-chain-ethereum-2-0s-primary-proof-of-stake-blockchain-429883e316b9", "title": "A Formal Model in K of the Beacon Chain", "desc": "Ethereum 2.0’s primary proof-of-stake blockchain", "date": 20170501 },
+          { "link": "https://forum.openzeppelin.com/t/formal-verification-of-erc20-implementations-with-verisol/1824", "title": "Formal Verification of ERC20 implementations with VeriSol", "desc": "How we can use a formal verification tool like VeriSol to check functional properties for a ERC20 implementation", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Resources ------------------------------------", "date": 20180401 },
 
@@ -1257,6 +1266,7 @@
         "links": [
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Decentralization of Ethereum ------------------------------------", "date": 20180401 },
 
+          { "link": "https://consensys.net/research/measuring-blockchain-decentralization/", "title": "Measuring Blockchain Decentralization", "desc": "An approach to quantifying decentralization of the Ethereum network over time", "date": 20170501 },         
           { "link": "https://blog.bmannconsulting.com/ethereum-governance/", "title": "Ethereum Governance", "desc": "Overview of the different layers of governance that applies to Ethereum", "date": 20170501 },
           { "link": "https://twitter.com/cyber_hokie/status/1112305608047427584", "title": "How EIP process works?", "desc": "Who makes what decisions when, and the path from idea to network wide consensus on Ethereum", "date": 20170501 },
           { "link": "https://research.circle.com/insights/degrees-of-architectural-decentralization-to-infura-and-beyond", "title": "Degrees of architectural (de)centralization", "desc": "To Infura and beyond", "date": 20170501 },
