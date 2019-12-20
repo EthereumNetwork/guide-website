@@ -31,11 +31,12 @@
           { "link": "https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369", "title": "How does Ethereum work, anyway?", "desc": "How it functions at a technical level, without complex math", "date": 20170501 },
           { "link": "https://medium.com/@virgilgr/ethereum-is-game-changing-technology-literally-d67e01a01cf8", "title": "Ethereum is game-changing technology, literally", "desc": "Ethereum enables powerful economic vehicles we don’t yet understand", "date": 20170501 },
           { "link": "https://blog.bmannconsulting.com/ethereum-governance/", "title": "Ethereum Governance", "desc": "Overview of the different layers of governance that applies to Ethereum", "date": 20170501 },
+          { "link": "https://medium.com/@AnettRolikova/overview-on-eth2-0-cf1d60ca0046", "title": "Overview on Ethereum 2.0", "desc": "How Ethereum 2.0 will work in a simple easy-to-understand way even for non-very-tech people", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Current state and roadmap ------------------------------------", "date": 20180401 },
 
           { "link": "https://medium.com/@jjmstark/the-year-in-ethereum-87a17d6f8276", "title": "The Year in Ethereum", "desc": "A comprehensive look at the year 2018 in Ethereum", "date": 20170501 },          
-          { "link": "https://consensys.net/blog/news/ethereum-by-the-numbers-november-2019/", "title": "Ethereum by the Numbers", "desc": "November 2019", "date": 20170501 },
+          { "link": "https://consensys.net/blog/news/ethereum-by-the-numbers-the-year-of-2019/", "title": "Ethereum by the Numbers", "desc": "The year of 2019", "date": 20170501 },
           { "link": "https://media.consensys.net/the-state-of-the-ethereum-network-2019-8a21d57c1895", "title": "The State of the Ethereum Network: 2019", "desc": "A look at the Ethereum network and crypto community in 2019", "date": 20170501 },
           { "link": "https://media.consensys.net/a-short-history-of-ethereum-a8fdc5b4362c", "title": "A Short History of Ethereum", "desc": "An overview of the upgrades and hard forks of Ethereum’s past, with an eye towards what lies ahead", "date": 20170501 },
           { "link": "https://media.consensys.net/joe-lubin-explains-why-the-ethereum-ecosystem-is-stronger-than-ever-in-20-tweets-7a09555760fd", "title": "Why the Ethereum Ecosystem Is Stronger Than Ever", "desc": "The ConsenSys founder gives a sweeping overview of the state of blockchain", "date": 20170501 },
@@ -74,6 +75,8 @@
           { "link": "https://media.consensys.net/a-look-back-at-2018-the-year-of-enterprise-ethereum-536552573c60", "title": "A Look Back at 2018", "desc": "A comprehensive roundup of Consensys’ Enterprise Ethereum product launches, use cases, and future implications", "date": 20170501 },
           { "link": "https://media.consensys.net/forbes-releases-top-50-billion-dollar-companies-exploring-blockchain-over-half-are-working-with-d4f9e44f144d", "title": "Top 50 Billion-Dollar Companies Exploring Blockchain", "desc": "Over half are working with Ethereum", "date": 20170501 },
           { "link": "https://www.coindesk.com/safety-without-silos-why-businesses-will-learn-to-love-public-ethereum", "title": "Why Businesses Will Learn to Love Public Ethereum", "desc": "by Hyperledger founder John Wolpert", "date": 20170501 },
+          { "link": "https://assets.ey.com/content/dam/ey-sites/ey-com/en_gl/topics/blockchain/ey-public-blockchain-opportunity-snapshot.pdf", "title": "Seize the day: public blockchain is on the horizon", "desc": "Enterprise survey says 75% will use public chains (read: Ethereum) in the future", "date": 20170501 },
+          { "link": "https://www.theblockcrypto.com/post/50065/if-you-build-a-blockchain-will-anyone-come", "title": "If you build a blockchain, will anyone come?", "desc": "Public blockchains like Ethereum offer a better choice for enterprise users", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Enterprises ------------------------------------", "date": 20180401 },
 
@@ -134,6 +137,7 @@
           { "link": "https://medium.com/unstoppabledomain/crypto-ac3eec150768", "title": "Unstoppable Domains", "desc": "Built its .crypto domains on Ethereum", "date": 20170501 },
           { "link": "https://www.thomsonreuters.com/en/press-releases/2019/october/thomson-reuters-and-openlaw-combine-blockchain-driven-smart-contracts-with-document-automation-technology.html", "title": "Thomson Reuters", "desc": "Proof of concept on executing parts of legal contracts on Ethereum", "date": 20170501 },
           { "link": "https://www.coindesk.com/crypto-burner-wallets-helped-an-it-conference-give-40000-to-charity", "title": "Splunk", "desc": "Ethereum-based Burner Wallet helped an IT conference give $40,000 to charity", "date": 20170501 },
+          { "link": "https://www.theblockcrypto.com/linked/49958/nike-receives-patent-to-tokenize-shoes-on-ethereum", "title": "Nike", "desc": "Receives patent to tokenize shoes on Ethereum", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Governments ------------------------------------", "date": 20180401 },
 
@@ -215,6 +219,7 @@
           { "link": "https://fairdex.net", "title": "FairDEX", "desc": "Trading platform for ERC20 tokens built on the DutchX, that allows users to place bids on auctions running on the DutchX", "date": 20170501 },
           { "link": "https://slow.trade/", "title": "Slow.trade", "desc": "Sellers trading interface to interact with the DutchX", "date": 20170501 },
           { "link": "https://summa.one/auction/", "title": "Summa Auctions", "desc": "Cross-chain auctions featuring fast on-chain settlement, trustless and non-custodial transactions", "date": 20170501 },
+          { "link": "https://dex.ag/", "title": "DEX.AG", "desc": "DEX aggregator that gets you the best price for your trade across 11 different DEXes", "date": 20170501 },          
           { "link": "https://swap.totle.com/", "title": "Totle Swap", "desc": "Swap ERC-20 tokens while automatically getting the best price on the DEX market", "date": 20170501 },
           { "link": "https://token.store/", "title": "Token Store", "desc": "All the trading/settlement logic lives on chain in the smart contract and orders are stored off-chain on a private server", "date": 20170501 },
           { "link": "https://coinswitch.co/", "title": "CoinSwitch", "desc": "Trade hundreds of coins at best rates without creating an account on any exchange (include Binance, KuCoin, Bittrex, HitBTC, IDEX, Cryptopia and more)", "date": 20170501 },
@@ -487,6 +492,7 @@
           { "link": "https://medium.com/@SamuelBenLewis/the-economics-of-ethereum-staking-pools-5a9cd0811226", "title": "Staking Pools", "desc": "The economics of Ethereum staking pools", "date": 20170501 },
           { "link": "https://twitter.com/econoar/status/1200443077573242880", "title": "Phase 0 staking facts", "desc": "Some eth2 phase 0 staking facts", "date": 20170501 },
           { "link": "https://twitter.com/iamDCinvestor/status/1202340583672602625?s=19", "title": "Ethereum 2.0 staking capable hardware", "desc": "What are the most viable setups for ease of use?", "date": 20170501 },
+          { "link": "https://www.attestant.io/posts/understanding-ethereum-staking-deposits/", "title": "Understanding Ethereum staking deposits", "desc": "Staking deposits in detail, and explanation of the process of using Ether on Ethereum 1 to fund a validator on Ethereum 2", "date": 20170501 },          
           { "link": "https://twitter.com/ryansadams/status/1177594012703825922?s=21", "title": "Staking", "desc": "Why to be excited about the launch of staking on Ethereum", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other utilities ------------------------------------", "date": 20180401 },
@@ -512,6 +518,7 @@
           { "link": "https://tokenbuilder.umaproject.org/", "title": "Synthetic Token Builder", "desc": "Create tokens that track the price of anything", "date": 20170501 },
           { "link": "https://wrappedkitties.com/", "title": "Wrapped Kitties", "desc": "Make your ERC-721 into ERC-20", "date": 20170501 },
           { "link": "https://www.poap.xyz/", "title": "POAP", "desc": "Proof-of-attendance protocol for issuing and displaying cool NFT crypto-badges", "date": 20170501 },
+          { "link": "https://vocdoni.io/", "title": "Vocdoni", "desc": "App for anonymous, onchain voting", "date": 20170501 },          
           { "link": "https://ethereum.world/", "title": "Ethereum.World", "desc": "An interface that accelerates the adoption of Ethereum apps", "date": 20170501 },
           { "link": "https://gitcoin.co/grants/", "title": "Gitcoin Grants", "desc": "Support exciting projects with a recurring subscription", "date": 20170501 },
           { "link": "https://codefund.io/", "title": "CodeFund", "desc": "Display ethical ads on developer websites to fund contributors of the open source ecosystem", "date": 20170501 },
@@ -879,8 +886,9 @@
           { "link": "https://media.consensys.net/how-formal-verification-can-ensure-flawless-smart-contracts-cbda8ad99bd1", "title": "How Formal Verification Can Ensure Flawless Smart Contracts", "desc": "How to eradicate errors in the Ethereum bytecode", "date": 20170501 },
           { "link": "https://runtimeverification.com/blog/how-formal-verification-could-help-to-prevent-gridlock-bug/", "title": "How Formal Verification Could Help to Prevent Gridlock Bug", "desc": "Review of the Gridlock bug and how formal verification can help to prevent this type of bugs", "date": 20170501 },
           { "link": "https://github.com/leonardoalt/ethereum_formal_verification_overview", "title": "Ethereum Formal Verification", "desc": "Overview of the formal verification projects", "date": 20170501 },
+          { "link": "https://forum.openzeppelin.com/t/formal-verification-of-erc20-implementations-with-verisol/1824", "title": "Formal Verification of ERC20 implementations with VeriSol", "desc": "How we can use a formal verification tool like VeriSol to check functional properties for a ERC20 implementation", "date": 20170501 },          
+          { "link": "https://runtimeverification.com/blog/k-vs-coq-as-language-verification-frameworks-part-1-of-3/", "title": "K vs. Coq as Language Verification Frameworks", "desc": "Highlighting some of the important ways in which K and Coq differ as formal verification frameworks for languages through a working example", "date": 20170501 },
           { "link": "https://medium.com/coinmonks/a-formal-model-in-k-of-the-beacon-chain-ethereum-2-0s-primary-proof-of-stake-blockchain-429883e316b9", "title": "A Formal Model in K of the Beacon Chain", "desc": "Ethereum 2.0’s primary proof-of-stake blockchain", "date": 20170501 },
-          { "link": "https://forum.openzeppelin.com/t/formal-verification-of-erc20-implementations-with-verisol/1824", "title": "Formal Verification of ERC20 implementations with VeriSol", "desc": "How we can use a formal verification tool like VeriSol to check functional properties for a ERC20 implementation", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Resources ------------------------------------", "date": 20180401 },
 
@@ -898,6 +906,7 @@
         ],
         "links": [
           { "link": "https://ethereum.consensys.net/ethereum-dev-portal", "title": "Ethereum Developer Portal", "desc": "Place to get started and find the tools you need to develop and build applications on Ethereum", "date": 20170501 },
+          { "link": "https://cdn2.hubspot.net/hubfs/4795067/Guide-Developer-Tools.pdf", "title": "Developer Tools", "desc": "A guide to the available tools, components, patterns, and platforms for developing applications on Ethereum", "date": 20170501 },          
           { "link": "https://hackernoon.com/ethereum-ux-tools-the-ultimate-guide-aad1cd2c128", "title": "Ethereum UX Tools", "desc": "The ultimate guide", "date": 20170501 },
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Frameworks ------------------------------------", "date": 20180401 },
@@ -1193,8 +1202,7 @@
 
           { "link": "https://ethereum.network/learn", "title": "", "desc": "---------------------------------- Other ------------------------------------", "date": 20180401 },
           
-          { "link": "https://medium.com/coinmonks/zk-rollup-optimistic-rollup-70c01295231b", "title": "An overview of rollup", "desc": "Both ZK and optimistic", "date": 20170501 },
-          { "link": "https://decrypt.co/10030/plasma-group-and-uniswap-release-new-ethereum-scaling-solution-at-devcon", "title": "Optimistic Rollup", "desc": "New Ethereum scaling solution was released at Devcon", "date": 20170501 },          
+          { "link": "https://ethgasstation.info/blog/what-is-optimistic-rollup-ethereums-latest-layer-2-scaling-solution/", "title": "What is Optimistic Rollup?", "desc": "Ethereum’s latest layer 2 scaling solution", "date": 20170501 },
           { "link": "https://medium.com/lazyledger/lazyledger-a-scalable-general-purpose-data-availability-layer-for-trust-minimized-sidechains-and-82d901963de9", "title": "Lazy Ledger", "desc": "Scalable general-purpose data availability layer, for decentralized apps and trust-minimized sidechains (including optimistic rollups)", "date": 20170501 },                    
           { "link": "https://hackernoon.com/how-meta-transactions-will-scale-ethereum-e98c848f7719", "title": "MetaTransactions to scale Ethereum", "desc": "Gas Stations Network could allow transactions from addresses that hold no ETH", "date": 20170501 },
           { "link": "https://lililashka.github.io/Abridged/home.html", "title": "Abridged", "desc": "Allows you to easily add Web 3 components into an existing app including counterfactual account contracts, state channels, and meta-transactions", "date": 20170501 },
@@ -1336,8 +1344,10 @@
 
           { "link": "https://docs.ethhub.io/questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum/", "title": "Ethereum FAQ", "desc": "on EthHub", "date": 20170501 },
           { "link": "https://vitalik.ca/general/2019/11/22/progress.html", "title": "Hard Problems in Cryptocurrency", "desc": "Summary by Vitalik Buterin, 2019", "date": 20170501 },
-          { "link": "https://media.consensys.net/the-6-biggest-misconceptions-about-blockchain-and-cryptocurrency-aef9c1088e8c", "title": "Misconceptions", "desc": "The 6 biggest misconceptions about blockchain and cryptocurrency", "date": 20170501 },          
-          { "link": "https://finance.yahoo.com/news/ethereum-faltering-hashrate-makes-susceptible-144030987.html", "title": "Mining hashrate of Ethereum in 2019", "desc": "Misleadings of a faltering Ethereum’s hashrate", "date": 20170501 },          
+          { "link": "https://iden3.io/post/istanbul-zkrollup-ethereum-throughput-limits-analysis", "title": "Throughput", "desc": "Analysis of post-Istanbul Ethereum throughput limits with rollup", "date": 20170501 },          
+          { "link": "https://consensys.net/blog/blockchain-development/how-will-quantum-supremacy-affect-blockchain/", "title": "Quantum Computing", "desc": "Insights on quantum computing, its potential risk for Ethereum, and the efforts underway to standardize quantum-resistant public-key cryptographic algorithms", "date": 20170501 },          
+          { "link": "https://media.consensys.net/the-6-biggest-misconceptions-about-blockchain-and-cryptocurrency-aef9c1088e8c", "title": "Misconceptions", "desc": "The 6 biggest misconceptions about blockchain and cryptocurrency", "date": 20170501 },                    
+          { "link": "https://finance.yahoo.com/news/ethereum-faltering-hashrate-makes-susceptible-144030987.html", "title": "Hashrate", "desc": "Misleadings of a faltering Ethereum’s hashrate", "date": 20170501 },          
           { "link": "https://media.consensys.net/5-sibos-takeaways-the-future-of-finance-according-to-banks-and-institutions-a45fd53298fe", "title": "Adoption", "desc": "The future of finance according to banks and institutions", "date": 20170501 },
           { "link": "https://www.theblockcrypto.com/post/49621/deutsche-bank-says-crypto-could-replace-cash-by-2030-as-fiat-system-looks-fragile", "title": "Fiat vs crypto", "desc": "Deutsche Bank says crypto could replace cash by 2030", "date": 20170501 },          
           { "link": "https://medium.com/@MattBLucas/there-are-still-a-few-good-reasons-to-trust-blockchain-d618512642d5", "title": "There Are Still a Few Good Reasons to Trust Blockchain", "desc": "Why cryptocurrencies are usefull", "date": 20170501 }
